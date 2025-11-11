@@ -695,7 +695,7 @@ async function loadData() {
     // WICHTIG: Passe den Pfad an wo deine police-data.json liegt
     const response = await fetch("http://45.93.250.210:25570/police-data.json")
 
-    
+  
     if (!response.ok) {
       throw new Error('Datei nicht gefunden');
     }

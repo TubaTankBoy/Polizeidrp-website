@@ -3,7 +3,7 @@ name: Update Police Data
 on:
   workflow_dispatch:  # manuell auslösbar
   schedule:
-    - cron: '*/1 * * * *' # optional: alle 5 Minuten
+    - cron: '*/5 * * * *' # optional: alle 5 Minuten
 
 jobs:
   update-data:

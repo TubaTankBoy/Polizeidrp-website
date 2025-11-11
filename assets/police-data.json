@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-11T21:28:23.391Z",
+  "lastUpdate": "2025-11-11T21:37:53.303Z",
   "onDuty": [
     {
       "name": "mahluner_",
@@ -7,17 +7,8 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Akkerman",
       "seit": "20:13",
-      "dauer": "1h 14m",
+      "dauer": "1h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/07a5dd541356f47581b32fb8846e3db4.webp?size=128"
-    },
-    {
-      "name": "chapa0533",
-      "displayName": "[25] Muxi chulo",
-      "dienstnummer": "25",
-      "rang": "Muxi chulo",
-      "seit": "19:26",
-      "dauer": "2h 1m",
-      "avatar": "https://cdn.discordapp.com/avatars/1180926253268729950/c09540f675e568a7a1bee82dc5ca306e.webp?size=128"
     },
     {
       "name": "xx_chiara06_xx",
@@ -25,7 +16,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Akkerman",
       "seit": "20:03",
-      "dauer": "1h 24m",
+      "dauer": "1h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "81",
       "rang": "Pascal Akkerman",
       "seit": "20:53",
-      "dauer": "0h 34m",
+      "dauer": "0h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1288451589132255246/ea6582a3f5f6d69e62f4c14c2facf7ab.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "17:56",
-      "dauer": "3h 31m",
+      "dauer": "3h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/d7f97edacae9c474626676321114a8d2.webp?size=128"
     }
   ],
@@ -130,8 +121,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 5,
+    "gesamtMitarbeiter": 88,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 8
   }
 }

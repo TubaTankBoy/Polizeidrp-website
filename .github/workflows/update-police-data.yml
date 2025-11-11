@@ -11,17 +11,19 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # damit wir eigenen Token für Push nutzen
 
       - name: Download police-data.json
         run: |
           curl -o assets/police-data.json http://45.93.250.210:25570/police-data.json
 
-     - name: Commit & Push
-  env:
-    GH_PAT: ${{ secrets.GH_PAT }}
-  run: |
-    git config --global user.name "github-actions[bot]"
-    git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    git add assets/police-data.json
-    git commit -m "Update police-data.json" || echo "Keine Änderungen zum Commit"
-    git push https://$GH_PAT@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main
+      - name: Commit & Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # GitHub Personal Access Token
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/police-data.json
+          git commit -m "Update police-data.json" || echo "Keine Änderungen zum Commit"
+          git push https://$GH_PAT@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main

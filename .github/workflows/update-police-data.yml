@@ -26,3 +26,4 @@ jobs:
           git add assets/police-data.json
           git commit -m "Update police-data.json" || echo "Nothing to commit"
           git push https://$GH_PAT@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main
+

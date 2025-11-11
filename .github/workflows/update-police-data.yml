@@ -17,11 +17,9 @@ jobs:
           curl -o assets/police-data.json http://45.93.250.210:25570/police-data.json
 
       - name: Commit & Push
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/police-data.json
-          git commit -m "Update police-data.json" || echo "Keine Änderungen zum Commit"
-          git push https://x-access-token:${GH_PAT}@github.com/TubaTankBoy/Polizeidrp-website.git
+          git commit -m "Update police-data.json"
+          git push https://${{ secrets.GH_PAT }}@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main || echo "Nothing to commit"

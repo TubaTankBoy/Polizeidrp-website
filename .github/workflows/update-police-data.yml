@@ -9,17 +9,32 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
+      # 1. Repo auschecken
       - name: Checkout Repo
         uses: actions/checkout@v3
 
+      # 2. Sicherstellen, dass assets-Ordner existiert
+      - name: Create assets folder
+        run: mkdir -p assets
+
+      # 3. JSON-Datei herunterladen
       - name: Download police-data.json
         run: |
-          curl -o assets/police-data.json http://45.93.250.210:25570/police-data.json
+          curl -s -o assets/police-data.json http://45.93.250.210:25570/police-data.json
 
-      - name: Commit & Push
+      # 4. Prüfen, ob die Datei korrekt da ist (optional, nur zum Debuggen)
+      - name: Check downloaded file
+        run: |
+          ls -lah assets/
+          head -n 10 assets/police-data.json
+
+      # 5. Commit & Push
+      - name: Commit & Push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/police-data.json
-          git commit -m "Update police-data.json"
-          git push https://${{ secrets.GH_PAT }}@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main || echo "Nothing to commit"
+          git diff --cached --quiet || git commit -m "Update police-data.json"
+          git push https://${GH_PAT}@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main

@@ -1,0 +1,25 @@
+name: Update Police Data
+
+on:
+  workflow_dispatch:  # manuell auslösbar
+  schedule:
+    - cron: '*/10 * * * *' # alle 10 Minuten (optional)
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Download police-data.json
+        run: |
+          curl -o assets/police-data.json http://DEIN_BOT_SERVER_IP:PORT/police-data.json
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/police-data.json
+          git commit -m "Update police-data.json"
+          git push

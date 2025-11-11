@@ -3,13 +3,11 @@ name: Update Police Data
 on:
   workflow_dispatch:  # manuell auslösbar
   schedule:
-    - cron: '*/1 * * * *' # alle 5 Minuten (optional)
+    - cron: '*/1 * * * *' # optional: alle 1 Minute
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    env:
-      GH_PAT: ${{ secrets.GH_PAT }}  # Dein GitHub Personal Access Token
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -19,9 +17,11 @@ jobs:
           curl -o assets/police-data.json http://45.93.250.210:25570/police-data.json
 
       - name: Commit & Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/police-data.json
-          git commit -m "Update police-data.json" || echo "No changes to commit"
-          git push https://$GH_PAT@github.com/TubaTankBoy/Polizeidrp-website.git HEAD:main
+          git commit -m "Update police-data.json" || echo "Keine Änderungen zum Commit"
+          git push https://x-access-token:${GH_PAT}@github.com/TubaTankBoy/Polizeidrp-website.git

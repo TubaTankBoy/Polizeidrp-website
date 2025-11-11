@@ -13,16 +13,25 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1419 100%);
   color: #fff;
   min-height: 100vh;
+}
+
+body.login-mode {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
-/* Login Container */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Login */
 .login-container {
   background: linear-gradient(135deg, rgba(15, 32, 39, 0.95), rgba(44, 83, 100, 0.9));
   backdrop-filter: blur(10px);
@@ -86,7 +95,6 @@ body {
   color: #fff;
   font-size: 16px;
   transition: all 0.3s ease;
-  font-family: inherit;
 }
 
 .form-input:focus {
@@ -94,10 +102,6 @@ body {
   border-color: #ffd700;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.1);
-}
-
-.form-input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-login {
@@ -112,16 +116,11 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .btn-login:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
-}
-
-.btn-login:active {
-  transform: translateY(0);
 }
 
 .error-message {
@@ -131,7 +130,6 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(220, 38, 38, 0.4);
   margin-top: 20px;
-  font-size: 14px;
   display: none;
 }
 
@@ -146,7 +144,6 @@ body {
   75% { transform: translateX(10px); }
 }
 
-/* Protected Content (hidden initially) */
 .protected-content {
   display: none;
 }
@@ -155,16 +152,9 @@ body {
   display: block;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
+/* Header */
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  background-size: cover;
-  background-position: center;
   border-bottom: 3px solid #ffd700;
   padding: 60px 0 40px;
   text-align: center;
@@ -176,18 +166,17 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .header-subtitle {
   font-size: 32px;
   font-weight: 700;
   color: #ffd700;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
+/* Navigation */
 .nav-bar {
-  background: rgba(15, 32, 39, 0.98);
+  background: rgba(10, 14, 39, 0.98);
   backdrop-filter: blur(10px);
   border-bottom: 2px solid rgba(255, 215, 0, 0.3);
   position: sticky;
@@ -199,14 +188,9 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 5px;
   padding: 0;
   list-style: none;
-}
-
-.nav > li {
-  position: relative;
 }
 
 .nav > li > a {
@@ -230,8 +214,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background: rgba(15, 32, 39, 0.98);
-  backdrop-filter: blur(10px);
+  background: rgba(10, 14, 39, 0.98);
   min-width: 220px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 215, 0, 0.3);
@@ -266,27 +249,268 @@ body {
   padding-left: 28px;
 }
 
-.content-section {
-  background: linear-gradient(135deg, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.8));
+/* Content */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(15, 20, 25, 0.8));
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffd700;
+  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.2);
+}
+
+.stat-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 900;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  color: #cbd5e0;
+  font-size: 14px;
+}
+
+/* On Duty Section */
+.section {
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(15, 20, 25, 0.8));
   border-radius: 16px;
   padding: 40px;
-  margin: 40px auto;
+  margin: 30px 0;
   border: 1px solid rgba(255, 215, 0, 0.2);
-  max-width: 1200px;
 }
 
-.content-section h2 {
-  color: #ffd700;
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.section-title {
   font-size: 28px;
-  margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 800;
+  color: #ffd700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.content-section p {
-  color: #cbd5e0;
-  line-height: 1.8;
-  font-size: 16px;
+.refresh-btn {
+  background: rgba(255, 215, 0, 0.1);
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.refresh-btn:hover {
+  background: rgba(255, 215, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.duty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.duty-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255, 215, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.duty-card:hover {
+  border-color: #ffd700;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.15);
+}
+
+.duty-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 15px;
+}
+
+.duty-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #ffd700;
+}
+
+.duty-info h4 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.duty-badge {
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.duty-details {
+  display: grid;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.duty-detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.duty-detail-label {
+  color: #a0aec0;
+}
+
+.duty-detail-value {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+/* Freie Dienstnummern */
+.nummern-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 12px;
+}
+
+.nummer-badge {
+  background: rgba(74, 222, 128, 0.1);
+  border: 2px solid rgba(74, 222, 128, 0.3);
+  color: #4ade80;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.nummer-badge:hover {
+  border-color: #4ade80;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(74, 222, 128, 0.2);
+}
+
+/* Nachrichten */
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 4px solid #ffd700;
+  transition: all 0.3s ease;
+}
+
+.message-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 20px rgba(255, 215, 0, 0.15);
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.message-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffd700;
+}
+
+.message-meta {
+  flex: 1;
+}
+
+.message-author {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.message-time {
+  color: #a0aec0;
+  font-size: 12px;
+}
+
+.message-content {
+  color: #cbd5e0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #a0aec0;
+}
+
+.empty-state .icon {
+  font-size: 64px;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #ffd700;
+}
+
+.loading::after {
+  content: '...';
+  animation: dots 1.5s steps(4) infinite;
+}
+
+@keyframes dots {
+  0%, 20% { content: '.'; }
+  40% { content: '..'; }
+  60%, 100% { content: '...'; }
 }
 
 .btn-logout {
@@ -298,7 +522,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .btn-logout:hover {
@@ -306,82 +530,16 @@ body {
   border-color: #dc2626;
 }
 
-.mobile-menu-toggle {
-  display: none;
-  background: rgba(255, 215, 0, 0.1);
-  border: 2px solid #ffd700;
-  color: #ffd700;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 14px;
-  margin: 15px auto;
-}
-
-@media (max-width: 968px) {
-  .mobile-menu-toggle {
-    display: block;
-  }
-  
-  .nav {
-    display: none;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-  
-  .nav.active {
-    display: flex;
-  }
-  
-  .nav > li {
-    width: 100%;
-  }
-  
-  .nav > li > a {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-  }
-  
-  .dropdown-content {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-    background: rgba(0, 0, 0, 0.3);
-    display: none;
-  }
-  
-  .nav > li.dropdown-open .dropdown-content {
-    display: block;
-  }
-}
-
 @media (max-width: 768px) {
-  .login-container {
-    padding: 40px 30px;
-  }
-  
-  .login-title {
-    font-size: 26px;
-  }
-  
-  .header-title {
-    font-size: 36px;
-  }
-  
-  .header-subtitle {
-    font-size: 22px;
-  }
+  .header-title { font-size: 36px; }
+  .header-subtitle { font-size: 22px; }
+  .section { padding: 25px 20px; }
+  .duty-grid { grid-template-columns: 1fr; }
+  .nummern-grid { grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); }
 }
 </style>
 </head>
-<body>
+<body class="login-mode">
 
 <!-- Login Screen -->
 <div class="login-container" id="loginScreen">
@@ -389,16 +547,10 @@ body {
   <h1 class="login-title">Interner Bereich</h1>
   <p class="login-subtitle">Bitte geben Sie das Passwort ein, um fortzufahren.</p>
   
-  <form id="loginForm" onsubmit="return checkPassword(event)">
+  <form onsubmit="return checkPassword(event)">
     <div class="form-group">
       <label class="form-label" for="password">Passwort</label>
-      <input 
-        type="password" 
-        id="password" 
-        class="form-input" 
-        placeholder="Passwort eingeben..."
-        autocomplete="off"
-      >
+      <input type="password" id="password" class="form-input" placeholder="Passwort eingeben...">
     </div>
     
     <button type="submit" class="btn-login">Zugang erhalten</button>
@@ -409,7 +561,7 @@ body {
   </form>
 </div>
 
-<!-- Protected Content (initially hidden) -->
+<!-- Protected Content -->
 <div class="protected-content" id="protectedContent">
   <header class="header">
     <div class="container">
@@ -420,100 +572,116 @@ body {
 
   <nav class="nav-bar">
     <div class="container">
-      <button class="mobile-menu-toggle" onclick="toggleMenu()">☰ Menü</button>
-      
-      <ul class="nav" id="nav">
+      <ul class="nav">
         <li><a href="index.html">Startseite</a></li>
-        
         <li class="dropdown">
-          <a href="#" onclick="toggleDropdown(event, this)">Neuigkeiten ▾</a>
+          <a href="#">Neuigkeiten ▾</a>
           <div class="dropdown-content">
             <a href="Aktuelles.html">Aktuelles</a>
             <a href="Terrorstatus.html">Terrorstatus</a>
             <a href="Fahndungsportal.html">Fahndungsportal</a>
           </div>
         </li>
-        
         <li class="dropdown">
-          <a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a>
+          <a href="#">Teilbereiche ▾</a>
           <div class="dropdown-content">
             <a href="Werdegang.html">Werdegang</a>
             <a href="Moeglichkeiten.html">Möglichkeiten</a>
           </div>
         </li>
-        
         <li class="dropdown">
-          <a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a>
+          <a href="#">Mitarbeiter ▾</a>
           <div class="dropdown-content">
             <a href="Management.html">Management</a>
             <a href="Mitarbeiter.html">Mitarbeiter</a>
           </div>
         </li>
-        
         <li class="dropdown">
-          <a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a>
+          <a href="#">Sonstiges ▾</a>
           <div class="dropdown-content">
             <a href="Galerie.html">Galerie</a>
             <a href="Strafen.html">Strafen</a>
             <a href="Status.html">Status</a>
-            <a href="Intern.html">🔒 Interner Bereich</a>
           </div>
         </li>
       </ul>
     </div>
   </nav>
 
-  <main>
-    <section class="content-section">
-      <h2>🔒 Interner Bereich</h2>
-      <p>Willkommen im geschützten Bereich der Polizei Deutschland RP.</p>
-      <p>Dieser Bereich ist nur für autorisierte Mitarbeiter zugänglich. Hier finden Sie interne Dokumente, Protokolle und vertrauliche Informationen.</p>
-      
-      <h2 style="margin-top: 30px;">📋 Verfügbare Bereiche:</h2>
-      <p>• Interne Dokumente<br>
-      • Einsatzprotokolle<br>
-      • Mitarbeiterverzeichnis<br>
-      • Schulungsunterlagen<br>
-      • Administrative Tools</p>
-      
-      <button class="btn-logout" onclick="logout()">🚪 Abmelden</button>
+  <main class="container">
+    <!-- Statistiken -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">👥</div>
+        <div class="stat-value" id="statTotal">-</div>
+        <div class="stat-label">Gesamt Mitarbeiter</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🟢</div>
+        <div class="stat-value" id="statOnDuty">-</div>
+        <div class="stat-label">Aktuell im Dienst</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">📋</div>
+        <div class="stat-value" id="statFree">-</div>
+        <div class="stat-label">Freie Dienstnummern</div>
+      </div>
+    </div>
+
+    <!-- Im Dienst -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">🟢 Aktuell im Dienst</h2>
+        <button class="refresh-btn" onclick="loadData()">🔄 Aktualisieren</button>
+      </div>
+      <div class="duty-grid" id="dutyList">
+        <div class="loading">Lade Daten</div>
+      </div>
     </section>
+
+    <!-- Freie Dienstnummern -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">📋 Freie Dienstnummern</h2>
+      </div>
+      <div class="nummern-grid" id="nummernList">
+        <div class="loading">Lade Daten</div>
+      </div>
+    </section>
+
+    <!-- Polizei Informationen -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">📣 Polizei-Informationen</h2>
+      </div>
+      <div class="message-list" id="messageList">
+        <div class="loading">Lade Daten</div>
+      </div>
+    </section>
+
+    <button class="btn-logout" onclick="logout()">🚪 Abmelden</button>
   </main>
 </div>
 
 <script>
-const correctPassword = '99199';
+const PASSWORD = '99199';
 
 function checkPassword(event) {
   event.preventDefault();
+  const input = document.getElementById('password');
+  const error = document.getElementById('errorMessage');
   
-  const passwordInput = document.getElementById('password');
-  const errorMessage = document.getElementById('errorMessage');
-  const loginScreen = document.getElementById('loginScreen');
-  const protectedContent = document.getElementById('protectedContent');
-  
-  if (passwordInput.value === correctPassword) {
-    // Password correct - show content
-    loginScreen.style.display = 'none';
-    protectedContent.classList.add('show');
-    document.body.style.display = 'block';
-    document.body.style.alignItems = 'stretch';
-    document.body.style.justifyContent = 'stretch';
-    
-    // Save login state
+  if (input.value === PASSWORD) {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('protectedContent').classList.add('show');
+    document.body.classList.remove('login-mode');
     sessionStorage.setItem('loggedIn', 'true');
+    loadData();
   } else {
-    // Password incorrect - show error
-    errorMessage.classList.add('show');
-    passwordInput.value = '';
-    passwordInput.focus();
-    
-    // Hide error after 3 seconds
-    setTimeout(() => {
-      errorMessage.classList.remove('show');
-    }, 3000);
+    error.classList.add('show');
+    input.value = '';
+    setTimeout(() => error.classList.remove('show'), 3000);
   }
-  
   return false;
 }
 
@@ -522,40 +690,105 @@ function logout() {
   location.reload();
 }
 
-// Check if already logged in
+async function loadData() {
+  try {
+    // WICHTIG: Passe den Pfad an wo deine police-data.json liegt
+    const response = await fetch('./assets/police-data.json');
+    
+    if (!response.ok) {
+      throw new Error('Datei nicht gefunden');
+    }
+    
+    const data = await response.json();
+    
+    // Update Statistiken
+    document.getElementById('statTotal').textContent = data.statistiken.gesamtMitarbeiter;
+    document.getElementById('statOnDuty').textContent = data.statistiken.aktuellImDienst;
+    document.getElementById('statFree').textContent = data.statistiken.freieDienstnummern;
+    
+    // Update Im Dienst Liste
+    const dutyList = document.getElementById('dutyList');
+    if (data.onDuty.length === 0) {
+      dutyList.innerHTML = '<div class="empty-state"><div class="icon">😴</div><p>Aktuell ist niemand im Dienst</p></div>';
+    } else {
+      dutyList.innerHTML = data.onDuty.map(person => `
+        <div class="duty-card">
+          <div class="duty-header">
+            <img src="${person.avatar}" alt="${person.name}" class="duty-avatar" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2248%22 height=%2248%22><rect fill=%22%23ffd700%22 width=%2248%22 height=%2248%22/><text x=%2224%22 y=%2232%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%230a0e27%22>👤</text></svg>'">
+            <div class="duty-info">
+              <h4>${person.displayName}</h4>
+              <div class="duty-badge">[${person.dienstnummer}]</div>
+            </div>
+          </div>
+          <div class="duty-details">
+            <div class="duty-detail">
+              <span class="duty-detail-label">Rang:</span>
+              <span class="duty-detail-value">${person.rang}</span>
+            </div>
+            <div class="duty-detail">
+              <span class="duty-detail-label">Seit:</span>
+              <span class="duty-detail-value">${person.seit}</span>
+            </div>
+            <div class="duty-detail">
+              <span class="duty-detail-label">Dauer:</span>
+              <span class="duty-detail-value">${person.dauer}</span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    // Update Freie Dienstnummern
+    const nummernList = document.getElementById('nummernList');
+    if (data.freeDienstnummern.length === 0) {
+      nummernList.innerHTML = '<div class="empty-state"><div class="icon">❌</div><p>Alle Dienstnummern vergeben</p></div>';
+    } else {
+      nummernList.innerHTML = data.freeDienstnummern.map(num => 
+        `<div class="nummer-badge">[${num}]</div>`
+      ).join('');
+    }
+    
+    // Update Nachrichten
+    const messageList = document.getElementById('messageList');
+    if (data.polizeiInformationen.length === 0) {
+      messageList.innerHTML = '<div class="empty-state"><div class="icon">📭</div><p>Keine Nachrichten vorhanden</p></div>';
+    } else {
+      messageList.innerHTML = data.polizeiInformationen.map(msg => `
+        <div class="message-card">
+          <div class="message-header">
+            <img src="${msg.avatar}" alt="${msg.autor}" class="message-avatar" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect fill=%22%23ffd700%22 width=%2240%22 height=%2240%22/><text x=%2220%22 y=%2228%22 font-size=%2218%22 text-anchor=%22middle%22 fill=%22%230a0e27%22>👤</text></svg>'">
+            <div class="message-meta">
+              <div class="message-author">${msg.autor}</div>
+              <div class="message-time">${msg.datum} um ${msg.uhrzeit} Uhr</div>
+            </div>
+          </div>
+          <div class="message-content">${msg.nachricht}</div>
+        </div>
+      `).join('');
+    }
+    
+  } catch (error) {
+    console.error('Fehler beim Laden der Daten:', error);
+    document.getElementById('dutyList').innerHTML = '<div class="empty-state"><div class="icon">❌</div><p>Fehler beim Laden der Daten. Stelle sicher, dass die police-data.json Datei existiert.</p></div>';
+  }
+}
+
+// Check Login Status
 window.addEventListener('DOMContentLoaded', () => {
   if (sessionStorage.getItem('loggedIn') === 'true') {
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('protectedContent').classList.add('show');
-    document.body.style.display = 'block';
-    document.body.style.alignItems = 'stretch';
-    document.body.style.justifyContent = 'stretch';
+    document.body.classList.remove('login-mode');
+    loadData();
   }
 });
 
-function toggleMenu() {
-  const nav = document.getElementById('nav');
-  nav.classList.toggle('active');
-}
-
-function toggleDropdown(event, element) {
-  if (window.innerWidth <= 968) {
-    event.preventDefault();
-    const parent = element.parentElement;
-    parent.classList.toggle('dropdown-open');
+// Auto-Refresh alle 30 Sekunden
+setInterval(() => {
+  if (sessionStorage.getItem('loggedIn') === 'true') {
+    loadData();
   }
-}
-
-document.addEventListener('click', function(event) {
-  const nav = document.querySelector('.nav');
-  const toggle = document.querySelector('.mobile-menu-toggle');
-  
-  if (nav && toggle && !nav.contains(event.target) && !toggle.contains(event.target)) {
-    document.querySelectorAll('.dropdown-open').forEach(el => {
-      el.classList.remove('dropdown-open');
-    });
-  }
-});
+}, 30000);
 </script>
 </body>
 </html>

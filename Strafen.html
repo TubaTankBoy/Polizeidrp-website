@@ -6,6 +6,129 @@
 <title>Strafen - Polizei - Deutschland RP</title>
 <link rel="icon" href="./assets/favicon.png">
 <link rel="stylesheet" href="./assets/style.css">
+<style>
+  .penalty-section {
+    margin-top: 32px;
+  }
+  
+  .category-card {
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(0,123,255,0.3);
+  }
+  
+  .category-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  .category-count {
+    background: rgba(0,123,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    color: #e8e8e8;
+  }
+  
+  .penalty-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .penalty-table th {
+    text-align: left;
+    padding: 12px;
+    background: rgba(0,123,255,0.15);
+    color: #e8e8e8;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(0,123,255,0.3);
+  }
+  
+  .penalty-table td {
+    padding: 14px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    color: #d0d0d0;
+  }
+  
+  .penalty-table tr:hover {
+    background: rgba(0,123,255,0.08);
+  }
+  
+  .penalty-name-col {
+    font-weight: 500;
+  }
+  
+  .prison-badge {
+    background: rgba(220,53,69,0.2);
+    color: #ff6b6b;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    display: inline-block;
+  }
+  
+  .fine-badge {
+    background: rgba(255,193,7,0.2);
+    color: #ffc107;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    display: inline-block;
+  }
+  
+  .search-box {
+    margin-bottom: 24px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.05);
+    color: white;
+    font-size: 1em;
+  }
+  
+  .search-box input:focus {
+    outline: none;
+    border-color: #007bff;
+    background: rgba(255,255,255,0.08);
+  }
+  
+  .search-box input::placeholder {
+    color: rgba(255,255,255,0.5);
+  }
+  
+  @media (max-width: 768px) {
+    .penalty-table {
+      font-size: 0.9em;
+    }
+    
+    .penalty-table th,
+    .penalty-table td {
+      padding: 10px 8px;
+    }
+    
+    .category-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+  }
+</style>
 </head>
 <body>
 <header class="header container">
@@ -17,47 +140,46 @@
     </div>
   </div>
   
-    <nav class="nav" id="nav">
-      <button id="nav-toggle" style="background:transparent;border:0;color:white;font-weight:700;display:none">Menu</button>
-      <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li class="dropdown"><a href="#">Neuigkeiten ▾</a>
-          <div class="dropdown-content">
-            <a href="Aktuelles.html">Aktuelles</a>
-            <a href="Terrorstatus.html">Terrorstatus</a>
-            <a href="Fahndungsportal.html">Fahndungsportal</a>
-          </div>
-        </li>
-        <li class="dropdown"><a href="#">Teilbereiche ▾</a>
-          <div class="dropdown-content">
-            <a href="Werdegang.html">Werdegang</a>
-            <a href="Moeglichkeiten.html">Möglichkeiten</a>
-          </div>
-        </li>
-        <li class="dropdown"><a href="#">Mitarbeiter ▾</a>
-          <div class="dropdown-content">
-            <a href="Management.html">Management</a>
-            <a href="Mitarbeiter.html">Mitarbeiter</a>
-          </div>
-        </li>
-        <li class="dropdown"><a href="#">Sonstiges ▾</a>
-          <div class="dropdown-content">
-            <a href="Galerie.html">Galerie</a>
-            <a href="Strafen.html">Strafen</a>
-            <a href="Status.html">Status</a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    
+  <nav class="nav" id="nav">
+    <button id="nav-toggle" style="background:transparent;border:0;color:white;font-weight:700;display:none">Menu</button>
+    <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li class="dropdown"><a href="#">Neuigkeiten ▾</a>
+        <div class="dropdown-content">
+          <a href="Aktuelles.html">Aktuelles</a>
+          <a href="Terrorstatus.html">Terrorstatus</a>
+          <a href="Fahndungsportal.html">Fahndungsportal</a>
+        </div>
+      </li>
+      <li class="dropdown"><a href="#">Teilbereiche ▾</a>
+        <div class="dropdown-content">
+          <a href="Werdegang.html">Werdegang</a>
+          <a href="Moeglichkeiten.html">Möglichkeiten</a>
+        </div>
+      </li>
+      <li class="dropdown"><a href="#">Mitarbeiter ▾</a>
+        <div class="dropdown-content">
+          <a href="Management.html">Management</a>
+          <a href="Mitarbeiter.html">Mitarbeiter</a>
+        </div>
+      </li>
+      <li class="dropdown"><a href="#">Sonstiges ▾</a>
+        <div class="dropdown-content">
+          <a href="Galerie.html">Galerie</a>
+          <a href="Strafen.html">Strafen</a>
+          <a href="Status.html">Status</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
 </header>
 
 <main class="container">
   <section class="hero">
     <div class="left">
-      <h1>Strafen</h1>
-      <p class="kv">Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier.</p>
-      <div class="badge">Bundespolizei Style</div>
+      <h1>Strafen & Gesetze</h1>
+      <p class="kv">Vollständige Übersicht aller Gesetze und Strafen auf Deutschland RP</p>
+      <div class="badge">Rechtlich bindend</div>
     </div>
     <div style="margin-left:auto">
       <img src="./assets/hero.jpg" alt="hero" style="width:360px;border-radius:8px;object-fit:cover">
@@ -65,16 +187,202 @@
   </section>
 
   <section>
-    <div class="card"><h3 class="section-title">Strafen & Gesetze</h3><p class="kv">Übersicht relevanter Strafen (Platzhalter).</p></div>
+    <div class="card">
+      <h3 class="section-title">Strafenkatalog</h3>
+      <p class="kv">Alle gültigen Straftaten und deren Strafen im Überblick.</p>
+      
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Suche nach Straftat oder Gesetz...">
+      </div>
+
+      <div class="penalty-section" id="penaltiesContainer"></div>
+    </div>
   </section>
 </main>
 
 <footer class="footer">
-  <div class="kv">Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2“</div>
+  <div class="kv">Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</div>
   <div style="margin-top:6px">© 2024 – 2025</div>
   <div style="margin-top:8px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">Discord</a></div>
 </footer>
 
 <script src="./assets/main.js"></script>
+<script>
+const penalties = {
+  "BtMG (Betäubungsmittelgesetz)": [
+    { name: "Drogenbesitz Klein (1-5)", prison: "15 Monate", fine: "€8.000" },
+    { name: "Drogenbesitz Mittel (6-20)", prison: "20 Monate", fine: "€8.500" },
+    { name: "Drogenbesitz Groß (20+)", prison: "30 Monate", fine: "€9.000" },
+    { name: "Drogenhandel (An- und Verkauf)", prison: "30 Monate", fine: "€6.000" },
+    { name: "Drogenherstellung", prison: "20 Monate", fine: "€3.000" },
+    { name: "Drogenkonsum in der Öffentlichkeit", prison: "-", fine: "€4.000" },
+    { name: "Besitz von Drogenutensilien", prison: "15 Monate", fine: "€5.000" },
+    { name: "Betreten von Illegalen Routen", prison: "10 Monate", fine: "€5.000" }
+  ],
+  "HGB (Handelsgesetzbuch)": [
+    { name: "Missbrauch von Insiderinformationen", prison: "30 Monate", fine: "€8.000" },
+    { name: "Verletzung von Handelsverträgen", prison: "30 Monate", fine: "€8.000" },
+    { name: "Vertragswidriges Verhalten", prison: "30 Monate", fine: "€8.000" },
+    { name: "Missbrauch von Medikamenten", prison: "30 Monate", fine: "€15.000" },
+    { name: "Unrechtmäßige Nutzung von Firmennamen", prison: "30 Monate", fine: "€8.000" },
+    { name: "Verkauf von Gestohlenen Fahrzeugen", prison: "30 Monate", fine: "€8.000" },
+    { name: "Nicht Genehmigte Fahrzeugmodifikation", prison: "30 Monate", fine: "€10.000" }
+  ],
+  "Kollektiv Strafen": [
+    { name: "Kollektivstrafe-60", prison: "60 Monate", fine: "-" },
+    { name: "Kollektivstrafe-90", prison: "90 Monate", fine: "-" },
+    { name: "Kollektivstrafe-120", prison: "120 Monate", fine: "-" }
+  ],
+  "LuftVO (Luftverkehrsordnung)": [
+    { name: "Fliegen ohne Pilotenschein / ungenehmgte Fluglizenz", prison: "30 Monate", fine: "€10.000" },
+    { name: "Gefährdung von Personen am Boden", prison: "30 Monate", fine: "€15.000" },
+    { name: "Fahren unter Einfluss (Alkohol/Drogen im Flugzeug/Heli)", prison: "45 Monate", fine: "€25.000" },
+    { name: "Illegale Landung", prison: "25 Monate", fine: "€8.000" },
+    { name: "Kampf-/Waffenflug ohne Genehmigung", prison: "60 Monate", fine: "€25.000" }
+  ],
+  "SFG (Staatsfraktionsgesetz)": [
+    { name: "Information Weitergabe", prison: "50 Monate", fine: "€16.000" },
+    { name: "Korruption", prison: "90 Monate", fine: "€24.000" },
+    { name: "Beleidigung zu Zivilisten", prison: "-", fine: "€4.000" },
+    { name: "[MD] Unterlassene Hilfeleistung", prison: "-", fine: "€5.000" },
+    { name: "Fahrlässige Behandlung von Patienten", prison: "-", fine: "€3.000" },
+    { name: "Verletzung des FF & PD Vertrags", prison: "-", fine: "€50.000" }
+  ],
+  "StGB (Strafgesetzbuch)": [
+    { name: "Gefängnisausbruch", prison: "40 Monate", fine: "€50.000" },
+    { name: "Geiselnahme", prison: "20 Monate", fine: "€30.000" },
+    { name: "Freiheitsberaubung", prison: "15 Monate", fine: "€10.000" },
+    { name: "Bedrohung", prison: "10 Monate", fine: "€6.000" },
+    { name: "Wiederholte Bedrohung", prison: "20 Monate", fine: "€12.000" },
+    { name: "Drohung bei Mord", prison: "15 Monate", fine: "€7.500" },
+    { name: "Körperverletzung (einfach)", prison: "10 Monate", fine: "€5.000" },
+    { name: "Körperverletzung (Gefährlich)", prison: "15 Monate", fine: "€6.000" },
+    { name: "Körperverletzung (Schwere)", prison: "20 Monate", fine: "€10.000" },
+    { name: "Körperverletzung mit Todesfolge", prison: "25 Monate", fine: "€10.000" },
+    { name: "Totschlag", prison: "25 Monate", fine: "€5.000" },
+    { name: "Fahrlässige Tötung", prison: "15 Monate", fine: "€8.500" },
+    { name: "Mord", prison: "30 Monate", fine: "€10.000" },
+    { name: "Tätlicher Angriff auf Beamte", prison: "20 Monate", fine: "€6.500" },
+    { name: "Beleidigung", prison: "5 Monate", fine: "€2.500" },
+    { name: "Erregung öffentlichen Ärgernisses", prison: "15 Monate", fine: "€8.000" },
+    { name: "Vermummung in der Öffentlichkeit", prison: "5 Monate", fine: "€5.000" },
+    { name: "Androhung einer Straftat", prison: "15 Monate", fine: "€2.500" },
+    { name: "Gefangenenbefreiung", prison: "30 Monate", fine: "€10.000" },
+    { name: "Hausfriedensbruch", prison: "15 Monate", fine: "€15.000" },
+    { name: "Betreten einer illegalen Route", prison: "15 Monate", fine: "€5.000" },
+    { name: "Offenbaren von Privatgeheimnissen", prison: "15 Monate", fine: "€8.500" },
+    { name: "Betreten eines Sperrgebietes", prison: "15 Monate", fine: "€6.500" },
+    { name: "Ladenraub", prison: "25 Monate", fine: "€10.000" },
+    { name: "Juwelierraub", prison: "30 Monate", fine: "€15.000" },
+    { name: "Banküberfall", prison: "34 Monate", fine: "€15.000" },
+    { name: "Geldtransporter überfallen", prison: "25 Monate", fine: "€15.000" },
+    { name: "Schwarzgeldbesitz", prison: "20 Monate", fine: "€10.000" },
+    { name: "Sexuelle Belästigung", prison: "15 Monate", fine: "€5.000" },
+    { name: "Besitz illegaler Gegenstände", prison: "15 Monate", fine: "€10.000" },
+    { name: "Widerstand gegen Vollstreckungsbeamte", prison: "20 Monate", fine: "€9.000" },
+    { name: "Behinderung eines Beamten bei der Arbeit", prison: "15 Monate", fine: "€7.000" },
+    { name: "Entziehung polizeilicher Maßnahmen", prison: "15 Monate", fine: "€8.500" },
+    { name: "Bestechung von Beamten", prison: "35 Monate", fine: "€15.000" },
+    { name: "Beihilfe einer illegalen Aktivität", prison: "10 Monate", fine: "€10.000" },
+    { name: "Unterlassene Hilfeleistung", prison: "15 Monate", fine: "€10.000" },
+    { name: "Nachstellung (Stalking)", prison: "20 Monate", fine: "€10.000" },
+    { name: "Erpressung", prison: "15 Monate", fine: "€9.000" }
+  ],
+  "StVO (Straßenverkehrsordnung)": [
+    { name: "Gefährdung anderer Verkehrsteilnehmer", prison: "10 Monate", fine: "€3.000" },
+    { name: "Fahren ohne gültigen Führerschein", prison: "15 Monate", fine: "€5.000" },
+    { name: "Nutzung eines Mobilgeräts am Steuer", prison: "-", fine: "€2.000" },
+    { name: "Lärmbelästigung / Unnötiges Hupen", prison: "-", fine: "€2.000" },
+    { name: "Fahren abseits von gekennzeichneten Wegen", prison: "-", fine: "-" },
+    { name: "Fahren in der entgegengesetzten Fahrtrichtung", prison: "10 Monate", fine: "€3.000" },
+    { name: "Falsch Parken / Halten", prison: "-", fine: "€2.000" },
+    { name: "Fahrerflucht / Entziehung einer Verkehrskontrolle", prison: "15 Monate", fine: "€2.000" },
+    { name: "Überschreitung der zulässigen Höchstgeschwindigkeit", prison: "10 Monate", fine: "€1.500" },
+    { name: "Nicht Anschnallen im Fahrzeug", prison: "-", fine: "€1.000" }
+  ],
+  "WaffG (Waffengesetz)": [
+    { name: "Waffenbesitz ohne Lizenz", prison: "20 Monate", fine: "€10.000" },
+    { name: "Führen einer Waffe ohne Schein", prison: "25 Monate", fine: "€10.000" },
+    { name: "Besitz verbotener Waffen", prison: "20 Monate", fine: "€15.000" },
+    { name: "Illegaler Waffenhandel", prison: "30 Monate", fine: "€10.000" },
+    { name: "Offenes Tragen einer geladenen Waffe ohne Genehmigung", prison: "15 Monate", fine: "€5.000" },
+    { name: "Schussabgabe ohne Verletzung", prison: "15 Monate", fine: "€7.500" },
+    { name: "Besitz von Munition ohne Waffe-Lizenz", prison: "20 Monate", fine: "€5.000" },
+    { name: "Missbrauch von Dienstwaffen (Polizei/Behörde)", prison: "60 Monate", fine: "€30.000" }
+  ]
+};
+
+function renderPenalties() {
+  const container = document.getElementById('penaltiesContainer');
+  
+  Object.keys(penalties).forEach(category => {
+    const categoryDiv = document.createElement('div');
+    categoryDiv.className = 'category-card';
+    categoryDiv.dataset.category = category.toLowerCase();
+    
+    const header = document.createElement('div');
+    header.className = 'category-header';
+    header.innerHTML = `
+      <div class="category-name">${category}</div>
+      <div class="category-count">${penalties[category].length} Gesetze</div>
+    `;
+    
+    const table = document.createElement('table');
+    table.className = 'penalty-table';
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Straftat</th>
+          <th>Haftstrafe</th>
+          <th>Geldstrafe</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    `;
+    
+    const tbody = table.querySelector('tbody');
+    
+    penalties[category].forEach(penalty => {
+      const row = document.createElement('tr');
+      row.dataset.name = penalty.name.toLowerCase();
+      
+      row.innerHTML = `
+        <td class="penalty-name-col">${penalty.name}</td>
+        <td>${penalty.prison !== '-' ? `<span class="prison-badge">${penalty.prison}</span>` : '-'}</td>
+        <td>${penalty.fine !== '-' ? `<span class="fine-badge">${penalty.fine}</span>` : '-'}</td>
+      `;
+      
+      tbody.appendChild(row);
+    });
+    
+    categoryDiv.appendChild(header);
+    categoryDiv.appendChild(table);
+    container.appendChild(categoryDiv);
+  });
+}
+
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  const search = e.target.value.toLowerCase();
+  
+  document.querySelectorAll('.category-card').forEach(category => {
+    let hasMatch = false;
+    const categoryName = category.dataset.category;
+    
+    category.querySelectorAll('.penalty-table tbody tr').forEach(row => {
+      const name = row.dataset.name;
+      if (name.includes(search) || categoryName.includes(search) || search === '') {
+        row.style.display = '';
+        hasMatch = true;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+    
+    category.style.display = (hasMatch || search === '') ? '' : 'none';
+  });
+});
+
+renderPenalties();
+</script>
 </body>
 </html>

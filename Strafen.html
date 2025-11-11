@@ -4,166 +4,548 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Strafen - Polizei - Deutschland RP</title>
-<link rel="icon" href="./assets/favicon.png">
-<link rel="stylesheet" href="./assets/style.css">
 <style>
-  .penalty-section {
-    margin-top: 32px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1419 100%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header mit Hintergrundbild */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23203a43" width="1200" height="300"/></svg>');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 3px solid #ffd700;
+  position: relative;
+  padding: 60px 0 40px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 56px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.header-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffd700;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background: rgba(10, 14, 39, 0.98);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav > li {
+  position: relative;
+}
+
+.nav > li > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 24px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.nav > li > a:hover,
+.nav > li.active > a {
+  background: rgba(255, 215, 0, 0.1);
+  color: #ffd700;
+  border-bottom-color: #ffd700;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(10, 14, 39, 0.98);
+  backdrop-filter: blur(10px);
+  min-width: 220px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 0 0 8px 8px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  padding: 8px 0;
+}
+
+.nav > li:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content a {
+  display: block;
+  color: #cbd5e0;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.dropdown-content a:hover {
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+  border-left-color: #ffd700;
+  padding-left: 28px;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  background: rgba(255, 215, 0, 0.1);
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 15px auto;
+}
+
+@media (max-width: 968px) {
+  .mobile-menu-toggle {
+    display: block;
   }
   
-  .category-card {
-    background: rgba(255,255,255,0.03);
-    border-radius: 8px;
-    padding: 24px;
-    margin-bottom: 24px;
-    border: 1px solid rgba(255,255,255,0.1);
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
   }
   
-  .category-header {
+  .nav.active {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 16px;
-    border-bottom: 2px solid rgba(0,123,255,0.3);
   }
   
-  .category-name {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #007bff;
+  .nav > li {
+    width: 100%;
   }
   
-  .category-count {
-    background: rgba(0,123,255,0.2);
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.85em;
-    color: #e8e8e8;
+  .nav > li > a {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+  }
+  
+  .dropdown-content {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  .nav > li.dropdown-open .dropdown-content {
+    display: block;
+  }
+}
+
+/* Page Header mit Animation */
+.page-header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(59, 130, 246, 0.1));
+  border-radius: 20px;
+  margin: 40px 0;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.page-header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #ffd700, #fff, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.page-header p {
+  font-size: 18px;
+  color: #cbd5e0;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Search Box */
+.search-section {
+  margin: 40px 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  background: rgba(26, 31, 58, 0.8);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #ffd700;
+  background: rgba(26, 31, 58, 0.95);
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-icon {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  pointer-events: none;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  background: rgba(26, 31, 58, 0.8);
+  color: #ffd700;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: rgba(255, 215, 0, 0.15);
+  border-color: #ffd700;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Category Cards */
+.penalties-section {
+  margin: 40px 0;
+}
+
+.category-card {
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(15, 20, 25, 0.8));
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 50px rgba(255, 215, 0, 0.2);
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+.category-header {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(59, 130, 246, 0.15));
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.category-name {
+  font-size: 24px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.category-count {
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 215, 0, 0.4);
+}
+
+/* Table Styles */
+.penalty-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.penalty-table thead {
+  background: rgba(10, 14, 39, 0.5);
+}
+
+.penalty-table th {
+  text-align: left;
+  padding: 16px 30px;
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.penalty-table td {
+  padding: 18px 30px;
+  color: #cbd5e0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 14px;
+}
+
+.penalty-table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.penalty-table tbody tr:hover {
+  background: rgba(255, 215, 0, 0.08);
+}
+
+.penalty-name-col {
+  font-weight: 600;
+  color: #fff;
+}
+
+.prison-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.3), rgba(185, 28, 28, 0.2));
+  color: #ff6b6b;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(220, 53, 69, 0.4);
+}
+
+.fine-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.3), rgba(251, 191, 36, 0.2));
+  color: #ffd700;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 193, 7, 0.4);
+}
+
+/* Footer */
+.footer {
+  background: rgba(10, 14, 39, 0.95);
+  border-top: 2px solid #ffd700;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer p {
+  color: #a0aec0;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.footer a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffed4e;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .header {
+    padding: 40px 0 30px;
+  }
+  
+  .header-title {
+    font-size: 36px;
+  }
+  
+  .header-subtitle {
+    font-size: 22px;
+  }
+  
+  .page-header h1 {
+    font-size: 36px;
+  }
+  
+  .search-section {
+    flex-direction: column;
+  }
+  
+  .controls {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
   }
   
   .penalty-table {
-    width: 100%;
-    border-collapse: collapse;
+    font-size: 13px;
   }
   
-  .penalty-table th {
-    text-align: left;
-    padding: 12px;
-    background: rgba(0,123,255,0.15);
-    color: #e8e8e8;
-    font-weight: 600;
-    border-bottom: 2px solid rgba(0,123,255,0.3);
-  }
-  
+  .penalty-table th,
   .penalty-table td {
-    padding: 14px 12px;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    color: #d0d0d0;
+    padding: 12px 15px;
   }
   
-  .penalty-table tr:hover {
-    background: rgba(0,123,255,0.08);
+  .category-name {
+    font-size: 20px;
   }
-  
-  .penalty-name-col {
-    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .penalty-table th:nth-child(2),
+  .penalty-table td:nth-child(2) {
+    display: none;
   }
-  
-  .prison-badge {
-    background: rgba(220,53,69,0.2);
-    color: #ff6b6b;
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-size: 0.9em;
-    display: inline-block;
-  }
-  
-  .fine-badge {
-    background: rgba(255,193,7,0.2);
-    color: #ffc107;
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-size: 0.9em;
-    display: inline-block;
-  }
-  
-  .search-box {
-    margin-bottom: 24px;
-  }
-  
-  .search-box input {
-    width: 100%;
-    padding: 14px 18px;
-    border-radius: 6px;
-    border: 1px solid rgba(255,255,255,0.2);
-    background: rgba(255,255,255,0.05);
-    color: white;
-    font-size: 1em;
-  }
-  
-  .search-box input:focus {
-    outline: none;
-    border-color: #007bff;
-    background: rgba(255,255,255,0.08);
-  }
-  
-  .search-box input::placeholder {
-    color: rgba(255,255,255,0.5);
-  }
-  
-  @media (max-width: 768px) {
-    .penalty-table {
-      font-size: 0.9em;
-    }
-    
-    .penalty-table th,
-    .penalty-table td {
-      padding: 10px 8px;
-    }
-    
-    .category-header {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 12px;
-    }
-  }
+}
 </style>
 </head>
 <body>
-<header class="header container">
-  <div class="brand">
-    <div class="logo">BP</div>
-    <div>
-      <div class="title">Polizei - Deutschland RP</div>
-      <div class="tagline">FiveM | Server-Info & Bewerbungsportal</div>
-    </div>
+<header class="header">
+  <div class="container">
+    <h1 class="header-title">Polizei</h1>
+    <div class="header-subtitle">DEUTSCHLAND RP</div>
   </div>
-  
-  <nav class="nav" id="nav">
-    <button id="nav-toggle" style="background:transparent;border:0;color:white;font-weight:700;display:none">Menu</button>
-    <ul>
+</header>
+
+<nav class="nav-bar">
+  <div class="container">
+    <button class="mobile-menu-toggle" onclick="toggleMenu()">☰ Menü</button>
+    
+    <ul class="nav" id="nav">
       <li><a href="index.html">Startseite</a></li>
-      <li class="dropdown"><a href="#">Neuigkeiten ▾</a>
+      
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event, this)">Neuigkeiten ▾</a>
         <div class="dropdown-content">
           <a href="Aktuelles.html">Aktuelles</a>
           <a href="Terrorstatus.html">Terrorstatus</a>
           <a href="Fahndungsportal.html">Fahndungsportal</a>
         </div>
       </li>
-      <li class="dropdown"><a href="#">Teilbereiche ▾</a>
+      
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a>
         <div class="dropdown-content">
           <a href="Werdegang.html">Werdegang</a>
           <a href="Moeglichkeiten.html">Möglichkeiten</a>
         </div>
       </li>
-      <li class="dropdown"><a href="#">Mitarbeiter ▾</a>
+      
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a>
         <div class="dropdown-content">
           <a href="Management.html">Management</a>
           <a href="Mitarbeiter.html">Mitarbeiter</a>
         </div>
       </li>
-      <li class="dropdown"><a href="#">Sonstiges ▾</a>
+      
+      <li class="dropdown active">
+        <a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a>
         <div class="dropdown-content">
           <a href="Galerie.html">Galerie</a>
           <a href="Strafen.html">Strafen</a>
@@ -171,42 +553,37 @@
         </div>
       </li>
     </ul>
-  </nav>
-</header>
+  </div>
+</nav>
 
 <main class="container">
-  <section class="hero">
-    <div class="left">
-      <h1>Strafen & Gesetze</h1>
-      <p class="kv">Vollständige Übersicht aller Gesetze und Strafen auf Deutschland RP</p>
-      <div class="badge">Rechtlich bindend</div>
+  <section class="page-header">
+    <h1>⚖️ Strafenkatalog</h1>
+    <p>Vollständige Übersicht aller Gesetze und Strafen auf Deutschland RP. Alle Angaben sind rechtlich bindend.</p>
+  </section>
+
+  <section class="search-section">
+    <div class="search-box">
+      <input type="text" class="search-input" id="searchInput" placeholder="Suche nach Straftat, Gesetz oder Kategorie...">
+      <span class="search-icon">🔍</span>
     </div>
-    <div style="margin-left:auto">
-      <img src="./assets/hero.jpg" alt="hero" style="width:360px;border-radius:8px;object-fit:cover">
+    <div class="controls">
+      <button class="btn" onclick="expandAll()">Alle anzeigen</button>
+      <button class="btn" onclick="collapseAll()">Alle ausblenden</button>
     </div>
   </section>
 
-  <section>
-    <div class="card">
-      <h3 class="section-title">Strafenkatalog</h3>
-      <p class="kv">Alle gültigen Straftaten und deren Strafen im Überblick.</p>
-      
-      <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Suche nach Straftat oder Gesetz...">
-      </div>
-
-      <div class="penalty-section" id="penaltiesContainer"></div>
-    </div>
-  </section>
+  <section class="penalties-section" id="penaltiesContainer"></section>
 </main>
 
 <footer class="footer">
-  <div class="kv">Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</div>
-  <div style="margin-top:6px">© 2024 – 2025</div>
-  <div style="margin-top:8px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">Discord</a></div>
+  <div class="container">
+    <p>Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</p>
+    <p>© 2024 – 2025</p>
+    <p style="margin-top: 15px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">🔗 Discord Server beitreten</a></p>
+  </div>
 </footer>
 
-<script src="./assets/main.js"></script>
 <script>
 const penalties = {
   "BtMG (Betäubungsmittelgesetz)": [
@@ -300,89 +677,3 @@ const penalties = {
     { name: "Überschreitung der zulässigen Höchstgeschwindigkeit", prison: "10 Monate", fine: "€1.500" },
     { name: "Nicht Anschnallen im Fahrzeug", prison: "-", fine: "€1.000" }
   ],
-  "WaffG (Waffengesetz)": [
-    { name: "Waffenbesitz ohne Lizenz", prison: "20 Monate", fine: "€10.000" },
-    { name: "Führen einer Waffe ohne Schein", prison: "25 Monate", fine: "€10.000" },
-    { name: "Besitz verbotener Waffen", prison: "20 Monate", fine: "€15.000" },
-    { name: "Illegaler Waffenhandel", prison: "30 Monate", fine: "€10.000" },
-    { name: "Offenes Tragen einer geladenen Waffe ohne Genehmigung", prison: "15 Monate", fine: "€5.000" },
-    { name: "Schussabgabe ohne Verletzung", prison: "15 Monate", fine: "€7.500" },
-    { name: "Besitz von Munition ohne Waffe-Lizenz", prison: "20 Monate", fine: "€5.000" },
-    { name: "Missbrauch von Dienstwaffen (Polizei/Behörde)", prison: "60 Monate", fine: "€30.000" }
-  ]
-};
-
-function renderPenalties() {
-  const container = document.getElementById('penaltiesContainer');
-  
-  Object.keys(penalties).forEach(category => {
-    const categoryDiv = document.createElement('div');
-    categoryDiv.className = 'category-card';
-    categoryDiv.dataset.category = category.toLowerCase();
-    
-    const header = document.createElement('div');
-    header.className = 'category-header';
-    header.innerHTML = `
-      <div class="category-name">${category}</div>
-      <div class="category-count">${penalties[category].length} Gesetze</div>
-    `;
-    
-    const table = document.createElement('table');
-    table.className = 'penalty-table';
-    table.innerHTML = `
-      <thead>
-        <tr>
-          <th>Straftat</th>
-          <th>Haftstrafe</th>
-          <th>Geldstrafe</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    `;
-    
-    const tbody = table.querySelector('tbody');
-    
-    penalties[category].forEach(penalty => {
-      const row = document.createElement('tr');
-      row.dataset.name = penalty.name.toLowerCase();
-      
-      row.innerHTML = `
-        <td class="penalty-name-col">${penalty.name}</td>
-        <td>${penalty.prison !== '-' ? `<span class="prison-badge">${penalty.prison}</span>` : '-'}</td>
-        <td>${penalty.fine !== '-' ? `<span class="fine-badge">${penalty.fine}</span>` : '-'}</td>
-      `;
-      
-      tbody.appendChild(row);
-    });
-    
-    categoryDiv.appendChild(header);
-    categoryDiv.appendChild(table);
-    container.appendChild(categoryDiv);
-  });
-}
-
-document.getElementById('searchInput').addEventListener('input', (e) => {
-  const search = e.target.value.toLowerCase();
-  
-  document.querySelectorAll('.category-card').forEach(category => {
-    let hasMatch = false;
-    const categoryName = category.dataset.category;
-    
-    category.querySelectorAll('.penalty-table tbody tr').forEach(row => {
-      const name = row.dataset.name;
-      if (name.includes(search) || categoryName.includes(search) || search === '') {
-        row.style.display = '';
-        hasMatch = true;
-      } else {
-        row.style.display = 'none';
-      }
-    });
-    
-    category.style.display = (hasMatch || search === '') ? '' : 'none';
-  });
-});
-
-renderPenalties();
-</script>
-</body>
-</html>

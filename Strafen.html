@@ -302,8 +302,6 @@ body {
 }
 
 .category-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 60px rgba(255, 215, 0, 0.2);
   border-color: rgba(255, 215, 0, 0.5);
 }
 
@@ -314,6 +312,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.category-header:hover {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(59, 130, 246, 0.15));
 }
 
 .category-title {
@@ -323,6 +327,19 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toggle-arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+  color: #ffd700;
+}
+
+.category-card.collapsed .toggle-arrow {
+  transform: rotate(-90deg);
 }
 
 .category-count {
@@ -336,6 +353,16 @@ body {
 }
 
 /* Penalty Table */
+.penalty-content {
+  max-height: 5000px;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.category-card.collapsed .penalty-content {
+  max-height: 0;
+}
+
 .penalty-table {
   width: 100%;
   border-collapse: collapse;
@@ -517,259 +544,707 @@ body {
 
   <section class="search-section">
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Suche nach Straftat oder Gesetz...">
+      <input type="text" id="searchInput" placeholder="Suche nach Straftat oder Gesetz..." oninput="searchPenalties()">
       <span class="search-icon">🔍</span>
     </div>
   </section>
 
   <section class="penalties-section" id="penaltiesContainer">
     <!-- BtMG -->
-    <div class="category-card" data-category="btmg">
-      <div class="category-header">
-        <div class="category-title">BtMG (Betäubungsmittelgesetz)</div>
+    <div class="category-card" data-category="btmg betäubungsmittelgesetz">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          BtMG (Betäubungsmittelgesetz)
+        </div>
         <div class="category-count">8 Gesetze</div>
       </div>
-      <table class="penalty-table">
-        <thead>
-          <tr>
-            <th>Straftat</th>
-            <th>Haftstrafe</th>
-            <th>Geldstrafe</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr data-name="drogenbesitz klein">
-            <td class="penalty-name">Drogenbesitz Klein (1-5)</td>
-            <td><span class="badge badge-prison">15 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="drogenbesitz mittel">
-            <td class="penalty-name">Drogenbesitz Mittel (6-20)</td>
-            <td><span class="badge badge-prison">20 Monate</span></td>
-            <td><span class="badge badge-fine">€8.500</span></td>
-          </tr>
-          <tr data-name="drogenbesitz groß">
-            <td class="penalty-name">Drogenbesitz Groß (20+)</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€9.000</span></td>
-          </tr>
-          <tr data-name="drogenhandel">
-            <td class="penalty-name">Drogenhandel (An- und Verkauf)</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€6.000</span></td>
-          </tr>
-          <tr data-name="drogenherstellung">
-            <td class="penalty-name">Drogenherstellung</td>
-            <td><span class="badge badge-prison">20 Monate</span></td>
-            <td><span class="badge badge-fine">€3.000</span></td>
-          </tr>
-          <tr data-name="drogenkonsum">
-            <td class="penalty-name">Drogenkonsum in der Öffentlichkeit</td>
-            <td>-</td>
-            <td><span class="badge badge-fine">€4.000</span></td>
-          </tr>
-          <tr data-name="drogenutensilien">
-            <td class="penalty-name">Besitz von Drogenutensilien</td>
-            <td><span class="badge badge-prison">15 Monate</span></td>
-            <td><span class="badge badge-fine">€5.000</span></td>
-          </tr>
-          <tr data-name="illegale routen">
-            <td class="penalty-name">Betreten von Illegalen Routen</td>
-            <td><span class="badge badge-prison">10 Monate</span></td>
-            <td><span class="badge badge-fine">€5.000</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="drogenbesitz klein">
+              <td class="penalty-name">Drogenbesitz Klein (1-5)</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="drogenbesitz mittel">
+              <td class="penalty-name">Drogenbesitz Mittel (6-20)</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€8.500</span></td>
+            </tr>
+            <tr data-name="drogenbesitz groß">
+              <td class="penalty-name">Drogenbesitz Groß (20+)</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€9.000</span></td>
+            </tr>
+            <tr data-name="drogenhandel">
+              <td class="penalty-name">Drogenhandel (An- und Verkauf)</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€6.000</span></td>
+            </tr>
+            <tr data-name="drogenherstellung">
+              <td class="penalty-name">Drogenherstellung</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€3.000</span></td>
+            </tr>
+            <tr data-name="drogenkonsum öffentlichkeit">
+              <td class="penalty-name">Drogenkonsum in der Öffentlichkeit</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€4.000</span></td>
+            </tr>
+            <tr data-name="drogenutensilien">
+              <td class="penalty-name">Besitz von Drogenutensilien</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="illegale routen betreten">
+              <td class="penalty-name">Betreten von Illegalen Routen</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- HGB -->
-    <div class="category-card" data-category="hgb">
-      <div class="category-header">
-        <div class="category-title">HGB (Handelsgesetzbuch)</div>
+    <div class="category-card collapsed" data-category="hgb handelsgesetzbuch">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          HGB (Handelsgesetzbuch)
+        </div>
         <div class="category-count">7 Gesetze</div>
       </div>
-      <table class="penalty-table">
-        <thead>
-          <tr>
-            <th>Straftat</th>
-            <th>Haftstrafe</th>
-            <th>Geldstrafe</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr data-name="insiderinformationen">
-            <td class="penalty-name">Missbrauch von Insiderinformationen</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="handelsverträge">
-            <td class="penalty-name">Verletzung von Handelsverträgen</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="vertragswidriges">
-            <td class="penalty-name">Vertragswidriges Verhalten</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="medikamente">
-            <td class="penalty-name">Missbrauch von Medikamenten</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€15.000</span></td>
-          </tr>
-          <tr data-name="firmennamen">
-            <td class="penalty-name">Unrechtmäßige Nutzung von Firmennamen</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="gestohlene fahrzeuge">
-            <td class="penalty-name">Verkauf von Gestohlenen Fahrzeugen</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="fahrzeugmodifikation">
-            <td class="penalty-name">Nicht Genehmigte Fahrzeugmodifikation</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€10.000</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="insiderinformationen missbrauch">
+              <td class="penalty-name">Missbrauch von Insiderinformationen</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="handelsverträge verletzung">
+              <td class="penalty-name">Verletzung von Handelsverträgen</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="vertragswidriges verhalten">
+              <td class="penalty-name">Vertragswidriges Verhalten</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="medikamenten missbrauch">
+              <td class="penalty-name">Missbrauch von Medikamenten</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="firmennamen unrechtmäßig">
+              <td class="penalty-name">Unrechtmäßige Nutzung von Firmennamen</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="gestohlene fahrzeuge verkauf">
+              <td class="penalty-name">Verkauf von Gestohlenen Fahrzeugen</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="fahrzeugmodifikation">
+              <td class="penalty-name">Nicht Genehmigte Fahrzeugmodifikation</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- Kollektiv Strafen -->
-    <div class="category-card" data-category="kollektiv">
-      <div class="category-header">
-        <div class="category-title">Kollektiv Strafen</div>
+    <div class="category-card collapsed" data-category="kollektiv strafen">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          Kollektiv Strafen
+        </div>
         <div class="category-count">3 Gesetze</div>
       </div>
-      <table class="penalty-table">
-        <thead>
-          <tr>
-            <th>Straftat</th>
-            <th>Haftstrafe</th>
-            <th>Geldstrafe</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr data-name="kollektivstrafe 60">
-            <td class="penalty-name">Kollektivstrafe-60</td>
-            <td><span class="badge badge-prison">60 Monate</span></td>
-            <td>-</td>
-          </tr>
-          <tr data-name="kollektivstrafe 90">
-            <td class="penalty-name">Kollektivstrafe-90</td>
-            <td><span class="badge badge-prison">90 Monate</span></td>
-            <td>-</td>
-          </tr>
-          <tr data-name="kollektivstrafe 120">
-            <td class="penalty-name">Kollektivstrafe-120</td>
-            <td><span class="badge badge-prison">120 Monate</span></td>
-            <td>-</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="kollektivstrafe 60">
+              <td class="penalty-name">Kollektivstrafe-60</td>
+              <td><span class="badge badge-prison">60 Monate</span></td>
+              <td>-</td>
+            </tr>
+            <tr data-name="kollektivstrafe 90">
+              <td class="penalty-name">Kollektivstrafe-90</td>
+              <td><span class="badge badge-prison">90 Monate</span></td>
+              <td>-</td>
+            </tr>
+            <tr data-name="kollektivstrafe 120">
+              <td class="penalty-name">Kollektivstrafe-120</td>
+              <td><span class="badge badge-prison">120 Monate</span></td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- LuftVO -->
-    <div class="category-card" data-category="luftvo">
-      <div class="category-header">
-        <div class="category-title">LuftVO (Luftverkehrsordnung)</div>
+    <div class="category-card collapsed" data-category="luftvo luftverkehrsordnung">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          LuftVO (Luftverkehrsordnung)
+        </div>
         <div class="category-count">5 Gesetze</div>
       </div>
-      <table class="penalty-table">
-        <thead>
-          <tr>
-            <th>Straftat</th>
-            <th>Haftstrafe</th>
-            <th>Geldstrafe</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr data-name="pilotenschein">
-            <td class="penalty-name">Fliegen ohne Pilotenschein / ungenehmgte Fluglizenz</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€10.000</span></td>
-          </tr>
-          <tr data-name="gefährdung personen">
-            <td class="penalty-name">Gefährdung von Personen am Boden</td>
-            <td><span class="badge badge-prison">30 Monate</span></td>
-            <td><span class="badge badge-fine">€15.000</span></td>
-          </tr>
-          <tr data-name="unter einfluss flugzeug">
-            <td class="penalty-name">Fahren unter Einfluss (Alkohol/Drogen im Flugzeug/Heli)</td>
-            <td><span class="badge badge-prison">45 Monate</span></td>
-            <td><span class="badge badge-fine">€25.000</span></td>
-          </tr>
-          <tr data-name="illegale landung">
-            <td class="penalty-name">Illegale Landung</td>
-            <td><span class="badge badge-prison">25 Monate</span></td>
-            <td><span class="badge badge-fine">€8.000</span></td>
-          </tr>
-          <tr data-name="waffenflug">
-            <td class="penalty-name">Kampf-/Waffenflug ohne Genehmigung</td>
-            <td><span class="badge badge-prison">60 Monate</span></td>
-            <td><span class="badge badge-fine">€25.000</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="pilotenschein fliegen fluglizenz">
+              <td class="penalty-name">Fliegen ohne Pilotenschein / ungenehmgte Fluglizenz</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="gefährdung personen boden">
+              <td class="penalty-name">Gefährdung von Personen am Boden</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="unter einfluss alkohol drogen flugzeug heli">
+              <td class="penalty-name">Fahren unter Einfluss (Alkohol/Drogen im Flugzeug/Heli)</td>
+              <td><span class="badge badge-prison">45 Monate</span></td>
+              <td><span class="badge badge-fine">€25.000</span></td>
+            </tr>
+            <tr data-name="illegale landung">
+              <td class="penalty-name">Illegale Landung</td>
+              <td><span class="badge badge-prison">25 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="kampfflug waffenflug genehmigung">
+              <td class="penalty-name">Kampf-/Waffenflug ohne Genehmigung</td>
+              <td><span class="badge badge-prison">60 Monate</span></td>
+              <td><span class="badge badge-fine">€25.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- SFG -->
-    <div class="category-card" data-category="sfg">
-      <div class="category-header">
-        <div class="category-title">SFG (Staatsfraktionsgesetz)</div>
+    <div class="category-card collapsed" data-category="sfg staatsfraktionsgesetz">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          SFG (Staatsfraktionsgesetz)
+        </div>
         <div class="category-count">6 Gesetze</div>
       </div>
-      <table class="penalty-table">
-        <thead>
-          <tr>
-            <th>Straftat</th>
-            <th>Haftstrafe</th>
-            <th>Geldstrafe</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr data-name="information weitergabe">
-            <td class="penalty-name">Information Weitergabe</td>
-            <td><span class="badge badge-prison">50 Monate</span></td>
-            <td><span class="badge badge-fine">€16.000</span></td>
-          </tr>
-          <tr data-name="korruption">
-            <td class="penalty-name">Korruption</td>
-            <td><span class="badge badge-prison">90 Monate</span></td>
-            <td><span class="badge badge-fine">€24.000</span></td>
-          </tr>
-          <tr data-name="beleidigung zivilisten">
-            <td class="penalty-name">Beleidigung zu Zivilisten</td>
-            <td>-</td>
-            <td><span class="badge badge-fine">€4.000</span></td>
-          </tr>
-          <tr data-name="unterlassene hilfeleistung md">
-            <td class="penalty-name">[MD] Unterlassene Hilfeleistung</td>
-            <td>-</td>
-            <td><span class="badge badge-fine">€5.000</span></td>
-          </tr>
-          <tr data-name="fahrlässige behandlung">
-            <td class="penalty-name">Fahrlässige Behandlung von Patienten</td>
-            <td>-</td>
-            <td><span class="badge badge-fine">€3.000</span></td>
-          </tr>
-          <tr data-name="ff pd vertrag">
-            <td class="penalty-name">Verletzung des FF & PD Vertrags</td>
-            <td>-</td>
-            <td><span class="badge badge-fine">€50.000</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="information weitergabe">
+              <td class="penalty-name">Information Weitergabe</td>
+              <td><span class="badge badge-prison">50 Monate</span></td>
+              <td><span class="badge badge-fine">€16.000</span></td>
+            </tr>
+            <tr data-name="korruption">
+              <td class="penalty-name">Korruption</td>
+              <td><span class="badge badge-prison">90 Monate</span></td>
+              <td><span class="badge badge-fine">€24.000</span></td>
+            </tr>
+            <tr data-name="beleidigung zivilisten">
+              <td class="penalty-name">Beleidigung zu Zivilisten</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€4.000</span></td>
+            </tr>
+            <tr data-name="unterlassene hilfeleistung md">
+              <td class="penalty-name">[MD] Unterlassene Hilfeleistung</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="fahrlässige behandlung patienten">
+              <td class="penalty-name">Fahrlässige Behandlung von Patienten</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€3.000</span></td>
+            </tr>
+            <tr data-name="ff pd vertrag verletzung">
+              <td class="penalty-name">Verletzung des FF & PD Vertrags</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€50.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!-- StGB -->
-    <div class="category-card" data-category="stgb">
-      <div class="category-header">
-        <div class="category-title">StGB (Strafgesetzbuch)</div>
+    <div class="category-card collapsed" data-category="stgb strafgesetzbuch">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          StGB (Strafgesetzbuch)
+        </div>
         <div class="category-count">38 Gesetze</div>
       </div>
-      <table class="penalty-table">
-        <thead>
-          <tr>
-            <th>Straftat</th
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="gefängnisausbruch">
+              <td class="penalty-name">Gefängnisausbruch</td>
+              <td><span class="badge badge-prison">40 Monate</span></td>
+              <td><span class="badge badge-fine">€50.000</span></td>
+            </tr>
+            <tr data-name="geiselnahme">
+              <td class="penalty-name">Geiselnahme</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€30.000</span></td>
+            </tr>
+            <tr data-name="freiheitsberaubung">
+              <td class="penalty-name">Freiheitsberaubung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="bedrohung">
+              <td class="penalty-name">Bedrohung</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€6.000</span></td>
+            </tr>
+            <tr data-name="wiederholte bedrohung">
+              <td class="penalty-name">Wiederholte Bedrohung</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€12.000</span></td>
+            </tr>
+            <tr data-name="drohung mord">
+              <td class="penalty-name">Drohung bei Mord</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€7.500</span></td>
+            </tr>
+            <tr data-name="körperverletzung einfach">
+              <td class="penalty-name">Körperverletzung (einfach)</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="körperverletzung gefährlich">
+              <td class="penalty-name">Körperverletzung (Gefährlich)</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€6.000</span></td>
+            </tr>
+            <tr data-name="körperverletzung schwere">
+              <td class="penalty-name">Körperverletzung (Schwere)</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="körperverletzung todesfolge">
+              <td class="penalty-name">Körperverletzung mit Todesfolge</td>
+              <td><span class="badge badge-prison">25 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="totschlag">
+              <td class="penalty-name">Totschlag</td>
+              <td><span class="badge badge-prison">25 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="fahrlässige tötung">
+              <td class="penalty-name">Fahrlässige Tötung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€8.500</span></td>
+            </tr>
+            <tr data-name="mord">
+              <td class="penalty-name">Mord</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="tätlicher angriff beamte">
+              <td class="penalty-name">Tätlicher Angriff auf Beamte</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€6.500</span></td>
+            </tr>
+            <tr data-name="beleidigung">
+              <td class="penalty-name">Beleidigung</td>
+              <td><span class="badge badge-prison">5 Monate</span></td>
+              <td><span class="badge badge-fine">€2.500</span></td>
+            </tr>
+            <tr data-name="erregung öffentlichen ärgernisses">
+              <td class="penalty-name">Erregung öffentlichen Ärgernisses</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€8.000</span></td>
+            </tr>
+            <tr data-name="vermummung öffentlichkeit">
+              <td class="penalty-name">Vermummung in der Öffentlichkeit</td>
+              <td><span class="badge badge-prison">5 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="androhung straftat">
+              <td class="penalty-name">Androhung einer Straftat</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€2.500</span></td>
+            </tr>
+            <tr data-name="gefangenenbefreiung">
+              <td class="penalty-name">Gefangenenbefreiung</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="hausfriedensbruch">
+              <td class="penalty-name">Hausfriedensbruch</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="betreten illegale route">
+              <td class="penalty-name">Betreten einer illegalen Route</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="offenbaren privatgeheimnissen">
+              <td class="penalty-name">Offenbaren von Privatgeheimnissen</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€8.500</span></td>
+            </tr>
+            <tr data-name="betreten sperrgebietes">
+              <td class="penalty-name">Betreten eines Sperrgebietes</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€6.500</span></td>
+            </tr>
+            <tr data-name="ladenraub">
+              <td class="penalty-name">Ladenraub</td>
+              <td><span class="badge badge-prison">25 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="juwelierraub">
+              <td class="penalty-name">Juwelierraub</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="banküberfall">
+              <td class="penalty-name">Banküberfall</td>
+              <td><span class="badge badge-prison">34 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="geldtransporter überfallen">
+              <td class="penalty-name">Geldtransporter überfallen</td>
+              <td><span class="badge badge-prison">25 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="schwarzgeldbesitz">
+              <td class="penalty-name">Schwarzgeldbesitz</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="sexuelle belästigung">
+              <td class="penalty-name">Sexuelle Belästigung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="besitz illegaler gegenstände">
+              <td class="penalty-name">Besitz illegaler Gegenstände</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="widerstand vollstreckungsbeamte">
+              <td class="penalty-name">Widerstand gegen Vollstreckungsbeamte</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€9.000</span></td>
+            </tr>
+            <tr data-name="behinderung beamten arbeit">
+              <td class="penalty-name">Behinderung eines Beamten bei der Arbeit</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€7.000</span></td>
+            </tr>
+            <tr data-name="entziehung polizeilicher maßnahmen">
+              <td class="penalty-name">Entziehung polizeilicher Maßnahmen</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€8.500</span></td>
+            </tr>
+            <tr data-name="bestechung beamten">
+              <td class="penalty-name">Bestechung von Beamten</td>
+              <td><span class="badge badge-prison">35 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="beihilfe illegaler aktivität">
+              <td class="penalty-name">Beihilfe einer illegalen Aktivität</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="unterlassene hilfeleistung">
+              <td class="penalty-name">Unterlassene Hilfeleistung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="nachstellung stalking">
+              <td class="penalty-name">Nachstellung (Stalking)</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="erpressung">
+              <td class="penalty-name">Erpressung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€9.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- StVO -->
+    <div class="category-card collapsed" data-category="stvo straßenverkehrsordnung">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          StVO (Straßenverkehrsordnung)
+        </div>
+        <div class="category-count">10 Gesetze</div>
+      </div>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="gefährdung verkehrsteilnehmer">
+              <td class="penalty-name">Gefährdung anderer Verkehrsteilnehmer</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€3.000</span></td>
+            </tr>
+            <tr data-name="fahren ohne führerschein">
+              <td class="penalty-name">Fahren ohne gültigen Führerschein</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="mobilgerät steuer">
+              <td class="penalty-name">Nutzung eines Mobilgeräts am Steuer</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€2.000</span></td>
+            </tr>
+            <tr data-name="lärmbelästigung hupen">
+              <td class="penalty-name">Lärmbelästigung / Unnötiges Hupen</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€2.000</span></td>
+            </tr>
+            <tr data-name="fahren abseits wege">
+              <td class="penalty-name">Fahren abseits von gekennzeichneten Wegen</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr data-name="entgegengesetzte fahrtrichtung">
+              <td class="penalty-name">Fahren in der entgegengesetzten Fahrtrichtung</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€3.000</span></td>
+            </tr>
+            <tr data-name="falsch parken halten">
+              <td class="penalty-name">Falsch Parken / Halten</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€2.000</span></td>
+            </tr>
+            <tr data-name="fahrerflucht verkehrskontrolle">
+              <td class="penalty-name">Fahrerflucht / Entziehung einer Verkehrskontrolle</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€2.000</span></td>
+            </tr>
+            <tr data-name="geschwindigkeit überschreitung">
+              <td class="penalty-name">Überschreitung der zulässigen Höchstgeschwindigkeit</td>
+              <td><span class="badge badge-prison">10 Monate</span></td>
+              <td><span class="badge badge-fine">€1.500</span></td>
+            </tr>
+            <tr data-name="anschnallen fahrzeug">
+              <td class="penalty-name">Nicht Anschnallen im Fahrzeug</td>
+              <td>-</td>
+              <td><span class="badge badge-fine">€1.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- WaffG -->
+    <div class="category-card collapsed" data-category="waffg waffengesetz">
+      <div class="category-header" onclick="toggleCategory(this)">
+        <div class="category-title">
+          <span class="toggle-arrow">▼</span>
+          WaffG (Waffengesetz)
+        </div>
+        <div class="category-count">8 Gesetze</div>
+      </div>
+      <div class="penalty-content">
+        <table class="penalty-table">
+          <thead>
+            <tr>
+              <th>Straftat</th>
+              <th>Haftstrafe</th>
+              <th>Geldstrafe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-name="waffenbesitz ohne lizenz">
+              <td class="penalty-name">Waffenbesitz ohne Lizenz</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="führen waffe ohne schein">
+              <td class="penalty-name">Führen einer Waffe ohne Schein</td>
+              <td><span class="badge badge-prison">25 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="besitz verbotener waffen">
+              <td class="penalty-name">Besitz verbotener Waffen</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€15.000</span></td>
+            </tr>
+            <tr data-name="illegaler waffenhandel">
+              <td class="penalty-name">Illegaler Waffenhandel</td>
+              <td><span class="badge badge-prison">30 Monate</span></td>
+              <td><span class="badge badge-fine">€10.000</span></td>
+            </tr>
+            <tr data-name="offenes tragen geladene waffe">
+              <td class="penalty-name">Offenes Tragen einer geladenen Waffe ohne Genehmigung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="schussabgabe ohne verletzung">
+              <td class="penalty-name">Schussabgabe ohne Verletzung</td>
+              <td><span class="badge badge-prison">15 Monate</span></td>
+              <td><span class="badge badge-fine">€7.500</span></td>
+            </tr>
+            <tr data-name="besitz munition ohne lizenz">
+              <td class="penalty-name">Besitz von Munition ohne Waffe-Lizenz</td>
+              <td><span class="badge badge-prison">20 Monate</span></td>
+              <td><span class="badge badge-fine">€5.000</span></td>
+            </tr>
+            <tr data-name="missbrauch dienstwaffen">
+              <td class="penalty-name">Missbrauch von Dienstwaffen (Polizei/Behörde)</td>
+              <td><span class="badge badge-prison">60 Monate</span></td>
+              <td><span class="badge badge-fine">€30.000</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</p>
+    <p>© 2024 – 2025</p>
+    <p style="margin-top: 15px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">🔗 Discord Server beitreten</a></p>
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+}
+
+function toggleDropdown(event, element) {
+  if (window.innerWidth <= 968) {
+    event.preventDefault();
+    const parent = element.parentElement;
+    parent.classList.toggle('dropdown-open');
+  }
+}
+
+function toggleCategory(header) {
+  const card = header.parentElement;
+  card.classList.toggle('collapsed');
+}
+
+function searchPenalties() {
+  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  const cards = document.querySelectorAll('.category-card');
+  
+  cards.forEach(card => {
+    const categoryText = card.dataset.category;
+    const rows = card.querySelectorAll('tbody tr');
+    let hasVisibleRows = false;
+    
+    rows.forEach(row => {
+      const rowText = row.dataset.name;
+      const penaltyName = row.querySelector('.penalty-name').textContent.toLowerCase();
+      
+      if (searchTerm === '' || 
+          rowText.includes(searchTerm) || 
+          penaltyName.includes(searchTerm) || 
+          categoryText.includes(searchTerm)) {
+        row.style.display = '';
+        hasVisibleRows = true;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+    
+    // Show/hide category based on whether it has visible rows
+    if (searchTerm === '') {
+      card.style.display = '';
+    } else if (hasVisibleRows || categoryText.includes(searchTerm)) {
+      card.style.display = '';
+      // Auto-expand category when searching
+      card.classList.remove('collapsed');
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+// Close dropdowns when clicking outside
+document.addEventListener('click', function(event) {
+  const nav = document.querySelector('.nav');
+  const toggle = document.querySelector('.mobile-menu-toggle');
+  
+  if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+    document.querySelectorAll('.dropdown-open').forEach(el => {
+      el.classList.remove('dropdown-open');
+    });
+  }
+});
+</script>
+</body>
+</html>

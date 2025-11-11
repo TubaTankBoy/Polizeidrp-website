@@ -3,7 +3,7 @@ name: Update Police Data
 on:
   workflow_dispatch:  # manuell auslösbar
   schedule:
-    - cron: '*/10 * * * *' # alle 10 Minuten (optional)
+    - cron: '*/1 * * * *' # alle 1 Minuten (optional)
 
 jobs:
   update-data:
@@ -14,7 +14,7 @@ jobs:
 
       - name: Download police-data.json
         run: |
-          curl -o assets/police-data.json http://DEIN_BOT_SERVER_IP:PORT/police-data.json
+          curl -o assets/police-data.json http://45.93.250.210:25570/police-data.json
 
       - name: Commit & Push
         run: |

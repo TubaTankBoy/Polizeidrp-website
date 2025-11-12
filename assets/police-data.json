@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-12T22:41:56.617Z",
-  "onDuty": [
-    {
-      "name": "jann1ssk",
-      "displayName": "[41] Thomas Hans",
-      "dienstnummer": "41",
-      "rang": "Thomas Hans",
-      "seit": "20:44",
-      "dauer": "1h 57m",
-      "avatar": "https://cdn.discordapp.com/avatars/972929216314216608/50954473327ff3a4d3f7695e5a7b3041.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-12T22:48:26.625Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "47",
     "48",
@@ -93,7 +83,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 89,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 6
   }
 }

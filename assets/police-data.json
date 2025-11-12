@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-12T20:16:26.465Z",
+  "lastUpdate": "2025-11-12T20:35:26.508Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat (abg.)",
       "seit": "18:21",
-      "dauer": "1h 54m",
+      "dauer": "2h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/ec06d36e8b5c5b2f464075af177c0926.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "18:27",
-      "dauer": "1h 48m",
+      "dauer": "2h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "16:32",
-      "dauer": "3h 43m",
+      "dauer": "4h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
     },
     {
@@ -34,17 +34,8 @@
       "dienstnummer": "27",
       "rang": "Luca Meier",
       "seit": "19:09",
-      "dauer": "1h 6m",
+      "dauer": "1h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/1325059019332915215/3f1665bb52812f8965b4e09464d3a5b6.webp?size=128"
-    },
-    {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "19:58",
-      "dauer": "0h 18m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
       "name": "john.3011",
@@ -52,17 +43,8 @@
       "dienstnummer": "54",
       "rang": "John Creck",
       "seit": "19:38",
-      "dauer": "0h 38m",
+      "dauer": "0h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/1330932525463502879/428115f004c477275f948fa2faa5eafb.webp?size=128"
-    },
-    {
-      "name": "sami_5858",
-      "displayName": "[58] Sami Zibabo",
-      "dienstnummer": "58",
-      "rang": "Sami Zibabo",
-      "seit": "19:46",
-      "dauer": "0h 29m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
       "name": "mischa76",
@@ -70,8 +52,17 @@
       "dienstnummer": "61",
       "rang": "Mischa Diamonds",
       "seit": "17:19",
-      "dauer": "2h 56m",
+      "dauer": "3h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
+    },
+    {
+      "name": "l3andr0.1t4ly",
+      "displayName": "[67] Leo Romano",
+      "dienstnummer": "67",
+      "rang": "Leo Romano",
+      "seit": "20:28",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     },
     {
       "name": "eno_23.",
@@ -79,17 +70,8 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "19:29",
-      "dauer": "0h 47m",
+      "dauer": "1h 6m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
-    },
-    {
-      "name": "babybotzer",
-      "displayName": "[72] Johannes Michael",
-      "dienstnummer": "72",
-      "rang": "Johannes Michael",
-      "seit": "18:10",
-      "dauer": "2h 6m",
-      "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
     },
     {
       "name": "ace_mika",
@@ -97,7 +79,7 @@
       "dienstnummer": "83",
       "rang": "Kevin Keta",
       "seit": "16:57",
-      "dauer": "3h 18m",
+      "dauer": "3h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/569229065194569729/18f5f0a373d55160fe3f2b40d49e79b7.webp?size=128"
     }
   ],
@@ -105,7 +87,6 @@
     "47",
     "48",
     "57",
-    "67",
     "69",
     "80",
     "88"
@@ -183,8 +164,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 11,
-    "freieDienstnummern": 7
+    "gesamtMitarbeiter": 89,
+    "aktuellImDienst": 9,
+    "freieDienstnummern": 6
   }
 }

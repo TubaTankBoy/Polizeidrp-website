@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-12T22:19:26.595Z",
+  "lastUpdate": "2025-11-12T22:33:26.690Z",
   "onDuty": [
     {
       "name": "jann1ssk",
@@ -7,17 +7,8 @@
       "dienstnummer": "41",
       "rang": "Thomas Hans",
       "seit": "20:44",
-      "dauer": "1h 35m",
+      "dauer": "1h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/972929216314216608/50954473327ff3a4d3f7695e5a7b3041.webp?size=128"
-    },
-    {
-      "name": "l3andr0.1t4ly",
-      "displayName": "[67] Leo Romano",
-      "dienstnummer": "67",
-      "rang": "Leo Romano",
-      "seit": "20:28",
-      "dauer": "1h 51m",
-      "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -102,7 +93,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 89,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 6
   }
 }

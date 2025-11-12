@@ -4,77 +4,673 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Management - Polizei - Deutschland RP</title>
-<link rel="icon" href="./assets/favicon.png">
-<link rel="stylesheet" href="./assets/style.css">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1419 100%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header mit Hintergrundbild */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23203a43" width="1200" height="300"/></svg>');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 3px solid #ffd700;
+  position: relative;
+  padding: 60px 0 40px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 56px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.header-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffd700;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background: rgba(10, 14, 39, 0.98);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav > li {
+  position: relative;
+}
+
+.nav > li > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 24px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.nav > li > a:hover,
+.nav > li.active > a {
+  background: rgba(255, 215, 0, 0.1);
+  color: #ffd700;
+  border-bottom-color: #ffd700;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(10, 14, 39, 0.98);
+  backdrop-filter: blur(10px);
+  min-width: 220px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 0 0 8px 8px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  padding: 8px 0;
+}
+
+.nav > li:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content a {
+  display: block;
+  color: #cbd5e0;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.dropdown-content a:hover {
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+  border-left-color: #ffd700;
+  padding-left: 28px;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  background: rgba(255, 215, 0, 0.1);
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 15px auto;
+}
+
+@media (max-width: 968px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  
+  .nav.active {
+    display: flex;
+  }
+  
+  .nav > li {
+    width: 100%;
+  }
+  
+  .nav > li > a {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+  }
+  
+  .dropdown-content {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  .nav > li.dropdown-open .dropdown-content {
+    display: block;
+  }
+}
+
+/* Page Header mit Animation */
+.page-header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(59, 130, 246, 0.1));
+  border-radius: 20px;
+  margin: 40px 0;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.page-header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #ffd700, #fff, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.page-header p {
+  font-size: 18px;
+  color: #cbd5e0;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Management Section */
+.management-section {
+  margin: 40px 0;
+}
+
+.rank-group {
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(15, 20, 25, 0.8));
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+
+.rank-group:hover {
+  border-color: rgba(255, 215, 0, 0.5);
+  box-shadow: 0 20px 60px rgba(255, 215, 0, 0.2);
+}
+
+.rank-header {
+  padding: 25px 30px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(59, 130, 246, 0.1));
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.rank-title {
+  font-size: 24px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffd700, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rank-badge {
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 215, 0, 0.4);
+}
+
+/* Member Cards Grid */
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.member-card {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.08), rgba(59, 130, 246, 0.05));
+  border-radius: 15px;
+  padding: 0;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffd700;
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
+
+.member-card.empty {
+  opacity: 0.5;
+  border-style: dashed;
+}
+
+.member-card.empty:hover {
+  transform: none;
+}
+
+.member-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(15, 20, 25, 0.8));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd700;
+  font-size: 64px;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.2);
+}
+
+.member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 20px;
+}
+
+.member-rank {
+  color: #ffd700;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.member-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.member-position {
+  color: #cbd5e0;
+  font-size: 14px;
+}
+
+.empty-text {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+/* Footer */
+.footer {
+  background: rgba(10, 14, 39, 0.95);
+  border-top: 2px solid #ffd700;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer p {
+  color: #a0aec0;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.footer a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffed4e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 0 30px;
+  }
+  
+  .header-title {
+    font-size: 36px;
+  }
+  
+  .header-subtitle {
+    font-size: 22px;
+  }
+  
+  .page-header h1 {
+    font-size: 36px;
+  }
+  
+  .members-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
+</style>
 </head>
 <body>
-<header class="header container">
-  <div class="brand">
-    <div class="logo">BP</div>
-    <div>
-      <div class="title">Polizei - Deutschland RP</div>
-      <div class="tagline">FiveM | Server-Info & Bewerbungsportal</div>
-    </div>
+<header class="header">
+  <div class="container">
+    <h1 class="header-title">Polizei</h1>
+    <div class="header-subtitle">DEUTSCHLAND RP</div>
   </div>
-  
-    <nav class="nav" id="nav">
-      <button id="nav-toggle" style="background:transparent;border:0;color:white;font-weight:700;display:none">Menu</button>
-      <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li class="dropdown"><a href="#">Neuigkeiten ▾</a>
-          <div class="dropdown-content">
-            <a href="Aktuelles.html">Aktuelles</a>
-            <a href="Terrorstatus.html">Terrorstatus</a>
-            <a href="Fahndungsportal.html">Fahndungsportal</a>
-          </div>
-        </li>
-        <li class="dropdown"><a href="#">Teilbereiche ▾</a>
-          <div class="dropdown-content">
-            <a href="Werdegang.html">Werdegang</a>
-            <a href="Moeglichkeiten.html">Möglichkeiten</a>
-          </div>
-        </li>
-        <li class="dropdown"><a href="#">Mitarbeiter ▾</a>
-          <div class="dropdown-content">
-            <a href="Management.html">Management</a>
-            <a href="Mitarbeiter.html">Mitarbeiter</a>
-          </div>
-        </li>
-        <li class="dropdown"><a href="#">Sonstiges ▾</a>
-          <div class="dropdown-content">
-            <a href="Galerie.html">Galerie</a>
-            <a href="Strafen.html">Strafen</a>
-            <a href="Status.html">Status</a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    
 </header>
 
+<nav class="nav-bar">
+  <div class="container">
+    <button class="mobile-menu-toggle" onclick="toggleMenu()">☰ Menü</button>
+    
+    <ul class="nav" id="nav">
+      <li><a href="index.html">Startseite</a></li>
+      
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event, this)">Neuigkeiten ▾</a>
+        <div class="dropdown-content">
+          <a href="Aktuelles.html">Aktuelles</a>
+          <a href="Terrorstatus.html">Terrorstatus</a>
+          <a href="Fahndungsportal.html">Fahndungsportal</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a>
+        <div class="dropdown-content">
+          <a href="Werdegang.html">Werdegang</a>
+          <a href="Moeglichkeiten.html">Möglichkeiten</a>
+        </div>
+      </li>
+      
+      <li class="dropdown active">
+        <a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a>
+        <div class="dropdown-content">
+          <a href="Management.html">Management</a>
+          <a href="Mitarbeiter.html">Mitarbeiter</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a>
+        <div class="dropdown-content">
+          <a href="Galerie.html">Galerie</a>
+          <a href="Strafen.html">Strafen</a>
+          <a href="Status.html">Status</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <main class="container">
-  <section class="hero">
-    <div class="left">
-      <h1>Management</h1>
-      <p class="kv">Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier.</p>
-      <div class="badge">Bundespolizei Style</div>
-    </div>
-    <div style="margin-left:auto">
-      <img src="./assets/hero.jpg" alt="hero" style="width:360px;border-radius:8px;object-fit:cover">
-    </div>
+  <section class="page-header">
+    <h1>👮 Management</h1>
+    <p>Die Leitungsebene der Polizei Deutschland RP. Unsere erfahrenen Führungskräfte leiten die Organisation.</p>
   </section>
 
-  <section>
-    <div class="card"><h3 class="section-title">Management</h3><p class="kv">Leitungsebene und Ansprechpartner.</p></div>
+  <section class="management-section">
+    <!-- B-Besoldungsgruppe -->
+    <div class="rank-group">
+      <div class="rank-header">
+        <div class="rank-title">
+          <span>B-Besoldungsgruppe</span>
+          <span class="rank-badge">Oberste Führung</span>
+        </div>
+      </div>
+      <div class="members-grid">
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Nik Saltie" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[B7]</div>
+            <div class="member-name">Nik Saltie</div>
+            <div class="member-position">Polizeipräsident</div>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Niko Haupt" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[B5]</div>
+            <div class="member-name">Niko Haupt</div>
+            <div class="member-position">Polizeivizepräsident</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- A-Besoldungsgruppe (Höherer Dienst) -->
+    <div class="rank-group">
+      <div class="rank-header">
+        <div class="rank-title">
+          <span>A-Besoldungsgruppe (Höherer Dienst)</span>
+          <span class="rank-badge">Führungsebene</span>
+        </div>
+      </div>
+      <div class="members-grid">
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Dr. Peter Zwegat" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[A16]</div>
+            <div class="member-name">Dr. Peter Zwegat</div>
+            <div class="member-position">Leitender Polizeidirektor</div>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Ali Luigi Masta" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[A15]</div>
+            <div class="member-name">Ali Luigi Masta</div>
+            <div class="member-position">Polizeidirektor</div>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Maxim Diamonds" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[A15]</div>
+            <div class="member-name">Maxim Diamonds</div>
+            <div class="member-position">Polizeidirektor</div>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Alfred Turnschuh" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[A14]</div>
+            <div class="member-name">Alfred Turnschuh</div>
+            <div class="member-position">Polizeioberrat</div>
+          </div>
+        </div>
+
+        <div class="member-card empty">
+          <div class="member-image">👤</div>
+          <div class="member-info">
+            <div class="member-rank">[A14]</div>
+            <div class="member-name empty-text">Position frei</div>
+            <div class="member-position">Polizeioberrat</div>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="member-image">
+            <img src="https://cdn.discordapp.com/avatars/USER_ID/AVATAR_HASH.png" alt="Marvin Urbex" onerror="this.parentElement.innerHTML='👤'">
+          </div>
+          <div class="member-info">
+            <div class="member-rank">[A13]</div>
+            <div class="member-name">Marvin Urbex</div>
+            <div class="member-position">Polizeirat</div>
+          </div>
+        </div>
+
+        <div class="member-card empty">
+          <div class="member-image">👤</div>
+          <div class="member-info">
+            <div class="member-rank">[A13]</div>
+            <div class="member-name empty-text">Position frei</div>
+            <div class="member-position">Polizeirat</div>
+          </div>
+        </div>
+
+        <div class="member-card empty">
+          <div class="member-image">👤</div>
+          <div class="member-info">
+            <div class="member-rank">[A13]</div>
+            <div class="member-name empty-text">Position frei</div>
+            <div class="member-position">Polizeirat</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Anwärter -->
+    <div class="rank-group">
+      <div class="rank-header">
+        <div class="rank-title">
+          <span>Anwärter</span>
+          <span class="rank-badge">In Ausbildung</span>
+        </div>
+      </div>
+      <div class="members-grid">
+        <div class="member-card empty">
+          <div class="member-image">👤</div>
+          <div class="member-info">
+            <div class="member-rank">Anwärter</div>
+            <div class="member-name empty-text">Position frei</div>
+            <div class="member-position">Polizeiratsanwärter/in</div>
+          </div>
+        </div>
+
+        <div class="member-card empty">
+          <div class="member-image">👤</div>
+          <div class="member-info">
+            <div class="member-rank">Anwärter</div>
+            <div class="member-name empty-text">Position frei</div>
+            <div class="member-position">Polizeiratsanwärter/in</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 
 <footer class="footer">
-  <div class="kv">Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2“</div>
-  <div style="margin-top:6px">© 2024 – 2025</div>
-  <div style="margin-top:8px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">Discord</a></div>
+  <div class="container">
+    <p>Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</p>
+    <p>© 2024 – 2025</p>
+    <p style="margin-top: 15px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">🔗 Discord Server beitreten</a></p>
+  </div>
 </footer>
 
-<script src="./assets/main.js"></script>
+<script>
+function toggleMenu() {
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+}
+
+function toggleDropdown(event, element) {
+  if (window.innerWidth <= 968) {
+    event.preventDefault();
+    const parent = element.parentElement;
+    parent.classList.toggle('dropdown-open');
+  }
+}
+
+// Close dropdowns when clicking outside
+document.addEventListener('click', function(event) {
+  const nav = document.querySelector('.nav');
+  const toggle = document.querySelector('.mobile-menu-toggle');
+  
+  if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+    document.querySelectorAll('.dropdown-open').forEach(el => {
+      el.classList.remove('dropdown-open');
+    });
+  }
+});
+</script>
 </body>
 </html>

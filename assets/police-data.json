@@ -1,32 +1,14 @@
 {
-  "lastUpdate": "2025-11-12T20:58:26.538Z",
+  "lastUpdate": "2025-11-12T21:16:26.522Z",
   "onDuty": [
-    {
-      "name": "luca_35632",
-      "displayName": "[27] Luca Meier",
-      "dienstnummer": "27",
-      "rang": "Luca Meier",
-      "seit": "19:09",
-      "dauer": "1h 48m",
-      "avatar": "https://cdn.discordapp.com/avatars/1325059019332915215/3f1665bb52812f8965b4e09464d3a5b6.webp?size=128"
-    },
     {
       "name": "jann1ssk",
       "displayName": "[41] Thomas Hans",
       "dienstnummer": "41",
       "rang": "Thomas Hans",
       "seit": "20:44",
-      "dauer": "0h 14m",
+      "dauer": "0h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/972929216314216608/50954473327ff3a4d3f7695e5a7b3041.webp?size=128"
-    },
-    {
-      "name": "john.3011",
-      "displayName": "[54] John Creck",
-      "dienstnummer": "54",
-      "rang": "John Creck",
-      "seit": "19:38",
-      "dauer": "1h 20m",
-      "avatar": "https://cdn.discordapp.com/avatars/1330932525463502879/428115f004c477275f948fa2faa5eafb.webp?size=128"
     },
     {
       "name": "mischa76",
@@ -34,7 +16,7 @@
       "dienstnummer": "61",
       "rang": "Mischa Diamonds",
       "seit": "17:19",
-      "dauer": "3h 38m",
+      "dauer": "3h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     },
     {
@@ -43,26 +25,8 @@
       "dienstnummer": "67",
       "rang": "Leo Romano",
       "seit": "20:28",
-      "dauer": "0h 30m",
+      "dauer": "0h 48m",
       "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
-    },
-    {
-      "name": "eno_23.",
-      "displayName": "[71] Ensar Fontana",
-      "dienstnummer": "71",
-      "rang": "Ensar Fontana",
-      "seit": "19:29",
-      "dauer": "1h 29m",
-      "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
-    },
-    {
-      "name": "ace_mika",
-      "displayName": "[83] Kevin Keta",
-      "dienstnummer": "83",
-      "rang": "Kevin Keta",
-      "seit": "16:57",
-      "dauer": "4h 0m",
-      "avatar": "https://cdn.discordapp.com/avatars/569229065194569729/18f5f0a373d55160fe3f2b40d49e79b7.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -70,8 +34,7 @@
     "48",
     "57",
     "69",
-    "80",
-    "88"
+    "80"
   ],
   "polizeiInformationen": [
     {
@@ -146,8 +109,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 89,
-    "aktuellImDienst": 7,
-    "freieDienstnummern": 6
+    "gesamtMitarbeiter": 90,
+    "aktuellImDienst": 3,
+    "freieDienstnummern": 5
   }
 }

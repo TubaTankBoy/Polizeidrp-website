@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-13T17:58:09.001Z",
+  "lastUpdate": "2025-11-13T18:24:39.004Z",
   "onDuty": [
     {
       "name": "eastmuffin3264",
@@ -7,7 +7,7 @@
       "dienstnummer": "04",
       "rang": "Ali Luigi Masta",
       "seit": "17:27",
-      "dauer": "0h 30m",
+      "dauer": "0h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "16:43",
-      "dauer": "1h 14m",
+      "dauer": "1h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": ".shiro01_",
-      "displayName": "[14] Shino Luigi",
-      "dienstnummer": "14",
-      "rang": "Shino Luigi",
-      "seit": "14:14",
-      "dauer": "3h 43m",
-      "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
       "name": "alex_blasius",
@@ -34,17 +25,8 @@
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
       "seit": "17:09",
-      "dauer": "0h 48m",
+      "dauer": "1h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
-    },
-    {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "15:13",
-      "dauer": "2h 44m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -52,7 +34,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "17:00",
-      "dauer": "0h 58m",
+      "dauer": "1h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -61,7 +43,7 @@
       "dienstnummer": "59",
       "rang": "Marcel Duvain",
       "seit": "17:01",
-      "dauer": "0h 56m",
+      "dauer": "1h 22m",
       "avatar": "https://cdn.discordapp.com/avatars/1421869220295348234/a_c9b9f35980f5a1009392b303c2f83c96.gif?size=128"
     },
     {
@@ -70,7 +52,7 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "16:06",
-      "dauer": "1h 51m",
+      "dauer": "2h 17m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     },
     {
@@ -78,18 +60,18 @@
       "displayName": "[75] Luca Morreti",
       "dienstnummer": "75",
       "rang": "Luca Morreti",
-      "seit": "15:14",
-      "dauer": "2h 43m",
+      "seit": "18:07",
+      "dauer": "0h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/1101985976139665488/b82c06ff3724f56c8694861b1eae060d.webp?size=128"
     },
     {
-      "name": "i_am_not_the_goat",
-      "displayName": "[86] Lucas Kowalski",
-      "dienstnummer": "86",
-      "rang": "Lucas Kowalski",
-      "seit": "17:28",
-      "dauer": "0h 29m",
-      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
+      "name": "ossi_extrem05",
+      "displayName": "ossi_extrem05",
+      "dienstnummer": "N/A",
+      "rang": "Unbekannt",
+      "seit": "18:03",
+      "dauer": "0h 21m",
+      "avatar": "https://cdn.discordapp.com/avatars/1339680278481862726/b8df4a5fcebb5281c11d5009aef7f8bc.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -101,6 +83,13 @@
     "85"
   ],
   "polizeiInformationen": [
+    {
+      "datum": "13.11.2025",
+      "uhrzeit": "18:24",
+      "autor": "lias82",
+      "nachricht": "Interner Bereich nur Verfügbar über die Startseite mit den Passwort: 99199",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
     {
       "datum": "13.11.2025",
       "uhrzeit": "17:05",
@@ -163,18 +152,11 @@
       "autor": "niknaksssssss",
       "nachricht": "@everyone \n\n# Neue Wache\n\nWir haben nun eine weitere Wache bekommen, die ihr grundsätzlich frei nutzen könnt mit der Ausnahme, dass dort Büros für Personen aus Abteilungen vorgesehen sind.\n\nAnsonsten gibt es zwei Gewahrsamsmöglichkeiten, damit ihr User gegebenenfalls vorübergehend in eine Zelle bringen könnt, während ihr in Ruhe die Akte schreibt (damit ihr nicht immer irgendwo herumstehen müsst, wo ihr theoretisch ständig gecallt werden könntet).\n\nEbenso kann das @Bewerber Team  dort in Ruhe ei",
       "avatar": "https://cdn.discordapp.com/avatars/1004487638297886731/93f0640da5c91086fd21ff8e3480fd66.webp?size=64"
-    },
-    {
-      "datum": "2.11.2025",
-      "uhrzeit": "01:33",
-      "autor": "nikohaupt",
-      "nachricht": "||@DRP Polizei - Mitarbeiter \n||\n**In letzter Zeit kam es bedauerlicherweise zu ein paar Kündigungen mit dem Grund \"Server Schutz,,.**\n\nDiese Kündigungen wurde durchgeführt um den Server DR-P und in erster Linie uns, die Polizei zu schützen.\nEs wurde leider vermehrt versucht Kollegen für andere Server abzuwerben und uns schlecht zu reden.\nDa können wir natürlich nicht darüber hinwegsehen und mussten präventiv dagegen vorgehen mit Kündigungen.\n\nWie ihr sicherlich auch mitbekommen habt, lassen wir",
-      "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
     }
   ],
   "statistiken": {
     "gesamtMitarbeiter": 90,
-    "aktuellImDienst": 10,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 6
   }
 }

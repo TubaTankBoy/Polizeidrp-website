@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-13T16:56:28.628Z",
+  "lastUpdate": "2025-11-13T17:13:58.756Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "16:43",
-      "dauer": "0h 12m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi",
       "seit": "14:14",
-      "dauer": "2h 42m",
+      "dauer": "2h 59m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
@@ -25,8 +25,17 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "13:10",
-      "dauer": "3h 46m",
+      "dauer": "4h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
+    },
+    {
+      "name": "alex_blasius",
+      "displayName": "[34] Alex Akkerman",
+      "dienstnummer": "34",
+      "rang": "Alex Akkerman",
+      "seit": "17:09",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -34,7 +43,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "15:13",
-      "dauer": "1h 43m",
+      "dauer": "2h 0m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -42,9 +51,18 @@
       "displayName": "[58] Sami Zibabo",
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
-      "seit": "12:49",
-      "dauer": "4h 7m",
+      "seit": "17:00",
+      "dauer": "0h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    },
+    {
+      "name": "marceleinhorn_89156",
+      "displayName": "[59] Marcel Duvain",
+      "dienstnummer": "59",
+      "rang": "Marcel Duvain",
+      "seit": "17:01",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/1421869220295348234/a_c9b9f35980f5a1009392b303c2f83c96.gif?size=128"
     },
     {
       "name": "eno_23.",
@@ -52,7 +70,7 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "16:06",
-      "dauer": "0h 49m",
+      "dauer": "1h 6m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     },
     {
@@ -61,8 +79,17 @@
       "dienstnummer": "75",
       "rang": "Luca Morreti",
       "seit": "15:14",
-      "dauer": "1h 42m",
+      "dauer": "1h 59m",
       "avatar": "https://cdn.discordapp.com/avatars/1101985976139665488/b82c06ff3724f56c8694861b1eae060d.webp?size=128"
+    },
+    {
+      "name": "i_am_not_the_goat",
+      "displayName": "[86] Lucas Kowalski",
+      "dienstnummer": "86",
+      "rang": "Lucas Kowalski",
+      "seit": "17:03",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -74,6 +101,13 @@
     "85"
   ],
   "polizeiInformationen": [
+    {
+      "datum": "13.11.2025",
+      "uhrzeit": "17:05",
+      "autor": "lias82",
+      "nachricht": "Liebe Mitarbeiterinnen und Mitarbeiter,\nab sofort werden die „Eingestempelt“-Daten (Zeitpunkte des Arbeitsbeginns und -endes) auf einer öffentlichen Website hinterlegt.\n\nBitte beachtet:\n\nEs werden keine persönlichen Daten (z. B. Adressen, Telefonnummern oder private Informationen) veröffentlicht.\n\nAngezeigt werden lediglich der Name und der aktuelle Status (eingestempelt / ausgestempelt).\n\nDie Daten werden automatisch aktualisiert.",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
     {
       "datum": "11.11.2025",
       "uhrzeit": "15:31",
@@ -136,18 +170,11 @@
       "autor": "nikohaupt",
       "nachricht": "||@DRP Polizei - Mitarbeiter \n||\n**In letzter Zeit kam es bedauerlicherweise zu ein paar Kündigungen mit dem Grund \"Server Schutz,,.**\n\nDiese Kündigungen wurde durchgeführt um den Server DR-P und in erster Linie uns, die Polizei zu schützen.\nEs wurde leider vermehrt versucht Kollegen für andere Server abzuwerben und uns schlecht zu reden.\nDa können wir natürlich nicht darüber hinwegsehen und mussten präventiv dagegen vorgehen mit Kündigungen.\n\nWie ihr sicherlich auch mitbekommen habt, lassen wir",
       "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
-    },
-    {
-      "datum": "1.11.2025",
-      "uhrzeit": "00:03",
-      "autor": "niknaksssssss",
-      "nachricht": "@DRP Polizei - Mitarbeiter \n\n# Objekte\n\nIhr habt nun wieder mehr Objekte! <:pepeLove:1287798100538163210> \n\n--> #📖┊yourequipment-erklärungen \n\nLG\n@[01] Nik Saltie | @͟͟͞➳ [B7] Pol. präsident",
-      "avatar": "https://cdn.discordapp.com/avatars/1004487638297886731/93f0640da5c91086fd21ff8e3480fd66.webp?size=64"
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 89,
-    "aktuellImDienst": 7,
+    "gesamtMitarbeiter": 90,
+    "aktuellImDienst": 10,
     "freieDienstnummern": 6
   }
 }

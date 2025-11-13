@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-13T18:24:39.004Z",
+  "lastUpdate": "2025-11-13T18:46:39.244Z",
   "onDuty": [
     {
       "name": "eastmuffin3264",
@@ -7,17 +7,8 @@
       "dienstnummer": "04",
       "rang": "Ali Luigi Masta",
       "seit": "17:27",
-      "dauer": "0h 57m",
+      "dauer": "1h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
-    },
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "16:43",
-      "dauer": "1h 40m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
       "name": "alex_blasius",
@@ -25,7 +16,7 @@
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
       "seit": "17:09",
-      "dauer": "1h 14m",
+      "dauer": "1h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "17:00",
-      "dauer": "1h 24m",
+      "dauer": "1h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "59",
       "rang": "Marcel Duvain",
       "seit": "17:01",
-      "dauer": "1h 22m",
+      "dauer": "1h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1421869220295348234/a_c9b9f35980f5a1009392b303c2f83c96.gif?size=128"
     },
     {
@@ -52,7 +43,7 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "16:06",
-      "dauer": "2h 17m",
+      "dauer": "2h 39m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     },
     {
@@ -61,7 +52,7 @@
       "dienstnummer": "75",
       "rang": "Luca Morreti",
       "seit": "18:07",
-      "dauer": "0h 17m",
+      "dauer": "0h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/1101985976139665488/b82c06ff3724f56c8694861b1eae060d.webp?size=128"
     },
     {
@@ -70,7 +61,7 @@
       "dienstnummer": "N/A",
       "rang": "Unbekannt",
       "seit": "18:03",
-      "dauer": "0h 21m",
+      "dauer": "0h 43m",
       "avatar": "https://cdn.discordapp.com/avatars/1339680278481862726/b8df4a5fcebb5281c11d5009aef7f8bc.webp?size=128"
     }
   ],
@@ -87,7 +78,7 @@
       "datum": "13.11.2025",
       "uhrzeit": "18:24",
       "autor": "lias82",
-      "nachricht": "Interner Bereich nur Verfügbar über die Startseite mit den Passwort: 99199",
+      "nachricht": "Interner Bereich nur Verfügbar über die Startseite mit den **Passwort: 99199**",
       "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
     },
     {
@@ -156,7 +147,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 90,
-    "aktuellImDienst": 8,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 6
   }
 }

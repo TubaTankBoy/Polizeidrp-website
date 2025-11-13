@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-13T21:20:09.192Z",
+  "lastUpdate": "2025-11-13T21:33:09.156Z",
   "onDuty": [
     {
       "name": "alfredfisch_",
@@ -7,17 +7,8 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "19:42",
-      "dauer": "1h 37m",
+      "dauer": "1h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
-    },
-    {
-      "name": "alex_blasius",
-      "displayName": "[34] Alex Akkerman",
-      "dienstnummer": "34",
-      "rang": "Alex Akkerman",
-      "seit": "19:26",
-      "dauer": "1h 53m",
-      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
       "name": "ace_mika",
@@ -25,8 +16,17 @@
       "dienstnummer": "83",
       "rang": "Kevin Keta",
       "seit": "19:22",
-      "dauer": "1h 57m",
+      "dauer": "2h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/569229065194569729/18f5f0a373d55160fe3f2b40d49e79b7.webp?size=128"
+    },
+    {
+      "name": "i_am_not_the_goat",
+      "displayName": "[86] Lucas Kowalski",
+      "dienstnummer": "86",
+      "rang": "Lucas Kowalski",
+      "seit": "21:20",
+      "dauer": "0h 13m",
+      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
   "freeDienstnummern": [

@@ -1,6 +1,43 @@
 {
-  "lastUpdate": "2025-11-13T12:38:58.422Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-13T13:18:58.434Z",
+  "onDuty": [
+    {
+      "name": "alfredfisch_",
+      "displayName": "[19] Alfred Fisch",
+      "dienstnummer": "19",
+      "rang": "Alfred Fisch",
+      "seit": "13:10",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
+    },
+    {
+      "name": "luca_35632",
+      "displayName": "[27] Luca Meier",
+      "dienstnummer": "27",
+      "rang": "Luca Meier",
+      "seit": "13:12",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/1325059019332915215/3f1665bb52812f8965b4e09464d3a5b6.webp?size=128"
+    },
+    {
+      "name": "john.3011",
+      "displayName": "[54] John Creck",
+      "dienstnummer": "54",
+      "rang": "John Creck",
+      "seit": "13:15",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/1330932525463502879/428115f004c477275f948fa2faa5eafb.webp?size=128"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "12:49",
+      "dauer": "0h 29m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "47",
     "48",
@@ -83,7 +120,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 89,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 6
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-13T21:00:09.303Z",
+  "lastUpdate": "2025-11-13T21:20:09.192Z",
   "onDuty": [
     {
       "name": "alfredfisch_",
@@ -7,7 +7,7 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "19:42",
-      "dauer": "1h 17m",
+      "dauer": "1h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
       "seit": "19:26",
-      "dauer": "1h 33m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
-    },
-    {
-      "name": "sami_5858",
-      "displayName": "[58] Sami Zibabo",
-      "dienstnummer": "58",
-      "rang": "Sami Zibabo",
-      "seit": "17:00",
-      "dauer": "4h 0m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
       "name": "ace_mika",
@@ -34,7 +25,7 @@
       "dienstnummer": "83",
       "rang": "Kevin Keta",
       "seit": "19:22",
-      "dauer": "1h 37m",
+      "dauer": "1h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/569229065194569729/18f5f0a373d55160fe3f2b40d49e79b7.webp?size=128"
     }
   ],
@@ -122,7 +113,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 8
   }
 }

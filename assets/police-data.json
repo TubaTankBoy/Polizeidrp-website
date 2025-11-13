@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2025-11-13T18:57:09.020Z",
+  "lastUpdate": "2025-11-13T19:12:09.078Z",
   "onDuty": [
-    {
-      "name": "eastmuffin3264",
-      "displayName": "[04] Ali Luigi Masta",
-      "dienstnummer": "04",
-      "rang": "Ali Luigi Masta",
-      "seit": "17:27",
-      "dauer": "1h 29m",
-      "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
-    },
     {
       "name": "plantinum78",
       "displayName": "[06] Alfred Turnschuh",
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "18:50",
-      "dauer": "0h 6m",
+      "dauer": "0h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
+    },
+    {
+      "name": "gamers16",
+      "displayName": "[16] Alex Morningstar",
+      "dienstnummer": "16",
+      "rang": "Alex Morningstar",
+      "seit": "18:58",
+      "dauer": "0h 13m",
+      "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
     },
     {
       "name": "alex_blasius",
@@ -25,7 +25,7 @@
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
       "seit": "17:09",
-      "dauer": "1h 47m",
+      "dauer": "2h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "54",
       "rang": "John Creck",
       "seit": "18:50",
-      "dauer": "0h 6m",
+      "dauer": "0h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/1330932525463502879/428115f004c477275f948fa2faa5eafb.webp?size=128"
     },
     {
@@ -43,17 +43,8 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "17:00",
-      "dauer": "1h 57m",
+      "dauer": "2h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
-    },
-    {
-      "name": "marceleinhorn_89156",
-      "displayName": "[59] Marcel Duvain",
-      "dienstnummer": "59",
-      "rang": "Marcel Duvain",
-      "seit": "17:01",
-      "dauer": "1h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/1421869220295348234/a_c9b9f35980f5a1009392b303c2f83c96.gif?size=128"
     },
     {
       "name": "eno_23.",
@@ -61,26 +52,8 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "16:06",
-      "dauer": "2h 50m",
+      "dauer": "3h 5m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
-    },
-    {
-      "name": "fuzzi1564",
-      "displayName": "[75] Luca Morreti",
-      "dienstnummer": "75",
-      "rang": "Luca Morreti",
-      "seit": "18:07",
-      "dauer": "0h 49m",
-      "avatar": "https://cdn.discordapp.com/avatars/1101985976139665488/b82c06ff3724f56c8694861b1eae060d.webp?size=128"
-    },
-    {
-      "name": "ossi_extrem05",
-      "displayName": "ossi_extrem05",
-      "dienstnummer": "N/A",
-      "rang": "Unbekannt",
-      "seit": "18:03",
-      "dauer": "0h 53m",
-      "avatar": "https://cdn.discordapp.com/avatars/1339680278481862726/b8df4a5fcebb5281c11d5009aef7f8bc.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -165,7 +138,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 90,
-    "aktuellImDienst": 9,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 6
   }
 }

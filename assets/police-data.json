@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-13T07:15:27.432Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-13T07:31:57.455Z",
+  "onDuty": [
+    {
+      "name": "ceos0594",
+      "displayName": "[21] Ceos Kowalskiii",
+      "dienstnummer": "21",
+      "rang": "Ceos Kowalskiii",
+      "seit": "07:28",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/d444cb3e50140a3d2291f305cbea4811.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "47",
     "48",
@@ -83,7 +93,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 89,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 6
   }
 }

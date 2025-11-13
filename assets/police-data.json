@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-13T21:33:09.156Z",
+  "lastUpdate": "2025-11-13T21:40:09.160Z",
   "onDuty": [
     {
       "name": "alfredfisch_",
@@ -7,17 +7,8 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "19:42",
-      "dauer": "1h 50m",
+      "dauer": "1h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
-    },
-    {
-      "name": "ace_mika",
-      "displayName": "[83] Kevin Keta",
-      "dienstnummer": "83",
-      "rang": "Kevin Keta",
-      "seit": "19:22",
-      "dauer": "2h 10m",
-      "avatar": "https://cdn.discordapp.com/avatars/569229065194569729/18f5f0a373d55160fe3f2b40d49e79b7.webp?size=128"
     },
     {
       "name": "i_am_not_the_goat",
@@ -25,7 +16,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "21:20",
-      "dauer": "0h 13m",
+      "dauer": "0h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
@@ -113,7 +104,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 8
   }
 }

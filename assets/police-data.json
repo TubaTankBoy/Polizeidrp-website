@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-13T23:56:39.337Z",
-  "onDuty": [
-    {
-      "name": "alfredfisch_",
-      "displayName": "[19] Alfred Fisch",
-      "dienstnummer": "19",
-      "rang": "Alfred Fisch",
-      "seit": "19:42",
-      "dauer": "4h 14m",
-      "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-14T01:03:10.006Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "27",
     "28",
@@ -95,7 +85,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 8
   }
 }

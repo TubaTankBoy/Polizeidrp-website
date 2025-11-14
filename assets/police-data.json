@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T16:54:59.088Z",
+  "lastUpdate": "2025-11-14T17:09:29.203Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "15:44",
-      "dauer": "1h 10m",
+      "dauer": "1h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,17 +16,17 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "16:37",
-      "dauer": "0h 17m",
+      "dauer": "0h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
-      "name": "mischa76",
-      "displayName": "[61] Mischa Diamonds",
-      "dienstnummer": "61",
-      "rang": "Mischa Diamonds",
-      "seit": "15:00",
-      "dauer": "1h 54m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
+      "name": "l3andr0.1t4ly",
+      "displayName": "[67] Leo Romano",
+      "dienstnummer": "67",
+      "rang": "Leo Romano",
+      "seit": "16:54",
+      "dauer": "0h 15m",
+      "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     },
     {
       "name": "lias82",
@@ -34,8 +34,17 @@
       "dienstnummer": "74",
       "rang": "Lucas Leeker",
       "seit": "15:55",
-      "dauer": "0h 59m",
+      "dauer": "1h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=128"
+    },
+    {
+      "name": "i_am_not_the_goat",
+      "displayName": "[86] Lucas Kowalski",
+      "dienstnummer": "86",
+      "rang": "Lucas Kowalski",
+      "seit": "16:55",
+      "dauer": "0h 14m",
+      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -123,7 +132,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 9
   }
 }

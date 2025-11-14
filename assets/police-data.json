@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T17:28:59.152Z",
+  "lastUpdate": "2025-11-14T17:40:29.245Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "15:44",
-      "dauer": "1h 44m",
+      "dauer": "1h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi",
       "seit": "17:25",
-      "dauer": "0h 3m",
+      "dauer": "0h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
+    },
+    {
+      "name": "ceos0594",
+      "displayName": "[21] Ceos Kowalskiii",
+      "dienstnummer": "21",
+      "rang": "Ceos Kowalskiii",
+      "seit": "17:35",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/d444cb3e50140a3d2291f305cbea4811.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -25,7 +34,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "17:20",
-      "dauer": "0h 8m",
+      "dauer": "0h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "67",
       "rang": "Leo Romano",
       "seit": "16:54",
-      "dauer": "0h 34m",
+      "dauer": "0h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "72",
       "rang": "Johannes Michael",
       "seit": "17:23",
-      "dauer": "0h 5m",
+      "dauer": "0h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "74",
       "rang": "Lucas Leeker",
       "seit": "15:55",
-      "dauer": "1h 33m",
+      "dauer": "1h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=128"
     },
     {
@@ -61,7 +70,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "16:55",
-      "dauer": "0h 33m",
+      "dauer": "0h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     },
     {
@@ -70,7 +79,7 @@
       "dienstnummer": "N/A",
       "rang": "Unbekannt",
       "seit": "17:16",
-      "dauer": "0h 12m",
+      "dauer": "0h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/1339680278481862726/b8df4a5fcebb5281c11d5009aef7f8bc.webp?size=128"
     }
   ],
@@ -83,7 +92,7 @@
     "57",
     "69",
     "80",
-    "85"
+    "88"
   ],
   "polizeiInformationen": [
     {
@@ -159,7 +168,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 8,
+    "aktuellImDienst": 9,
     "freieDienstnummern": 9
   }
 }

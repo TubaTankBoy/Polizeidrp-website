@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T16:16:41.275Z",
+  "lastUpdate": "2025-11-14T16:43:29.144Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,8 +7,17 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "15:44",
-      "dauer": "0h 32m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": "plantinum78",
+      "displayName": "[06] Alfred Turnschuh",
+      "dienstnummer": "06",
+      "rang": "Alfred Turnschuh",
+      "seit": "16:37",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
       "name": "mischa76",
@@ -16,7 +25,7 @@
       "dienstnummer": "61",
       "rang": "Mischa Diamonds",
       "seit": "15:00",
-      "dauer": "1h 16m",
+      "dauer": "1h 43m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "74",
       "rang": "Lucas Leeker",
       "seit": "15:55",
-      "dauer": "0h 20m",
+      "dauer": "0h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "12:43",
-      "dauer": "3h 33m",
+      "dauer": "3h 59m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
@@ -123,7 +132,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 9
   }
 }

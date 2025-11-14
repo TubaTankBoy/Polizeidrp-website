@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T22:50:33.498Z",
+  "lastUpdate": "2025-11-14T22:56:33.558Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,8 +7,17 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "17:40",
-      "dauer": "5h 9m",
+      "dauer": "5h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/ec06d36e8b5c5b2f464075af177c0926.webp?size=128"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "22:53",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
       "name": "babybotzer",
@@ -16,7 +25,7 @@
       "dienstnummer": "72",
       "rang": "Johannes Michael",
       "seit": "22:42",
-      "dauer": "0h 7m",
+      "dauer": "0h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
     }
   ],
@@ -104,7 +113,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 8
   }
 }

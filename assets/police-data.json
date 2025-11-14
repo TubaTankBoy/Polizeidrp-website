@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T14:46:11.020Z",
+  "lastUpdate": "2025-11-14T14:52:40.896Z",
   "onDuty": [
     {
       "name": "john.3011",
@@ -7,7 +7,7 @@
       "dienstnummer": "54",
       "rang": "John Creck",
       "seit": "13:07",
-      "dauer": "1h 39m",
+      "dauer": "1h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/1330932525463502879/428115f004c477275f948fa2faa5eafb.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "67",
       "rang": "Leo Romano",
       "seit": "14:09",
-      "dauer": "0h 36m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "12:43",
-      "dauer": "2h 2m",
+      "dauer": "2h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],

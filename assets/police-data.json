@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T21:58:33.424Z",
+  "lastUpdate": "2025-11-14T22:17:33.521Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,17 +7,8 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "17:40",
-      "dauer": "4h 17m",
+      "dauer": "4h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/ec06d36e8b5c5b2f464075af177c0926.webp?size=128"
-    },
-    {
-      "name": "plantinum78",
-      "displayName": "[06] Alfred Turnschuh",
-      "dienstnummer": "06",
-      "rang": "Alfred Turnschuh",
-      "seit": "19:03",
-      "dauer": "2h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -25,17 +16,8 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "20:40",
-      "dauer": "1h 17m",
+      "dauer": "1h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
-    },
-    {
-      "name": "sashko_047",
-      "displayName": "[94] Amir Araber",
-      "dienstnummer": "94",
-      "rang": "Amir Araber",
-      "seit": "21:13",
-      "dauer": "0h 44m",
-      "avatar": "https://cdn.discordapp.com/avatars/1300307618295975936/2fca29b02bfd534368b1b4c04bdc06fe.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -122,7 +104,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 8
   }
 }

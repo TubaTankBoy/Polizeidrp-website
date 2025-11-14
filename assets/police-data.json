@@ -1,32 +1,14 @@
 {
-  "lastUpdate": "2025-11-14T13:54:10.771Z",
+  "lastUpdate": "2025-11-14T14:00:40.805Z",
   "onDuty": [
-    {
-      "name": "lx_alpha",
-      "displayName": "[03] Dr. Peter Zwegat",
-      "dienstnummer": "03",
-      "rang": "Dr. Peter Zwegat",
-      "seit": "12:43",
-      "dauer": "1h 10m",
-      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/ec06d36e8b5c5b2f464075af177c0926.webp?size=128"
-    },
     {
       "name": "john.3011",
       "displayName": "[54] John Creck",
       "dienstnummer": "54",
       "rang": "John Creck",
       "seit": "13:07",
-      "dauer": "0h 47m",
+      "dauer": "0h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/1330932525463502879/428115f004c477275f948fa2faa5eafb.webp?size=128"
-    },
-    {
-      "name": "l3andr0.1t4ly",
-      "displayName": "[67] Leo Romano",
-      "dienstnummer": "67",
-      "rang": "Leo Romano",
-      "seit": "13:50",
-      "dauer": "0h 4m",
-      "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     },
     {
       "name": "i_am_not_the_goat",
@@ -34,7 +16,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "12:43",
-      "dauer": "1h 10m",
+      "dauer": "1h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
@@ -122,7 +104,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 8
   }
 }

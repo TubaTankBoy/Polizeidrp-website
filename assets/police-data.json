@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-14T21:53:03.473Z",
+  "lastUpdate": "2025-11-14T21:58:33.424Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "17:40",
-      "dauer": "4h 12m",
+      "dauer": "4h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/ec06d36e8b5c5b2f464075af177c0926.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "19:03",
-      "dauer": "2h 49m",
+      "dauer": "2h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
-    },
-    {
-      "name": "ceos0594",
-      "displayName": "[21] Ceos Kowalskiii",
-      "dienstnummer": "21",
-      "rang": "Ceos Kowalskiii",
-      "seit": "21:14",
-      "dauer": "0h 38m",
-      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/d444cb3e50140a3d2291f305cbea4811.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -34,7 +25,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "20:40",
-      "dauer": "1h 12m",
+      "dauer": "1h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "94",
       "rang": "Amir Araber",
       "seit": "21:13",
-      "dauer": "0h 39m",
+      "dauer": "0h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1300307618295975936/2fca29b02bfd534368b1b4c04bdc06fe.webp?size=128"
     }
   ],
@@ -131,7 +122,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 8
   }
 }

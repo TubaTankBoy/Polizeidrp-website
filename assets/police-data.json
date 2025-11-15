@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-15T09:26:52.908Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-15T09:35:52.878Z",
+  "onDuty": [
+    {
+      "name": "l3andr0.1t4ly",
+      "displayName": "[67] Leo Romano",
+      "dienstnummer": "67",
+      "rang": "Leo Romano",
+      "seit": "09:28",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "27",
     "28",
@@ -85,7 +95,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 87,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 8
   }
 }

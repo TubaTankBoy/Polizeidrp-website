@@ -1,32 +1,14 @@
 {
-  "lastUpdate": "2025-11-15T22:56:04.149Z",
+  "lastUpdate": "2025-11-15T23:11:04.103Z",
   "onDuty": [
     {
-      "name": "lx_alpha",
-      "displayName": "[03] Dr. Peter Zwegat",
-      "dienstnummer": "03",
-      "rang": "Dr. Peter Zwegat",
-      "seit": "18:25",
-      "dauer": "4h 30m",
-      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/ec06d36e8b5c5b2f464075af177c0926.webp?size=128"
-    },
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "18:45",
-      "dauer": "4h 10m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "ceos0594",
-      "displayName": "[21] Ceos Kowalskiii",
-      "dienstnummer": "21",
-      "rang": "Ceos Kowalskiii",
-      "seit": "21:39",
-      "dauer": "1h 16m",
-      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/d444cb3e50140a3d2291f305cbea4811.webp?size=128"
+      "name": "alex_blasius",
+      "displayName": "[34] Alex Akkerman",
+      "dienstnummer": "34",
+      "rang": "Alex Akkerman",
+      "seit": "23:00",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
       "name": "xx_chiara06_xx",
@@ -34,7 +16,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Akkerman",
       "seit": "20:51",
-      "dauer": "2h 4m",
+      "dauer": "2h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -43,7 +25,7 @@
       "dienstnummer": "59",
       "rang": "Marcel Duvain",
       "seit": "22:18",
-      "dauer": "0h 37m",
+      "dauer": "0h 52m",
       "avatar": "https://cdn.discordapp.com/avatars/1421869220295348234/a_c9b9f35980f5a1009392b303c2f83c96.gif?size=128"
     },
     {
@@ -52,7 +34,7 @@
       "dienstnummer": "72",
       "rang": "Johannes Michael",
       "seit": "22:49",
-      "dauer": "0h 6m",
+      "dauer": "0h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
     }
   ],
@@ -139,7 +121,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 7
   }
 }

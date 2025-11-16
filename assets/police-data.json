@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-16T03:09:04.434Z",
+  "lastUpdate": "2025-11-16T03:54:04.490Z",
   "onDuty": [
     {
       "name": "gamers16",
@@ -7,26 +7,8 @@
       "dienstnummer": "16",
       "rang": "Alex Morningstar",
       "seit": "00:32",
-      "dauer": "2h 36m",
+      "dauer": "3h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
-    },
-    {
-      "name": "alex_blasius",
-      "displayName": "[34] Alex Akkerman",
-      "dienstnummer": "34",
-      "rang": "Alex Akkerman",
-      "seit": "01:06",
-      "dauer": "2h 2m",
-      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
-    },
-    {
-      "name": "mischa76",
-      "displayName": "[61] Mischa Diamonds",
-      "dienstnummer": "61",
-      "rang": "Mischa Diamonds",
-      "seit": "23:16",
-      "dauer": "3h 52m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     },
     {
       "name": "babybotzer",
@@ -34,7 +16,7 @@
       "dienstnummer": "72",
       "rang": "Johannes Michael",
       "seit": "02:15",
-      "dauer": "0h 53m",
+      "dauer": "1h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
     }
   ],
@@ -123,7 +105,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 9
   }
 }

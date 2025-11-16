@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-15T23:59:34.187Z",
+  "lastUpdate": "2025-11-16T01:47:04.332Z",
   "onDuty": [
+    {
+      "name": "gamers16",
+      "displayName": "[16] Alex Morningstar",
+      "dienstnummer": "16",
+      "rang": "Alex Morningstar",
+      "seit": "00:32",
+      "dauer": "1h 14m",
+      "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
+    },
+    {
+      "name": "gamr2009",
+      "displayName": "[27] Dr. 𝒜𝓁𝑒𝓍 𝐹𝒾𝓈𝒸𝒽𝑒𝓇",
+      "dienstnummer": "27",
+      "rang": "Dr. 𝒜𝓁𝑒𝓍 𝐹𝒾𝓈𝒸𝒽𝑒𝓇",
+      "seit": "00:48",
+      "dauer": "0h 58m",
+      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
+    },
     {
       "name": "alex_blasius",
       "displayName": "[34] Alex Akkerman",
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
-      "seit": "23:00",
-      "dauer": "0h 59m",
+      "seit": "01:06",
+      "dauer": "0h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
-    },
-    {
-      "name": "xx_chiara06_xx",
-      "displayName": "[37] Chiara Akkerman",
-      "dienstnummer": "37",
-      "rang": "Chiara Akkerman",
-      "seit": "20:51",
-      "dauer": "3h 8m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "marceleinhorn_89156",
-      "displayName": "[59] Marcel Duvain",
-      "dienstnummer": "59",
-      "rang": "Marcel Duvain",
-      "seit": "22:18",
-      "dauer": "1h 41m",
-      "avatar": "https://cdn.discordapp.com/avatars/1421869220295348234/a_c9b9f35980f5a1009392b303c2f83c96.gif?size=128"
     },
     {
       "name": "mischa76",
@@ -34,26 +34,8 @@
       "dienstnummer": "61",
       "rang": "Mischa Diamonds",
       "seit": "23:16",
-      "dauer": "0h 43m",
+      "dauer": "2h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
-    },
-    {
-      "name": "dasadri",
-      "displayName": "[66] Mateo Lopes",
-      "dienstnummer": "66",
-      "rang": "Mateo Lopes",
-      "seit": "23:55",
-      "dauer": "0h 4m",
-      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
-    {
-      "name": "babybotzer",
-      "displayName": "[72] Johannes Michael",
-      "dienstnummer": "72",
-      "rang": "Johannes Michael",
-      "seit": "22:49",
-      "dauer": "1h 10m",
-      "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -61,11 +43,27 @@
     "47",
     "48",
     "51",
+    "52",
+    "59",
     "69",
     "85",
     "88"
   ],
   "polizeiInformationen": [
+    {
+      "datum": "16.11.2025",
+      "uhrzeit": "00:45",
+      "autor": "_vapros",
+      "nachricht": "",
+      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=64"
+    },
+    {
+      "datum": "16.11.2025",
+      "uhrzeit": "00:45",
+      "autor": "_vapros",
+      "nachricht": "o> ||@DRP Polizei - Mitarbeiter|| ||@DRP Polizei - Management ||\n> \n> Sehr geehrte Mitarbeiterinnen und Mitarbeiter,\n> \n> wir möchten Sie darüber informieren, dass ein Aktivitäts-Check ansteht. Die Laufzeit beträgt **ca. 3 Tage**, innerhalb derer alle Mitarbeiter aufgefordert sind, ihre Stimme abzugeben.\n> \n> Details zur Abstimmung:\n> Zeitraum: **16.11.2025, 01:30:00 Uhr** bis **19.11.2025, 01:45Uhr**.\n> Abstimmungsmethode: Bei folgender Umfrage auf \"Ja\" klicken.\n> Ziel: Inaktive Mitarbeiter aus",
+      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=64"
+    },
     {
       "datum": "13.11.2025",
       "uhrzeit": "18:24",
@@ -121,25 +119,11 @@
       "autor": "nikohaupt",
       "nachricht": "||@DRP Polizei - Mitarbeiter ||\n\n~~Das Fahrzeug darf erstmal **nicht benutzt werden**!~~",
       "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
-    },
-    {
-      "datum": "4.11.2025",
-      "uhrzeit": "17:09",
-      "autor": "nikohaupt",
-      "nachricht": "||@DRP Polizei - Mitarbeiter ||\n\nMit Freuden können wir euch mitteilen, dass wir **1 weiteres Fahrzeuge** unserer Fahrzeugflotte hinzugefügt haben.\n\n~~Bis zur Fertigstellung der https://discord.com/channels/830232490421518387/1323817500147978321  kann **jeder** dieses Fahrzeug nutzen.~~\n\nMfG\n@[01] Nik Saltie / @[02] Niko Haupt",
-      "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
-    },
-    {
-      "datum": "2.11.2025",
-      "uhrzeit": "12:14",
-      "autor": "niknaksssssss",
-      "nachricht": "@everyone \n\n# Neue Wache\n\nWir haben nun eine weitere Wache bekommen, die ihr grundsätzlich frei nutzen könnt mit der Ausnahme, dass dort Büros für Personen aus Abteilungen vorgesehen sind.\n\nAnsonsten gibt es zwei Gewahrsamsmöglichkeiten, damit ihr User gegebenenfalls vorübergehend in eine Zelle bringen könnt, während ihr in Ruhe die Akte schreibt (damit ihr nicht immer irgendwo herumstehen müsst, wo ihr theoretisch ständig gecallt werden könntet).\n\nEbenso kann das @Bewerber Team  dort in Ruhe ei",
-      "avatar": "https://cdn.discordapp.com/avatars/1004487638297886731/93f0640da5c91086fd21ff8e3480fd66.webp?size=64"
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 6,
-    "freieDienstnummern": 7
+    "gesamtMitarbeiter": 86,
+    "aktuellImDienst": 4,
+    "freieDienstnummern": 9
   }
 }

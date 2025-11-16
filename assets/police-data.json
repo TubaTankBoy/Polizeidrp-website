@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-16T15:45:35.366Z",
+  "lastUpdate": "2025-11-16T15:57:35.468Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "15:14",
-      "dauer": "0h 30m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Akkerman",
       "seit": "14:52",
-      "dauer": "0h 53m",
+      "dauer": "1h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "14:34",
-      "dauer": "1h 11m",
+      "dauer": "1h 23m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "59",
       "rang": "Latino Freezy",
       "seit": "14:42",
-      "dauer": "1h 3m",
+      "dauer": "1h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/1296991187189628960/a_9ea95b544ffb01e17cbd4c5edcc2117d.gif?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "81",
       "rang": "Pascal Akkerman",
       "seit": "14:05",
-      "dauer": "1h 40m",
+      "dauer": "1h 52m",
       "avatar": "https://cdn.discordapp.com/avatars/1288451589132255246/ea6582a3f5f6d69e62f4c14c2facf7ab.webp?size=128"
     }
   ],
@@ -129,7 +129,7 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 88,
+    "gesamtMitarbeiter": 89,
     "aktuellImDienst": 5,
     "freieDienstnummern": 7
   }

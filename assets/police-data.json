@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-16T11:49:05.150Z",
+  "lastUpdate": "2025-11-16T11:55:05.146Z",
   "onDuty": [
-    {
-      "name": "gamers16",
-      "displayName": "[16] Alex Morningstar",
-      "dienstnummer": "16",
-      "rang": "Alex Morningstar",
-      "seit": "11:39",
-      "dauer": "0h 9m",
-      "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
-    },
     {
       "name": "gamr2009",
       "displayName": "[27] 𝒜𝓁𝑒𝓍 𝐹𝒾𝓈𝒸𝒽𝑒𝓇",
       "dienstnummer": "27",
       "rang": "𝒜𝓁𝑒𝓍 𝐹𝒾𝓈𝒸𝒽𝑒𝓇",
       "seit": "11:41",
-      "dauer": "0h 8m",
+      "dauer": "0h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -25,7 +16,7 @@
       "dienstnummer": "81",
       "rang": "Pascal Akkerman",
       "seit": "11:26",
-      "dauer": "0h 22m",
+      "dauer": "0h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/1288451589132255246/ea6582a3f5f6d69e62f4c14c2facf7ab.webp?size=128"
     }
   ],
@@ -114,7 +105,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 9
   }
 }

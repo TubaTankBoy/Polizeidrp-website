@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-16T11:22:05.172Z",
+  "lastUpdate": "2025-11-16T11:28:35.143Z",
   "onDuty": [
     {
       "name": "noel2182",
@@ -7,8 +7,17 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "10:48",
-      "dauer": "0h 33m",
+      "dauer": "0h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+    },
+    {
+      "name": "pascal990554",
+      "displayName": "[81] Pascal Akkerman",
+      "dienstnummer": "81",
+      "rang": "Pascal Akkerman",
+      "seit": "11:26",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/1288451589132255246/ea6582a3f5f6d69e62f4c14c2facf7ab.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -96,7 +105,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 9
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-16T14:00:05.294Z",
+  "lastUpdate": "2025-11-16T14:17:35.266Z",
   "onDuty": [
     {
       "name": "noel2182",
@@ -7,8 +7,26 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "13:19",
-      "dauer": "0h 40m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+    },
+    {
+      "name": "mischa76",
+      "displayName": "[61] Mischa Diamonds",
+      "dienstnummer": "61",
+      "rang": "Mischa Diamonds",
+      "seit": "14:11",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
+    },
+    {
+      "name": "pascal990554",
+      "displayName": "[81] Pascal Akkerman",
+      "dienstnummer": "81",
+      "rang": "Pascal Akkerman",
+      "seit": "14:05",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/1288451589132255246/ea6582a3f5f6d69e62f4c14c2facf7ab.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -96,7 +114,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 9
   }
 }

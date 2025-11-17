@@ -1,13 +1,22 @@
 {
-  "lastUpdate": "2025-11-17T14:57:36.102Z",
+  "lastUpdate": "2025-11-17T15:18:06.096Z",
   "onDuty": [
+    {
+      "name": "drp.kasper",
+      "displayName": "[20] Dr. Casper Nowak-Wilczek",
+      "dienstnummer": "20",
+      "rang": "Dr. Casper Nowak-Wilczek",
+      "seit": "15:04",
+      "dauer": "0h 13m",
+      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
+    },
     {
       "name": "xx_chiara06_xx",
       "displayName": "[37] Chiara Nowak-Wilczek",
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "13:54",
-      "dauer": "1h 3m",
+      "dauer": "1h 23m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     }
   ],
@@ -108,7 +117,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 96,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 21
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-17T22:46:06.513Z",
+  "lastUpdate": "2025-11-17T22:52:36.642Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:36",
-      "dauer": "4h 9m",
+      "dauer": "4h 16m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Nowak-Wilczek",
       "seit": "20:44",
-      "dauer": "2h 1m",
+      "dauer": "2h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "20:43",
-      "dauer": "2h 2m",
+      "dauer": "2h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     }
   ],

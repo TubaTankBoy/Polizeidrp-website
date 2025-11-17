@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-17T11:44:36.173Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-17T11:51:35.772Z",
+  "onDuty": [
+    {
+      "name": "tim_1_1.",
+      "displayName": "[100] Tim Svära",
+      "dienstnummer": "100",
+      "rang": "Tim Svära",
+      "seit": "11:46",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/1319430749539008595/be9f7c201ee3c05b42f09204aaaacc6c.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "28",
     "48",
@@ -98,7 +108,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 96,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 21
   }
 }

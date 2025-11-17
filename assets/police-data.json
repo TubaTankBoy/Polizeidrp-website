@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-17T20:45:36.431Z",
+  "lastUpdate": "2025-11-17T20:52:06.410Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:36",
-      "dauer": "2h 9m",
+      "dauer": "2h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "18:40",
-      "dauer": "2h 5m",
+      "dauer": "2h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "18:46",
-      "dauer": "1h 58m",
+      "dauer": "2h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
@@ -34,8 +34,17 @@
       "dienstnummer": "102",
       "rang": "Abduhlhasis Nosaria",
       "seit": "19:14",
-      "dauer": "1h 31m",
+      "dauer": "1h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/1364916242242207764/f8a88cabdef497e9eb3ad32f14d13e7d.webp?size=128"
+    },
+    {
+      "name": "drp.kasper",
+      "displayName": "[20] Dr. Casper Nowak-Wilczek",
+      "dienstnummer": "20",
+      "rang": "Dr. Casper Nowak-Wilczek",
+      "seit": "20:44",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
       "name": "limit_28",
@@ -43,7 +52,7 @@
       "dienstnummer": "22",
       "rang": "Pablo Limit",
       "seit": "19:41",
-      "dauer": "1h 4m",
+      "dauer": "1h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/964809535690797066/25e6e1f9df9a955dadcb5912f49c6059.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
       "seit": "19:53",
-      "dauer": "0h 51m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
@@ -61,7 +70,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "20:43",
-      "dauer": "0h 1m",
+      "dauer": "0h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -70,7 +79,7 @@
       "dienstnummer": "48",
       "rang": "Max Saymyname",
       "seit": "19:13",
-      "dauer": "1h 32m",
+      "dauer": "1h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
     },
     {
@@ -79,7 +88,7 @@
       "dienstnummer": "51",
       "rang": "Yamato prime",
       "seit": "19:05",
-      "dauer": "1h 40m",
+      "dauer": "1h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/649622115124903951/6c62b26e0fb25312228e2737d058ff5f.webp?size=128"
     },
     {
@@ -88,7 +97,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "19:37",
-      "dauer": "1h 8m",
+      "dauer": "1h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -97,7 +106,7 @@
       "dienstnummer": "67",
       "rang": "Leo Romano",
       "seit": "19:04",
-      "dauer": "1h 40m",
+      "dauer": "1h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     },
     {
@@ -106,7 +115,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "20:17",
-      "dauer": "0h 27m",
+      "dauer": "0h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     },
     {
@@ -115,7 +124,7 @@
       "dienstnummer": "89",
       "rang": "Rainer Rammler",
       "seit": "20:40",
-      "dauer": "0h 5m",
+      "dauer": "0h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/721127336547713065/f70d7d0a6710fa57b34155d87d27efce.webp?size=128"
     }
   ],
@@ -212,7 +221,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 98,
-    "aktuellImDienst": 13,
+    "aktuellImDienst": 14,
     "freieDienstnummern": 17
   }
 }

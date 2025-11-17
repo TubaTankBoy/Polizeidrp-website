@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-16T23:56:34.314Z",
+  "lastUpdate": "2025-11-17T01:03:34.378Z",
   "onDuty": [
     {
       "name": "tim_1_1.",
@@ -7,44 +7,8 @@
       "dienstnummer": "100",
       "rang": "Tim Svära",
       "seit": "23:49",
-      "dauer": "0h 7m",
+      "dauer": "1h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/1319430749539008595/be9f7c201ee3c05b42f09204aaaacc6c.webp?size=128"
-    },
-    {
-      "name": "drp.kasper",
-      "displayName": "[20] Dr. Casper Nowak-Wilczek",
-      "dienstnummer": "20",
-      "rang": "Dr. Casper Nowak-Wilczek",
-      "seit": "17:14",
-      "dauer": "6h 42m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
-    },
-    {
-      "name": "alex_blasius",
-      "displayName": "[34] Alex Akkerman",
-      "dienstnummer": "34",
-      "rang": "Alex Akkerman",
-      "seit": "16:21",
-      "dauer": "7h 35m",
-      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
-    },
-    {
-      "name": "xx_chiara06_xx",
-      "displayName": "[37] Chiara Nowak-Wilczek",
-      "dienstnummer": "37",
-      "rang": "Chiara Nowak-Wilczek",
-      "seit": "17:15",
-      "dauer": "6h 41m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "mischa76",
-      "displayName": "[61] Mischa Diamonds",
-      "dienstnummer": "61",
-      "rang": "Mischa Diamonds",
-      "seit": "22:10",
-      "dauer": "1h 46m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -109,7 +73,7 @@
       "datum": "8.11.2025",
       "uhrzeit": "15:12",
       "autor": "nikohaupt",
-      "nachricht": "@DRP Polizei - Mitarbeiter \n\nDie CDI ist jetzt nun die LKE - Landeskriminaleinheit\n\nMfG\n@[02] Niko Haupt / @⤷ LKE Leitung",
+      "nachricht": "@DRP Polizei - Mitarbeiter \n\nDie CDI ist jetzt nun die LKE - Landeskriminaleinheit\n\nMfG\n@[02] Niko Haupt / @⤷ Direktor-Kriminalpolizei",
       "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
     },
     {
@@ -143,7 +107,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 96,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 20
   }
 }

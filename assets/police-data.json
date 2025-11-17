@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-17T22:20:36.582Z",
+  "lastUpdate": "2025-11-17T22:37:06.514Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:36",
-      "dauer": "3h 44m",
+      "dauer": "4h 0m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Nowak-Wilczek",
       "seit": "20:44",
-      "dauer": "1h 35m",
+      "dauer": "1h 52m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
@@ -25,17 +25,8 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "20:43",
-      "dauer": "1h 36m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "i_am_not_the_goat",
-      "displayName": "[86] Lucas Kowalski",
-      "dienstnummer": "86",
-      "rang": "Lucas Kowalski",
-      "seit": "20:17",
-      "dauer": "2h 2m",
-      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -131,7 +122,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 98,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 17
   }
 }

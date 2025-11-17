@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-17T21:15:36.375Z",
+  "lastUpdate": "2025-11-17T21:30:36.384Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:36",
-      "dauer": "2h 39m",
+      "dauer": "2h 54m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Nowak-Wilczek",
       "seit": "20:44",
-      "dauer": "0h 30m",
+      "dauer": "0h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "22",
       "rang": "Pablo Limit",
       "seit": "19:41",
-      "dauer": "1h 34m",
+      "dauer": "1h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/964809535690797066/25e6e1f9df9a955dadcb5912f49c6059.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "34",
       "rang": "Alex Akkerman",
       "seit": "19:53",
-      "dauer": "1h 21m",
+      "dauer": "1h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "20:43",
-      "dauer": "0h 31m",
+      "dauer": "0h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -52,7 +52,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "20:17",
-      "dauer": "0h 57m",
+      "dauer": "1h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     },
     {
@@ -61,7 +61,7 @@
       "dienstnummer": "89",
       "rang": "Rainer Rammler",
       "seit": "20:40",
-      "dauer": "0h 35m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/721127336547713065/f70d7d0a6710fa57b34155d87d27efce.webp?size=128"
     }
   ],

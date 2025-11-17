@@ -1,14 +1,41 @@
 {
-  "lastUpdate": "2025-11-17T12:35:05.915Z",
+  "lastUpdate": "2025-11-17T13:10:35.962Z",
   "onDuty": [
+    {
+      "name": "eastmuffin3264",
+      "displayName": "[04] Ali Luigi Masta",
+      "dienstnummer": "04",
+      "rang": "Ali Luigi Masta",
+      "seit": "13:03",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
+    },
     {
       "name": "tim_1_1.",
       "displayName": "[100] Tim Svära",
       "dienstnummer": "100",
       "rang": "Tim Svära",
       "seit": "11:46",
-      "dauer": "0h 48m",
+      "dauer": "1h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/1319430749539008595/be9f7c201ee3c05b42f09204aaaacc6c.webp?size=128"
+    },
+    {
+      "name": "xx_chiara06_xx",
+      "displayName": "[37] Chiara Nowak-Wilczek",
+      "dienstnummer": "37",
+      "rang": "Chiara Nowak-Wilczek",
+      "seit": "12:36",
+      "dauer": "0h 33m",
+      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "12:54",
+      "dauer": "0h 16m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -108,7 +135,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 96,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 21
   }
 }

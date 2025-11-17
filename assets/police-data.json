@@ -1,9 +1,10 @@
 {
-  "lastUpdate": "2025-11-17T02:48:04.552Z",
+  "lastUpdate": "2025-11-17T03:40:34.703Z",
   "onDuty": [],
   "freeDienstnummern": [
     "28",
     "48",
+    "84",
     "101",
     "102",
     "103",
@@ -98,6 +99,6 @@
   "statistiken": {
     "gesamtMitarbeiter": 96,
     "aktuellImDienst": 0,
-    "freieDienstnummern": 20
+    "freieDienstnummern": 21
   }
 }

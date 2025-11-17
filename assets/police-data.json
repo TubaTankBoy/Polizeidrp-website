@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-17T23:47:36.610Z",
+  "lastUpdate": "2025-11-17T23:53:36.631Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:36",
-      "dauer": "5h 11m",
+      "dauer": "5h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Nowak-Wilczek",
       "seit": "20:44",
-      "dauer": "3h 2m",
+      "dauer": "3h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
@@ -25,17 +25,8 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "20:43",
-      "dauer": "3h 3m",
+      "dauer": "3h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "mischa76",
-      "displayName": "[61] Mischa Diamonds",
-      "dienstnummer": "61",
-      "rang": "Mischa Diamonds",
-      "seit": "23:01",
-      "dauer": "0h 45m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -131,7 +122,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 98,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 17
   }
 }

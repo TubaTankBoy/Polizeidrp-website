@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-17T01:03:34.378Z",
-  "onDuty": [
-    {
-      "name": "tim_1_1.",
-      "displayName": "[100] Tim Svära",
-      "dienstnummer": "100",
-      "rang": "Tim Svära",
-      "seit": "23:49",
-      "dauer": "1h 14m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319430749539008595/be9f7c201ee3c05b42f09204aaaacc6c.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-17T02:48:04.552Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "28",
     "48",
@@ -73,7 +63,7 @@
       "datum": "8.11.2025",
       "uhrzeit": "15:12",
       "autor": "nikohaupt",
-      "nachricht": "@DRP Polizei - Mitarbeiter \n\nDie CDI ist jetzt nun die LKE - Landeskriminaleinheit\n\nMfG\n@[02] Niko Haupt / @⤷ Direktor-Kriminalpolizei",
+      "nachricht": "@DRP Polizei - Mitarbeiter \n\nDie CDI ist jetzt nun die Kriminalpolizei\n\nMfG\n@[02] Niko Haupt / @⤷ Direktor-Kriminalpolizei",
       "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
     },
     {
@@ -107,7 +97,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 96,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 20
   }
 }

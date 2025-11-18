@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-18T22:21:51.404Z",
+  "lastUpdate": "2025-11-18T22:37:51.579Z",
   "onDuty": [
     {
       "name": "alfredfisch_",
@@ -7,7 +7,7 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "20:29",
-      "dauer": "1h 52m",
+      "dauer": "2h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "22:18",
-      "dauer": "0h 3m",
+      "dauer": "0h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "razox241_59913",
-      "displayName": "[48] Max Saymyname",
-      "dienstnummer": "48",
-      "rang": "Max Saymyname",
-      "seit": "21:42",
-      "dauer": "0h 39m",
-      "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -34,7 +25,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "20:57",
-      "dauer": "1h 24m",
+      "dauer": "1h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     }
   ],
@@ -130,7 +121,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 16
   }
 }

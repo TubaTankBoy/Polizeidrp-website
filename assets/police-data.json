@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-17T23:59:36.658Z",
+  "lastUpdate": "2025-11-18T01:41:06.866Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,26 +7,8 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:36",
-      "dauer": "5h 23m",
+      "dauer": "7h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
-    },
-    {
-      "name": "drp.kasper",
-      "displayName": "[20] Dr. Casper Nowak-Wilczek",
-      "dienstnummer": "20",
-      "rang": "Dr. Casper Nowak-Wilczek",
-      "seit": "20:44",
-      "dauer": "3h 14m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
-    },
-    {
-      "name": "xx_chiara06_xx",
-      "displayName": "[37] Chiara Nowak-Wilczek",
-      "dienstnummer": "37",
-      "rang": "Chiara Nowak-Wilczek",
-      "seit": "20:43",
-      "dauer": "3h 15m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -122,7 +104,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 98,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 17
   }
 }

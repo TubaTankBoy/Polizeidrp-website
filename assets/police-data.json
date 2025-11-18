@@ -1,14 +1,14 @@
 {
-  "lastUpdate": "2025-11-18T16:59:10.647Z",
+  "lastUpdate": "2025-11-18T17:19:10.659Z",
   "onDuty": [
     {
-      "name": "gamers16",
-      "displayName": "[16] Alex Morningstar",
-      "dienstnummer": "16",
-      "rang": "Alex Morningstar",
-      "seit": "16:32",
-      "dauer": "0h 26m",
-      "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
+      "name": "plantinum78",
+      "displayName": "[06] Alfred Turnschuh",
+      "dienstnummer": "06",
+      "rang": "Alfred Turnschuh",
+      "seit": "17:17",
+      "dauer": "0h 1m",
+      "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
       "name": "drp.kasper",
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Nowak-Wilczek",
       "seit": "15:40",
-      "dauer": "1h 18m",
+      "dauer": "1h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
@@ -24,8 +24,8 @@
       "displayName": "[21] Ceos Kowalskii.",
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
-      "seit": "15:41",
-      "dauer": "1h 17m",
+      "seit": "17:12",
+      "dauer": "0h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "24",
       "rang": "Angii Kowalski.",
       "seit": "15:47",
-      "dauer": "1h 11m",
+      "dauer": "1h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -43,17 +43,8 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "15:46",
-      "dauer": "1h 12m",
+      "dauer": "1h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
-    },
-    {
-      "name": "xx_chiara06_xx",
-      "displayName": "[37] Chiara Nowak-Wilczek",
-      "dienstnummer": "37",
-      "rang": "Chiara Nowak-Wilczek",
-      "seit": "12:55",
-      "dauer": "4h 3m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
       "name": "razox241_59913",
@@ -61,7 +52,7 @@
       "dienstnummer": "48",
       "rang": "Max Saymyname",
       "seit": "15:13",
-      "dauer": "1h 45m",
+      "dauer": "2h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
     },
     {
@@ -70,7 +61,7 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "16:09",
-      "dauer": "0h 49m",
+      "dauer": "1h 9m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     },
     {
@@ -79,7 +70,7 @@
       "dienstnummer": "85",
       "rang": "Ingo Mustermann",
       "seit": "16:40",
-      "dauer": "0h 19m",
+      "dauer": "0h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/1103681899492298762/a5066dd9b0fb6f3b105a93708ed95c15.webp?size=128"
     }
   ],
@@ -177,7 +168,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 97,
-    "aktuellImDienst": 9,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 18
   }
 }

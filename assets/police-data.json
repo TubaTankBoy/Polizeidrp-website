@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-18T14:21:10.397Z",
+  "lastUpdate": "2025-11-18T14:40:10.424Z",
   "onDuty": [
     {
       "name": "moritz9505",
@@ -7,17 +7,8 @@
       "dienstnummer": "115",
       "rang": "Peter Lustig",
       "seit": "13:38",
-      "dauer": "0h 43m",
+      "dauer": "1h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
-    },
-    {
-      "name": "drp.kasper",
-      "displayName": "[20] Dr. Casper Nowak-Wilczek",
-      "dienstnummer": "20",
-      "rang": "Dr. Casper Nowak-Wilczek",
-      "seit": "12:28",
-      "dauer": "1h 52m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
       "name": "xx_chiara06_xx",
@@ -25,7 +16,7 @@
       "dienstnummer": "37",
       "rang": "Chiara Nowak-Wilczek",
       "seit": "12:55",
-      "dauer": "1h 25m",
+      "dauer": "1h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "13:26",
-      "dauer": "0h 54m",
+      "dauer": "1h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
@@ -131,7 +122,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 98,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 17
   }
 }

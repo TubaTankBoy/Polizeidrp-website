@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-19T15:17:23.042Z",
+  "lastUpdate": "2025-11-19T15:33:23.035Z",
   "onDuty": [
     {
       "name": "rocraft0911",
@@ -7,17 +7,8 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "15:07",
-      "dauer": "0h 10m",
+      "dauer": "0h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
-    },
-    {
-      "name": ".shiro01_",
-      "displayName": "[14] Shino Luigi",
-      "dienstnummer": "14",
-      "rang": "Shino Luigi",
-      "seit": "13:16",
-      "dauer": "2h 1m",
-      "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
       "name": "alfredfisch_",
@@ -25,17 +16,8 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "15:14",
-      "dauer": "0h 3m",
+      "dauer": "0h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
-    },
-    {
-      "name": "pol.kasper",
-      "displayName": "[20] Dr. Casper Maybach",
-      "dienstnummer": "20",
-      "rang": "Dr. Casper Maybach",
-      "seit": "13:22",
-      "dauer": "1h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -43,17 +25,8 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "15:13",
-      "dauer": "0h 3m",
+      "dauer": "0h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
-    },
-    {
-      "name": "sami_5858",
-      "displayName": "[58] Sami Zibabo",
-      "dienstnummer": "58",
-      "rang": "Sami Zibabo",
-      "seit": "13:22",
-      "dauer": "1h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
       "name": "sx0ni",
@@ -61,7 +34,7 @@
       "dienstnummer": "85",
       "rang": "Ingo Mustermann",
       "seit": "14:37",
-      "dauer": "0h 39m",
+      "dauer": "0h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1103681899492298762/a5066dd9b0fb6f3b105a93708ed95c15.webp?size=128"
     }
   ],
@@ -157,7 +130,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 16
   }
 }

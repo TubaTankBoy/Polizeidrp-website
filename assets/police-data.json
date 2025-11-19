@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-19T09:57:52.617Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-19T10:19:22.730Z",
+  "onDuty": [
+    {
+      "name": "razox241_59913",
+      "displayName": "[48] Max Saymyname",
+      "dienstnummer": "48",
+      "rang": "Max Saymyname",
+      "seit": "10:07",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "101",
     "103",
@@ -93,7 +103,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 16
   }
 }

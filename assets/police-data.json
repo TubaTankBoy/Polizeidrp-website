@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-19T14:17:22.952Z",
+  "lastUpdate": "2025-11-19T14:38:23.022Z",
   "onDuty": [
     {
       "name": "rocraft0911",
@@ -7,7 +7,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "13:40",
-      "dauer": "0h 37m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi",
       "seit": "13:16",
-      "dauer": "1h 1m",
+      "dauer": "1h 22m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
+    },
+    {
+      "name": "alfredfisch_",
+      "displayName": "[19] Alfred Fisch",
+      "dienstnummer": "19",
+      "rang": "Alfred Fisch",
+      "seit": "14:35",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
     },
     {
       "name": "pol.kasper",
@@ -25,7 +34,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Maybach",
       "seit": "13:22",
-      "dauer": "0h 55m",
+      "dauer": "1h 16m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "37",
       "rang": "Dr. Chiara Maybach",
       "seit": "13:09",
-      "dauer": "1h 7m",
+      "dauer": "1h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "13:22",
-      "dauer": "0h 55m",
+      "dauer": "1h 16m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     }
   ],
@@ -139,7 +148,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 16
   }
 }

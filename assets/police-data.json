@@ -1,6 +1,61 @@
 {
-  "lastUpdate": "2025-11-19T13:05:22.996Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-19T13:38:52.953Z",
+  "onDuty": [
+    {
+      "name": "moritz9505",
+      "displayName": "[115]Peter Lustig",
+      "dienstnummer": "115",
+      "rang": "Peter Lustig",
+      "seit": "13:27",
+      "dauer": "0h 11m",
+      "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
+    },
+    {
+      "name": ".shiro01_",
+      "displayName": "[14] Shino Luigi",
+      "dienstnummer": "14",
+      "rang": "Shino Luigi",
+      "seit": "13:16",
+      "dauer": "0h 22m",
+      "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
+    },
+    {
+      "name": "drp.kasper",
+      "displayName": "[20] Dr. Casper Maybach",
+      "dienstnummer": "20",
+      "rang": "Dr. Casper Maybach",
+      "seit": "13:22",
+      "dauer": "0h 16m",
+      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
+    },
+    {
+      "name": "xx_chiara06_xx",
+      "displayName": "[37] Dr. Chiara Maybach",
+      "dienstnummer": "37",
+      "rang": "Dr. Chiara Maybach",
+      "seit": "13:09",
+      "dauer": "0h 29m",
+      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
+    },
+    {
+      "name": "razox241_59913",
+      "displayName": "[48] Max Saymyname",
+      "dienstnummer": "48",
+      "rang": "Max Saymyname",
+      "seit": "13:22",
+      "dauer": "0h 16m",
+      "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "13:22",
+      "dauer": "0h 16m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "101",
     "103",
@@ -93,7 +148,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 16
   }
 }

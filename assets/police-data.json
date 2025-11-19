@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-19T15:42:53.392Z",
+  "lastUpdate": "2025-11-19T15:49:53.226Z",
   "onDuty": [
     {
       "name": "rocraft0911",
@@ -7,7 +7,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "15:07",
-      "dauer": "0h 35m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "15:14",
-      "dauer": "0h 28m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
+    },
+    {
+      "name": "pol.kasper",
+      "displayName": "[20] Dr. Casper Maybach",
+      "dienstnummer": "20",
+      "rang": "Dr. Casper Maybach",
+      "seit": "15:43",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -25,7 +34,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "15:13",
-      "dauer": "0h 28m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "85",
       "rang": "Ingo Mustermann",
       "seit": "14:37",
-      "dauer": "1h 5m",
+      "dauer": "1h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/1103681899492298762/a5066dd9b0fb6f3b105a93708ed95c15.webp?size=128"
     }
   ],
@@ -130,7 +139,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 16
   }
 }

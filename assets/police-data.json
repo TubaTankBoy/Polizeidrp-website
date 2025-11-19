@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-19T22:09:01.565Z",
-  "onDuty": [
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "20:03",
-      "dauer": "2h 5m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-19T22:30:31.627Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "15",
     "24",
@@ -118,7 +108,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 31
   }
 }

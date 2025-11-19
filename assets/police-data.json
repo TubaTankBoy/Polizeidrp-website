@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-19T11:50:22.914Z",
+  "lastUpdate": "2025-11-19T11:55:52.819Z",
   "onDuty": [
-    {
-      "name": "razox241_59913",
-      "displayName": "[48] Max Saymyname",
-      "dienstnummer": "48",
-      "rang": "Max Saymyname",
-      "seit": "10:07",
-      "dauer": "1h 43m",
-      "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
-    },
     {
       "name": "i_am_not_the_goat",
       "displayName": "[86] Lucas Kowalski",
       "dienstnummer": "86",
       "rang": "Lucas Kowalski",
       "seit": "10:34",
-      "dauer": "1h 16m",
+      "dauer": "1h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
@@ -112,7 +103,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 99,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 16
   }
 }

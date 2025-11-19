@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-19T20:46:53.119Z",
+  "lastUpdate": "2025-11-19T20:53:23.226Z",
   "onDuty": [
-    {
-      "name": "lx_alpha",
-      "displayName": "[03] Dr. Peter Zwegat",
-      "dienstnummer": "03",
-      "rang": "Dr. Peter Zwegat",
-      "seit": "16:50",
-      "dauer": "3h 56m",
-      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
-    },
     {
       "name": "_vapros",
       "displayName": "[05] Maxim Diamonds",
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "20:03",
-      "dauer": "0h 43m",
+      "dauer": "0h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -25,26 +16,8 @@
       "dienstnummer": "20",
       "rang": "Dr. Casper Maybach",
       "seit": "15:43",
-      "dauer": "5h 3m",
+      "dauer": "5h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/6f0252a1a3df5bd39598034137063403.webp?size=128"
-    },
-    {
-      "name": "noahsch11",
-      "displayName": "[28] Kasten James",
-      "dienstnummer": "28",
-      "rang": "Kasten James",
-      "seit": "19:58",
-      "dauer": "0h 47m",
-      "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
-    },
-    {
-      "name": "limalepa_",
-      "displayName": "[29] Wilma James",
-      "dienstnummer": "29",
-      "rang": "Wilma James",
-      "seit": "19:59",
-      "dauer": "0h 47m",
-      "avatar": "https://cdn.discordapp.com/avatars/1367899372683137045/ad2fd9ab9aba223451cd10309367e24d.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -52,17 +25,8 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "15:55",
-      "dauer": "4h 51m",
+      "dauer": "4h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
-    },
-    {
-      "name": "i_am_not_the_goat",
-      "displayName": "[86] Lucas Kowalski",
-      "dienstnummer": "86",
-      "rang": "Lucas Kowalski",
-      "seit": "18:42",
-      "dauer": "2h 3m",
-      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/6d2818f28ed6fd5324b7a334a17f478e.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -188,7 +152,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 47
   }
 }

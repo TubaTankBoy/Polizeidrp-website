@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-20T15:38:33.951Z",
+  "lastUpdate": "2025-11-20T15:48:33.892Z",
   "onDuty": [
     {
       "name": "rocraft0911",
@@ -7,7 +7,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "15:10",
-      "dauer": "0h 28m",
+      "dauer": "0h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "16",
       "rang": "Dr. Casper Maybach",
       "seit": "13:56",
-      "dauer": "1h 41m",
+      "dauer": "1h 51m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "15:20",
-      "dauer": "0h 17m",
+      "dauer": "0h 27m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "15:02",
-      "dauer": "0h 36m",
+      "dauer": "0h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "15:22",
-      "dauer": "0h 16m",
+      "dauer": "0h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     }
   ],

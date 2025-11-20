@@ -1,14 +1,32 @@
 {
-  "lastUpdate": "2025-11-20T14:59:03.931Z",
+  "lastUpdate": "2025-11-20T15:20:34.131Z",
   "onDuty": [
+    {
+      "name": "rocraft0911",
+      "displayName": "[104] Philipp Weber",
+      "dienstnummer": "104",
+      "rang": "Philipp Weber",
+      "seit": "15:10",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
+    },
     {
       "name": "pol.kasper",
       "displayName": "[16] Dr. Casper Maybach",
       "dienstnummer": "16",
       "rang": "Dr. Casper Maybach",
       "seit": "13:56",
-      "dauer": "1h 2m",
+      "dauer": "1h 23m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "15:02",
+      "dauer": "0h 18m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -118,7 +136,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 31
   }
 }

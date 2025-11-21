@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-21T22:56:15.990Z",
+  "lastUpdate": "2025-11-21T23:11:45.919Z",
   "onDuty": [
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "17:56",
-      "dauer": "4h 59m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
     {
       "name": "pol.chiara",
       "displayName": "[20] Dr. Chiara Akkerman",
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "19:16",
-      "dauer": "3h 40m",
+      "dauer": "3h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -25,17 +16,17 @@
       "dienstnummer": "24",
       "rang": "Dr. Casper Akkerman",
       "seit": "21:38",
-      "dauer": "1h 18m",
+      "dauer": "1h 33m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
-      "name": "sami_5858",
-      "displayName": "[58] Sami Zibabo",
-      "dienstnummer": "58",
-      "rang": "Sami Zibabo",
-      "seit": "20:14",
-      "dauer": "2h 41m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+      "name": "mischa76",
+      "displayName": "[61] Mischa Diamonds",
+      "dienstnummer": "61",
+      "rang": "Mischa Diamonds",
+      "seit": "23:00",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     },
     {
       "name": "1chesseapfel",
@@ -43,7 +34,7 @@
       "dienstnummer": "90",
       "rang": "Calvin Utnehmer",
       "seit": "21:03",
-      "dauer": "1h 52m",
+      "dauer": "2h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/1044969538422312980/aed53848c21959730d771726ced092ba.webp?size=128"
     }
   ],
@@ -123,7 +114,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 35
   }
 }

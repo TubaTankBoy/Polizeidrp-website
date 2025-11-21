@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-21T20:00:15.864Z",
+  "lastUpdate": "2025-11-21T20:25:16.013Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "17:56",
-      "dauer": "2h 3m",
+      "dauer": "2h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "18",
       "rang": "Angii Kowalski.",
       "seit": "19:29",
-      "dauer": "0h 30m",
+      "dauer": "0h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "19:16",
-      "dauer": "0h 44m",
+      "dauer": "1h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "19:29",
-      "dauer": "0h 31m",
+      "dauer": "0h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "24",
       "rang": "Dr. Casper Akkerman",
       "seit": "19:23",
-      "dauer": "0h 36m",
+      "dauer": "1h 1m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
@@ -52,7 +52,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "18:35",
-      "dauer": "1h 24m",
+      "dauer": "1h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -61,8 +61,17 @@
       "dienstnummer": "35",
       "rang": "Ensar Fontana",
       "seit": "18:39",
-      "dauer": "1h 20m",
+      "dauer": "1h 45m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "20:14",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -142,7 +151,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 36
   }
 }

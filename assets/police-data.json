@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-21T16:11:57.367Z",
+  "lastUpdate": "2025-11-21T16:35:27.432Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "14:42",
-      "dauer": "1h 29m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "16",
       "rang": "Dr. Casper Akkerman",
       "seit": "15:11",
-      "dauer": "1h 0m",
+      "dauer": "1h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
@@ -25,17 +25,8 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "15:47",
-      "dauer": "0h 24m",
+      "dauer": "0h 48m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
-    },
-    {
-      "name": "mischa76",
-      "displayName": "[61] Mischa Diamonds",
-      "dienstnummer": "61",
-      "rang": "Mischa Diamonds",
-      "seit": "15:48",
-      "dauer": "0h 23m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/6c19df5c8c0f5670ea9c2b3a1f723822.webp?size=128"
     },
     {
       "name": "dasadri",
@@ -43,17 +34,8 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "15:47",
-      "dauer": "0h 24m",
+      "dauer": "0h 48m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
-    {
-      "name": "rocraft0911",
-      "displayName": "[104] Philipp Weber",
-      "dienstnummer": "104",
-      "rang": "Philipp Weber",
-      "seit": "14:53",
-      "dauer": "1h 18m",
-      "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -133,7 +115,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 36
   }
 }

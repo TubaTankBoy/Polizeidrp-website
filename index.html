@@ -15,7 +15,7 @@
   --xmas-green: #165b33;
   --xmas-gold: #ffd700;
   --snow-white: #f0f8ff;
-  --glass-bg: rgba(15, 32, 39, 0.85);
+  --glass-bg: rgba(15, 32, 39, 0.95);
 }
 
 * {
@@ -24,9 +24,14 @@
   box-sizing: border-box;
 }
 
+/* Globale Link Farbe erzwingen, damit keine lila Links entstehen */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  /* Winterlicher Nachthimmel Verlauf */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background: linear-gradient(to bottom, #09151a 0%, #1a2a33 100%);
   color: #fff;
   min-height: 100vh;
@@ -47,7 +52,7 @@ body {
     url('https://library.kissclipart.com/20180904/qse/kissclipart-falling-snow-png-clipart-snow-clip-art-c687145c33331383.png'),
     url('https://library.kissclipart.com/20180904/qse/kissclipart-falling-snow-png-clipart-snow-clip-art-c687145c33331383.png');
   animation: snow 20s linear infinite;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 @keyframes snow {
@@ -60,10 +65,10 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
-  z-index: 10; /* Inhalt über dem Schnee */
+  z-index: 10;
 }
 
-/* --- LICHTERKETTE OBEN --- */
+/* --- LICHTERKETTE --- */
 .lights {
   text-align: center;
   white-space: nowrap;
@@ -72,9 +77,8 @@ body {
   top: -10px;
   width: 100%;
   z-index: 2000;
-  margin: 0;
-  padding: 0;
   pointer-events: none;
+  padding: 0;
 }
 
 .lights li {
@@ -96,23 +100,21 @@ body {
   50% { opacity: 0.4; box-shadow: 0 0 0 transparent; }
 }
 
-/* Header Updates */
+/* Header */
 .header {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png'); /* Original Bild beibehalten */
+    url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png');
   background-size: cover;
   background-position: center;
-  border-bottom: 4px solid var(--xmas-red); /* Roter Rand statt Gold */
-  position: relative;
+  border-bottom: 4px solid var(--xmas-red);
   padding: 80px 0 50px;
   text-align: center;
 }
 
-/* Weihnachtsmütze auf dem Titel */
 .header-title {
-  font-family: 'Mountains of Christmas', cursive; /* Neue Schriftart */
-  font-size: 72px;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 64px; /* Etwas kleiner damit es auf kleinen Screens passt */
   font-weight: 700;
   color: #fff;
   text-shadow: 0 0 10px var(--xmas-red), 2px 2px 5px #000;
@@ -131,24 +133,25 @@ body {
 }
 
 .header-subtitle {
-  font-size: 28px;
+  font-size: 24px;
   color: var(--xmas-gold);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.8);
   border-top: 1px solid rgba(255,255,255,0.3);
   border-bottom: 1px solid rgba(255,255,255,0.3);
   display: inline-block;
   padding: 5px 20px;
+  background: rgba(0,0,0,0.4);
 }
 
-/* Navigation Bar - Frost Look */
+/* Navigation Bar - Bug Fixes */
 .nav-bar {
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px); /* Starker Frost-Effekt */
+  backdrop-filter: blur(15px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 9999; /* Sehr hoch setzen damit es über allem ist */
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
 
@@ -157,58 +160,98 @@ body {
   justify-content: center;
   gap: 10px;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav > li {
+  position: relative; /* Wichtig für Dropdown Position */
 }
 
 .nav > li > a {
   display: block;
   color: #e0e0e0;
-  text-decoration: none;
   padding: 18px 24px;
   font-weight: 600;
   transition: all 0.3s ease;
-  border-radius: 0 0 10px 10px;
   border-top: 3px solid transparent;
 }
 
-/* Zuckerstangen-Hover Effekt */
 .nav > li > a:hover,
 .nav > li.active > a {
   background: linear-gradient(to bottom, rgba(212, 36, 38, 0.2), transparent);
   color: var(--xmas-gold);
   border-top-color: var(--xmas-red);
-  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
 }
 
+/* Dropdown Bug Fixes */
 .dropdown-content {
-  background: rgba(15, 25, 30, 0.95);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #0f191e; /* Fester dunkler Hintergrund für Lesbarkeit */
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.8);
+  z-index: 10000;
   border: 1px solid var(--xmas-green);
   border-top: 3px solid var(--xmas-red);
   border-radius: 0 0 8px 8px;
-  padding: 10px 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.nav > li:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content a {
+  display: block;
+  color: #fff !important; /* Farbe erzwingen */
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 .dropdown-content a:hover {
-  background: rgba(22, 91, 51, 0.3); /* Grüner Hover */
-  color: #fff;
-  padding-left: 28px;
+  background: var(--xmas-green);
+  color: var(--xmas-gold) !important;
+  padding-left: 25px;
 }
 
-/* Hero Section - Geschenk Stil */
+/* Mobile Menu Button - standardmäßig verstecken */
+.mobile-menu-toggle {
+  display: none;
+  background: rgba(255, 215, 0, 0.1);
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 15px auto;
+  width: 100%;
+}
+
+/* Hero Section - Layout Fix */
 .hero {
   background: linear-gradient(135deg, rgba(22, 91, 51, 0.4), rgba(15, 32, 39, 0.9));
   border-radius: 20px;
-  padding: 60px 40px;
+  padding: 40px;
   margin: 40px 0;
   display: flex;
-  align-items: center;
+  align-items: center; /* Zentriert vertikal */
+  justify-content: space-between;
   gap: 40px;
-  box-shadow: 0 0 30px rgba(22, 91, 51, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
 }
 
-/* Rote Schleife and der Ecke der Hero Section */
 .hero::before {
   content: '';
   position: absolute;
@@ -221,28 +264,44 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.hero-content {
+  flex: 1; /* Nimmt verfügbaren Platz */
+  min-width: 300px;
+  z-index: 2;
+}
+
 .hero h1 {
   font-family: 'Mountains of Christmas', cursive;
-  font-size: 54px;
-  background: linear-gradient(to right, #fff, var(--xmas-gold));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  color: var(--xmas-gold);
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ddd;
   margin-bottom: 20px;
+  line-height: 1.6;
+  max-width: 600px; /* Text wird nicht zu breit */
+}
+
+/* Bild Fix - Damit es nicht explodiert */
+.hero-image {
+  flex: 0 0 400px; /* Feste Basisbreite für den Bildcontainer */
+  max-width: 40%; /* Maximal 40% der Breite */
 }
 
 .hero-image img {
-  border: 3px solid var(--xmas-gold);
-  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid var(--xmas-gold);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  display: block;
 }
 
-.badge {
-  background: var(--xmas-red);
-  color: #fff;
-  border: 1px solid #fff;
-  box-shadow: 0 0 10px var(--xmas-red);
-}
-
-/* Grid Cards - Eisblöcke */
+/* Cards */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -254,68 +313,129 @@ body {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(5px);
   border-radius: 16px;
-  padding: 30px;
+  padding: 25px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-top: 4px solid var(--xmas-green); /* Grüner Rand oben */
-  transition: all 0.4s ease;
-  position: relative;
+  border-top: 4px solid var(--xmas-green);
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px) scale(1.02);
-  background: rgba(255, 255, 255, 0.1);
-  border-top-color: var(--xmas-red); /* Wechselt zu Rot beim Hover */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(212, 36, 38, 0.2);
+  transform: translateY(-5px);
+  border-top-color: var(--xmas-red);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .card h3 {
   color: var(--xmas-gold);
-  font-size: 24px;
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: 10px;
   font-family: 'Mountains of Christmas', cursive;
-  font-weight: 700;
-  letter-spacing: 1px;
 }
 
-/* Musik Player unten rechts */
+.card p {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.card a {
+  color: var(--xmas-red);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Musik Player */
 .music-control {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   border: 2px solid var(--xmas-gold);
-  padding: 10px 20px;
+  padding: 8px 15px;
   border-radius: 50px;
   z-index: 5000;
   display: flex;
   align-items: center;
   gap: 10px;
   color: var(--xmas-gold);
-  font-size: 14px;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  font-size: 13px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
 }
 
 .music-control button {
   background: none;
   border: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
 }
 
-/* Footer Anpassung */
+/* Footer */
 .footer {
-  background: linear-gradient(to top, #0f2027, #203a43);
+  background: #0f191e;
   border-top: 3px solid var(--xmas-gold);
-  position: relative;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 60px;
 }
 
-/* Responsive */
+.footer a { color: var(--xmas-gold); }
+
+/* Responsive Design */
 @media (max-width: 968px) {
-  .nav { display: none; flex-direction: column; }
-  .nav.active { display: flex; background: rgba(0,0,0,0.95); }
-  .mobile-menu-toggle { border-color: var(--xmas-gold); color: var(--xmas-gold); }
-  .header-title { font-size: 42px; }
+  .mobile-menu-toggle {
+    display: block; /* Button nur hier anzeigen */
+  }
+  
+  .nav {
+    display: none;
+    flex-direction: column;
+    background: rgba(15, 25, 30, 0.98);
+    padding: 10px;
+  }
+  
+  .nav.active {
+    display: flex;
+  }
+  
+  .nav > li > a {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .dropdown-content {
+    position: static; /* Im Mobile Fluss anzeigen */
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    background: rgba(0,0,0,0.3);
+    box-shadow: none;
+    border: none;
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .nav > li.dropdown-open .dropdown-content {
+    display: block;
+  }
+
+  /* Hero auf Mobile stapeln */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-image {
+    max-width: 100%; /* Volle Breite auf Handy */
+    flex: none;
+    margin-top: 20px;
+  }
+  
+  .header-title {
+    font-size: 42px;
+  }
 }
 </style>
 </head>
@@ -324,7 +444,6 @@ body {
 <div class="snow-container"></div>
 
 <ul class="lights">
-  <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
   <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
   <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
   <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
@@ -386,11 +505,11 @@ body {
   <section class="hero">
     <div class="hero-content">
       <h1>Frohes Fest!</h1>
-      <p>Auch an den Feiertagen im Einsatz. Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier, auch im Schnee.</p>
-      <div class="badge">❄️ Winter-Einsatzleitung</div>
+      <p>Auch an den Feiertagen im Einsatz. Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier, auch im tiefsten Schnee.</p>
+      <div class="badge" style="background: var(--xmas-red); padding: 5px 15px; border-radius: 20px; display:inline-block;">❄️ Winter-Einsatzleitung</div>
     </div>
     <div class="hero-image">
-      <img src="./assets/hero.jpg" alt="Polizei im Schnee" onerror="this.style.display='none'">
+      <img src="./assets/hero.jpg" alt="Polizei im Schnee" onerror="this.src='https://cdn.pixabay.com/photo/2015/12/08/00/26/police-1081672_1280.jpg'">
     </div>
   </section>
 
@@ -429,20 +548,21 @@ body {
 </footer>
 
 <div class="music-control">
-    <span id="music-status">🔇 Musik aus</span>
+    <span id="music-status">Versuche Autoplay...</span>
     <button onclick="toggleMusic()" id="play-btn">▶</button>
-    <audio id="bg-music" loop>
+    <audio id="bg-music" loop autoplay>
         <source src="https://cdn.pixabay.com/download/audio/2022/11/22/audio_febc508520.mp3" type="audio/mpeg">
     </audio>
 </div>
 
 <script>
-// Menü Funktionen
+// Mobile Menu
 function toggleMenu() {
   const nav = document.getElementById('nav');
   nav.classList.toggle('active');
 }
 
+// Dropdown für Mobile
 function toggleDropdown(event, element) {
   if (window.innerWidth <= 968) {
     event.preventDefault();
@@ -451,23 +571,53 @@ function toggleDropdown(event, element) {
   }
 }
 
-// Musik Steuerung
+// Musik Steuerung + Autoplay Fix
 const music = document.getElementById('bg-music');
 const playBtn = document.getElementById('play-btn');
 const statusText = document.getElementById('music-status');
 
-// Lautstärke leise stellen standardmäßig
-music.volume = 0.3;
+music.volume = 0.2; // Leise starten
 
-function toggleMusic() {
-    if (music.paused) {
-        music.play().catch(e => console.log("Autoplay blocked"));
+// Versuch Musik sofort zu starten
+const playPromise = music.play();
+
+if (playPromise !== undefined) {
+  playPromise.then(_ => {
+    // Autoplay hat funktioniert
+    updateMusicUI(true);
+  })
+  .catch(error => {
+    // Autoplay wurde blockiert (passiert in Chrome/Firefox oft)
+    console.log("Autoplay blockiert. Warte auf Interaktion.");
+    statusText.innerHTML = "🔇 Klicke für Musik";
+    
+    // Warte auf den ERSTEN Klick irgendwo auf der Seite
+    document.addEventListener('click', startMusicOnInteraction, { once: true });
+  });
+}
+
+function startMusicOnInteraction() {
+    music.play();
+    updateMusicUI(true);
+}
+
+function updateMusicUI(isPlaying) {
+    if(isPlaying) {
         playBtn.innerHTML = "⏸";
         statusText.innerHTML = "🎵 Musik an";
     } else {
-        music.pause();
         playBtn.innerHTML = "▶";
         statusText.innerHTML = "🔇 Musik aus";
+    }
+}
+
+function toggleMusic() {
+    if (music.paused) {
+        music.play();
+        updateMusicUI(true);
+    } else {
+        music.pause();
+        updateMusicUI(false);
     }
 }
 

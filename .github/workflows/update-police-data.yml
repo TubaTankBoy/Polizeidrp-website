@@ -17,7 +17,7 @@ jobs:
       - name: Download police-data.json
         run: |
           mkdir -p assets
-          curl -o assets/police-data.json http://45.93.250.210:25570/police-data.json
+          curl -o assets/police-data.json hhttp://45.93.250.210:25572/police-data.json
 
       - name: Commit & Push
         run: |

@@ -4,8 +4,20 @@
 <meta charset="utf-8">
 <link rel="icon" href="./assets/favicon.png">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Startseite - Polizei - Deutschland RP</title>
+<title>Weihnachtswache - Polizei DE RP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+
 <style>
+:root {
+  --xmas-red: #d42426;
+  --xmas-green: #165b33;
+  --xmas-gold: #ffd700;
+  --snow-white: #f0f8ff;
+  --glass-bg: rgba(15, 32, 39, 0.85);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,248 +26,223 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  /* Winterlicher Nachthimmel Verlauf */
+  background: linear-gradient(to bottom, #09151a 0%, #1a2a33 100%);
   color: #fff;
   min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* --- SCHNEE EFFEKT --- */
+.snow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  background-image: 
+    url('https://library.kissclipart.com/20180904/qse/kissclipart-falling-snow-png-clipart-snow-clip-art-c687145c33331383.png'),
+    url('https://library.kissclipart.com/20180904/qse/kissclipart-falling-snow-png-clipart-snow-clip-art-c687145c33331383.png');
+  animation: snow 20s linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes snow {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 400px 400px; }
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 10; /* Inhalt über dem Schnee */
 }
 
-/* Header mit Hintergrundbild */
+/* --- LICHTERKETTE OBEN --- */
+.lights {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  z-index: 2000;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+.lights li {
+  display: inline-block;
+  margin: 0 15px;
+  width: 12px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  animation: flash 2s infinite alternate;
+}
+
+.lights li:nth-child(odd) { background: var(--xmas-red); animation-delay: 0.5s; }
+.lights li:nth-child(even) { background: var(--xmas-green); animation-delay: 1s; }
+.lights li:nth-child(3n) { background: var(--xmas-gold); animation-delay: 1.5s; }
+
+@keyframes flash {
+  0%, 100% { opacity: 1; box-shadow: 0 0 10px currentColor; }
+  50% { opacity: 0.4; box-shadow: 0 0 0 transparent; }
+}
+
+/* Header Updates */
 .header {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png');
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png'); /* Original Bild beibehalten */
   background-size: cover;
   background-position: center;
-  border-bottom: 3px solid #ffd700;
+  border-bottom: 4px solid var(--xmas-red); /* Roter Rand statt Gold */
   position: relative;
-  padding: 60px 0 40px;
+  padding: 80px 0 50px;
   text-align: center;
 }
 
-
+/* Weihnachtsmütze auf dem Titel */
 .header-title {
-  font-size: 56px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-family: 'Mountains of Christmas', cursive; /* Neue Schriftart */
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 10px var(--xmas-red), 2px 2px 5px #000;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  position: relative;
+  display: inline-block;
+}
+
+.header-title::after {
+  content: '🎅';
+  font-size: 40px;
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  transform: rotate(20deg);
 }
 
 .header-subtitle {
-  font-size: 32px;
-  font-weight: 700;
-  color: #ffd700;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  font-size: 28px;
+  color: var(--xmas-gold);
+  letter-spacing: 4px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  display: inline-block;
+  padding: 5px 20px;
 }
 
-/* Navigation Bar */
+/* Navigation Bar - Frost Look */
 .nav-bar {
-  background: rgba(15, 32, 39, 0.98);
-  backdrop-filter: blur(10px);
-  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px); /* Starker Frost-Effekt */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
 
 .nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 5px;
-  padding: 0;
+  gap: 10px;
   list-style: none;
-}
-
-.nav > li {
-  position: relative;
 }
 
 .nav > li > a {
   display: block;
-  color: #fff;
+  color: #e0e0e0;
   text-decoration: none;
   padding: 18px 24px;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 600;
   transition: all 0.3s ease;
-  border-bottom: 3px solid transparent;
+  border-radius: 0 0 10px 10px;
+  border-top: 3px solid transparent;
 }
 
+/* Zuckerstangen-Hover Effekt */
 .nav > li > a:hover,
 .nav > li.active > a {
-  background: rgba(255, 215, 0, 0.1);
-  color: #ffd700;
-  border-bottom-color: #ffd700;
+  background: linear-gradient(to bottom, rgba(212, 36, 38, 0.2), transparent);
+  color: var(--xmas-gold);
+  border-top-color: var(--xmas-red);
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
 }
 
-/* Dropdown Menu */
 .dropdown-content {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: rgba(15, 32, 39, 0.98);
-  backdrop-filter: blur(10px);
-  min-width: 220px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  background: rgba(15, 25, 30, 0.95);
+  border: 1px solid var(--xmas-green);
+  border-top: 3px solid var(--xmas-red);
   border-radius: 0 0 8px 8px;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: all 0.3s ease;
-  padding: 8px 0;
-}
-
-.nav > li:hover .dropdown-content {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.dropdown-content a {
-  display: block;
-  color: #cbd5e0;
-  text-decoration: none;
-  padding: 12px 24px;
-  font-size: 14px;
-  transition: all 0.2s ease;
-  border-left: 3px solid transparent;
+  padding: 10px 0;
 }
 
 .dropdown-content a:hover {
-  background: rgba(255, 215, 0, 0.15);
-  color: #ffd700;
-  border-left-color: #ffd700;
+  background: rgba(22, 91, 51, 0.3); /* Grüner Hover */
+  color: #fff;
   padding-left: 28px;
 }
 
-/* Mobile Menu Toggle */
-.mobile-menu-toggle {
-  display: none;
-  background: rgba(255, 215, 0, 0.1);
-  border: 2px solid #ffd700;
-  color: #ffd700;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 14px;
-  margin: 15px auto;
-}
-
-@media (max-width: 968px) {
-  .mobile-menu-toggle {
-    display: block;
-  }
-  
-  .nav {
-    display: none;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-  
-  .nav.active {
-    display: flex;
-  }
-  
-  .nav > li {
-    width: 100%;
-  }
-  
-  .nav > li > a {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-  }
-  
-  .dropdown-content {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-    background: rgba(0, 0, 0, 0.3);
-    display: none;
-  }
-  
-  .nav > li.dropdown-open .dropdown-content {
-    display: block;
-  }
-}
-
-/* Hero Section */
+/* Hero Section - Geschenk Stil */
 .hero {
-  background: linear-gradient(135deg, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.8));
+  background: linear-gradient(135deg, rgba(22, 91, 51, 0.4), rgba(15, 32, 39, 0.9));
   border-radius: 20px;
   padding: 60px 40px;
   margin: 40px 0;
   display: flex;
   align-items: center;
   gap: 40px;
-  flex-wrap: wrap;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  box-shadow: 0 0 30px rgba(22, 91, 51, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
 }
 
-.hero-content {
-  flex: 1;
-  min-width: 300px;
+/* Rote Schleife and der Ecke der Hero Section */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background: var(--xmas-red);
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .hero h1 {
-  font-size: 48px;
-  font-weight: 900;
-  background: linear-gradient(135deg, #ffd700, #fff);
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 54px;
+  background: linear-gradient(to right, #fff, var(--xmas-gold));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
   margin-bottom: 20px;
-  line-height: 1.1;
-}
-
-.hero p {
-  font-size: 18px;
-  color: #cbd5e0;
-  margin-bottom: 25px;
-  line-height: 1.6;
-}
-
-.badge {
-  display: inline-block;
-  background: rgba(255, 215, 0, 0.15);
-  color: #ffd700;
-  padding: 8px 20px;
-  border-radius: 50px;
-  font-size: 13px;
-  font-weight: 600;
-  border: 1px solid rgba(255, 215, 0, 0.3);
-}
-
-.hero-image {
-  flex: 0 0 360px;
-  max-width: 100%;
 }
 
 .hero-image img {
-  width: 100%;
+  border: 3px solid var(--xmas-gold);
   border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
-  border: 2px solid rgba(255, 215, 0, 0.2);
 }
 
-/* Grid Cards */
+.badge {
+  background: var(--xmas-red);
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px var(--xmas-red);
+}
+
+/* Grid Cards - Eisblöcke */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -264,138 +251,101 @@ body {
 }
 
 .card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
   border-radius: 16px;
   padding: 30px;
-  border: 1px solid rgba(255, 215, 0, 0.2);
-  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 4px solid var(--xmas-green); /* Grüner Rand oben */
+  transition: all 0.4s ease;
   position: relative;
-  overflow: hidden;
-}
-
-.card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #ffd700, #ffed4e);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.2);
-  border-color: #ffd700;
-}
-
-.card:hover::before {
-  transform: scaleX(1);
+  transform: translateY(-10px) scale(1.02);
+  background: rgba(255, 255, 255, 0.1);
+  border-top-color: var(--xmas-red); /* Wechselt zu Rot beim Hover */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(212, 36, 38, 0.2);
 }
 
 .card h3 {
-  color: #ffd700;
-  font-size: 22px;
+  color: var(--xmas-gold);
+  font-size: 24px;
   margin-bottom: 15px;
+  font-family: 'Mountains of Christmas', cursive;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.card p {
-  color: #cbd5e0;
-  line-height: 1.6;
-  font-size: 15px;
+/* Musik Player unten rechts */
+.music-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid var(--xmas-gold);
+  padding: 10px 20px;
+  border-radius: 50px;
+  z-index: 5000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--xmas-gold);
+  font-size: 14px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
 }
 
-.card a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: 600;
+.music-control button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Footer Anpassung */
+.footer {
+  background: linear-gradient(to top, #0f2027, #203a43);
+  border-top: 3px solid var(--xmas-gold);
   position: relative;
 }
 
-.card a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-.footer {
-  background: rgba(15, 32, 39, 0.95);
-  border-top: 2px solid #ffd700;
-  padding: 40px 0;
-  text-align: center;
-  margin-top: 60px;
-}
-
-.footer p {
-  color: #a0aec0;
-  font-size: 14px;
-  margin: 8px 0;
-}
-
-.footer a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: #ffed4e;
-}
-
 /* Responsive */
-@media (max-width: 768px) {
-  .header {
-    padding: 40px 0 30px;
-  }
-  
-  .header-title {
-    font-size: 36px;
-  }
-  
-  .header-subtitle {
-    font-size: 22px;
-  }
-  
-  .hero {
-    padding: 40px 25px;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-  }
-  
-  .hero-image {
-    flex: 0 0 100%;
-  }
-  
-  .grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 968px) {
+  .nav { display: none; flex-direction: column; }
+  .nav.active { display: flex; background: rgba(0,0,0,0.95); }
+  .mobile-menu-toggle { border-color: var(--xmas-gold); color: var(--xmas-gold); }
+  .header-title { font-size: 42px; }
 }
 </style>
 </head>
 <body>
+
+<div class="snow-container"></div>
+
+<ul class="lights">
+  <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+  <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+  <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+  <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+</ul>
+
 <header class="header">
   <div class="container">
     <h1 class="header-title">Polizei</h1>
-    <div class="header-subtitle">DEUTSCHLAND RP</div>
+    <div class="header-subtitle">🎄 WINTER EDITION RP 🎄</div>
   </div>
 </header>
 
 <nav class="nav-bar">
   <div class="container">
-    <button class="mobile-menu-toggle" onclick="toggleMenu()">☰ Menü</button>
+    <button class="mobile-menu-toggle" onclick="toggleMenu()">☰ Weihnachts-Menü</button>
     
     <ul class="nav" id="nav">
-      <li class="active"><a href="index.html">Startseite</a></li>
+      <li class="active"><a href="index.html">🏠 Startseite</a></li>
       
       <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Neuigkeiten ▾</a>
+        <a href="#" onclick="toggleDropdown(event, this)">🎁 Neuigkeiten ▾</a>
         <div class="dropdown-content">
           <a href="Aktuelles.html">Aktuelles</a>
           <a href="Terrorstatus.html">Terrorstatus</a>
@@ -404,7 +354,7 @@ body {
       </li>
       
       <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a>
+        <a href="#" onclick="toggleDropdown(event, this)">⭐ Abteilungen ▾</a>
         <div class="dropdown-content">
           <a href="Werdegang.html">Werdegang</a>
           <a href="Moeglichkeiten.html">Möglichkeiten</a>
@@ -412,7 +362,7 @@ body {
       </li>
       
       <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a>
+        <a href="#" onclick="toggleDropdown(event, this)">⛄ Team ▾</a>
         <div class="dropdown-content">
           <a href="Management.html">Management</a>
           <a href="Mitarbeiter.html">Mitarbeiter</a>
@@ -420,14 +370,14 @@ body {
       </li>
       
       <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a>
+        <a href="#" onclick="toggleDropdown(event, this)">❄️ Sonstiges ▾</a>
         <div class="dropdown-content">
-    <a href="Galerie.html">Galerie</a>
-    <a href="Strafen.html">Strafen</a>
-    <a href="Status.html">Status</a>
-    <a href="Intern.html">🔒 Interner Bereich</a>  <!-- NEU -->
-  </div>
- </li>
+          <a href="Galerie.html">Galerie</a>
+          <a href="Strafen.html">Strafen</a>
+          <a href="Status.html">Status</a>
+          <a href="Intern.html">🔒 Interner Bereich</a>
+        </div>
+      </li>
     </ul>
   </div>
 </nav>
@@ -435,34 +385,34 @@ body {
 <main class="container">
   <section class="hero">
     <div class="hero-content">
-      <h1>Startseite</h1>
-      <p>Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier.</p>
-      <div class="badge">⭐ Bundespolizei</div>
+      <h1>Frohes Fest!</h1>
+      <p>Auch an den Feiertagen im Einsatz. Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier, auch im Schnee.</p>
+      <div class="badge">❄️ Winter-Einsatzleitung</div>
     </div>
     <div class="hero-image">
-      <img src="./assets/hero.jpg" alt="Polizei Deutschland RP" onerror="this.style.display='none'">
+      <img src="./assets/hero.jpg" alt="Polizei im Schnee" onerror="this.style.display='none'">
     </div>
   </section>
 
   <section>
     <div class="grid">
       <div class="card">
-        <h3>📰 Neuigkeiten</h3>
-        <p>Aktuelle Meldungen, News und Informationen zu Einsätzen. Siehe <a href="Aktuelles.html">Aktuelles</a>.</p>
+        <h3>🔔 Neuigkeiten</h3>
+        <p>Aktuelle Weihnachts-Events, Meldungen und Informationen zu Einsätzen. Siehe <a href="Aktuelles.html">Aktuelles</a>.</p>
       </div>
       
       <div class="card">
-        <h3>🔍 Fahndungen</h3>
-        <p>Offizielle Fahndungslisten findest du im <a href="Fahndungsportal.html">Fahndungsportal</a>.</p>
+        <h3>🦌 Fahndungen</h3>
+        <p>Wir suchen nicht den Grinch, aber Kriminelle. Fahndungslisten im <a href="Fahndungsportal.html">Fahndungsportal</a>.</p>
       </div>
       
       <div class="card">
-        <h3>📋 Bewerbung & Möglichkeiten</h3>
-        <p>Infos zu Werdegang und Ausbildung findest du unter <a href="Moeglichkeiten.html">Möglichkeiten</a>.</p>
+        <h3>📜 Bewerbung</h3>
+        <p>Das beste Geschenk für uns? Deine Bewerbung! Infos unter <a href="Moeglichkeiten.html">Möglichkeiten</a>.</p>
       </div>
       
       <div class="card">
-        <h3>👥 Mitarbeiter</h3>
+        <h3>🤶 Kollegen</h3>
         <p>Finde Ansprechpartner und das Management unter <a href="Management.html">Management</a> und <a href="Mitarbeiter.html">Mitarbeiter</a>.</p>
       </div>
     </div>
@@ -471,14 +421,23 @@ body {
 
 <footer class="footer">
   <div class="container">
-    <p>Wir sind Nicht die Polizei!</p>
+    <p>❄️ Wir wünschen frohe Festtage ❄️</p>
     <p>Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</p>
     <p>© 2024 – 2025</p>
-    <p style="margin-top: 15px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">🔗 Discord Server beitreten</a></p>
+    <p style="margin-top: 15px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">🎁 Discord Server beitreten</a></p>
   </div>
 </footer>
 
+<div class="music-control">
+    <span id="music-status">🔇 Musik aus</span>
+    <button onclick="toggleMusic()" id="play-btn">▶</button>
+    <audio id="bg-music" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/11/22/audio_febc508520.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
 <script>
+// Menü Funktionen
 function toggleMenu() {
   const nav = document.getElementById('nav');
   nav.classList.toggle('active');
@@ -492,7 +451,27 @@ function toggleDropdown(event, element) {
   }
 }
 
-// Close dropdowns when clicking outside
+// Musik Steuerung
+const music = document.getElementById('bg-music');
+const playBtn = document.getElementById('play-btn');
+const statusText = document.getElementById('music-status');
+
+// Lautstärke leise stellen standardmäßig
+music.volume = 0.3;
+
+function toggleMusic() {
+    if (music.paused) {
+        music.play().catch(e => console.log("Autoplay blocked"));
+        playBtn.innerHTML = "⏸";
+        statusText.innerHTML = "🎵 Musik an";
+    } else {
+        music.pause();
+        playBtn.innerHTML = "▶";
+        statusText.innerHTML = "🔇 Musik aus";
+    }
+}
+
+// Dropdown schließen bei Klick außerhalb
 document.addEventListener('click', function(event) {
   const nav = document.querySelector('.nav');
   const toggle = document.querySelector('.mobile-menu-toggle');

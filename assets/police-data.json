@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-21T15:05:28.214Z",
+  "lastUpdate": "2025-11-21T15:13:58.279Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "14:42",
-      "dauer": "0h 23m",
+      "dauer": "0h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -15,8 +15,8 @@
       "displayName": "[16] Dr. Casper Akkerman",
       "dienstnummer": "16",
       "rang": "Dr. Casper Akkerman",
-      "seit": "12:44",
-      "dauer": "2h 20m",
+      "seit": "15:11",
+      "dauer": "0h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "14:53",
-      "dauer": "0h 12m",
+      "dauer": "0h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
     }
   ],

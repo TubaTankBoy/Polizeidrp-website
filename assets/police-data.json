@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-21T18:25:26.876Z",
+  "lastUpdate": "2025-11-21T18:43:45.855Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,34 +7,34 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "17:56",
-      "dauer": "0h 29m",
+      "dauer": "0h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
       "name": "pol.kasper",
-      "displayName": "[16] Dr. Casper Akkerman",
-      "dienstnummer": "16",
+      "displayName": "[24] Dr. Casper Akkerman",
+      "dienstnummer": "24",
       "rang": "Dr. Casper Akkerman",
       "seit": "15:11",
-      "dauer": "3h 14m",
+      "dauer": "3h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "18:02",
-      "dauer": "0h 22m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+      "name": "gamr2009",
+      "displayName": "[27] Alex Fischer",
+      "dienstnummer": "27",
+      "rang": "Alex Fischer",
+      "seit": "18:35",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
       "name": "eno_23._29734",
-      "displayName": "[71] Ensar Fontana",
-      "dienstnummer": "71",
+      "displayName": "[35] Ensar Fontana",
+      "dienstnummer": "35",
       "rang": "Ensar Fontana",
-      "seit": "17:02",
-      "dauer": "1h 23m",
+      "seit": "18:39",
+      "dauer": "0h 4m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     }
   ],
@@ -45,7 +45,6 @@
     "11",
     "12",
     "33",
-    "35",
     "36",
     "37",
     "42",
@@ -62,6 +61,7 @@
     "63",
     "64",
     "65",
+    "71",
     "76",
     "79",
     "82",

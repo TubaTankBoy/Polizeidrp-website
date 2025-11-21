@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2025-11-21T17:52:56.777Z",
+  "lastUpdate": "2025-11-21T17:58:56.800Z",
   "onDuty": [
     {
       "name": "_vapros",
       "displayName": "[05] Maxim Diamonds",
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
-      "seit": "16:56",
-      "dauer": "0h 56m",
+      "seit": "17:56",
+      "dauer": "0h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,26 +16,8 @@
       "dienstnummer": "16",
       "rang": "Dr. Casper Akkerman",
       "seit": "15:11",
-      "dauer": "2h 41m",
+      "dauer": "2h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
-    },
-    {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "15:47",
-      "dauer": "2h 5m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
-    },
-    {
-      "name": "dasadri",
-      "displayName": "[66] Mateo Lopes",
-      "dienstnummer": "66",
-      "rang": "Mateo Lopes",
-      "seit": "15:47",
-      "dauer": "2h 5m",
-      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "eno_23._29734",
@@ -43,7 +25,7 @@
       "dienstnummer": "71",
       "rang": "Ensar Fontana",
       "seit": "17:02",
-      "dauer": "0h 50m",
+      "dauer": "0h 56m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     }
   ],
@@ -124,7 +106,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 36
   }
 }

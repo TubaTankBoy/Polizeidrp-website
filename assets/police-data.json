@@ -1,107 +1,40 @@
 {
-  "lastUpdate": "2025-11-20T17:00:04.077Z",
+  "lastUpdate": "2025-11-21T15:05:28.214Z",
   "onDuty": [
     {
-      "name": "gamers16",
-      "displayName": "[15] Alex Morningstar",
-      "dienstnummer": "15",
-      "rang": "Alex Morningstar",
-      "seit": "16:35",
-      "dauer": "0h 24m",
-      "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
+      "name": "_vapros",
+      "displayName": "[05] Maxim Diamonds",
+      "dienstnummer": "05",
+      "rang": "Maxim Diamonds",
+      "seit": "14:42",
+      "dauer": "0h 23m",
+      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
       "name": "pol.kasper",
-      "displayName": "[16] Dr. Casper Maybach",
+      "displayName": "[16] Dr. Casper Akkerman",
       "dienstnummer": "16",
-      "rang": "Dr. Casper Maybach",
-      "seit": "16:25",
-      "dauer": "0h 34m",
+      "rang": "Dr. Casper Akkerman",
+      "seit": "12:44",
+      "dauer": "2h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
-      "name": "angiiiii.",
-      "displayName": "[18] Angii Kowalski.",
-      "dienstnummer": "18",
-      "rang": "Angii Kowalski.",
-      "seit": "16:41",
-      "dauer": "0h 18m",
-      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
-    },
-    {
-      "name": "ceos0594",
-      "displayName": "[21] Ceos Kowalskii.",
-      "dienstnummer": "21",
-      "rang": "Ceos Kowalskii.",
-      "seit": "16:41",
-      "dauer": "0h 18m",
-      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
-    },
-    {
-      "name": "gamr2009",
-      "displayName": "[27] Alex Fischer",
-      "dienstnummer": "27",
-      "rang": "Alex Fischer",
-      "seit": "16:26",
-      "dauer": "0h 33m",
-      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
-    },
-    {
-      "name": "noahsch11",
-      "displayName": "[28] Kasten James",
-      "dienstnummer": "28",
-      "rang": "Kasten James",
-      "seit": "16:24",
-      "dauer": "0h 35m",
-      "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
-    },
-    {
-      "name": "limalepa_",
-      "displayName": "[29] Wilma James",
-      "dienstnummer": "29",
-      "rang": "Wilma James",
-      "seit": "16:24",
-      "dauer": "0h 35m",
-      "avatar": "https://cdn.discordapp.com/avatars/1367899372683137045/ad2fd9ab9aba223451cd10309367e24d.webp?size=128"
-    },
-    {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "15:20",
-      "dauer": "1h 39m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
-    },
-    {
-      "name": "dasadri",
-      "displayName": "[66] Mateo Lopes",
-      "dienstnummer": "66",
-      "rang": "Mateo Lopes",
-      "seit": "15:22",
-      "dauer": "1h 37m",
-      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
-    {
-      "name": "eno_23._29734",
-      "displayName": "[71] Ensar Fontana",
-      "dienstnummer": "71",
-      "rang": "Ensar Fontana",
-      "seit": "16:51",
-      "dauer": "0h 8m",
-      "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
-    },
-    {
-      "name": "babybotzer",
-      "displayName": "[72] Johannes Michael",
-      "dienstnummer": "72",
-      "rang": "Johannes Michael",
-      "seit": "16:28",
-      "dauer": "0h 31m",
-      "avatar": "https://cdn.discordapp.com/avatars/999773002596094043/854edf59e8e15fd2a16c97aa05bf6449.webp?size=128"
+      "name": "rocraft0911",
+      "displayName": "[104] Philipp Weber",
+      "dienstnummer": "104",
+      "rang": "Philipp Weber",
+      "seit": "14:53",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/202d26cf36d89771865818ddb353ed94.webp?size=128"
     }
   ],
   "freeDienstnummern": [
+    "7",
+    "8",
+    "10",
+    "11",
+    "12",
     "24",
     "33",
     "35",
@@ -169,46 +102,11 @@
       "autor": "lx_alpha",
       "nachricht": "@DRP Polizei - Mitarbeiter \n\nFriendly reminder",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=64"
-    },
-    {
-      "datum": "16.11.2025",
-      "uhrzeit": "00:45",
-      "autor": "_vapros",
-      "nachricht": "",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=64"
-    },
-    {
-      "datum": "16.11.2025",
-      "uhrzeit": "00:45",
-      "autor": "_vapros",
-      "nachricht": "o> ||@DRP Polizei - Mitarbeiter|| ||@DRP Polizei - Management ||\n> \n> Sehr geehrte Mitarbeiterinnen und Mitarbeiter,\n> \n> wir möchten Sie darüber informieren, dass ein Aktivitäts-Check ansteht. Die Laufzeit beträgt **ca. 3 Tage**, innerhalb derer alle Mitarbeiter aufgefordert sind, ihre Stimme abzugeben.\n> \n> Details zur Abstimmung:\n> Zeitraum: **16.11.2025, 01:30:00 Uhr** bis **19.11.2025, 01:45Uhr**.\n> Abstimmungsmethode: Bei folgender Umfrage auf \"Ja\" klicken.\n> Ziel: Inaktive Mitarbeiter aus",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=64"
-    },
-    {
-      "datum": "13.11.2025",
-      "uhrzeit": "18:24",
-      "autor": "lias82",
-      "nachricht": "Interner Bereich nur Verfügbar über die Startseite mit den **Passwort: 99199**",
-      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
-    },
-    {
-      "datum": "13.11.2025",
-      "uhrzeit": "17:05",
-      "autor": "lias82",
-      "nachricht": "Liebe Mitarbeiterinnen und Mitarbeiter,\nab sofort werden die „Eingestempelt“-Daten (Zeitpunkte des Arbeitsbeginns und -endes) auf einer öffentlichen Website hinterlegt.\n\nBitte beachtet:\n\nEs werden keine persönlichen Daten (z. B. Adressen, Telefonnummern oder private Informationen) veröffentlicht.\n\nAngezeigt werden lediglich der Name und der aktuelle Status (eingestempelt / ausgestempelt).\n\nDie Daten werden automatisch aktualisiert.",
-      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
-    },
-    {
-      "datum": "11.11.2025",
-      "uhrzeit": "15:31",
-      "autor": "nikohaupt",
-      "nachricht": "@DRP Polizei - Mitarbeiter \n\nDer Grenschutz ist jetzt nun die Autobahnpolizei\n\nMfG\n@⤷Autobahnpolizei Leitung / @⤷ Stv. Autobahnpolizei Leitung",
-      "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
     }
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 11,
-    "freieDienstnummern": 31
+    "aktuellImDienst": 3,
+    "freieDienstnummern": 36
   }
 }

@@ -1,43 +1,6 @@
 {
-  "lastUpdate": "2025-11-22T00:49:46.061Z",
-  "onDuty": [
-    {
-      "name": "pol.chiara",
-      "displayName": "[20] Dr. Chiara Akkerman",
-      "dienstnummer": "20",
-      "rang": "Dr. Chiara Akkerman",
-      "seit": "23:31",
-      "dauer": "1h 18m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "pol.kasper",
-      "displayName": "[24] Dr. Casper Akkerman",
-      "dienstnummer": "24",
-      "rang": "Dr. Casper Akkerman",
-      "seit": "21:38",
-      "dauer": "3h 11m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
-    },
-    {
-      "name": "lyroxx6595",
-      "displayName": "[44] Olaf Scholz",
-      "dienstnummer": "44",
-      "rang": "Olaf Scholz",
-      "seit": "23:38",
-      "dauer": "1h 11m",
-      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
-    },
-    {
-      "name": "1chesseapfel",
-      "displayName": "[90] Calvin Utnehmer",
-      "dienstnummer": "90",
-      "rang": "Calvin Utnehmer",
-      "seit": "21:03",
-      "dauer": "3h 46m",
-      "avatar": "https://cdn.discordapp.com/avatars/1044969538422312980/aed53848c21959730d771726ced092ba.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-22T02:17:16.411Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "7",
     "8",
@@ -113,7 +76,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 34
   }
 }

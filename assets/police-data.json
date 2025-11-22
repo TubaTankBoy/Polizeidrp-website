@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-22T22:54:27.476Z",
+  "lastUpdate": "2025-11-22T23:07:57.464Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,7 +7,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "22:49",
-      "dauer": "0h 4m",
+      "dauer": "0h 18m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "22:12",
-      "dauer": "0h 42m",
+      "dauer": "0h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
+    },
+    {
+      "name": "limit_28",
+      "displayName": "[22] Pablo Limit",
+      "dienstnummer": "22",
+      "rang": "Pablo Limit",
+      "seit": "22:58",
+      "dauer": "0h 9m",
+      "avatar": "https://cdn.discordapp.com/avatars/964809535690797066/25e6e1f9df9a955dadcb5912f49c6059.webp?size=128"
     },
     {
       "name": "gamr2009",
@@ -25,7 +34,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "22:32",
-      "dauer": "0h 22m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "22:35",
-      "dauer": "0h 19m",
+      "dauer": "0h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "48",
       "rang": "Max Saymyname",
       "seit": "22:32",
-      "dauer": "0h 21m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "20:02",
-      "dauer": "2h 51m",
+      "dauer": "3h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -61,7 +70,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "20:34",
-      "dauer": "2h 19m",
+      "dauer": "2h 33m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     }
   ],
@@ -138,7 +147,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 32
   }
 }

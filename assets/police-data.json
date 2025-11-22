@@ -1,14 +1,50 @@
 {
-  "lastUpdate": "2025-11-22T19:55:44.600Z",
+  "lastUpdate": "2025-11-22T20:12:14.667Z",
   "onDuty": [
+    {
+      "name": "pol.chiara",
+      "displayName": "[20] Dr. Chiara Akkerman",
+      "dienstnummer": "20",
+      "rang": "Dr. Chiara Akkerman",
+      "seit": "20:05",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
+    },
+    {
+      "name": "noel2182",
+      "displayName": "[40] Elias Bellic",
+      "dienstnummer": "40",
+      "rang": "Elias Bellic",
+      "seit": "19:59",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+    },
     {
       "name": "fabiiiiii.",
       "displayName": "[47] Marsel Kasten",
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "19:20",
-      "dauer": "0h 35m",
+      "dauer": "0h 52m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
+    },
+    {
+      "name": "mister_black27",
+      "displayName": "[51] Yamato prime",
+      "dienstnummer": "51",
+      "rang": "Yamato prime",
+      "seit": "20:02",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/649622115124903951/6c62b26e0fb25312228e2737d058ff5f.webp?size=128"
+    },
+    {
+      "name": "sami_5858",
+      "displayName": "[58] Sami Zibabo",
+      "dienstnummer": "58",
+      "rang": "Sami Zibabo",
+      "seit": "20:02",
+      "dauer": "0h 9m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -83,7 +119,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 31
   }
 }

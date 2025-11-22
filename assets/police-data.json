@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-22T17:38:44.543Z",
+  "lastUpdate": "2025-11-22T17:45:14.545Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "16:48",
-      "dauer": "0h 49m",
+      "dauer": "0h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "14:30",
-      "dauer": "3h 8m",
+      "dauer": "3h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": "angiiiii.",
+      "displayName": "[18] Angii Kowalski.",
+      "dienstnummer": "18",
+      "rang": "Angii Kowalski.",
+      "seit": "17:42",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
       "name": "ceos0594",
@@ -25,7 +34,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "17:36",
-      "dauer": "0h 1m",
+      "dauer": "0h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "23",
       "rang": "Marco Popovic",
       "seit": "17:09",
-      "dauer": "0h 28m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/957378983857635378/543573161d363e0dfb41c1d672fae81e.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "14:04",
-      "dauer": "3h 34m",
+      "dauer": "3h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "15:09",
-      "dauer": "2h 29m",
+      "dauer": "2h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -61,7 +70,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "15:52",
-      "dauer": "1h 46m",
+      "dauer": "1h 52m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
@@ -137,7 +146,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 31
   }
 }

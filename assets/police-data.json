@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2025-11-22T21:56:44.724Z",
+  "lastUpdate": "2025-11-22T22:12:14.706Z",
   "onDuty": [
     {
       "name": "pol.chiara",
       "displayName": "[20] Dr. Chiara Akkerman",
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
-      "seit": "20:05",
-      "dauer": "1h 51m",
+      "seit": "22:12",
+      "dauer": "0h 0m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "20:22",
-      "dauer": "1h 33m",
+      "dauer": "1h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
-    },
-    {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "19:59",
-      "dauer": "1h 57m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
       "name": "fabiiiiii.",
@@ -34,17 +25,8 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "20:27",
-      "dauer": "1h 29m",
+      "dauer": "1h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
-    },
-    {
-      "name": "mister_black27",
-      "displayName": "[51] Yamato prime",
-      "dienstnummer": "51",
-      "rang": "Yamato prime",
-      "seit": "20:02",
-      "dauer": "1h 54m",
-      "avatar": "https://cdn.discordapp.com/avatars/649622115124903951/6c62b26e0fb25312228e2737d058ff5f.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -52,7 +34,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "20:02",
-      "dauer": "1h 54m",
+      "dauer": "2h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -61,7 +43,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "20:34",
-      "dauer": "1h 22m",
+      "dauer": "1h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
@@ -70,7 +52,7 @@
       "dienstnummer": "67",
       "rang": "Leo Romano",
       "seit": "20:13",
-      "dauer": "1h 43m",
+      "dauer": "1h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1072419762413514822/97e4f7cae71d884820b3991a4f197a61.webp?size=128"
     }
   ],
@@ -147,7 +129,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 8,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 32
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-22T13:57:11.031Z",
+  "lastUpdate": "2025-11-22T14:12:44.357Z",
   "onDuty": [
     {
       "name": "pol.chiara",
@@ -7,7 +7,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "13:51",
-      "dauer": "0h 5m",
+      "dauer": "0h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "24",
       "rang": "Dr. Casper Akkerman",
       "seit": "13:37",
-      "dauer": "0h 19m",
+      "dauer": "0h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
+    },
+    {
+      "name": "gamr2009",
+      "displayName": "[27] Alex Fischer",
+      "dienstnummer": "27",
+      "rang": "Alex Fischer",
+      "seit": "14:04",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -25,7 +34,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "11:59",
-      "dauer": "1h 57m",
+      "dauer": "2h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     }
   ],
@@ -64,6 +73,20 @@
   ],
   "polizeiInformationen": [
     {
+      "datum": "22.11.2025",
+      "uhrzeit": "14:00",
+      "autor": "lias82",
+      "nachricht": "Auch wenn es Genehmigt wurde muss es für die Logs ein @Personalsachbearbeiter Machen. heißt wer es Trotzdem selber macht bekommt Sanktionen\n\n(bild im Beispiel kommt aber 5 mal am Tag auch bei Anderen vor)",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
+    {
+      "datum": "22.11.2025",
+      "uhrzeit": "13:59",
+      "autor": "lias82",
+      "nachricht": "📢 WICHTIGE ANKÜNDIGUNG: Dienstnummern & Nicknames\nWerte Kolleginnen und Kollegen,\n\naus gegebenem Anlass weisen wir darauf hin, dass es strengstens untersagt ist, die eigene Dienstnummer im Discord-Nickname selbstständig zu ändern.\n\n\n⚠️ Vorgehensweise:\n\nSollte eure Dienstnummer falsch sein, fehlen oder geändert werden müssen, meldet euch bitte ausschließlich bei der @Personalsachbearbeiter o. @DRP Polizei - Management  \n\nEigenmächtige Änderungen werden administrativ rückgängig gemacht und können",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
+    {
       "datum": "19.11.2025",
       "uhrzeit": "00:45",
       "autor": "_vapros",
@@ -83,25 +106,11 @@
       "autor": "nikohaupt",
       "nachricht": "||@DRP Polizei - Mitarbeiter ||\n# Reminder zur Personen/Auto- Durchsuchung!\n----\n\nEine Person/Auto darf nicht grundlos durchsucht werden!\nGrundlos durchsuchen darf nur die @⤷ Autobahnpolizei  an der Grenze (siehe https://discord.com/channels/830232490421518387/1229131731945132092) !\n\nWann darf eine Person/Auto durchsucht werden:\n\n* Wenn es einen begründeten Verdacht gibt\n* Wenn die Person eine Straftat begangen hat\n* Wenn die Person eine Straftat zugegeben hat\n\nLiegt keiner der Gründe vor muss d",
       "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
-    },
-    {
-      "datum": "18.11.2025",
-      "uhrzeit": "17:28",
-      "autor": "nikohaupt",
-      "nachricht": "# Info!",
-      "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
-    },
-    {
-      "datum": "18.11.2025",
-      "uhrzeit": "15:42",
-      "autor": "lx_alpha",
-      "nachricht": "@DRP Polizei - Mitarbeiter \n\nFriendly reminder",
-      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=64"
     }
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 31
   }
 }

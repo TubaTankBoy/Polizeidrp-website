@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-22T22:31:14.719Z",
+  "lastUpdate": "2025-11-22T22:42:20.554Z",
   "onDuty": [
     {
       "name": "pol.chiara",
@@ -7,7 +7,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "22:12",
-      "dauer": "0h 19m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -15,8 +15,8 @@
       "displayName": "[27] Alex Fischer",
       "dienstnummer": "27",
       "rang": "Alex Fischer",
-      "seit": "20:22",
-      "dauer": "2h 8m",
+      "seit": "22:32",
+      "dauer": "0h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -24,9 +24,18 @@
       "displayName": "[47] Marsel Kasten",
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
-      "seit": "20:27",
-      "dauer": "2h 4m",
+      "seit": "22:35",
+      "dauer": "0h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
+    },
+    {
+      "name": "razox241_59913",
+      "displayName": "[48] Max Saymyname",
+      "dienstnummer": "48",
+      "rang": "Max Saymyname",
+      "seit": "22:32",
+      "dauer": "0h 9m",
+      "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -34,7 +43,7 @@
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
       "seit": "20:02",
-      "dauer": "2h 28m",
+      "dauer": "2h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "20:34",
-      "dauer": "1h 56m",
+      "dauer": "2h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     }
   ],
@@ -120,7 +129,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 32
   }
 }

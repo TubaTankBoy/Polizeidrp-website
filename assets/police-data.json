@@ -1,14 +1,32 @@
 {
-  "lastUpdate": "2025-11-23T14:31:29.896Z",
+  "lastUpdate": "2025-11-23T14:40:29.788Z",
   "onDuty": [
+    {
+      "name": "_vapros",
+      "displayName": "[05] Maxim Diamonds",
+      "dienstnummer": "05",
+      "rang": "Maxim Diamonds",
+      "seit": "14:34",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
     {
       "name": "gamr2009",
       "displayName": "[27] Alex Fischer",
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "14:02",
-      "dauer": "0h 28m",
+      "dauer": "0h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
+    },
+    {
+      "name": "lyroxx6595",
+      "displayName": "[44] Olaf Scholz",
+      "dienstnummer": "44",
+      "rang": "Olaf Scholz",
+      "seit": "14:38",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
       "name": "fabiiiiii.",
@@ -16,7 +34,7 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "12:58",
-      "dauer": "1h 32m",
+      "dauer": "1h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     },
     {
@@ -25,7 +43,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "13:45",
-      "dauer": "0h 45m",
+      "dauer": "0h 54m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     }
   ],
@@ -40,7 +58,6 @@
     "49",
     "50",
     "53",
-    "54",
     "56",
     "59",
     "60",
@@ -102,8 +119,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 69,
-    "aktuellImDienst": 3,
-    "freieDienstnummern": 33
+    "gesamtMitarbeiter": 70,
+    "aktuellImDienst": 5,
+    "freieDienstnummern": 32
   }
 }

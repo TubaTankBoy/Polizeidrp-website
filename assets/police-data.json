@@ -1,13 +1,22 @@
 {
-  "lastUpdate": "2025-11-23T20:56:14.076Z",
+  "lastUpdate": "2025-11-23T21:10:44.030Z",
   "onDuty": [
+    {
+      "name": "fabiiiiii.",
+      "displayName": "[47] Marsel Kasten",
+      "dienstnummer": "47",
+      "rang": "Marsel Kasten",
+      "seit": "21:06",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
+    },
     {
       "name": "fero5102",
       "displayName": "[56] Gustav Möller",
       "dienstnummer": "56",
       "rang": "Gustav Möller",
       "seit": "20:15",
-      "dauer": "0h 40m",
+      "dauer": "0h 54m",
       "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
     },
     {
@@ -16,7 +25,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "19:45",
-      "dauer": "1h 10m",
+      "dauer": "1h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
@@ -91,7 +100,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 30
   }
 }

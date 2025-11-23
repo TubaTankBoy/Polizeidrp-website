@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-23T09:57:59.495Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-23T10:15:59.587Z",
+  "onDuty": [
+    {
+      "name": "noel2182",
+      "displayName": "[40] Elias Bellic",
+      "dienstnummer": "40",
+      "rang": "Elias Bellic",
+      "seit": "10:11",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "11",
     "12",
@@ -74,7 +84,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 32
   }
 }

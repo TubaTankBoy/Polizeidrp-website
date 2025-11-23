@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-23T19:24:22.608Z",
+  "lastUpdate": "2025-11-23T19:30:22.561Z",
   "onDuty": [
     {
       "name": "angiiiii.",
@@ -7,7 +7,7 @@
       "dienstnummer": "18",
       "rang": "Angii Kowalski.",
       "seit": "17:02",
-      "dauer": "2h 22m",
+      "dauer": "2h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "18:46",
-      "dauer": "0h 38m",
+      "dauer": "0h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "17:03",
-      "dauer": "2h 21m",
+      "dauer": "2h 27m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "24",
       "rang": "Dr. Casper Akkerman",
       "seit": "18:40",
-      "dauer": "0h 44m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
@@ -43,17 +43,8 @@
       "dienstnummer": "35",
       "rang": "Ensar Fontana",
       "seit": "19:11",
-      "dauer": "0h 12m",
+      "dauer": "0h 18m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
-    },
-    {
-      "name": "lyroxx6595",
-      "displayName": "[44] Olaf Scholz",
-      "dienstnummer": "44",
-      "rang": "Olaf Scholz",
-      "seit": "17:00",
-      "dauer": "2h 23m",
-      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -129,7 +120,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 32
   }
 }

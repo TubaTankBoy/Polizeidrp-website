@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-23T16:55:01.341Z",
+  "lastUpdate": "2025-11-23T17:08:22.625Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "16:47",
-      "dauer": "0h 7m",
+      "dauer": "0h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -15,8 +15,8 @@
       "displayName": "[18] Angii Kowalski.",
       "dienstnummer": "18",
       "rang": "Angii Kowalski.",
-      "seit": "15:56",
-      "dauer": "0h 58m",
+      "seit": "17:02",
+      "dauer": "0h 6m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -24,9 +24,18 @@
       "displayName": "[21] Ceos Kowalskii.",
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
-      "seit": "15:56",
-      "dauer": "0h 58m",
+      "seit": "17:03",
+      "dauer": "0h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
+    },
+    {
+      "name": "lyroxx6595",
+      "displayName": "[44] Olaf Scholz",
+      "dienstnummer": "44",
+      "rang": "Olaf Scholz",
+      "seit": "17:00",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
       "name": "razox241_59913",
@@ -34,7 +43,7 @@
       "dienstnummer": "48",
       "rang": "Max Saymyname",
       "seit": "15:23",
-      "dauer": "1h 31m",
+      "dauer": "1h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1175421715514392681/7ead213f9c91300e65cc945cab7c387f.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "56",
       "rang": "Gustav Möller",
       "seit": "16:37",
-      "dauer": "0h 17m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "102",
       "rang": "Abduhlhasis Nosaria",
       "seit": "15:41",
-      "dauer": "1h 13m",
+      "dauer": "1h 27m",
       "avatar": "https://cdn.discordapp.com/avatars/1364916242242207764/f8a88cabdef497e9eb3ad32f14d13e7d.webp?size=128"
     }
   ],
@@ -129,7 +138,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 32
   }
 }

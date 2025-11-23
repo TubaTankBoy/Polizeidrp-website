@@ -1,13 +1,31 @@
 {
-  "lastUpdate": "2025-11-23T10:55:59.602Z",
+  "lastUpdate": "2025-11-23T11:09:29.599Z",
   "onDuty": [
+    {
+      "name": "angiiiii.",
+      "displayName": "[18] Angii Kowalski.",
+      "dienstnummer": "18",
+      "rang": "Angii Kowalski.",
+      "seit": "11:05",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
+    {
+      "name": "ceos0594",
+      "displayName": "[21] Ceos Kowalskii.",
+      "dienstnummer": "21",
+      "rang": "Ceos Kowalskii.",
+      "seit": "11:02",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
+    },
     {
       "name": "noel2182",
       "displayName": "[40] Elias Bellic",
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "10:11",
-      "dauer": "0h 44m",
+      "dauer": "0h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -16,7 +34,7 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "10:44",
-      "dauer": "0h 11m",
+      "dauer": "0h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     }
   ],
@@ -93,7 +111,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 32
   }
 }

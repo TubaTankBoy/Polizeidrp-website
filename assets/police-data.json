@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2025-11-23T01:04:57.471Z",
-  "onDuty": [
-    {
-      "name": "limit_28",
-      "displayName": "[22] Pablo Limit",
-      "dienstnummer": "22",
-      "rang": "Pablo Limit",
-      "seit": "22:58",
-      "dauer": "2h 6m",
-      "avatar": "https://cdn.discordapp.com/avatars/964809535690797066/25e6e1f9df9a955dadcb5912f49c6059.webp?size=128"
-    },
-    {
-      "name": "pol.kasper",
-      "displayName": "[24] Dr. Casper Akkerman",
-      "dienstnummer": "24",
-      "rang": "Dr. Casper Akkerman",
-      "seit": "23:43",
-      "dauer": "1h 21m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-23T03:00:57.708Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "11",
     "12",
@@ -93,7 +74,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 32
   }
 }

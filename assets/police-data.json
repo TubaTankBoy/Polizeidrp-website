@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-24T22:49:21.171Z",
+  "lastUpdate": "2025-11-24T22:54:51.249Z",
   "onDuty": [
-    {
-      "name": "fero5102",
-      "displayName": "[56] Gustav Möller",
-      "dienstnummer": "56",
-      "rang": "Gustav Möller",
-      "seit": "20:43",
-      "dauer": "2h 5m",
-      "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
-    },
     {
       "name": "csrccdrk",
       "displayName": "[70] Andi Zadel",
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "19:20",
-      "dauer": "3h 28m",
+      "dauer": "3h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -91,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

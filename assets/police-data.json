@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-24T17:45:52.583Z",
+  "lastUpdate": "2025-11-24T17:52:20.910Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "17:38",
-      "dauer": "0h 7m",
+      "dauer": "0h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "17:44",
-      "dauer": "0h 1m",
+      "dauer": "0h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "18",
       "rang": "Angii Kowalski.",
       "seit": "13:36",
-      "dauer": "4h 8m",
+      "dauer": "4h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "17:21",
-      "dauer": "0h 23m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "16:34",
-      "dauer": "1h 11m",
+      "dauer": "1h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -52,7 +52,7 @@
       "dienstnummer": "28",
       "rang": "Kasten James",
       "seit": "16:10",
-      "dauer": "1h 35m",
+      "dauer": "1h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     },
     {
@@ -61,7 +61,7 @@
       "dienstnummer": "35",
       "rang": "Ensar Fontana",
       "seit": "16:54",
-      "dauer": "0h 51m",
+      "dauer": "0h 57m",
       "avatar": "https://cdn.discordapp.com/embed/avatars/4.png"
     },
     {
@@ -69,8 +69,8 @@
       "displayName": "[58] Sami Zibabo",
       "dienstnummer": "58",
       "rang": "Sami Zibabo",
-      "seit": "15:34",
-      "dauer": "2h 10m",
+      "seit": "17:48",
+      "dauer": "0h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -79,7 +79,7 @@
       "dienstnummer": "73",
       "rang": "Paul Kowalski",
       "seit": "17:02",
-      "dauer": "0h 43m",
+      "dauer": "0h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/1265467796930953307/a_0fd4a88dfd82e72101496136a436176c.gif?size=128"
     }
   ],

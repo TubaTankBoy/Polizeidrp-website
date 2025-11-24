@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-24T21:32:21.044Z",
+  "lastUpdate": "2025-11-24T21:42:21.093Z",
   "onDuty": [
     {
       "name": "limit_28",
@@ -7,7 +7,7 @@
       "dienstnummer": "22",
       "rang": "Pablo Limit",
       "seit": "19:37",
-      "dauer": "1h 54m",
+      "dauer": "2h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/964809535690797066/25e6e1f9df9a955dadcb5912f49c6059.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "56",
       "rang": "Gustav Möller",
       "seit": "20:43",
-      "dauer": "0h 48m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "19:20",
-      "dauer": "2h 11m",
+      "dauer": "2h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],

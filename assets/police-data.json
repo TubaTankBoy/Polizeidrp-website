@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-25T20:59:32.946Z",
+  "lastUpdate": "2025-11-25T21:19:33.016Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,35 +7,8 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "20:29",
-      "dauer": "0h 30m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
-    },
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "20:48",
-      "dauer": "0h 10m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "angiiiii.",
-      "displayName": "[18] Angii Kowalski.",
-      "dienstnummer": "18",
-      "rang": "Angii Kowalski.",
-      "seit": "16:11",
-      "dauer": "4h 48m",
-      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
-    },
-    {
-      "name": "ceos0594",
-      "displayName": "[21] Ceos Kowalskii.",
-      "dienstnummer": "21",
-      "rang": "Ceos Kowalskii.",
-      "seit": "19:19",
-      "dauer": "1h 40m",
-      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
       "name": "i_am_not_the_goat",
@@ -43,17 +16,8 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "19:49",
-      "dauer": "1h 9m",
+      "dauer": "1h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
-    },
-    {
-      "name": "opm_benni",
-      "displayName": "[97] Marco Geipel",
-      "dienstnummer": "97",
-      "rang": "Marco Geipel",
-      "seit": "20:34",
-      "dauer": "0h 24m",
-      "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -61,7 +25,6 @@
     "12",
     "26",
     "33",
-    "36",
     "38",
     "42",
     "48",
@@ -75,6 +38,7 @@
     "63",
     "64",
     "65",
+    "68",
     "69",
     "71",
     "73",
@@ -130,7 +94,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 33
   }
 }

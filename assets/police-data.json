@@ -1,13 +1,31 @@
 {
-  "lastUpdate": "2025-11-25T15:55:24.100Z",
+  "lastUpdate": "2025-11-25T16:15:24.159Z",
   "onDuty": [
+    {
+      "name": "angiiiii.",
+      "displayName": "[18] Angii Kowalski.",
+      "dienstnummer": "18",
+      "rang": "Angii Kowalski.",
+      "seit": "16:11",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
+    {
+      "name": "ceos0594",
+      "displayName": "[21] Ceos Kowalskii.",
+      "dienstnummer": "21",
+      "rang": "Ceos Kowalskii.",
+      "seit": "16:12",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
+    },
     {
       "name": "i_am_not_the_goat",
       "displayName": "[37] Lucas Kowalski",
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
-      "seit": "14:34",
-      "dauer": "1h 21m",
+      "seit": "16:10",
+      "dauer": "0h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
     },
     {
@@ -16,7 +34,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "14:51",
-      "dauer": "1h 3m",
+      "dauer": "1h 23m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
@@ -91,7 +109,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 30
   }
 }

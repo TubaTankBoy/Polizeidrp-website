@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-25T09:50:53.507Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-25T09:57:23.540Z",
+  "onDuty": [
+    {
+      "name": "angiiiii.",
+      "displayName": "[18] Angii Kowalski.",
+      "dienstnummer": "18",
+      "rang": "Angii Kowalski.",
+      "seit": "09:54",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "11",
     "12",
@@ -72,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-26T21:55:31.306Z",
-  "onDuty": [
-    {
-      "name": "gamr2009",
-      "displayName": "[27] Alex Fischer",
-      "dienstnummer": "27",
-      "rang": "Alex Fischer",
-      "seit": "20:01",
-      "dauer": "1h 54m",
-      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-26T22:11:31.411Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "11",
     "12",
@@ -82,7 +72,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 30
   }
 }

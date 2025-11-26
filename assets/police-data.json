@@ -1,13 +1,31 @@
 {
-  "lastUpdate": "2025-11-26T18:17:35.216Z",
+  "lastUpdate": "2025-11-26T18:42:01.411Z",
   "onDuty": [
+    {
+      "name": ".shiro01_",
+      "displayName": "[14] Shino Luigi",
+      "dienstnummer": "14",
+      "rang": "Shino Luigi",
+      "seit": "18:38",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
+    },
+    {
+      "name": "angiiiii.",
+      "displayName": "[18] Angii Kowalski.",
+      "dienstnummer": "18",
+      "rang": "Angii Kowalski.",
+      "seit": "18:37",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
     {
       "name": "ceos0594",
       "displayName": "[21] Ceos Kowalskii.",
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "17:56",
-      "dauer": "0h 20m",
+      "dauer": "0h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -16,7 +34,7 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "16:21",
-      "dauer": "1h 55m",
+      "dauer": "2h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
     },
     {
@@ -25,7 +43,7 @@
       "dienstnummer": "56",
       "rang": "Gustaf Möller",
       "seit": "18:17",
-      "dauer": "0h 0m",
+      "dauer": "0h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
     },
     {
@@ -34,17 +52,8 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "16:25",
-      "dauer": "1h 51m",
+      "dauer": "2h 16m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
-    },
-    {
-      "name": "opm_benni",
-      "displayName": "[97] Marco Geipel",
-      "dienstnummer": "97",
-      "rang": "Marco Geipel",
-      "seit": "18:05",
-      "dauer": "0h 11m",
-      "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -119,7 +128,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 31
   }
 }

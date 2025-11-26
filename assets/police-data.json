@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-26T17:44:31.142Z",
+  "lastUpdate": "2025-11-26T17:51:01.161Z",
   "onDuty": [
-    {
-      "name": "gamr2009",
-      "displayName": "[27] Alex Fischer",
-      "dienstnummer": "27",
-      "rang": "Alex Fischer",
-      "seit": "15:37",
-      "dauer": "2h 6m",
-      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
-    },
     {
       "name": "alex_blasius",
       "displayName": "[34] Alex blasius",
       "dienstnummer": "34",
       "rang": "Alex blasius",
       "seit": "16:53",
-      "dauer": "0h 51m",
+      "dauer": "0h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
@@ -25,7 +16,7 @@
       "dienstnummer": "36",
       "rang": "Fynn Blasius",
       "seit": "17:32",
-      "dauer": "0h 12m",
+      "dauer": "0h 18m",
       "avatar": "https://cdn.discordapp.com/avatars/792111303216726038/6892ed9e3ca128bea067eeee1b0d1ae2.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "16:21",
-      "dauer": "1h 22m",
+      "dauer": "1h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "16:25",
-      "dauer": "1h 18m",
+      "dauer": "1h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -121,7 +112,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 33
   }
 }

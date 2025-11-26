@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-26T18:53:31.147Z",
+  "lastUpdate": "2025-11-26T18:59:38.560Z",
   "onDuty": [
     {
       "name": ".shiro01_",
@@ -7,7 +7,7 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi",
       "seit": "18:38",
-      "dauer": "0h 14m",
+      "dauer": "0h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "18",
       "rang": "Angii Kowalski.",
       "seit": "18:37",
-      "dauer": "0h 16m",
+      "dauer": "0h 22m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -25,8 +25,17 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "17:56",
-      "dauer": "0h 56m",
+      "dauer": "1h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
+    },
+    {
+      "name": "alex_blasius",
+      "displayName": "[34] Alex blasius",
+      "dienstnummer": "34",
+      "rang": "Alex blasius",
+      "seit": "18:59",
+      "dauer": "0h 0m",
+      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
       "name": "i_am_not_the_goat",
@@ -34,7 +43,7 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "16:21",
-      "dauer": "2h 31m",
+      "dauer": "2h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "16:25",
-      "dauer": "2h 27m",
+      "dauer": "2h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -118,7 +127,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 30
   }
 }

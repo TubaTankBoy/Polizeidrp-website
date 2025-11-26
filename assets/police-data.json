@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-26T17:56:37.408Z",
+  "lastUpdate": "2025-11-26T18:17:35.216Z",
   "onDuty": [
     {
       "name": "ceos0594",
@@ -7,7 +7,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "17:56",
-      "dauer": "0h 0m",
+      "dauer": "0h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "16:21",
-      "dauer": "1h 35m",
+      "dauer": "1h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
+    },
+    {
+      "name": "fero5102",
+      "displayName": "[56] Gustaf Möller",
+      "dienstnummer": "56",
+      "rang": "Gustaf Möller",
+      "seit": "18:17",
+      "dauer": "0h 0m",
+      "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -25,8 +34,17 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "16:25",
-      "dauer": "1h 30m",
+      "dauer": "1h 51m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
+    },
+    {
+      "name": "opm_benni",
+      "displayName": "[97] Marco Geipel",
+      "dienstnummer": "97",
+      "rang": "Marco Geipel",
+      "seit": "18:05",
+      "dauer": "0h 11m",
+      "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -58,8 +76,6 @@
     "86",
     "87",
     "90",
-    "91",
-    "92",
     "93",
     "94",
     "99"
@@ -102,8 +118,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 3,
-    "freieDienstnummern": 33
+    "gesamtMitarbeiter": 70,
+    "aktuellImDienst": 5,
+    "freieDienstnummern": 31
   }
 }

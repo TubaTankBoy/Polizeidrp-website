@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-26T13:20:37.252Z",
+  "lastUpdate": "2025-11-26T13:47:37.252Z",
   "onDuty": [
     {
       "name": "pol.chiara",
@@ -7,7 +7,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman",
       "seit": "13:13",
-      "dauer": "0h 7m",
+      "dauer": "0h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "12:08",
-      "dauer": "1h 12m",
+      "dauer": "1h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/697bf5130ffb8af7917c91006ef103bb.webp?size=128"
+    },
+    {
+      "name": "fero5102",
+      "displayName": "[56] Gustaf Möller",
+      "dienstnummer": "56",
+      "rang": "Gustaf Möller",
+      "seit": "13:39",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/1310266225451860052/60c048e07b925b6fb8a2b6a42a362d41.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -94,7 +103,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 68,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 33
   }
 }

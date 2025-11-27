@@ -1,13 +1,22 @@
 {
-  "lastUpdate": "2025-11-27T14:55:35.866Z",
+  "lastUpdate": "2025-11-27T15:12:39.534Z",
   "onDuty": [
+    {
+      "name": "eastmuffin3264",
+      "displayName": "[04] Ali Luigi Masta",
+      "dienstnummer": "04",
+      "rang": "Ali Luigi Masta",
+      "seit": "15:12",
+      "dauer": "0h 0m",
+      "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
+    },
     {
       "name": "lucas_kowalski",
       "displayName": "[37] Lucas Kowalski",
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "14:16",
-      "dauer": "0h 38m",
+      "dauer": "0h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
     },
     {
@@ -16,7 +25,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "14:03",
-      "dauer": "0h 52m",
+      "dauer": "1h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "14:14",
-      "dauer": "0h 41m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     }
   ],
@@ -100,7 +109,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 30
   }
 }

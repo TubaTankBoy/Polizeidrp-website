@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-27T18:41:52.496Z",
+  "lastUpdate": "2025-11-27T18:53:05.736Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "17:31",
-      "dauer": "1h 10m",
+      "dauer": "1h 21m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "04",
       "rang": "Ali Luigi Masta",
       "seit": "18:02",
-      "dauer": "0h 39m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
     },
     {
@@ -25,26 +25,8 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "15:55",
-      "dauer": "2h 45m",
+      "dauer": "2h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "hassan_310123",
-      "displayName": "[15] Zain Saymyname",
-      "dienstnummer": "15",
-      "rang": "Zain Saymyname",
-      "seit": "17:17",
-      "dauer": "1h 24m",
-      "avatar": "https://cdn.discordapp.com/avatars/1399103379136974948/4f4eb778acbd43ecb13be49a7145534f.webp?size=128"
-    },
-    {
-      "name": "ch.kasper",
-      "displayName": "[18] Dr. Casper Akkerman",
-      "dienstnummer": "18",
-      "rang": "Dr. Casper Akkerman",
-      "seit": "17:11",
-      "dauer": "1h 30m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
       "name": "alfredfisch_",
@@ -52,7 +34,7 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "17:28",
-      "dauer": "1h 13m",
+      "dauer": "1h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
     },
     {
@@ -61,7 +43,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "15:46",
-      "dauer": "2h 55m",
+      "dauer": "3h 6m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -70,7 +52,7 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "14:16",
-      "dauer": "4h 25m",
+      "dauer": "4h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
     },
     {
@@ -79,7 +61,7 @@
       "dienstnummer": "91",
       "rang": "Dariu mcveysl",
       "seit": "18:16",
-      "dauer": "0h 25m",
+      "dauer": "0h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/799180500076986369/470865c8d34cbd2c0805163204e5d9c9.webp?size=128"
     },
     {
@@ -88,7 +70,7 @@
       "dienstnummer": "92",
       "rang": "Fritz Taifun",
       "seit": "18:17",
-      "dauer": "0h 24m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/790969531857895464/a6e8b92794f2b76dc659dd038e65617e.webp?size=128"
     }
   ],
@@ -162,7 +144,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 72,
-    "aktuellImDienst": 10,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 29
   }
 }

@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-27T11:37:35.514Z",
-  "onDuty": [
-    {
-      "name": "i_am_not_the_goat",
-      "displayName": "[37] Lucas Kowalski",
-      "dienstnummer": "37",
-      "rang": "Lucas Kowalski",
-      "seit": "11:23",
-      "dauer": "0h 13m",
-      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-27T11:44:35.501Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "12",
     "24",
@@ -82,7 +72,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 30
   }
 }

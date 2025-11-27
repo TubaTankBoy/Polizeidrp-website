@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-27T21:47:49.777Z",
+  "lastUpdate": "2025-11-27T21:54:19.911Z",
   "onDuty": [
     {
       "name": "ch.kasper",
@@ -7,7 +7,7 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "21:31",
-      "dauer": "0h 16m",
+      "dauer": "0h 22m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/3a54036769610bbeb1379fdae7bba4ae.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "20:01",
-      "dauer": "1h 46m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "15:46",
-      "dauer": "6h 1m",
+      "dauer": "6h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "64",
       "rang": "Leon Lang",
       "seit": "20:19",
-      "dauer": "1h 28m",
+      "dauer": "1h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "20:41",
-      "dauer": "1h 6m",
+      "dauer": "1h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],

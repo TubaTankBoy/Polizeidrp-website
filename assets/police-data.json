@@ -1,14 +1,32 @@
 {
-  "lastUpdate": "2025-11-27T13:58:05.737Z",
+  "lastUpdate": "2025-11-27T14:18:05.851Z",
   "onDuty": [
     {
       "name": "lucas_kowalski",
       "displayName": "[37] Lucas Kowalski",
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
-      "seit": "13:11",
-      "dauer": "0h 46m",
+      "seit": "14:16",
+      "dauer": "0h 1m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
+    },
+    {
+      "name": "lyroxx6595",
+      "displayName": "[44] Olaf Scholz",
+      "dienstnummer": "44",
+      "rang": "Olaf Scholz",
+      "seit": "14:03",
+      "dauer": "0h 14m",
+      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
+    },
+    {
+      "name": "fabiiiiii.",
+      "displayName": "[47] Marsel Kasten",
+      "dienstnummer": "47",
+      "rang": "Marsel Kasten",
+      "seit": "14:14",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -82,7 +100,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 30
   }
 }

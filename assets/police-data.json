@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-27T13:09:05.696Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-27T13:40:35.786Z",
+  "onDuty": [
+    {
+      "name": "lucas_kowalski",
+      "displayName": "[37] Lucas Kowalski",
+      "dienstnummer": "37",
+      "rang": "Lucas Kowalski",
+      "seit": "13:11",
+      "dauer": "0h 29m",
+      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "24",
@@ -72,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

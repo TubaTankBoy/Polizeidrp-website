@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-11-27T18:53:05.736Z",
+  "lastUpdate": "2025-11-27T18:59:05.723Z",
   "onDuty": [
-    {
-      "name": "lx_alpha",
-      "displayName": "[03] Dr. Peter Zwegat",
-      "dienstnummer": "03",
-      "rang": "Dr. Peter Zwegat",
-      "seit": "17:31",
-      "dauer": "1h 21m",
-      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
-    },
     {
       "name": "eastmuffin3264",
       "displayName": "[04] Ali Luigi Masta",
       "dienstnummer": "04",
       "rang": "Ali Luigi Masta",
       "seit": "18:02",
-      "dauer": "0h 50m",
+      "dauer": "0h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
     },
     {
@@ -25,7 +16,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "15:55",
-      "dauer": "2h 57m",
+      "dauer": "3h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "19",
       "rang": "Alfred Fisch",
       "seit": "17:28",
-      "dauer": "1h 24m",
+      "dauer": "1h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/790601317667176478/e460158bdefe2ef6336b7b6064dcd9bf.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "15:46",
-      "dauer": "3h 6m",
+      "dauer": "3h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -52,7 +43,7 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "14:16",
-      "dauer": "4h 36m",
+      "dauer": "4h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
     },
     {
@@ -61,7 +52,7 @@
       "dienstnummer": "91",
       "rang": "Dariu mcveysl",
       "seit": "18:16",
-      "dauer": "0h 36m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/799180500076986369/470865c8d34cbd2c0805163204e5d9c9.webp?size=128"
     },
     {
@@ -70,14 +61,13 @@
       "dienstnummer": "92",
       "rang": "Fritz Taifun",
       "seit": "18:17",
-      "dauer": "0h 35m",
+      "dauer": "0h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/790969531857895464/a6e8b92794f2b76dc659dd038e65617e.webp?size=128"
     }
   ],
   "freeDienstnummern": [
     "12",
     "24",
-    "26",
     "33",
     "35",
     "38",
@@ -86,6 +76,7 @@
     "49",
     "50",
     "53",
+    "58",
     "59",
     "60",
     "62",
@@ -144,7 +135,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 72,
-    "aktuellImDienst": 8,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 29
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-28T13:20:53.977Z",
+  "lastUpdate": "2025-11-28T13:42:54.021Z",
   "onDuty": [
     {
       "name": "lucas_kowalski",
@@ -7,17 +7,8 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "13:10",
-      "dauer": "0h 10m",
+      "dauer": "0h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
-    },
-    {
-      "name": "leon_fly",
-      "displayName": "[64] Leon Lang",
-      "dienstnummer": "64",
-      "rang": "Leon Lang",
-      "seit": "12:41",
-      "dauer": "0h 39m",
-      "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -91,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

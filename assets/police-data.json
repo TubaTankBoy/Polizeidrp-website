@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-28T22:46:56.063Z",
+  "lastUpdate": "2025-11-28T22:53:26.066Z",
   "onDuty": [
     {
       "name": "eastmuffin3264",
@@ -7,7 +7,7 @@
       "dienstnummer": "04",
       "rang": "Ali Luigi Masta",
       "seit": "21:11",
-      "dauer": "1h 35m",
+      "dauer": "1h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "22:16",
-      "dauer": "0h 30m",
+      "dauer": "0h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "22:28",
-      "dauer": "0h 18m",
+      "dauer": "0h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "20:34",
-      "dauer": "2h 12m",
+      "dauer": "2h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "21:52",
-      "dauer": "0h 54m",
+      "dauer": "1h 1m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -52,17 +52,8 @@
       "dienstnummer": "54",
       "rang": "Lasse Saymyname",
       "seit": "22:07",
-      "dauer": "0h 39m",
+      "dauer": "0h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/1120402070915272734/219d02b297fa14a731ede831dc7487cb.webp?size=128"
-    },
-    {
-      "name": "dasadri",
-      "displayName": "[66] Mateo Lopes",
-      "dienstnummer": "66",
-      "rang": "Mateo Lopes",
-      "seit": "20:41",
-      "dauer": "2h 4m",
-      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -70,7 +61,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "22:20",
-      "dauer": "0h 26m",
+      "dauer": "0h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -145,7 +136,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 8,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 30
   }
 }

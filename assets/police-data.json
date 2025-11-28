@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-28T15:56:24.217Z",
+  "lastUpdate": "2025-11-28T16:15:22.205Z",
   "onDuty": [
     {
       "name": "sami_5858",
@@ -7,7 +7,7 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "14:03",
-      "dauer": "1h 52m",
+      "dauer": "2h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "34",
       "rang": "Alex blasius",
       "seit": "14:10",
-      "dauer": "1h 45m",
+      "dauer": "2h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
-    },
-    {
-      "name": "lucas_kowalski",
-      "displayName": "[37] Lucas Kowalski",
-      "dienstnummer": "37",
-      "rang": "Lucas Kowalski",
-      "seit": "15:43",
-      "dauer": "0h 13m",
-      "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -34,7 +25,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "15:31",
-      "dauer": "0h 24m",
+      "dauer": "0h 43m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -109,7 +100,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 30
   }
 }

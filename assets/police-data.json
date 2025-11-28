@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-28T12:00:23.855Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-28T12:46:53.912Z",
+  "onDuty": [
+    {
+      "name": "leon_fly",
+      "displayName": "[64] Leon Lang",
+      "dienstnummer": "64",
+      "rang": "Leon Lang",
+      "seit": "12:41",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "24",
@@ -72,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

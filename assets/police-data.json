@@ -1,32 +1,14 @@
 {
-  "lastUpdate": "2025-11-28T23:58:26.114Z",
+  "lastUpdate": "2025-11-29T01:19:26.298Z",
   "onDuty": [
-    {
-      "name": "ch.kasper.mn",
-      "displayName": "[18] Dr. Casper Akkerman",
-      "dienstnummer": "18",
-      "rang": "Dr. Casper Akkerman",
-      "seit": "20:34",
-      "dauer": "3h 24m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
-    },
     {
       "name": "yildiz.drp",
       "displayName": "[54] Lasse Saymyname",
       "dienstnummer": "54",
       "rang": "Lasse Saymyname",
       "seit": "22:07",
-      "dauer": "1h 50m",
+      "dauer": "3h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/1120402070915272734/219d02b297fa14a731ede831dc7487cb.webp?size=128"
-    },
-    {
-      "name": "csrccdrk",
-      "displayName": "[70] Andi Zadel",
-      "dienstnummer": "70",
-      "rang": "Andi Zadel",
-      "seit": "22:20",
-      "dauer": "1h 37m",
-      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -99,8 +81,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 71,
-    "aktuellImDienst": 3,
+    "gesamtMitarbeiter": 70,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

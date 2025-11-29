@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-29T13:05:29.330Z",
+  "lastUpdate": "2025-11-29T13:32:47.142Z",
   "onDuty": [
     {
       "name": "yildiz.drp",
@@ -7,8 +7,17 @@
       "dienstnummer": "54",
       "rang": "Lasse Saymyname",
       "seit": "12:52",
-      "dauer": "0h 12m",
+      "dauer": "0h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/1120402070915272734/219d02b297fa14a731ede831dc7487cb.webp?size=128"
+    },
+    {
+      "name": "rocraft0911",
+      "displayName": "[104] Philipp Weber",
+      "dienstnummer": "104",
+      "rang": "Philipp Weber",
+      "seit": "13:31",
+      "dauer": "0h 1m",
+      "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -82,7 +91,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 30
   }
 }

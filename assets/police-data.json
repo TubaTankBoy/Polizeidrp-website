@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-29T11:46:06.055Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-29T13:05:29.330Z",
+  "onDuty": [
+    {
+      "name": "yildiz.drp",
+      "displayName": "[54] Lasse Saymyname",
+      "dienstnummer": "54",
+      "rang": "Lasse Saymyname",
+      "seit": "12:52",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/1120402070915272734/219d02b297fa14a731ede831dc7487cb.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "24",
@@ -33,10 +43,46 @@
     "93",
     "94"
   ],
-  "polizeiInformationen": [],
+  "polizeiInformationen": [
+    {
+      "datum": "25.11.2025",
+      "uhrzeit": "16:43",
+      "autor": "lias82",
+      "nachricht": "Hiermit wird der bot @User Offline Genommen, Alle Sehr Wichtigen Systeme Laufen jetzt über @Polizei v2 | D-RP der rest wird in Nächster Zeit Folgen.",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
+    {
+      "datum": "25.11.2025",
+      "uhrzeit": "16:43",
+      "autor": "lias82",
+      "nachricht": "https://tenor.com/view/emotiguy-salute-joe-hi-emotiguy-joe-salute-gif-12916449566301630787",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
+    {
+      "datum": "24.11.2025",
+      "uhrzeit": "21:15",
+      "autor": "nikohaupt",
+      "nachricht": "||@DRP Polizei - Mitarbeiter ||\n\n**Die Umkleiden funktionieren wieder.**",
+      "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
+    },
+    {
+      "datum": "22.11.2025",
+      "uhrzeit": "14:00",
+      "autor": "lias82",
+      "nachricht": "Auch wenn es Genehmigt wurde muss es für die Logs ein @Personalsachbearbeiter Machen. heißt wer es Trotzdem selber macht bekommt Sanktionen\n\n(bild im Beispiel kommt aber 5 mal am Tag auch bei Anderen vor)",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
+    {
+      "datum": "22.11.2025",
+      "uhrzeit": "13:59",
+      "autor": "lias82",
+      "nachricht": "📢 WICHTIGE ANKÜNDIGUNG: Dienstnummern & Nicknames\nWerte Kolleginnen und Kollegen,\n\naus gegebenem Anlass weisen wir darauf hin, dass es strengstens untersagt ist, die eigene Dienstnummer im Discord-Nickname selbstständig zu ändern.\n\n\n⚠️ Vorgehensweise:\n\nSollte eure Dienstnummer falsch sein, fehlen oder geändert werden müssen, meldet euch bitte ausschließlich bei der @Personalsachbearbeiter o. @DRP Polizei - Management  \n\nEigenmächtige Änderungen werden administrativ rückgängig gemacht und können",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    }
+  ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 30
   }
 }

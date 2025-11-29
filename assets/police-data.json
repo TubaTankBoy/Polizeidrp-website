@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-29T01:19:26.298Z",
-  "onDuty": [
-    {
-      "name": "yildiz.drp",
-      "displayName": "[54] Lasse Saymyname",
-      "dienstnummer": "54",
-      "rang": "Lasse Saymyname",
-      "seit": "22:07",
-      "dauer": "3h 11m",
-      "avatar": "https://cdn.discordapp.com/avatars/1120402070915272734/219d02b297fa14a731ede831dc7487cb.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-11-29T02:48:26.618Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "12",
     "24",
@@ -82,7 +72,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 70,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 30
   }
 }

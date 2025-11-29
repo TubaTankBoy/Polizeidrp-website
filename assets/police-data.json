@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-29T13:32:47.142Z",
+  "lastUpdate": "2025-11-29T13:43:17.685Z",
   "onDuty": [
     {
       "name": "yildiz.drp",
@@ -7,7 +7,7 @@
       "dienstnummer": "54",
       "rang": "Lasse Saymyname",
       "seit": "12:52",
-      "dauer": "0h 40m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/1120402070915272734/219d02b297fa14a731ede831dc7487cb.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "13:31",
-      "dauer": "0h 1m",
+      "dauer": "0h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
@@ -54,6 +54,13 @@
   ],
   "polizeiInformationen": [
     {
+      "datum": "29.11.2025",
+      "uhrzeit": "13:36",
+      "autor": "lias82",
+      "nachricht": "# 📢 CHANGELOG: Polizei Bot v2.0 Release\n\nWerte Kolleginnen und Kollegen,\n\nwir freuen uns, das umfangreichste Update unserer Verwaltungs-Software vorzustellen! Der Bot wurde komplett überarbeitet (\"v2\") und bietet nun massive Verbesserungen für die Personalabteilung, die Ausbildungsleitung und den allgemeinen Dienstalltag.\n\nHier sind die Änderungen im Detail:\n\n### 👮 Personal & Verwaltung (HR)\n* **🆕 Einstellungs-System:**\n    * Neue Mitarbeiter werden nun per Command eingestellt.\n    * Der Bot ",
+      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
+    },
+    {
       "datum": "25.11.2025",
       "uhrzeit": "16:43",
       "autor": "lias82",
@@ -79,13 +86,6 @@
       "uhrzeit": "14:00",
       "autor": "lias82",
       "nachricht": "Auch wenn es Genehmigt wurde muss es für die Logs ein @Personalsachbearbeiter Machen. heißt wer es Trotzdem selber macht bekommt Sanktionen\n\n(bild im Beispiel kommt aber 5 mal am Tag auch bei Anderen vor)",
-      "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
-    },
-    {
-      "datum": "22.11.2025",
-      "uhrzeit": "13:59",
-      "autor": "lias82",
-      "nachricht": "📢 WICHTIGE ANKÜNDIGUNG: Dienstnummern & Nicknames\nWerte Kolleginnen und Kollegen,\n\naus gegebenem Anlass weisen wir darauf hin, dass es strengstens untersagt ist, die eigene Dienstnummer im Discord-Nickname selbstständig zu ändern.\n\n\n⚠️ Vorgehensweise:\n\nSollte eure Dienstnummer falsch sein, fehlen oder geändert werden müssen, meldet euch bitte ausschließlich bei der @Personalsachbearbeiter o. @DRP Polizei - Management  \n\nEigenmächtige Änderungen werden administrativ rückgängig gemacht und können",
       "avatar": "https://cdn.discordapp.com/avatars/434833602916909067/b8124b3edef49dbddb52d654f3147db3.webp?size=64"
     }
   ],

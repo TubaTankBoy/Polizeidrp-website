@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-30T23:50:57.270Z",
+  "lastUpdate": "2025-11-30T23:56:57.233Z",
   "onDuty": [
     {
       "name": "ch.kasper.mn",
@@ -7,17 +7,8 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "23:15",
-      "dauer": "0h 35m",
+      "dauer": "0h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
-    },
-    {
-      "name": "leon_fly",
-      "displayName": "[64] Leon Lang",
-      "dienstnummer": "64",
-      "rang": "Leon Lang",
-      "seit": "23:05",
-      "dauer": "0h 45m",
-      "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -89,7 +80,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 73,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 28
   }
 }

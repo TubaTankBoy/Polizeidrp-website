@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-30T19:39:26.825Z",
+  "lastUpdate": "2025-11-30T19:45:26.913Z",
   "onDuty": [
     {
       "name": "angiiiii.",
@@ -7,7 +7,7 @@
       "dienstnummer": "11",
       "rang": "Angii Kowalski",
       "seit": "18:35",
-      "dauer": "1h 4m",
+      "dauer": "1h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "19:00",
-      "dauer": "0h 38m",
+      "dauer": "0h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman-Mosa",
       "seit": "18:51",
-      "dauer": "0h 47m",
+      "dauer": "0h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "18:55",
-      "dauer": "0h 44m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "18:42",
-      "dauer": "0h 56m",
+      "dauer": "1h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -52,7 +52,7 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "17:14",
-      "dauer": "2h 25m",
+      "dauer": "2h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
     },
     {
@@ -61,7 +61,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "16:08",
-      "dauer": "3h 31m",
+      "dauer": "3h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -70,17 +70,8 @@
       "dienstnummer": "64",
       "rang": "Leon Lang",
       "seit": "18:18",
-      "dauer": "1h 21m",
+      "dauer": "1h 27m",
       "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
-    },
-    {
-      "name": "_marlon_9",
-      "displayName": "[65] Marlon Jackson",
-      "dienstnummer": "65",
-      "rang": "Marlon Jackson",
-      "seit": "17:38",
-      "dauer": "2h 0m",
-      "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -88,7 +79,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "14:42",
-      "dauer": "4h 56m",
+      "dauer": "5h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -97,7 +88,7 @@
       "dienstnummer": "90",
       "rang": "Otti Stewardt",
       "seit": "19:34",
-      "dauer": "0h 4m",
+      "dauer": "0h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/949354196564578354/f3ae01a2a81d1d264d5d16f0f83c8594.webp?size=128"
     },
     {
@@ -106,7 +97,7 @@
       "dienstnummer": "91",
       "rang": "Julia Little",
       "seit": "17:46",
-      "dauer": "1h 53m",
+      "dauer": "1h 59m",
       "avatar": "https://cdn.discordapp.com/avatars/1257975485007396867/4a83fd9313d76bad14cfbfe81021b877.webp?size=128"
     },
     {
@@ -114,8 +105,8 @@
       "displayName": "[97] Marco Geipel",
       "dienstnummer": "97",
       "rang": "Marco Geipel",
-      "seit": "16:25",
-      "dauer": "3h 13m",
+      "seit": "19:43",
+      "dauer": "0h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
@@ -187,7 +178,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 74,
-    "aktuellImDienst": 13,
+    "aktuellImDienst": 12,
     "freieDienstnummern": 27
   }
 }

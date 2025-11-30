@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-30T11:56:56.596Z",
-  "onDuty": [],
+  "lastUpdate": "2025-11-30T12:25:56.555Z",
+  "onDuty": [
+    {
+      "name": "fabiiiiii.",
+      "displayName": "[47] Marsel Kasten",
+      "dienstnummer": "47",
+      "rang": "Marsel Kasten",
+      "seit": "12:18",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "35",
@@ -68,7 +78,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 26
   }
 }

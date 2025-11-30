@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-30T13:41:26.605Z",
+  "lastUpdate": "2025-11-30T13:47:26.604Z",
   "onDuty": [
     {
       "name": ".shiro01_",
@@ -7,7 +7,7 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi",
       "seit": "12:59",
-      "dauer": "0h 42m",
+      "dauer": "0h 48m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "12:18",
-      "dauer": "1h 23m",
+      "dauer": "1h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "13:31",
-      "dauer": "0h 9m",
+      "dauer": "0h 15m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "13:02",
-      "dauer": "0h 39m",
+      "dauer": "0h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     },
     {
@@ -42,8 +42,8 @@
       "displayName": "[99] Timo Luigi",
       "dienstnummer": "99",
       "rang": "Timo Luigi",
-      "seit": "12:56",
-      "dauer": "0h 44m",
+      "seit": "13:42",
+      "dauer": "0h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     },
     {
@@ -52,7 +52,7 @@
       "dienstnummer": "115",
       "rang": "Peter Lustig",
       "seit": "13:02",
-      "dauer": "0h 38m",
+      "dauer": "0h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
     }
   ],

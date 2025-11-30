@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-30T22:30:57.018Z",
+  "lastUpdate": "2025-11-30T22:42:57.053Z",
   "onDuty": [
     {
       "name": "ch.kasper.mn",
@@ -7,7 +7,7 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "19:00",
-      "dauer": "3h 30m",
+      "dauer": "3h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman-Mosa",
       "seit": "21:00",
-      "dauer": "1h 30m",
+      "dauer": "1h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
-    },
-    {
-      "name": "fabiiiiii.",
-      "displayName": "[47] Marsel Kasten",
-      "dienstnummer": "47",
-      "rang": "Marsel Kasten",
-      "seit": "20:33",
-      "dauer": "1h 57m",
-      "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     },
     {
       "name": "leon_fly",
@@ -34,7 +25,7 @@
       "dienstnummer": "64",
       "rang": "Leon Lang",
       "seit": "20:25",
-      "dauer": "2h 5m",
+      "dauer": "2h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "97",
       "rang": "Marco Geipel",
       "seit": "20:49",
-      "dauer": "1h 41m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
@@ -116,7 +107,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 73,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 28
   }
 }

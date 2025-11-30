@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-30T22:49:27.165Z",
+  "lastUpdate": "2025-11-30T22:55:27.130Z",
   "onDuty": [
     {
       "name": "ch.kasper.mn",
@@ -7,7 +7,7 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "19:00",
-      "dauer": "3h 48m",
+      "dauer": "3h 54m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman-Mosa",
       "seit": "21:00",
-      "dauer": "1h 49m",
+      "dauer": "1h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "64",
       "rang": "Leon Lang",
       "seit": "20:25",
-      "dauer": "2h 24m",
+      "dauer": "2h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "97",
       "rang": "Marco Geipel",
       "seit": "20:49",
-      "dauer": "1h 59m",
+      "dauer": "2h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],

@@ -1,14 +1,41 @@
 {
-  "lastUpdate": "2025-11-30T12:25:56.555Z",
+  "lastUpdate": "2025-11-30T13:00:26.611Z",
   "onDuty": [
+    {
+      "name": "_vapros",
+      "displayName": "[05] Maxim Diamonds",
+      "dienstnummer": "05",
+      "rang": "Maxim Diamonds",
+      "seit": "12:51",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": ".shiro01_",
+      "displayName": "[14] Shino Luigi",
+      "dienstnummer": "14",
+      "rang": "Shino Luigi",
+      "seit": "12:59",
+      "dauer": "0h 1m",
+      "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
+    },
     {
       "name": "fabiiiiii.",
       "displayName": "[47] Marsel Kasten",
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "12:18",
-      "dauer": "0h 7m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
+    },
+    {
+      "name": "tmo_420",
+      "displayName": "[99] Timo Luigi",
+      "dienstnummer": "99",
+      "rang": "Timo Luigi",
+      "seit": "12:56",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -78,7 +105,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 26
   }
 }

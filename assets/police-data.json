@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2025-11-30T22:55:27.130Z",
+  "lastUpdate": "2025-11-30T23:10:27.116Z",
   "onDuty": [
     {
       "name": "ch.kasper.mn",
       "displayName": "[18] Dr. Casper Akkerman",
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
-      "seit": "19:00",
-      "dauer": "3h 54m",
+      "seit": "23:10",
+      "dauer": "0h 0m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
     },
     {
@@ -15,8 +15,8 @@
       "displayName": "[20] Dr. Chiara Akkerman-Mosa",
       "dienstnummer": "20",
       "rang": "Dr. Chiara Akkerman-Mosa",
-      "seit": "21:00",
-      "dauer": "1h 55m",
+      "seit": "23:00",
+      "dauer": "0h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
     },
     {
@@ -24,18 +24,9 @@
       "displayName": "[64] Leon Lang",
       "dienstnummer": "64",
       "rang": "Leon Lang",
-      "seit": "20:25",
-      "dauer": "2h 30m",
+      "seit": "23:05",
+      "dauer": "0h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/1031534729381560420/a_5380b9fbd588cc9fdbf9d6258d25af65.gif?size=128"
-    },
-    {
-      "name": "opm_benni",
-      "displayName": "[97] Marco Geipel",
-      "dienstnummer": "97",
-      "rang": "Marco Geipel",
-      "seit": "20:49",
-      "dauer": "2h 5m",
-      "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -107,7 +98,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 73,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 28
   }
 }

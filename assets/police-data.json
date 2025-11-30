@@ -1,13 +1,31 @@
 {
-  "lastUpdate": "2025-11-30T15:10:56.624Z",
+  "lastUpdate": "2025-11-30T15:28:26.727Z",
   "onDuty": [
+    {
+      "name": "ch.kasper.mn",
+      "displayName": "[18] Dr. Casper Akkerman",
+      "dienstnummer": "18",
+      "rang": "Dr. Casper Akkerman",
+      "seit": "15:23",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
+    },
+    {
+      "name": "pol.chiara",
+      "displayName": "[20] Dr. Chiara Akkerman-Mosa",
+      "dienstnummer": "20",
+      "rang": "Dr. Chiara Akkerman-Mosa",
+      "seit": "15:19",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
+    },
     {
       "name": "ceos0594",
       "displayName": "[21] Ceos Kowalskii.",
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "13:52",
-      "dauer": "1h 18m",
+      "dauer": "1h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -16,7 +34,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "14:39",
-      "dauer": "0h 31m",
+      "dauer": "0h 48m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -25,8 +43,17 @@
       "dienstnummer": "37",
       "rang": "Lucas Kowalski",
       "seit": "14:15",
-      "dauer": "0h 55m",
+      "dauer": "1h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/1329855741426925610/19f13eca8e2cc0512b6dc502d5dde6d6.webp?size=128"
+    },
+    {
+      "name": "fabiiiiii.",
+      "displayName": "[47] Marsel Kasten",
+      "dienstnummer": "47",
+      "rang": "Marsel Kasten",
+      "seit": "15:25",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/9de4043358c85bac71f5e4623bf5c625.webp?size=128"
     },
     {
       "name": "alphaschieferyt",
@@ -34,7 +61,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "13:31",
-      "dauer": "1h 39m",
+      "dauer": "1h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -43,7 +70,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "14:42",
-      "dauer": "0h 27m",
+      "dauer": "0h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -52,7 +79,7 @@
       "dienstnummer": "90",
       "rang": "Otti Stewardt",
       "seit": "15:09",
-      "dauer": "0h 1m",
+      "dauer": "0h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/949354196564578354/f3ae01a2a81d1d264d5d16f0f83c8594.webp?size=128"
     },
     {
@@ -60,8 +87,8 @@
       "displayName": "[99] Timo Luigi",
       "dienstnummer": "99",
       "rang": "Timo Luigi",
-      "seit": "14:43",
-      "dauer": "0h 27m",
+      "seit": "15:14",
+      "dauer": "0h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
@@ -133,7 +160,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 74,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 10,
     "freieDienstnummern": 27
   }
 }

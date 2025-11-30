@@ -1,31 +1,13 @@
 {
-  "lastUpdate": "2025-11-30T01:47:54.971Z",
+  "lastUpdate": "2025-11-30T03:16:55.205Z",
   "onDuty": [
-    {
-      "name": "angiiiii.",
-      "displayName": "[11] Angii Kowalski",
-      "dienstnummer": "11",
-      "rang": "Angii Kowalski",
-      "seit": "20:30",
-      "dauer": "5h 17m",
-      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
-    },
-    {
-      "name": "ceos0594",
-      "displayName": "[21] Ceos Kowalskii.",
-      "dienstnummer": "21",
-      "rang": "Ceos Kowalskii.",
-      "seit": "22:10",
-      "dauer": "3h 37m",
-      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
-    },
     {
       "name": "alphaschieferyt",
       "displayName": "[60] Manchester Black",
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "22:53",
-      "dauer": "2h 54m",
+      "dauer": "4h 23m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/b6c840a373a845b3a83d672ba31f2d04.webp?size=128"
     }
   ],
@@ -96,7 +78,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 26
   }
 }

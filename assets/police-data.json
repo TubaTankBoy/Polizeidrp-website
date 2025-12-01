@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-01T11:58:00.787Z",
+  "lastUpdate": "2025-12-01T12:38:00.853Z",
   "onDuty": [
     {
       "name": "alphaschieferyt",
@@ -7,7 +7,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "11:51",
-      "dauer": "0h 6m",
+      "dauer": "0h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -15,8 +15,8 @@
       "displayName": "[61] Mischa Diamonds",
       "dienstnummer": "61",
       "rang": "Mischa Diamonds",
-      "seit": "11:10",
-      "dauer": "0h 47m",
+      "seit": "12:09",
+      "dauer": "0h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
     }
   ],
@@ -47,8 +47,7 @@
     "86",
     "87",
     "92",
-    "93",
-    "94"
+    "93"
   ],
   "polizeiInformationen": [
     {
@@ -88,8 +87,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 73,
+    "gesamtMitarbeiter": 74,
     "aktuellImDienst": 2,
-    "freieDienstnummern": 28
+    "freieDienstnummern": 27
   }
 }

@@ -1,14 +1,14 @@
 {
-  "lastUpdate": "2025-12-01T15:55:31.000Z",
+  "lastUpdate": "2025-12-01T16:16:33.324Z",
   "onDuty": [
     {
-      "name": "pol.chiara",
-      "displayName": "[20] Dr. Chiara Akkerman-Mosa",
-      "dienstnummer": "20",
-      "rang": "Dr. Chiara Akkerman-Mosa",
-      "seit": "14:59",
-      "dauer": "0h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/1319461648871981126/68aab3eb427cec2539b5f1d43379f3e4.webp?size=128"
+      "name": "luminex_021",
+      "displayName": "[30] Arthur Weiß Abg.",
+      "dienstnummer": "30",
+      "rang": "Arthur Weiß Abg.",
+      "seit": "16:13",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/1188772840636432448/06727073f1832c6aed16740d05ad18f5.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -16,7 +16,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "14:12",
-      "dauer": "1h 43m",
+      "dauer": "2h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "14:38",
-      "dauer": "1h 17m",
+      "dauer": "1h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "14:51",
-      "dauer": "1h 4m",
+      "dauer": "1h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -43,17 +43,17 @@
       "dienstnummer": "90",
       "rang": "Otti Stewardt",
       "seit": "13:35",
-      "dauer": "2h 20m",
+      "dauer": "2h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/949354196564578354/f3ae01a2a81d1d264d5d16f0f83c8594.webp?size=128"
     },
     {
-      "name": "__mini__.",
-      "displayName": "[91] Julia Little",
-      "dienstnummer": "91",
-      "rang": "Julia Little",
-      "seit": "13:36",
-      "dauer": "2h 18m",
-      "avatar": "https://cdn.discordapp.com/avatars/1257975485007396867/4a83fd9313d76bad14cfbfe81021b877.webp?size=128"
+      "name": "leonpella",
+      "displayName": "[94] Leon Winkler",
+      "dienstnummer": "94",
+      "rang": "Leon Winkler",
+      "seit": "16:05",
+      "dauer": "0h 11m",
+      "avatar": "https://cdn.discordapp.com/avatars/1120582638902726736/ab7e4f072cab2be3cf4b20a58f4b503a.webp?size=128"
     }
   ],
   "freeDienstnummern": [

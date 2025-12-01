@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-01T21:48:21.251Z",
+  "lastUpdate": "2025-12-01T21:55:51.251Z",
   "onDuty": [
     {
       "name": "alphaschieferyt",
@@ -7,8 +7,17 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "17:04",
-      "dauer": "4h 43m",
+      "dauer": "4h 51m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
+    },
+    {
+      "name": "jani12299",
+      "displayName": "[71] Richard Lugner",
+      "dienstnummer": "71",
+      "rang": "Richard Lugner",
+      "seit": "21:54",
+      "dauer": "0h 1m",
+      "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -79,7 +88,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 27
   }
 }

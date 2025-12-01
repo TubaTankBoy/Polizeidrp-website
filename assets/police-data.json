@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-11-30T23:56:57.233Z",
-  "onDuty": [
-    {
-      "name": "ch.kasper.mn",
-      "displayName": "[18] Dr. Casper Akkerman",
-      "dienstnummer": "18",
-      "rang": "Dr. Casper Akkerman",
-      "seit": "23:15",
-      "dauer": "0h 41m",
-      "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-12-01T01:19:57.352Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "12",
     "35",
@@ -80,7 +70,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 73,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 28
   }
 }

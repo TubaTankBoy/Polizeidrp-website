@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-01T14:18:01.009Z",
+  "lastUpdate": "2025-12-01T14:42:00.956Z",
   "onDuty": [
     {
       "name": "sami_5858",
@@ -7,7 +7,7 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "12:44",
-      "dauer": "1h 33m",
+      "dauer": "1h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "14:12",
-      "dauer": "0h 5m",
+      "dauer": "0h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+    },
+    {
+      "name": "lyroxx6595",
+      "displayName": "[44] Olaf Scholz",
+      "dienstnummer": "44",
+      "rang": "Olaf Scholz",
+      "seit": "14:38",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
       "name": "niklas_113",
@@ -25,7 +34,7 @@
       "dienstnummer": "90",
       "rang": "Otti Stewardt",
       "seit": "13:35",
-      "dauer": "0h 42m",
+      "dauer": "1h 6m",
       "avatar": "https://cdn.discordapp.com/avatars/949354196564578354/f3ae01a2a81d1d264d5d16f0f83c8594.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "91",
       "rang": "Julia Little",
       "seit": "13:36",
-      "dauer": "0h 41m",
+      "dauer": "1h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/1257975485007396867/4a83fd9313d76bad14cfbfe81021b877.webp?size=128"
     }
   ],
@@ -107,7 +116,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 73,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 28
   }
 }

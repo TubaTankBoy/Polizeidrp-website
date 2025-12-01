@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-01T17:00:33.349Z",
+  "lastUpdate": "2025-12-01T17:24:33.409Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,8 +7,17 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "16:52",
-      "dauer": "0h 7m",
+      "dauer": "0h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": "gamr2009",
+      "displayName": "[27] Alex Fischer",
+      "dienstnummer": "27",
+      "rang": "Alex Fischer",
+      "seit": "17:18",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
       "name": "luminex_021",
@@ -16,7 +25,7 @@
       "dienstnummer": "30",
       "rang": "Arthur Weiß Abg.",
       "seit": "16:13",
-      "dauer": "0h 47m",
+      "dauer": "1h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/1188772840636432448/06727073f1832c6aed16740d05ad18f5.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "14:12",
-      "dauer": "2h 48m",
+      "dauer": "3h 12m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -34,8 +43,17 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "14:38",
-      "dauer": "2h 22m",
+      "dauer": "2h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
+    },
+    {
+      "name": "alphaschieferyt",
+      "displayName": "[60] Manchester Black",
+      "dienstnummer": "60",
+      "rang": "Manchester Black",
+      "seit": "17:04",
+      "dauer": "0h 20m",
+      "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -43,7 +61,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "14:51",
-      "dauer": "2h 9m",
+      "dauer": "2h 33m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -52,7 +70,7 @@
       "dienstnummer": "90",
       "rang": "Otti Stewardt",
       "seit": "13:35",
-      "dauer": "3h 25m",
+      "dauer": "3h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/949354196564578354/f3ae01a2a81d1d264d5d16f0f83c8594.webp?size=128"
     },
     {
@@ -61,7 +79,7 @@
       "dienstnummer": "94",
       "rang": "Leon Winkler",
       "seit": "16:05",
-      "dauer": "0h 55m",
+      "dauer": "1h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/1120582638902726736/ab7e4f072cab2be3cf4b20a58f4b503a.webp?size=128"
     }
   ],
@@ -134,7 +152,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 73,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 9,
     "freieDienstnummern": 28
   }
 }

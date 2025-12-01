@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-01T21:16:06.030Z",
+  "lastUpdate": "2025-12-01T21:28:35.428Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "19:41",
-      "dauer": "1h 34m",
+      "dauer": "1h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "16:52",
-      "dauer": "4h 23m",
+      "dauer": "4h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "20:25",
-      "dauer": "0h 50m",
+      "dauer": "1h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -34,17 +34,8 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "17:04",
-      "dauer": "4h 11m",
+      "dauer": "4h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
-    },
-    {
-      "name": "csrccdrk",
-      "displayName": "[70] Andi Zadel",
-      "dienstnummer": "70",
-      "rang": "Andi Zadel",
-      "seit": "19:09",
-      "dauer": "2h 6m",
-      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
       "name": "opm_benni",
@@ -52,7 +43,7 @@
       "dienstnummer": "97",
       "rang": "Marco Geipel",
       "seit": "20:18",
-      "dauer": "0h 58m",
+      "dauer": "1h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
@@ -123,8 +114,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 74,
-    "aktuellImDienst": 6,
+    "gesamtMitarbeiter": 75,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 27
   }
 }

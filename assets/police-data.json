@@ -1,13 +1,22 @@
 {
-  "lastUpdate": "2025-12-01T22:10:21.334Z",
+  "lastUpdate": "2025-12-01T22:32:21.339Z",
   "onDuty": [
+    {
+      "name": "sami_5858",
+      "displayName": "[26] Sami Zibabo",
+      "dienstnummer": "26",
+      "rang": "Sami Zibabo",
+      "seit": "22:14",
+      "dauer": "0h 18m",
+      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    },
     {
       "name": "alphaschieferyt",
       "displayName": "[60] Manchester Black",
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "17:04",
-      "dauer": "5h 5m",
+      "dauer": "5h 27m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -16,13 +25,12 @@
       "dienstnummer": "71",
       "rang": "Richard Lugner",
       "seit": "21:54",
-      "dauer": "0h 15m",
+      "dauer": "0h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     }
   ],
   "freeDienstnummern": [
     "12",
-    "24",
     "35",
     "37",
     "38",
@@ -34,6 +42,7 @@
     "54",
     "58",
     "59",
+    "61",
     "62",
     "63",
     "68",
@@ -88,7 +97,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 27
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-02T16:50:54.736Z",
+  "lastUpdate": "2025-12-02T17:11:24.721Z",
   "onDuty": [
     {
       "name": "mischa76",
@@ -7,7 +7,7 @@
       "dienstnummer": "24",
       "rang": "Mischa Diamonds",
       "seit": "16:44",
-      "dauer": "0h 6m",
+      "dauer": "0h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "15:07",
-      "dauer": "1h 43m",
+      "dauer": "2h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "15:23",
-      "dauer": "1h 26m",
+      "dauer": "1h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "52",
       "rang": "Jonas Hoffman",
       "seit": "15:27",
-      "dauer": "1h 23m",
+      "dauer": "1h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/842484910908112926/a_1ca8049f3a353abea47a2f332b72a4b0.gif?size=128"
     },
     {
@@ -43,8 +43,17 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "12:26",
-      "dauer": "4h 23m",
+      "dauer": "4h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
+    },
+    {
+      "name": "dasadri",
+      "displayName": "[66] Mateo Lopes",
+      "dienstnummer": "66",
+      "rang": "Mateo Lopes",
+      "seit": "16:51",
+      "dauer": "0h 20m",
+      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -52,7 +61,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "14:53",
-      "dauer": "1h 57m",
+      "dauer": "2h 18m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -60,8 +69,8 @@
       "displayName": "[71] Richard Lugner",
       "dienstnummer": "71",
       "rang": "Richard Lugner",
-      "seit": "14:57",
-      "dauer": "1h 53m",
+      "seit": "17:08",
+      "dauer": "0h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     }
   ],
@@ -133,7 +142,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 27
   }
 }

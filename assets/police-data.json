@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-12-02T05:55:22.962Z",
-  "onDuty": [
-    {
-      "name": "sami_5858",
-      "displayName": "[26] Sami Zibabo",
-      "dienstnummer": "26",
-      "rang": "Sami Zibabo",
-      "seit": "05:28",
-      "dauer": "0h 26m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-12-02T06:18:53.015Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "12",
     "35",
@@ -79,7 +69,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 27
   }
 }

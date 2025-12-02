@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-02T14:44:24.693Z",
+  "lastUpdate": "2025-12-02T14:55:54.699Z",
   "onDuty": [
     {
       "name": "alphaschieferyt",
@@ -7,16 +7,25 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "12:26",
-      "dauer": "2h 17m",
+      "dauer": "2h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
+    },
+    {
+      "name": "csrccdrk",
+      "displayName": "[70] Andi Zadel",
+      "dienstnummer": "70",
+      "rang": "Andi Zadel",
+      "seit": "14:53",
+      "dauer": "0h 2m",
+      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
       "name": "tmo_420",
       "displayName": "[99] Timo Luigi",
       "dienstnummer": "99",
       "rang": "Timo Luigi",
-      "seit": "14:10",
-      "dauer": "0h 33m",
+      "seit": "14:52",
+      "dauer": "0h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "14:13",
-      "dauer": "0h 30m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
@@ -97,7 +106,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 27
   }
 }

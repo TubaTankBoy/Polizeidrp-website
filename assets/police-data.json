@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-12-02T19:58:24.805Z",
+  "lastUpdate": "2025-12-02T20:21:24.793Z",
   "onDuty": [
-    {
-      "name": "lyroxx6595",
-      "displayName": "[44] Olaf Scholz",
-      "dienstnummer": "44",
-      "rang": "Olaf Scholz",
-      "seit": "18:37",
-      "dauer": "1h 20m",
-      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
-    },
     {
       "name": "alphaschieferyt",
       "displayName": "[60] Manchester Black",
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "19:04",
-      "dauer": "0h 54m",
+      "dauer": "1h 17m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -25,17 +16,8 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "19:17",
-      "dauer": "0h 40m",
+      "dauer": "1h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
-    },
-    {
-      "name": "jani12299",
-      "displayName": "[71] Richard Lugner",
-      "dienstnummer": "71",
-      "rang": "Richard Lugner",
-      "seit": "17:08",
-      "dauer": "2h 49m",
-      "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -105,7 +87,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 76,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 26
   }
 }

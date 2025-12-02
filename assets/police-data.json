@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-12-02T07:53:53.552Z",
-  "onDuty": [
-    {
-      "name": "leonpella",
-      "displayName": "[94] Leon Winkler",
-      "dienstnummer": "94",
-      "rang": "Leon Winkler",
-      "seit": "07:06",
-      "dauer": "0h 47m",
-      "avatar": "https://cdn.discordapp.com/avatars/1120582638902726736/ab7e4f072cab2be3cf4b20a58f4b503a.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-12-02T07:59:53.692Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "12",
     "35",
@@ -79,7 +69,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 27
   }
 }

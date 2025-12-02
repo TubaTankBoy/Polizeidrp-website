@@ -1,13 +1,22 @@
 {
-  "lastUpdate": "2025-12-02T20:40:54.979Z",
+  "lastUpdate": "2025-12-02T20:51:24.801Z",
   "onDuty": [
+    {
+      "name": "lx_alpha",
+      "displayName": "[03] Dr. Peter Zwegat",
+      "dienstnummer": "03",
+      "rang": "Dr. Peter Zwegat",
+      "seit": "20:47",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
+    },
     {
       "name": "hassan_310123",
       "displayName": "[15] Zain Saymyname",
       "dienstnummer": "15",
       "rang": "Zain Saymyname",
       "seit": "20:30",
-      "dauer": "0h 10m",
+      "dauer": "0h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1399103379136974948/4f4eb778acbd43ecb13be49a7145534f.webp?size=128"
     },
     {
@@ -16,7 +25,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "19:04",
-      "dauer": "1h 36m",
+      "dauer": "1h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "19:17",
-      "dauer": "1h 23m",
+      "dauer": "1h 33m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -96,7 +105,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 76,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 26
   }
 }

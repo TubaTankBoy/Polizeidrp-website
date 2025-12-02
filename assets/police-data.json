@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-12-02T18:51:24.718Z",
+  "lastUpdate": "2025-12-02T19:03:04.287Z",
   "onDuty": [
-    {
-      "name": "mischa76",
-      "displayName": "[24] Mischa Diamonds",
-      "dienstnummer": "24",
-      "rang": "Mischa Diamonds",
-      "seit": "17:56",
-      "dauer": "0h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
-    },
     {
       "name": "lyroxx6595",
       "displayName": "[44] Olaf Scholz",
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "18:37",
-      "dauer": "0h 13m",
+      "dauer": "0h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -25,17 +16,8 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "18:31",
-      "dauer": "0h 20m",
+      "dauer": "0h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
-    {
-      "name": "csrccdrk",
-      "displayName": "[70] Andi Zadel",
-      "dienstnummer": "70",
-      "rang": "Andi Zadel",
-      "seit": "14:53",
-      "dauer": "3h 58m",
-      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
       "name": "jani12299",
@@ -43,7 +25,7 @@
       "dienstnummer": "71",
       "rang": "Richard Lugner",
       "seit": "17:08",
-      "dauer": "1h 42m",
+      "dauer": "1h 54m",
       "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     }
   ],
@@ -114,7 +96,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 76,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 26
   }
 }

@@ -1,6 +1,25 @@
 {
-  "lastUpdate": "2025-12-02T08:55:23.766Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-02T09:17:24.038Z",
+  "onDuty": [
+    {
+      "name": "lyroxx6595",
+      "displayName": "[44] Olaf Scholz",
+      "dienstnummer": "44",
+      "rang": "Olaf Scholz",
+      "seit": "09:06",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
+    },
+    {
+      "name": "leonpella",
+      "displayName": "[94] Leon Winkler",
+      "dienstnummer": "94",
+      "rang": "Leon Winkler",
+      "seit": "09:10",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/1120582638902726736/ab7e4f072cab2be3cf4b20a58f4b503a.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "35",
@@ -69,7 +88,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 75,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 27
   }
 }

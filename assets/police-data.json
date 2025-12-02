@@ -1,32 +1,23 @@
 {
-  "lastUpdate": "2025-12-02T17:56:54.739Z",
+  "lastUpdate": "2025-12-02T18:23:24.757Z",
   "onDuty": [
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "17:16",
-      "dauer": "0h 40m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "plantinum78",
-      "displayName": "[06] Alfred Turnschuh",
-      "dienstnummer": "06",
-      "rang": "Alfred Turnschuh",
-      "seit": "17:28",
-      "dauer": "0h 28m",
-      "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
-    },
     {
       "name": "mischa76",
       "displayName": "[24] Mischa Diamonds",
       "dienstnummer": "24",
       "rang": "Mischa Diamonds",
       "seit": "17:56",
-      "dauer": "0h 0m",
+      "dauer": "0h 27m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
+    },
+    {
+      "name": "darealcyson_10671",
+      "displayName": "[35] Pablo Kerev",
+      "dienstnummer": "35",
+      "rang": "Pablo Kerev",
+      "seit": "18:16",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/1210670188534562851/84781173aa638e41826ece2d193aa4c9.webp?size=128"
     },
     {
       "name": "alphaschieferyt",
@@ -34,7 +25,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "12:26",
-      "dauer": "5h 29m",
+      "dauer": "5h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "16:51",
-      "dauer": "1h 5m",
+      "dauer": "1h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
@@ -52,7 +43,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "14:53",
-      "dauer": "3h 3m",
+      "dauer": "3h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -61,7 +52,7 @@
       "dienstnummer": "71",
       "rang": "Richard Lugner",
       "seit": "17:08",
-      "dauer": "0h 47m",
+      "dauer": "1h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     },
     {
@@ -70,7 +61,7 @@
       "dienstnummer": "97",
       "rang": "Marco Geipel",
       "seit": "17:25",
-      "dauer": "0h 31m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1250046008537387065/3c15d77d0bd0a931b872c7358f71e5ba.webp?size=128"
     }
   ],
@@ -141,7 +132,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 76,
-    "aktuellImDienst": 8,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 26
   }
 }

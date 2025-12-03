@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-03T15:49:27.725Z",
+  "lastUpdate": "2025-12-03T15:57:27.728Z",
   "onDuty": [
     {
       "name": "ch.kasper.mn",
@@ -7,7 +7,7 @@
       "dienstnummer": "18",
       "rang": "Dr. Casper Akkerman",
       "seit": "15:24",
-      "dauer": "0h 25m",
+      "dauer": "0h 33m",
       "avatar": "https://cdn.discordapp.com/avatars/1275817510729683036/89fe1e7b5869492ac1f9208f590ba1a9.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "60",
       "rang": "Manchester Black",
       "seit": "15:47",
-      "dauer": "0h 2m",
+      "dauer": "0h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
@@ -25,8 +25,17 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "15:25",
-      "dauer": "0h 23m",
+      "dauer": "0h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
+    },
+    {
+      "name": "leonpella",
+      "displayName": "[94] Leon Winkler",
+      "dienstnummer": "94",
+      "rang": "Leon Winkler",
+      "seit": "15:53",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/1120582638902726736/ab7e4f072cab2be3cf4b20a58f4b503a.webp?size=128"
     },
     {
       "name": "rocraft0911",
@@ -34,7 +43,7 @@
       "dienstnummer": "104",
       "rang": "Philipp Weber",
       "seit": "14:56",
-      "dauer": "0h 52m",
+      "dauer": "1h 0m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     }
   ],
@@ -105,7 +114,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 76,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 26
   }
 }

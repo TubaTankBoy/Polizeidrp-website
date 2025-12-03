@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-12-03T14:54:57.633Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-03T15:11:27.705Z",
+  "onDuty": [
+    {
+      "name": "rocraft0911",
+      "displayName": "[104] Philipp Weber",
+      "dienstnummer": "104",
+      "rang": "Philipp Weber",
+      "seit": "14:56",
+      "dauer": "0h 14m",
+      "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "37",
@@ -68,7 +78,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 76,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 26
   }
 }

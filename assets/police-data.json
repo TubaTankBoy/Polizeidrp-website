@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-03T17:29:27.804Z",
+  "lastUpdate": "2025-12-03T17:45:27.847Z",
   "onDuty": [
     {
       "name": "angiiiii.",
@@ -7,7 +7,7 @@
       "dienstnummer": "11",
       "rang": "Angii Kowalski",
       "seit": "17:03",
-      "dauer": "0h 26m",
+      "dauer": "0h 42m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "21",
       "rang": "Ceos Kowalskii.",
       "seit": "16:38",
-      "dauer": "0h 50m",
+      "dauer": "1h 6m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "17:16",
-      "dauer": "0h 13m",
+      "dauer": "0h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -34,7 +34,7 @@
       "dienstnummer": "66",
       "rang": "Mateo Lopes",
       "seit": "15:25",
-      "dauer": "2h 3m",
+      "dauer": "2h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
@@ -43,7 +43,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "16:11",
-      "dauer": "1h 18m",
+      "dauer": "1h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -52,7 +52,7 @@
       "dienstnummer": "99",
       "rang": "Timo Luigi",
       "seit": "17:18",
-      "dauer": "0h 10m",
+      "dauer": "0h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     },
     {
@@ -61,14 +61,12 @@
       "dienstnummer": "115",
       "rang": "Peter Lustig",
       "seit": "17:17",
-      "dauer": "0h 12m",
+      "dauer": "0h 28m",
       "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
     }
   ],
   "freeDienstnummern": [
     "12",
-    "37",
-    "38",
     "42",
     "48",
     "49",
@@ -131,8 +129,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 76,
+    "gesamtMitarbeiter": 78,
     "aktuellImDienst": 7,
-    "freieDienstnummern": 26
+    "freieDienstnummern": 24
   }
 }

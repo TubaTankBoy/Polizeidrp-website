@@ -1,50 +1,14 @@
 {
-  "lastUpdate": "2025-12-04T21:12:01.528Z",
+  "lastUpdate": "2025-12-04T21:30:31.644Z",
   "onDuty": [
-    {
-      "name": "lx_alpha",
-      "displayName": "[03] Dr. Peter Zwegat",
-      "dienstnummer": "03",
-      "rang": "Dr. Peter Zwegat",
-      "seit": "18:55",
-      "dauer": "2h 16m",
-      "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
-    },
-    {
-      "name": "gamers16",
-      "displayName": "[16] Alex Morningstar",
-      "dienstnummer": "16",
-      "rang": "Alex Morningstar",
-      "seit": "19:33",
-      "dauer": "1h 38m",
-      "avatar": "https://cdn.discordapp.com/avatars/1001124535455731803/6eddbc7b3de5c622626935ba18f44bc3.webp?size=128"
-    },
     {
       "name": "sami_5858",
       "displayName": "[26] Sami Zibabo",
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "19:27",
-      "dauer": "1h 44m",
+      "dauer": "2h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
-    },
-    {
-      "name": "gamr2009",
-      "displayName": "[27] Alex Fischer",
-      "dienstnummer": "27",
-      "rang": "Alex Fischer",
-      "seit": "19:04",
-      "dauer": "2h 7m",
-      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
-    },
-    {
-      "name": "nicomedico",
-      "displayName": "[37] Liam Miller",
-      "dienstnummer": "37",
-      "rang": "Liam Miller",
-      "seit": "20:50",
-      "dauer": "0h 21m",
-      "avatar": "https://cdn.discordapp.com/avatars/833943733543763988/8d14d8643b91c3d3fc8ba01fbc5804d6.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -109,7 +73,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 80,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 21
   }
 }

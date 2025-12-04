@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-12-04T13:10:00.792Z",
+  "lastUpdate": "2025-12-04T13:47:31.030Z",
   "onDuty": [
-    {
-      "name": "eastmuffin3264",
-      "displayName": "[04] Ali Luigi Masta",
-      "dienstnummer": "04",
-      "rang": "Ali Luigi Masta",
-      "seit": "13:00",
-      "dauer": "0h 9m",
-      "avatar": "https://cdn.discordapp.com/avatars/947084678161117225/c2e33df2545f935d8c41e8c402122659.webp?size=128"
-    },
     {
       "name": "leonpella",
       "displayName": "[94] Leon Winkler",
       "dienstnummer": "94",
       "rang": "Leon Winkler",
       "seit": "12:48",
-      "dauer": "0h 21m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1120582638902726736/ab7e4f072cab2be3cf4b20a58f4b503a.webp?size=128"
     }
   ],
@@ -84,7 +75,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 78,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 23
   }
 }

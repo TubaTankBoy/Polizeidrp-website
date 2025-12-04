@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-04T16:49:31.105Z",
+  "lastUpdate": "2025-12-04T17:03:01.286Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,8 +7,17 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "16:27",
-      "dauer": "0h 21m",
+      "dauer": "0h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": "ceos0594",
+      "displayName": "[21] Ceos Kowalskii.",
+      "dienstnummer": "21",
+      "rang": "Ceos Kowalskii.",
+      "seit": "17:01",
+      "dauer": "0h 1m",
+      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
       "name": "sami_5858",
@@ -16,7 +25,7 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "15:13",
-      "dauer": "1h 35m",
+      "dauer": "1h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "15:25",
-      "dauer": "1h 23m",
+      "dauer": "1h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "52",
       "rang": "Jonas Hoffman",
       "seit": "15:33",
-      "dauer": "1h 15m",
+      "dauer": "1h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/842484910908112926/a_1ca8049f3a353abea47a2f332b72a4b0.gif?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "16:37",
-      "dauer": "0h 12m",
+      "dauer": "0h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "15:33",
-      "dauer": "1h 15m",
+      "dauer": "1h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -60,8 +69,8 @@
       "displayName": "[99] Timo Luigi",
       "dienstnummer": "99",
       "rang": "Timo Luigi",
-      "seit": "14:55",
-      "dauer": "1h 53m",
+      "seit": "17:01",
+      "dauer": "0h 1m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
@@ -129,7 +138,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 78,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 23
   }
 }

@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-12-04T08:27:30.078Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-04T08:50:30.212Z",
+  "onDuty": [
+    {
+      "name": "jani12299",
+      "displayName": "[71] Richard Lugner",
+      "dienstnummer": "71",
+      "rang": "Richard Lugner",
+      "seit": "08:42",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "48",
@@ -65,7 +75,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 78,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 23
   }
 }

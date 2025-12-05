@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-12-05T10:58:05.128Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-05T11:17:05.077Z",
+  "onDuty": [
+    {
+      "name": "eljon3691",
+      "displayName": "[48] Lebron Samba",
+      "dienstnummer": "48",
+      "rang": "Lebron Samba",
+      "seit": "11:11",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/901756586127654963/2fe24fd719b4498492d54aca2a728dc5.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "12",
     "49",
@@ -63,7 +73,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 80,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 21
   }
 }

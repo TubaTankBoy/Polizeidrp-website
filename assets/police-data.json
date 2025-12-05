@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-05T17:57:05.823Z",
+  "lastUpdate": "2025-12-05T18:20:35.638Z",
   "onDuty": [
     {
       "name": "plantinum78",
@@ -7,8 +7,26 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "17:47",
-      "dauer": "0h 9m",
+      "dauer": "0h 32m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
+    },
+    {
+      "name": "angiiiii.",
+      "displayName": "[11] Angii Kowalski",
+      "dienstnummer": "11",
+      "rang": "Angii Kowalski",
+      "seit": "18:19",
+      "dauer": "0h 1m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
+    {
+      "name": "alphaschieferyt",
+      "displayName": "[60] Manchester Black",
+      "dienstnummer": "60",
+      "rang": "Manchester Black",
+      "seit": "18:05",
+      "dauer": "0h 15m",
+      "avatar": "https://cdn.discordapp.com/avatars/815860087549460492/270d46ffec3734278707390b478fb246.webp?size=128"
     },
     {
       "name": "_marlon_9",
@@ -16,8 +34,17 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "17:16",
-      "dauer": "0h 40m",
+      "dauer": "1h 3m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
+    },
+    {
+      "name": "dasadri",
+      "displayName": "[66] Mateo Lopes",
+      "dienstnummer": "66",
+      "rang": "Mateo Lopes",
+      "seit": "18:10",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "jani12299",
@@ -25,7 +52,7 @@
       "dienstnummer": "71",
       "rang": "Richard Lugner",
       "seit": "17:33",
-      "dauer": "0h 23m",
+      "dauer": "0h 47m",
       "avatar": "https://cdn.discordapp.com/avatars/920387001323257857/a282ca970a3cff3e12917e552402fdc5.webp?size=128"
     }
   ],
@@ -90,7 +117,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 81,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 20
   }
 }

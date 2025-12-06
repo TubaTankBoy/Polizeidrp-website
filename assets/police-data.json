@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-06T21:41:28.716Z",
+  "lastUpdate": "2025-12-06T21:47:57.671Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,17 +7,8 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "18:01",
-      "dauer": "3h 40m",
+      "dauer": "3h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "gamr2009",
-      "displayName": "[27] Alex Fischer",
-      "dienstnummer": "27",
-      "rang": "Alex Fischer",
-      "seit": "18:15",
-      "dauer": "3h 26m",
-      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
       "name": "alex_blasius",
@@ -25,7 +16,7 @@
       "dienstnummer": "34",
       "rang": "Alex blasius",
       "seit": "21:39",
-      "dauer": "0h 1m",
+      "dauer": "0h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "20:27",
-      "dauer": "1h 13m",
+      "dauer": "1h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     }
   ],
@@ -92,7 +83,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 84,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 13
   }
 }

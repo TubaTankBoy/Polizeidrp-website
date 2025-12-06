@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-06T12:42:31.268Z",
+  "lastUpdate": "2025-12-06T13:14:01.274Z",
   "onDuty": [
     {
       "name": "maeco0458",
@@ -7,17 +7,8 @@
       "dienstnummer": "50",
       "rang": "Marco Nuker",
       "seit": "12:07",
-      "dauer": "0h 35m",
+      "dauer": "1h 6m",
       "avatar": "https://cdn.discordapp.com/avatars/1349078034820628653/df4c6da7d4b8956508fd9715b23f369b.webp?size=128"
-    },
-    {
-      "name": "_marlon_9",
-      "displayName": "[65] Marlon Jackson",
-      "dienstnummer": "65",
-      "rang": "Marlon Jackson",
-      "seit": "11:50",
-      "dauer": "0h 51m",
-      "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -77,7 +68,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 81,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 16
   }
 }

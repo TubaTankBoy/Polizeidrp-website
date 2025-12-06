@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-12-06T11:47:31.051Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-06T11:54:01.289Z",
+  "onDuty": [
+    {
+      "name": "_marlon_9",
+      "displayName": "[65] Marlon Jackson",
+      "dienstnummer": "65",
+      "rang": "Marlon Jackson",
+      "seit": "11:50",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "11",
     "12",
@@ -58,7 +68,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 81,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 16
   }
 }

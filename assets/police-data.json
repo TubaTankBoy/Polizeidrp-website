@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-06T20:31:53.261Z",
+  "lastUpdate": "2025-12-06T20:41:53.280Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,17 +7,8 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "18:01",
-      "dauer": "2h 30m",
+      "dauer": "2h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "sami_5858",
-      "displayName": "[26] Sami Zibabo",
-      "dienstnummer": "26",
-      "rang": "Sami Zibabo",
-      "seit": "19:22",
-      "dauer": "1h 8m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
       "name": "gamr2009",
@@ -25,7 +16,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "18:15",
-      "dauer": "2h 16m",
+      "dauer": "2h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -34,7 +25,7 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "20:27",
-      "dauer": "0h 3m",
+      "dauer": "0h 13m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     }
   ],
@@ -92,7 +83,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 84,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 13
   }
 }

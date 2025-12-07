@@ -1,22 +1,13 @@
 {
-  "lastUpdate": "2025-12-07T22:55:14.668Z",
+  "lastUpdate": "2025-12-07T23:09:14.043Z",
   "onDuty": [
-    {
-      "name": ".shiro01_",
-      "displayName": "[14] Shino Luigi (urlaub)",
-      "dienstnummer": "14",
-      "rang": "Shino Luigi (urlaub)",
-      "seit": "20:57",
-      "dauer": "1h 57m",
-      "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
-    },
     {
       "name": "marlonbbb1915",
       "displayName": "[37] James Smell",
       "dienstnummer": "37",
       "rang": "James Smell",
       "seit": "21:15",
-      "dauer": "1h 39m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/338709746154733569/bfc215a13272bfe0e9329135cdf5148b.webp?size=128"
     }
   ],
@@ -72,7 +63,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 11
   }
 }

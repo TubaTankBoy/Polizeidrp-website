@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-07T21:39:14.017Z",
+  "lastUpdate": "2025-12-07T21:44:43.973Z",
   "onDuty": [
     {
       "name": ".shiro01_",
@@ -7,7 +7,7 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi (urlaub)",
       "seit": "20:57",
-      "dauer": "0h 41m",
+      "dauer": "0h 46m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "37",
       "rang": "James Smell",
       "seit": "21:15",
-      "dauer": "0h 23m",
+      "dauer": "0h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/338709746154733569/bfc215a13272bfe0e9329135cdf5148b.webp?size=128"
-    },
-    {
-      "name": "lyroxx6595",
-      "displayName": "[44] Olaf Scholz",
-      "dienstnummer": "44",
-      "rang": "Olaf Scholz",
-      "seit": "18:13",
-      "dauer": "3h 25m",
-      "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
       "name": "bene_07378",
@@ -34,7 +25,7 @@
       "dienstnummer": "66",
       "rang": "Ben Elias",
       "seit": "20:47",
-      "dauer": "0h 51m",
+      "dauer": "0h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/1246778670798864487/baef023191d4d01ee0e09f17f911c664.webp?size=128"
     },
     {
@@ -43,7 +34,7 @@
       "dienstnummer": "78",
       "rang": "Ronny Krawutschke",
       "seit": "21:15",
-      "dauer": "0h 24m",
+      "dauer": "0h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/499742993356685322/447df444e582d2bda1c9d3c20cf62b1e.webp?size=128"
     }
   ],
@@ -99,7 +90,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 11
   }
 }

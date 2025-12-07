@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-07T12:56:17.397Z",
+  "lastUpdate": "2025-12-07T13:19:17.510Z",
   "onDuty": [
     {
       "name": "angiiiii.",
@@ -7,8 +7,17 @@
       "dienstnummer": "08",
       "rang": "Angii Kowalski",
       "seit": "12:09",
-      "dauer": "0h 46m",
+      "dauer": "1h 9m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
+    {
+      "name": "dasadri",
+      "displayName": "[11] Mateo Lopes",
+      "dienstnummer": "11",
+      "rang": "Mateo Lopes",
+      "seit": "13:08",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "ceos0594",
@@ -16,8 +25,17 @@
       "dienstnummer": "12",
       "rang": "Ceos Kowalskii.",
       "seit": "12:10",
-      "dauer": "0h 45m",
+      "dauer": "1h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
+    },
+    {
+      "name": "hassan_310123",
+      "displayName": "[15] Zain Saymyname",
+      "dienstnummer": "15",
+      "rang": "Zain Saymyname",
+      "seit": "13:02",
+      "dauer": "0h 16m",
+      "avatar": "https://cdn.discordapp.com/avatars/1399103379136974948/4f4eb778acbd43ecb13be49a7145534f.webp?size=128"
     },
     {
       "name": "gamr2009",
@@ -25,7 +43,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "11:56",
-      "dauer": "0h 59m",
+      "dauer": "1h 22m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -34,7 +52,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "12:21",
-      "dauer": "0h 35m",
+      "dauer": "0h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -43,7 +61,7 @@
       "dienstnummer": "59",
       "rang": "Philipp Weber",
       "seit": "12:44",
-      "dauer": "0h 11m",
+      "dauer": "0h 34m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     },
     {
@@ -52,7 +70,7 @@
       "dienstnummer": "62",
       "rang": "Yarmir Furia",
       "seit": "12:49",
-      "dauer": "0h 6m",
+      "dauer": "0h 29m",
       "avatar": "https://cdn.discordapp.com/avatars/1071433025478463488/9d15b5703e5b0da06046c5f911bf1868.webp?size=128"
     }
   ],
@@ -109,7 +127,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 85,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 8,
     "freieDienstnummern": 12
   }
 }

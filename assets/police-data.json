@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-07T15:19:17.572Z",
+  "lastUpdate": "2025-12-07T16:19:56.820Z",
   "onDuty": [
     {
       "name": "angiiiii.",
@@ -7,8 +7,17 @@
       "dienstnummer": "08",
       "rang": "Angii Kowalski",
       "seit": "14:47",
-      "dauer": "0h 31m",
+      "dauer": "1h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
+    {
+      "name": "dasadri",
+      "displayName": "[11] Mateo Lopes",
+      "dienstnummer": "11",
+      "rang": "Mateo Lopes",
+      "seit": "15:21",
+      "dauer": "0h 58m",
+      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "ceos0594",
@@ -16,7 +25,7 @@
       "dienstnummer": "12",
       "rang": "Ceos Kowalskii.",
       "seit": "14:48",
-      "dauer": "0h 30m",
+      "dauer": "1h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "27",
       "rang": "Alex Fischer",
       "seit": "15:12",
-      "dauer": "0h 6m",
+      "dauer": "1h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "12:21",
-      "dauer": "2h 58m",
+      "dauer": "3h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -43,8 +52,17 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "15:01",
-      "dauer": "0h 18m",
+      "dauer": "1h 18m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
+    },
+    {
+      "name": "csrccdrk",
+      "displayName": "[70] Andi Zadel",
+      "dienstnummer": "70",
+      "rang": "Andi Zadel",
+      "seit": "16:03",
+      "dauer": "0h 16m",
+      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -100,7 +118,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 85,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 12
   }
 }

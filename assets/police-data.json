@@ -1,14 +1,32 @@
 {
-  "lastUpdate": "2025-12-07T11:55:17.343Z",
+  "lastUpdate": "2025-12-07T12:17:47.331Z",
   "onDuty": [
     {
-      "name": "mischa76",
-      "displayName": "[24] Mischa Diamonds",
-      "dienstnummer": "24",
-      "rang": "Mischa Diamonds",
-      "seit": "11:43",
-      "dauer": "0h 12m",
-      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
+      "name": "angiiiii.",
+      "displayName": "[08] Angii Kowalski",
+      "dienstnummer": "08",
+      "rang": "Angii Kowalski",
+      "seit": "12:09",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/716348836309893200/24aa18647d6e524600c29ab6f24eb342.webp?size=128"
+    },
+    {
+      "name": "ceos0594",
+      "displayName": "[12] Ceos Kowalskii.",
+      "dienstnummer": "12",
+      "rang": "Ceos Kowalskii.",
+      "seit": "12:10",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
+    },
+    {
+      "name": "gamr2009",
+      "displayName": "[27] Alex Fischer",
+      "dienstnummer": "27",
+      "rang": "Alex Fischer",
+      "seit": "11:56",
+      "dauer": "0h 21m",
+      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -64,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 85,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 12
   }
 }

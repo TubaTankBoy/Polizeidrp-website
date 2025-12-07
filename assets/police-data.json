@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-07T22:48:44.005Z",
+  "lastUpdate": "2025-12-07T22:55:14.668Z",
   "onDuty": [
     {
       "name": ".shiro01_",
@@ -7,7 +7,7 @@
       "dienstnummer": "14",
       "rang": "Shino Luigi (urlaub)",
       "seit": "20:57",
-      "dauer": "1h 50m",
+      "dauer": "1h 57m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
@@ -16,17 +16,8 @@
       "dienstnummer": "37",
       "rang": "James Smell",
       "seit": "21:15",
-      "dauer": "1h 33m",
+      "dauer": "1h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/338709746154733569/bfc215a13272bfe0e9329135cdf5148b.webp?size=128"
-    },
-    {
-      "name": "bene_07378",
-      "displayName": "[66] Ben Elias",
-      "dienstnummer": "66",
-      "rang": "Ben Elias",
-      "seit": "20:47",
-      "dauer": "2h 0m",
-      "avatar": "https://cdn.discordapp.com/avatars/1246778670798864487/baef023191d4d01ee0e09f17f911c664.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -81,7 +72,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 11
   }
 }

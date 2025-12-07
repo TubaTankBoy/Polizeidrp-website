@@ -1,41 +1,23 @@
 {
-  "lastUpdate": "2025-12-07T21:06:43.981Z",
+  "lastUpdate": "2025-12-07T21:24:43.985Z",
   "onDuty": [
-    {
-      "name": "ceos0594",
-      "displayName": "[12] Ceos Kowalskii.",
-      "dienstnummer": "12",
-      "rang": "Ceos Kowalskii.",
-      "seit": "19:54",
-      "dauer": "1h 12m",
-      "avatar": "https://cdn.discordapp.com/avatars/338778266561282048/60f968e1b38b70d34f517121249350a0.webp?size=128"
-    },
     {
       "name": ".shiro01_",
       "displayName": "[14] Shino Luigi (urlaub)",
       "dienstnummer": "14",
       "rang": "Shino Luigi (urlaub)",
       "seit": "20:57",
-      "dauer": "0h 8m",
+      "dauer": "0h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/1341774852255911996/4b9f160a37084ed7f14806932115526e.webp?size=128"
     },
     {
-      "name": "noahsch11",
-      "displayName": "[28] Kasten James",
-      "dienstnummer": "28",
-      "rang": "Kasten James",
-      "seit": "20:50",
-      "dauer": "0h 16m",
-      "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
-    },
-    {
-      "name": "alex_blasius",
-      "displayName": "[34] Alex blasius",
-      "dienstnummer": "34",
-      "rang": "Alex blasius",
-      "seit": "19:14",
-      "dauer": "1h 52m",
-      "avatar": "https://cdn.discordapp.com/avatars/1428055594052620430/020175228d2619709ac1f05c5b2eecdf.webp?size=128"
+      "name": "marlonbbb1915",
+      "displayName": "[37] James Smell",
+      "dienstnummer": "37",
+      "rang": "James Smell",
+      "seit": "21:15",
+      "dauer": "0h 9m",
+      "avatar": "https://cdn.discordapp.com/avatars/338709746154733569/bfc215a13272bfe0e9329135cdf5148b.webp?size=128"
     },
     {
       "name": "lyroxx6595",
@@ -43,7 +25,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "18:13",
-      "dauer": "2h 53m",
+      "dauer": "3h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -52,17 +34,17 @@
       "dienstnummer": "66",
       "rang": "Ben Elias",
       "seit": "20:47",
-      "dauer": "0h 18m",
+      "dauer": "0h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/1246778670798864487/baef023191d4d01ee0e09f17f911c664.webp?size=128"
     },
     {
-      "name": "csrccdrk",
-      "displayName": "[70] Andi Zadel",
-      "dienstnummer": "70",
-      "rang": "Andi Zadel",
-      "seit": "16:03",
-      "dauer": "5h 2m",
-      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
+      "name": "josch.19",
+      "displayName": "[78] Ronny Krawutschke",
+      "dienstnummer": "78",
+      "rang": "Ronny Krawutschke",
+      "seit": "21:15",
+      "dauer": "0h 9m",
+      "avatar": "https://cdn.discordapp.com/avatars/499742993356685322/447df444e582d2bda1c9d3c20cf62b1e.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -117,7 +99,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 7,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 11
   }
 }

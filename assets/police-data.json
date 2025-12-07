@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-12-07T11:42:47.352Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-07T11:48:47.467Z",
+  "onDuty": [
+    {
+      "name": "mischa76",
+      "displayName": "[24] Mischa Diamonds",
+      "dienstnummer": "24",
+      "rang": "Mischa Diamonds",
+      "seit": "11:43",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "66",
     "69",
@@ -54,7 +64,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 85,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 12
   }
 }

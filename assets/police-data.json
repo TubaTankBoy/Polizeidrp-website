@@ -1,32 +1,14 @@
 {
-  "lastUpdate": "2025-12-07T14:41:47.435Z",
+  "lastUpdate": "2025-12-07T14:47:47.425Z",
   "onDuty": [
-    {
-      "name": "plantinum78",
-      "displayName": "[06] Alfred Turnschuh",
-      "dienstnummer": "06",
-      "rang": "Alfred Turnschuh",
-      "seit": "14:14",
-      "dauer": "0h 27m",
-      "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
-    },
     {
       "name": "dasadri",
       "displayName": "[11] Mateo Lopes",
       "dienstnummer": "11",
       "rang": "Mateo Lopes",
       "seit": "13:08",
-      "dauer": "1h 33m",
+      "dauer": "1h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
-    {
-      "name": "gamr2009",
-      "displayName": "[27] Alex Fischer",
-      "dienstnummer": "27",
-      "rang": "Alex Fischer",
-      "seit": "11:56",
-      "dauer": "2h 45m",
-      "avatar": "https://cdn.discordapp.com/avatars/1100841426125848686/701322e1d9fa764fcdae76eb60dd8c1f.webp?size=128"
     },
     {
       "name": "noel2182",
@@ -34,7 +16,7 @@
       "dienstnummer": "40",
       "rang": "Elias Bellic",
       "seit": "12:21",
-      "dauer": "2h 20m",
+      "dauer": "2h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
     },
     {
@@ -43,7 +25,7 @@
       "dienstnummer": "62",
       "rang": "Yarmir Furia",
       "seit": "12:49",
-      "dauer": "1h 52m",
+      "dauer": "1h 58m",
       "avatar": "https://cdn.discordapp.com/avatars/1071433025478463488/9d15b5703e5b0da06046c5f911bf1868.webp?size=128"
     }
   ],
@@ -100,7 +82,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 85,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 12
   }
 }

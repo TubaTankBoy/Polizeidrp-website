@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-08T13:57:17.445Z",
+  "lastUpdate": "2025-12-08T14:17:47.440Z",
   "onDuty": [
     {
       "name": "lyroxx6595",
@@ -7,7 +7,7 @@
       "dienstnummer": "44",
       "rang": "Olaf Scholz",
       "seit": "12:08",
-      "dauer": "1h 48m",
+      "dauer": "2h 8m",
       "avatar": "https://cdn.discordapp.com/avatars/949350393102614568/a_98ba824bd57b7aaab598559335b9d3ff.gif?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "59",
       "rang": "Philipp Weber",
       "seit": "12:26",
-      "dauer": "1h 30m",
+      "dauer": "1h 51m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
+    },
+    {
+      "name": "tmo_420",
+      "displayName": "[99] Timo Luigi",
+      "dienstnummer": "99",
+      "rang": "Timo Luigi",
+      "seit": "14:06",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -72,7 +81,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 11
   }
 }

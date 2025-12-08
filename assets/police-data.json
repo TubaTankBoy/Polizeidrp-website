@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-08T16:16:11.402Z",
+  "lastUpdate": "2025-12-08T16:45:42.884Z",
   "onDuty": [
     {
       "name": "mischa76",
@@ -7,7 +7,7 @@
       "dienstnummer": "24",
       "rang": "Mischa Diamonds",
       "seit": "15:49",
-      "dauer": "0h 26m",
+      "dauer": "0h 56m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "14:59",
-      "dauer": "1h 16m",
+      "dauer": "1h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -25,8 +25,17 @@
       "dienstnummer": "28",
       "rang": "Kasten James",
       "seit": "15:40",
-      "dauer": "0h 35m",
+      "dauer": "1h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
+    },
+    {
+      "name": "moritz9505",
+      "displayName": "[42] Peter Lustig",
+      "dienstnummer": "42",
+      "rang": "Peter Lustig",
+      "seit": "16:30",
+      "dauer": "0h 15m",
+      "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
     },
     {
       "name": "rocraft0911",
@@ -34,17 +43,8 @@
       "dienstnummer": "59",
       "rang": "Philipp Weber",
       "seit": "15:25",
-      "dauer": "0h 51m",
+      "dauer": "1h 20m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
-    },
-    {
-      "name": "yyss0717_09940",
-      "displayName": "[68] Jakob Mustermann",
-      "dienstnummer": "68",
-      "rang": "Jakob Mustermann",
-      "seit": "15:44",
-      "dauer": "0h 31m",
-      "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -52,7 +52,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "15:05",
-      "dauer": "1h 11m",
+      "dauer": "1h 40m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],

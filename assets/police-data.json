@@ -1,13 +1,22 @@
 {
-  "lastUpdate": "2025-12-08T15:48:47.628Z",
+  "lastUpdate": "2025-12-08T15:55:47.576Z",
   "onDuty": [
+    {
+      "name": "mischa76",
+      "displayName": "[24] Mischa Diamonds",
+      "dienstnummer": "24",
+      "rang": "Mischa Diamonds",
+      "seit": "15:49",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
+    },
     {
       "name": "sami_5858",
       "displayName": "[26] Sami Zibabo",
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "14:59",
-      "dauer": "0h 48m",
+      "dauer": "0h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -16,7 +25,7 @@
       "dienstnummer": "28",
       "rang": "Kasten James",
       "seit": "15:40",
-      "dauer": "0h 7m",
+      "dauer": "0h 14m",
       "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "59",
       "rang": "Philipp Weber",
       "seit": "15:25",
-      "dauer": "0h 23m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1169685526710857842/bf29ab0727b99d087e518865ced6d2de.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "68",
       "rang": "Jakob Mustermann",
       "seit": "15:44",
-      "dauer": "0h 4m",
+      "dauer": "0h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "15:05",
-      "dauer": "0h 43m",
+      "dauer": "0h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -52,7 +61,7 @@
       "dienstnummer": "99",
       "rang": "Timo Luigi",
       "seit": "14:06",
-      "dauer": "1h 41m",
+      "dauer": "1h 48m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
@@ -108,7 +117,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 6,
+    "aktuellImDienst": 7,
     "freieDienstnummern": 11
   }
 }

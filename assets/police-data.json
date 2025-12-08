@@ -1,31 +1,13 @@
 {
-  "lastUpdate": "2025-12-08T20:14:41.630Z",
+  "lastUpdate": "2025-12-08T20:35:41.640Z",
   "onDuty": [
-    {
-      "name": "sami_5858",
-      "displayName": "[26] Sami Zibabo",
-      "dienstnummer": "26",
-      "rang": "Sami Zibabo",
-      "seit": "19:18",
-      "dauer": "0h 56m",
-      "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
-    },
-    {
-      "name": "moritz9505",
-      "displayName": "[42] Peter Lustig",
-      "dienstnummer": "42",
-      "rang": "Peter Lustig",
-      "seit": "19:05",
-      "dauer": "1h 9m",
-      "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
-    },
     {
       "name": "csrccdrk",
       "displayName": "[70] Andi Zadel",
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "19:30",
-      "dauer": "0h 44m",
+      "dauer": "1h 5m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -34,7 +16,7 @@
       "dienstnummer": "99",
       "rang": "Timo Luigi",
       "seit": "19:56",
-      "dauer": "0h 18m",
+      "dauer": "0h 39m",
       "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
@@ -90,7 +72,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 11
   }
 }

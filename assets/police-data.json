@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2025-12-08T20:48:42.748Z",
+  "lastUpdate": "2025-12-08T20:55:41.630Z",
   "onDuty": [
+    {
+      "name": "mischa76",
+      "displayName": "[24] Mischa Diamonds",
+      "dienstnummer": "24",
+      "rang": "Mischa Diamonds",
+      "seit": "20:50",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
+    },
     {
       "name": "csrccdrk",
       "displayName": "[70] Andi Zadel",
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "19:30",
-      "dauer": "1h 18m",
+      "dauer": "1h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
-    },
-    {
-      "name": "tmo_420",
-      "displayName": "[99] Timo Luigi",
-      "dienstnummer": "99",
-      "rang": "Timo Luigi",
-      "seit": "19:56",
-      "dauer": "0h 52m",
-      "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
     }
   ],
   "freeDienstnummern": [

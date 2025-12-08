@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-08T18:57:11.531Z",
+  "lastUpdate": "2025-12-08T19:12:41.586Z",
   "onDuty": [
     {
       "name": "plantinum78",
@@ -7,7 +7,7 @@
       "dienstnummer": "06",
       "rang": "Alfred Turnschuh",
       "seit": "17:54",
-      "dauer": "1h 3m",
+      "dauer": "1h 18m",
       "avatar": "https://cdn.discordapp.com/avatars/780697998476312616/1f044a11bf1aae8c8d487e698db6faa5.webp?size=128"
     },
     {
@@ -16,8 +16,17 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "17:07",
-      "dauer": "1h 49m",
+      "dauer": "2h 4m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    },
+    {
+      "name": "moritz9505",
+      "displayName": "[42] Peter Lustig",
+      "dienstnummer": "42",
+      "rang": "Peter Lustig",
+      "seit": "19:05",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
     },
     {
       "name": "yyss0717_09940",
@@ -25,7 +34,7 @@
       "dienstnummer": "68",
       "rang": "Jakob Mustermann",
       "seit": "17:21",
-      "dauer": "1h 35m",
+      "dauer": "1h 50m",
       "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "17:18",
-      "dauer": "1h 38m",
+      "dauer": "1h 53m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],
@@ -90,7 +99,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 11
   }
 }

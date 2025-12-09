@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-09T16:21:14.644Z",
+  "lastUpdate": "2025-12-09T16:46:44.866Z",
   "onDuty": [
     {
       "name": "sami_5858",
@@ -7,8 +7,17 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "15:04",
-      "dauer": "1h 16m",
+      "dauer": "1h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    },
+    {
+      "name": "fabiiiiii.",
+      "displayName": "[47] Marsel Kasten",
+      "dienstnummer": "47",
+      "rang": "Marsel Kasten",
+      "seit": "16:40",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/67c5f24d9865814e101e7dd8e6a1f515.webp?size=128"
     },
     {
       "name": "yyss0717_09940",
@@ -16,13 +25,11 @@
       "dienstnummer": "68",
       "rang": "Jakob Mustermann",
       "seit": "15:15",
-      "dauer": "1h 6m",
+      "dauer": "1h 31m",
       "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     }
   ],
   "freeDienstnummern": [
-    "69",
-    "73",
     "75",
     "76",
     "79",
@@ -71,8 +78,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 2,
-    "freieDienstnummern": 11
+    "gesamtMitarbeiter": 88,
+    "aktuellImDienst": 3,
+    "freieDienstnummern": 9
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-09T16:46:44.866Z",
+  "lastUpdate": "2025-12-09T16:59:44.719Z",
   "onDuty": [
     {
       "name": "sami_5858",
@@ -7,8 +7,17 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "15:04",
-      "dauer": "1h 41m",
+      "dauer": "1h 54m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
+    },
+    {
+      "name": "noahsch11",
+      "displayName": "[28] Kasten James",
+      "dienstnummer": "28",
+      "rang": "Kasten James",
+      "seit": "16:48",
+      "dauer": "0h 11m",
+      "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     },
     {
       "name": "fabiiiiii.",
@@ -16,8 +25,17 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "16:40",
-      "dauer": "0h 6m",
+      "dauer": "0h 19m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/67c5f24d9865814e101e7dd8e6a1f515.webp?size=128"
+    },
+    {
+      "name": "_marlon_9",
+      "displayName": "[65] Marlon Jackson",
+      "dienstnummer": "65",
+      "rang": "Marlon Jackson",
+      "seit": "16:50",
+      "dauer": "0h 9m",
+      "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     },
     {
       "name": "yyss0717_09940",
@@ -25,7 +43,7 @@
       "dienstnummer": "68",
       "rang": "Jakob Mustermann",
       "seit": "15:15",
-      "dauer": "1h 31m",
+      "dauer": "1h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     }
   ],
@@ -79,7 +97,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 9
   }
 }

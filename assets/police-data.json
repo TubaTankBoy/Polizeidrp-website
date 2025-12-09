@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-09T20:42:14.892Z",
+  "lastUpdate": "2025-12-09T20:48:44.893Z",
   "onDuty": [
     {
       "name": "lx_alpha",
@@ -7,7 +7,7 @@
       "dienstnummer": "03",
       "rang": "Dr. Peter Zwegat",
       "seit": "18:02",
-      "dauer": "2h 39m",
+      "dauer": "2h 45m",
       "avatar": "https://cdn.discordapp.com/avatars/374871528396816384/b5fc1db7b4a670d8ff77660ddf2dc180.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "19:12",
-      "dauer": "1h 29m",
+      "dauer": "1h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
@@ -25,17 +25,8 @@
       "dienstnummer": "11",
       "rang": "Mateo Lopes",
       "seit": "17:31",
-      "dauer": "3h 10m",
+      "dauer": "3h 16m",
       "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
-    {
-      "name": "noahsch11",
-      "displayName": "[28] Kasten James",
-      "dienstnummer": "28",
-      "rang": "Kasten James",
-      "seit": "18:39",
-      "dauer": "2h 2m",
-      "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -85,7 +76,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 3,
     "freieDienstnummern": 6
   }
 }

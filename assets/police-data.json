@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2025-12-09T22:55:45.053Z",
-  "onDuty": [
-    {
-      "name": "einfachsamuuu",
-      "displayName": "[49] Travis Ottmann",
-      "dienstnummer": "49",
-      "rang": "Travis Ottmann",
-      "seit": "21:00",
-      "dauer": "1h 55m",
-      "avatar": "https://cdn.discordapp.com/avatars/748660274550014078/55f6cdd3a5e2104086f1f58b1db374d4.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-12-09T23:11:45.179Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "82",
     "84",
@@ -24,7 +14,7 @@
       "datum": "9.12.2025",
       "uhrzeit": "21:36",
       "autor": "nikohaupt",
-      "nachricht": "||@DRP Polizei - Mitarbeiter ||\n## Terrorstatus\n\nEs wurde für die folgenden Fraktion ein Terror Status ausgerufen:\n\n**La Nura**\n\nDer Terrorstatus ist bis zum 14.12.2025 23:59 Uhr Aktiv.\n\nIn der Zeit dürft ihr Mitglieder der genannten Fraktionen grundlos durchsuchen werden und sie können jetzt für 120 min anstatt 90 min inhaftiert werden.\n\nMit freundlichen Grüßen\n@[02] Niko Haupt  / @͟͟͞➳ [B5] Pol. vizepräsident\n@[01] Nik Saltie / @͟͟͞➳ [B7] Pol. präsident",
+      "nachricht": "||@DRP Polizei - Mitarbeiter ||\n## Terrorstatus\n\nEs wurde für die folgenden Fraktion ein Terror Status ausgerufen:\n\n**La Nura**\n\nDer Terrorstatus ist bis zum 14.12.2025 23:59 Uhr Aktiv.\n\nIn der Zeit dürft ihr Mitglieder der genannten Fraktionen grundlos durchsuchen und sie können jetzt für 120 min anstatt 90 min inhaftiert werden.\n\nMit freundlichen Grüßen\n@[02] Niko Haupt  / @͟͟͞➳ [B5] Pol. vizepräsident\n@[01] Nik Saltie / @͟͟͞➳ [B7] Pol. präsident",
       "avatar": "https://cdn.discordapp.com/avatars/689614950691635338/c9bcc76e3f838dd64d60085c03e25ce8.webp?size=64"
     },
     {
@@ -58,7 +48,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 6
   }
 }

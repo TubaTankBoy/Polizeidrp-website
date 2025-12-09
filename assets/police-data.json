@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-09T17:22:44.747Z",
+  "lastUpdate": "2025-12-09T17:40:15.857Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,8 +7,17 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "17:06",
-      "dauer": "0h 16m",
+      "dauer": "0h 33m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": "dasadri",
+      "displayName": "[11] Mateo Lopes",
+      "dienstnummer": "11",
+      "rang": "Mateo Lopes",
+      "seit": "17:31",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "mischa76",
@@ -16,7 +25,7 @@
       "dienstnummer": "24",
       "rang": "Mischa Diamonds",
       "seit": "17:14",
-      "dauer": "0h 8m",
+      "dauer": "0h 26m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "26",
       "rang": "Sami Zibabo",
       "seit": "15:04",
-      "dauer": "2h 17m",
+      "dauer": "2h 35m",
       "avatar": "https://cdn.discordapp.com/avatars/800626333788536842/8728e36eb5a80ee1fc77b66442d0a3ef.webp?size=128"
     },
     {
@@ -34,17 +43,17 @@
       "dienstnummer": "28",
       "rang": "Kasten James",
       "seit": "16:48",
-      "dauer": "0h 34m",
+      "dauer": "0h 51m",
       "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     },
     {
-      "name": "noel2182",
-      "displayName": "[40] Elias Bellic",
-      "dienstnummer": "40",
-      "rang": "Elias Bellic",
-      "seit": "17:07",
-      "dauer": "0h 15m",
-      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+      "name": "moritz9505",
+      "displayName": "[42] Peter Lustig",
+      "dienstnummer": "42",
+      "rang": "Peter Lustig",
+      "seit": "17:31",
+      "dauer": "0h 8m",
+      "avatar": "https://cdn.discordapp.com/avatars/830053451073454080/09389a1e469a35b581f4c6cd9ae2dcb0.webp?size=128"
     },
     {
       "name": "fabiiiiii.",
@@ -52,13 +61,11 @@
       "dienstnummer": "47",
       "rang": "Marsel Kasten",
       "seit": "16:40",
-      "dauer": "0h 42m",
+      "dauer": "0h 59m",
       "avatar": "https://cdn.discordapp.com/avatars/942152187079954452/67c5f24d9865814e101e7dd8e6a1f515.webp?size=128"
     }
   ],
   "freeDienstnummern": [
-    "75",
-    "76",
     "79",
     "82",
     "84",
@@ -105,8 +112,8 @@
     }
   ],
   "statistiken": {
-    "gesamtMitarbeiter": 88,
-    "aktuellImDienst": 6,
-    "freieDienstnummern": 9
+    "gesamtMitarbeiter": 90,
+    "aktuellImDienst": 7,
+    "freieDienstnummern": 7
   }
 }

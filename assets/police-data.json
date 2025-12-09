@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-09T14:43:14.519Z",
+  "lastUpdate": "2025-12-09T14:56:14.612Z",
   "onDuty": [
     {
       "name": "chapa0533",
@@ -7,8 +7,17 @@
       "dienstnummer": "25",
       "rang": "Muxi chulo",
       "seit": "13:54",
-      "dauer": "0h 49m",
+      "dauer": "1h 2m",
       "avatar": "https://cdn.discordapp.com/avatars/1180926253268729950/c09540f675e568a7a1bee82dc5ca306e.webp?size=128"
+    },
+    {
+      "name": "yyss0717_09940",
+      "displayName": "[68] Jakob Mustermann",
+      "dienstnummer": "68",
+      "rang": "Jakob Mustermann",
+      "seit": "14:48",
+      "dauer": "0h 7m",
+      "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -63,7 +72,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 86,
-    "aktuellImDienst": 1,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 11
   }
 }

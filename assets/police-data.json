@@ -1,31 +1,13 @@
 {
-  "lastUpdate": "2025-12-10T18:59:49.433Z",
+  "lastUpdate": "2025-12-10T19:18:49.453Z",
   "onDuty": [
-    {
-      "name": "_vapros",
-      "displayName": "[05] Maxim Diamonds",
-      "dienstnummer": "05",
-      "rang": "Maxim Diamonds",
-      "seit": "18:17",
-      "dauer": "0h 42m",
-      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
-    },
-    {
-      "name": "dasadri",
-      "displayName": "[11] Mateo Lopes",
-      "dienstnummer": "11",
-      "rang": "Mateo Lopes",
-      "seit": "18:42",
-      "dauer": "0h 17m",
-      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
-    },
     {
       "name": "csrccdrk",
       "displayName": "[70] Andi Zadel",
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "17:11",
-      "dauer": "1h 48m",
+      "dauer": "2h 7m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -34,7 +16,7 @@
       "dienstnummer": "79",
       "rang": "Chino Bellic",
       "seit": "17:37",
-      "dauer": "1h 22m",
+      "dauer": "1h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/753658102456516738/e2aa243f1557afa079765990fa86541c.webp?size=128"
     }
   ],
@@ -85,7 +67,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 6
   }
 }

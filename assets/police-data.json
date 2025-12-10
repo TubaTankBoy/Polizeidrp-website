@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-10T18:21:49.442Z",
+  "lastUpdate": "2025-12-10T18:48:19.435Z",
   "onDuty": [
     {
       "name": "_vapros",
@@ -7,8 +7,17 @@
       "dienstnummer": "05",
       "rang": "Maxim Diamonds",
       "seit": "18:17",
-      "dauer": "0h 4m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
+    },
+    {
+      "name": "dasadri",
+      "displayName": "[11] Mateo Lopes",
+      "dienstnummer": "11",
+      "rang": "Mateo Lopes",
+      "seit": "18:42",
+      "dauer": "0h 5m",
+      "avatar": "https://cdn.discordapp.com/avatars/789184093476225115/26b442c3ee8a90a33581a170d4997312.webp?size=128"
     },
     {
       "name": "yyss0717_09940",
@@ -16,7 +25,7 @@
       "dienstnummer": "68",
       "rang": "Jakob Mustermann",
       "seit": "18:11",
-      "dauer": "0h 10m",
+      "dauer": "0h 36m",
       "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     },
     {
@@ -25,7 +34,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "17:11",
-      "dauer": "1h 10m",
+      "dauer": "1h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     },
     {
@@ -34,7 +43,7 @@
       "dienstnummer": "71",
       "rang": "Eren Abuhamza",
       "seit": "18:18",
-      "dauer": "0h 3m",
+      "dauer": "0h 30m",
       "avatar": "https://cdn.discordapp.com/avatars/1058499470574239786/b12d59c84263d9f281b0dc3356bada35.webp?size=128"
     },
     {
@@ -43,7 +52,7 @@
       "dienstnummer": "79",
       "rang": "Chino Bellic",
       "seit": "17:37",
-      "dauer": "0h 44m",
+      "dauer": "1h 11m",
       "avatar": "https://cdn.discordapp.com/avatars/753658102456516738/e2aa243f1557afa079765990fa86541c.webp?size=128"
     }
   ],
@@ -94,7 +103,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 5,
+    "aktuellImDienst": 6,
     "freieDienstnummern": 6
   }
 }

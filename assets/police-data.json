@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2025-12-10T17:56:49.153Z",
+  "lastUpdate": "2025-12-10T18:21:49.442Z",
   "onDuty": [
     {
-      "name": "noahsch11",
-      "displayName": "[28] Kasten James",
-      "dienstnummer": "28",
-      "rang": "Kasten James",
-      "seit": "17:11",
-      "dauer": "0h 44m",
-      "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
+      "name": "_vapros",
+      "displayName": "[05] Maxim Diamonds",
+      "dienstnummer": "05",
+      "rang": "Maxim Diamonds",
+      "seit": "18:17",
+      "dauer": "0h 4m",
+      "avatar": "https://cdn.discordapp.com/avatars/835646472212185178/3f7e6071a25fdf1b5324aea9c89578f7.webp?size=128"
     },
     {
-      "name": "_marlon_9",
-      "displayName": "[65] Marlon Jackson",
-      "dienstnummer": "65",
-      "rang": "Marlon Jackson",
-      "seit": "14:54",
-      "dauer": "3h 2m",
-      "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
+      "name": "yyss0717_09940",
+      "displayName": "[68] Jakob Mustermann",
+      "dienstnummer": "68",
+      "rang": "Jakob Mustermann",
+      "seit": "18:11",
+      "dauer": "0h 10m",
+      "avatar": "https://cdn.discordapp.com/avatars/1142199700632637570/5e3bfaf964a8314c1cf77a6e24dde152.webp?size=128"
     },
     {
       "name": "csrccdrk",
@@ -25,8 +25,17 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "17:11",
-      "dauer": "0h 45m",
+      "dauer": "1h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
+    },
+    {
+      "name": "reezysupreem01",
+      "displayName": "[71] Eren Abuhamza",
+      "dienstnummer": "71",
+      "rang": "Eren Abuhamza",
+      "seit": "18:18",
+      "dauer": "0h 3m",
+      "avatar": "https://cdn.discordapp.com/avatars/1058499470574239786/b12d59c84263d9f281b0dc3356bada35.webp?size=128"
     },
     {
       "name": "waifsystem",
@@ -34,7 +43,7 @@
       "dienstnummer": "79",
       "rang": "Chino Bellic",
       "seit": "17:37",
-      "dauer": "0h 19m",
+      "dauer": "0h 44m",
       "avatar": "https://cdn.discordapp.com/avatars/753658102456516738/e2aa243f1557afa079765990fa86541c.webp?size=128"
     }
   ],
@@ -85,7 +94,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 4,
+    "aktuellImDienst": 5,
     "freieDienstnummern": 6
   }
 }

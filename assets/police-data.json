@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2025-12-10T20:26:49.563Z",
-  "onDuty": [
-    {
-      "name": "csrccdrk",
-      "displayName": "[70] Andi Zadel",
-      "dienstnummer": "70",
-      "rang": "Andi Zadel",
-      "seit": "17:11",
-      "dauer": "3h 15m",
-      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
-    },
-    {
-      "name": "tmo_420",
-      "displayName": "[99] Timo Luigi",
-      "dienstnummer": "99",
-      "rang": "Timo Luigi",
-      "seit": "20:13",
-      "dauer": "0h 13m",
-      "avatar": "https://cdn.discordapp.com/avatars/918632213405392946/b27ce7ac1b2821f3e2ccc6e64caf4a82.webp?size=128"
-    }
-  ],
+  "lastUpdate": "2025-12-10T22:33:40.889Z",
+  "onDuty": [],
   "freeDienstnummern": [
     "82",
     "84",
@@ -67,7 +48,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 2,
+    "aktuellImDienst": 0,
     "freieDienstnummern": 6
   }
 }

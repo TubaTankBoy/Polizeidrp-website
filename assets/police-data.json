@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-10T17:36:19.485Z",
+  "lastUpdate": "2025-12-10T17:49:49.434Z",
   "onDuty": [
     {
       "name": "noahsch11",
@@ -7,7 +7,7 @@
       "dienstnummer": "28",
       "rang": "Kasten James",
       "seit": "17:11",
-      "dauer": "0h 24m",
+      "dauer": "0h 37m",
       "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "14:54",
-      "dauer": "2h 41m",
+      "dauer": "2h 55m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     },
     {
@@ -25,8 +25,17 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "17:11",
-      "dauer": "0h 25m",
+      "dauer": "0h 38m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
+    },
+    {
+      "name": "waifsystem",
+      "displayName": "[79] Chino Bellic",
+      "dienstnummer": "79",
+      "rang": "Chino Bellic",
+      "seit": "17:37",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/753658102456516738/e2aa243f1557afa079765990fa86541c.webp?size=128"
     }
   ],
   "freeDienstnummern": [
@@ -76,7 +85,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 3,
+    "aktuellImDienst": 4,
     "freieDienstnummern": 6
   }
 }

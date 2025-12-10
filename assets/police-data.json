@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2025-12-10T17:11:19.091Z",
+  "lastUpdate": "2025-12-10T17:36:19.485Z",
   "onDuty": [
     {
       "name": "noahsch11",
       "displayName": "[28] Kasten James",
       "dienstnummer": "28",
       "rang": "Kasten James",
-      "seit": "16:22",
-      "dauer": "0h 48m",
+      "seit": "17:11",
+      "dauer": "0h 24m",
       "avatar": "https://cdn.discordapp.com/avatars/1091060185608491059/02d6e81f8f7e753863ab8a237d48c3e8.webp?size=128"
     },
     {
@@ -16,7 +16,7 @@
       "dienstnummer": "65",
       "rang": "Marlon Jackson",
       "seit": "14:54",
-      "dauer": "2h 16m",
+      "dauer": "2h 41m",
       "avatar": "https://cdn.discordapp.com/avatars/1057935276690907177/9b7252e21d9954610cd3e7c5390780a8.webp?size=128"
     },
     {
@@ -25,7 +25,7 @@
       "dienstnummer": "70",
       "rang": "Andi Zadel",
       "seit": "17:11",
-      "dauer": "0h 0m",
+      "dauer": "0h 25m",
       "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
     }
   ],

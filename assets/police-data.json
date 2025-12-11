@@ -1,6 +1,25 @@
 {
-  "lastUpdate": "2025-12-11T18:31:10.028Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-11T18:55:10.126Z",
+  "onDuty": [
+    {
+      "name": "noel2182",
+      "displayName": "[40] Elias Bellic",
+      "dienstnummer": "40",
+      "rang": "Elias Bellic",
+      "seit": "18:36",
+      "dauer": "0h 18m",
+      "avatar": "https://cdn.discordapp.com/avatars/1117177613803327609/4617d026bafb905c1c690b8779791328.webp?size=128"
+    },
+    {
+      "name": "csrccdrk",
+      "displayName": "[70] Andi Zadel",
+      "dienstnummer": "70",
+      "rang": "Andi Zadel",
+      "seit": "18:42",
+      "dauer": "0h 12m",
+      "avatar": "https://cdn.discordapp.com/avatars/736725703537459331/fd5077155b6e3bd7850673c16965126c.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "69",
     "84",
@@ -47,7 +66,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 92,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 2,
     "freieDienstnummern": 5
   }
 }

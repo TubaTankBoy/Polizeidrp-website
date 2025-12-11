@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-12-11T09:47:08.982Z",
-  "onDuty": [],
+  "lastUpdate": "2025-12-11T09:56:39.052Z",
+  "onDuty": [
+    {
+      "name": "einfachsamuuu",
+      "displayName": "[49] Travis Ottmann",
+      "dienstnummer": "49",
+      "rang": "Travis Ottmann",
+      "seit": "09:49",
+      "dauer": "0h 6m",
+      "avatar": "https://cdn.discordapp.com/avatars/748660274550014078/55f6cdd3a5e2104086f1f58b1db374d4.webp?size=128"
+    }
+  ],
   "freeDienstnummern": [
     "82",
     "84",
@@ -48,7 +58,7 @@
   ],
   "statistiken": {
     "gesamtMitarbeiter": 91,
-    "aktuellImDienst": 0,
+    "aktuellImDienst": 1,
     "freieDienstnummern": 6
   }
 }

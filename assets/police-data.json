@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-11T13:48:09.715Z",
+  "lastUpdate": "2025-12-11T14:00:39.803Z",
   "onDuty": [
     {
       "name": "mischa76",
@@ -7,7 +7,7 @@
       "dienstnummer": "24",
       "rang": "Mischa Diamonds",
       "seit": "12:11",
-      "dauer": "1h 36m",
+      "dauer": "1h 49m",
       "avatar": "https://cdn.discordapp.com/avatars/1055827864517349407/9f57381705751ff6db8944e505afec9e.webp?size=128"
     },
     {
@@ -16,16 +16,16 @@
       "dienstnummer": "49",
       "rang": "Travis Ottmann",
       "seit": "12:50",
-      "dauer": "0h 57m",
+      "dauer": "1h 10m",
       "avatar": "https://cdn.discordapp.com/avatars/748660274550014078/55f6cdd3a5e2104086f1f58b1db374d4.webp?size=128"
     }
   ],
   "freeDienstnummern": [
+    "69",
     "82",
     "84",
     "86",
     "87",
-    "92",
     "93"
   ],
   "polizeiInformationen": [

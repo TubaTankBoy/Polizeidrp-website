@@ -328,19 +328,109 @@ const WEBHOOK_URL = 'https://discord.com/api/webhooks/1448719996678045910/bZUNtO
 const REDIRECT_URI = window.location.href.split('#')[0]; 
 
 // ==========================================
-// QUIZ FRAGEN
+// QUIZ FRAGEN (Dienstvorschrift)
 // ==========================================
 const questions = [
-  { question: "Was ist die oberste Priorität im Dienst?", options: ["Geld verdienen", "Schutz der Zivilisten und Wahrung der Gesetze", "Schnelle Autos fahren", "Kaffeepause"], correct: 1 },
-  { question: "Wann darf die Schusswaffe eingesetzt werden?", options: ["Sofort bei Sichtkontakt", "Nur als allerletztes Mittel bei Lebensgefahr", "Wenn jemand beleidigend wird", "Bei Verkehrskontrollen"], correct: 1 },
-  { question: "Wie verhältst du dich bei einer allgemeinen Verkehrskontrolle?", options: ["Aggressiv und laut", "Höflich, bestimmt und Eigensicherung beachtend", "Ich ziehe den Fahrer sofort raus", "Ich ignoriere den Fahrer"], correct: 1 },
-  { question: "Was bedeutet Status 5 im Funk?", options: ["Frage / Anliegen", "Pause", "Streife beendet", "Benötige Unterstützung"], correct: 0 },
-  { question: "Darfst du als Polizist Straftaten begehen, um Verbrecher zu fangen?", options: ["Ja, der Zweck heiligt die Mittel", "Nein, Gesetze gelten auch für die Polizei", "Nur wenn niemand zuschaut", "Nur bei Bankraub"], correct: 1 },
-  { question: "Was ist bei der Miranda-Warnung (Rechtebelehrung) zu beachten?", options: ["Muss nicht vorgelesen werden", "Muss zeitnah nach der Festnahme erfolgen", "Nur vor Gericht wichtig", "Kann man sich ausdenken"], correct: 1 },
-  { question: "Wie viele Fehlerpunkte darfst du in diesem Test maximal haben?", options: ["10", "Keine", "7 (bei 8 fliegst du)", "20"], correct: 2 },
-  { question: "Was tust du, wenn ein Ranghöherer einen Befehl gibt?", options: ["Diskutieren", "Ausführen, sofern nicht gesetzeswidrig", "Ignorieren", "Dienst beenden"], correct: 1 },
-  { question: "Darfst du Dienstfahrzeuge privat nutzen?", options: ["Ja, immer", "Nein, streng verboten", "Nur am Wochenende", "Wenn ich tanke"], correct: 1 },
-  { question: "Was ist Korruption?", options: ["Ein Kavaliersdelikt", "Strengstens verboten und führt zum Ausschluss", "Erlaubt ab Rang 10", "Ein Brettspiel"], correct: 1 }
+  { 
+    question: "Was ist der erste Schritt bei Streitigkeiten zwischen Kollegen (§ 2.2)?", 
+    options: ["Öffentlich im Funk diskutieren", "Das persönliche Gespräch suchen", "Sofort die Leitungsebene rufen", "Den Dienst quittieren"], 
+    correct: 1 
+  },
+  { 
+    question: "Welche Konsequenz hat die Weitergabe von Polizeiausrüstung an Externe (§ 3.1)?", 
+    options: ["Geldstrafe von 10.000$", "Mündliche Verwarnung", "Entlassung bis hin zur lebenslangen Haft", "Degradierung um einen Rang"], 
+    correct: 2 
+  },
+  { 
+    question: "Darf Funk 1 für Ausbildungen genutzt werden (§ 4.6)?", 
+    options: ["Ja, wenn Funk 2 belegt ist", "Nein, Funk 1 ist der offizielle Funk", "Ja, ab 22 Uhr", "Nur für Abschlussprüfungen"], 
+    correct: 1 
+  },
+  { 
+    question: "Wann darf die Schusswaffe offen getragen werden (§ 5.3)?", 
+    options: ["Nur in aktiven Gefechten/Großeinsätzen", "Immer im Dienst zur Abschreckung", "Bei jeder Verkehrskontrolle", "Sobald man die Wache verlässt"], 
+    correct: 0 
+  },
+  { 
+    question: "Was muss passieren, wenn man sich in den Zivildienst begibt (§ 5.5)?", 
+    options: ["Waffe darf zur Sicherheit behalten werden", "Ausrüstung im privaten Kofferraum lagern", "Alles im Präsidium ablegen (Waffen & Ausrüstung)", "Dienstmarke behalten, Rest abgeben"], 
+    correct: 2 
+  },
+  { 
+    question: "Welche Ausrüstung ist auf Streife zwingend Pflicht (§ 5.10)?", 
+    options: ["Taschenlampe", "GPS Tracker", "Fernglas", "Aktivierte Bodycam"], 
+    correct: 3 
+  },
+  { 
+    question: "Welche Fahrzeug-Modifikationen sind am Dienstwagen erlaubt (§ 7.2)?", 
+    options: ["Unterbodenbeleuchtung & Hupe", "Fulltuning, Panzerung, Federung, Scheibentönung", "Rennmotor & Turbo", "Individuelle Lackierung"], 
+    correct: 1 
+  },
+  { 
+    question: "Ist Glücksspiel (Tipico) oder Barbesuch im Dienst erlaubt (§ 8.10)?", 
+    options: ["Ja, in der Pause", "Ja, wenn kein Einsatz offen ist", "Nein, strikt verboten", "Nur Blackjack"], 
+    correct: 2 
+  },
+  { 
+    question: "Wann darf bei einer Kontrolle der Kofferraum durchsucht werden (§ 9.4)?", 
+    options: ["Immer routinemäßig", "Nur bei konkretem Verdacht (z.B. BTMG, WaffG)", "Wenn der Fahrer nervös wirkt", "Bei jeder LKW-Kontrolle"], 
+    correct: 1 
+  },
+  { 
+    question: "Wie oft darf der Panic Button benutzt werden (§ 9.6)?", 
+    options: ["Unbegrenzt", "Nur 1x am selben Ort & alle 5 Minuten", "Alle 10 Minuten", "Nur mit Erlaubnis"], 
+    correct: 1 
+  },
+  { 
+    question: "Wann darf man bei Verfolgungen auf Reifen schießen (§ 10.1)?", 
+    options: ["Erst nach mehrfacher Aufforderung / im Notfall", "Sofort bei Fluchtbeginn", "Wenn das Auto zu schnell ist", "Ab 3 Minuten Verfolgung"], 
+    correct: 0 
+  },
+  { 
+    question: "Wer darf eine Razzia anordnen (§ 11.1)?", 
+    options: ["Einsatzleitung vor Ort", "Jeder Officer", "Leitender Direktor oder höher", "Der Bürgermeister"], 
+    correct: 2 
+  },
+  { 
+    question: "Welcher Mindestrang ist für die Einsatzleitung bei Raubüberfällen nötig (§ 12.1)?", 
+    options: ["Officer II", "Detective III (außer Genehmigung)", "Sergeant I", "Recruit"], 
+    correct: 1 
+  },
+  { 
+    question: "Dürfen Trainees alleine Streife fahren (§ 13.4)?", 
+    options: ["Ja", "Ja, mit CopNet", "Nein, nur mit Rang höher als Recruit 1", "Nur für Verkehrskontrollen"], 
+    correct: 2 
+  },
+  { 
+    question: "Wie verhält sich die NOOS-Einheit ohne Spezialeinsatz (§ 14.7.4)?", 
+    options: ["Sie fahren normal Streife (Uniform/Auto normal)", "Sie warten im HQ", "Sie patrouillieren in Vollmontur", "Sie machen Pause"], 
+    correct: 0 
+  },
+  { 
+    question: "Was passiert bei Wiedereinstellung innerhalb von 1 Tag (§ 15.1)?", 
+    options: ["Alter Rang bleibt", "Ein Rang runter", "Zwei Ränge runter", "Start als Rekrut"], 
+    correct: 1 
+  },
+  { 
+    question: "Ab wie vielen Hafteinheiten ist eine Geldstrafe nicht mehr möglich (§ 18.1)?", 
+    options: ["20 HE", "30 HE (Knastpflicht)", "50 HE", "60 HE"], 
+    correct: 1 
+  },
+  { 
+    question: "Was passiert, wenn man Verkehrsschilder vor einem Blitzer entfernt (§ 18.4)?", 
+    options: ["Nichts", "Verwarnung", "Blitzer ungültig & Kündigung", "Geldstrafe"], 
+    correct: 2 
+  },
+  { 
+    question: "Wo dürfen KEINE Blitzer aufgestellt werden (§ 21.2)?", 
+    options: ["Auf dem Highway", "Innerhalb der Stadt", "Auf Landstraßen", "In Tunneln"], 
+    correct: 1 
+  },
+  { 
+    question: "Ist es erlaubt, im Dienst das Oberteil auszuziehen (§ 8.13)?", 
+    options: ["Ja, wenn es heiß ist", "Ja, am Strand", "Nein, weder Oberteil noch Hose", "Nur das Hemd"], 
+    correct: 2 
+  }
 ];
 
 // ==========================================

@@ -5,424 +5,54 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Terrorstatus - Polizei - Deutschland RP</title>
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* --- HIER NICHTS ÄNDERN - NUR DESIGN --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0a0e27 0%, #1a0a0a 50%, #270a0a 100%); color: #fff; min-height: 100vh; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23203a43" width="1200" height="300"/></svg>'); background-size: cover; border-bottom: 3px solid #ffd700; padding: 60px 0 40px; text-align: center; }
+.header-title { font-size: 56px; font-weight: 900; text-transform: uppercase; margin-bottom: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.8); }
+.header-subtitle { font-size: 32px; font-weight: 700; color: #ffd700; text-shadow: 2px 2px 6px rgba(0,0,0,0.8); }
+.nav-bar { background: rgba(10,14,39,0.98); backdrop-filter: blur(10px); border-bottom: 2px solid rgba(255,215,0,0.3); position: sticky; top: 0; z-index: 1000; }
+.nav { display: flex; justify-content: center; gap: 5px; list-style: none; }
+.nav > li { position: relative; }
+.nav > li > a { display: block; color: #fff; text-decoration: none; padding: 18px 24px; font-weight: 500; transition: all 0.3s; border-bottom: 3px solid transparent; }
+.nav > li > a:hover, .nav > li.active > a { background: rgba(255,215,0,0.1); color: #ffd700; border-bottom-color: #ffd700; }
+.dropdown-content { position: absolute; top: 100%; left: 0; background: rgba(10,14,39,0.98); min-width: 220px; border: 1px solid rgba(255,215,0,0.3); opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s; padding: 8px 0; }
+.nav > li:hover .dropdown-content { opacity: 1; visibility: visible; transform: translateY(0); }
+.dropdown-content a { display: block; color: #cbd5e0; text-decoration: none; padding: 12px 24px; border-left: 3px solid transparent; }
+.dropdown-content a:hover { color: #ffd700; border-left-color: #ffd700; background: rgba(255,215,0,0.15); padding-left: 28px; }
+.mobile-menu-toggle { display: none; background: rgba(255,215,0,0.1); border: 2px solid #ffd700; color: #ffd700; padding: 10px 20px; border-radius: 8px; margin: 15px auto; cursor: pointer; }
+@media (max-width: 968px) { .mobile-menu-toggle { display: block; } .nav { display: none; flex-direction: column; } .nav.active { display: flex; } .nav > li { width: 100%; } .dropdown-content { position: static; display: none; opacity: 1; visibility: visible; transform: none; box-shadow: none; background: rgba(0,0,0,0.3); } .nav > li.dropdown-open .dropdown-content { display: block; } }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #0a0e27 0%, #1a0a0a 50%, #270a0a 100%);
-  color: #fff;
-  min-height: 100vh;
-}
+/* Status Styles */
+.status-alert { margin: 40px 0; padding: 50px 40px; background: linear-gradient(135deg, rgba(255,59,59,0.2), rgba(139,0,0,0.3)); border: 2px solid #ff3b3b; border-radius: 20px; text-align: center; position: relative; overflow: hidden; animation: pulseRed 3s infinite; }
+@keyframes pulseRed { 0%,100% { box-shadow: 0 0 40px rgba(255,59,59,0.4); } 50% { box-shadow: 0 0 60px rgba(255,59,59,0.6); } }
+.status-title { font-size: 42px; font-weight: 900; color: #ff3b3b; text-transform: uppercase; margin-bottom: 20px; }
+.status-badge { display: inline-block; background: rgba(255,59,59,0.9); color: #fff; padding: 12px 30px; border-radius: 50px; font-weight: 700; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+/* Liste */
+.terror-list { background: linear-gradient(135deg, rgba(26,31,58,0.9), rgba(39,10,10,0.8)); border-radius: 16px; padding: 40px; margin: 30px 0; border: 1px solid rgba(255,59,59,0.3); min-height: 200px; }
+.faction-entry { background: linear-gradient(135deg, rgba(255,59,59,0.1), rgba(139,0,0,0.15)); border: 2px solid rgba(255,59,59,0.4); border-radius: 12px; padding: 25px 30px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; gap: 20px; transition: 0.3s; }
+.faction-entry:hover { border-color: #ff3b3b; transform: translateX(5px); }
+.faction-name { font-size: 24px; font-weight: 800; color: #ff3b3b; display: flex; align-items: center; gap: 10px; }
+.faction-time { color: #cbd5e0; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+.status-indicator { width: 12px; height: 12px; background: #ff3b3b; border-radius: 50%; animation: blink 1.5s infinite; box-shadow: 0 0 10px rgba(255,59,59,0.8); }
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.empty-state { text-align: center; padding: 40px 20px; color: #4ade80; font-size: 18px; }
+.empty-state .icon { font-size: 80px; margin-bottom: 20px; filter: drop-shadow(0 0 20px rgba(74,222,128,0.5)); }
 
-/* Header */
-.header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23203a43" width="1200" height="300"/></svg>');
-  background-size: cover;
-  background-position: center;
-  border-bottom: 3px solid #ffd700;
-  position: relative;
-  padding: 60px 0 40px;
-  text-align: center;
-}
-
-.header-title {
-  font-size: 56px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-}
-
-.header-subtitle {
-  font-size: 32px;
-  font-weight: 700;
-  color: #ffd700;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
-}
-
-/* Navigation Bar */
-.nav-bar {
-  background: rgba(10, 14, 39, 0.98);
-  backdrop-filter: blur(10px);
-  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  padding: 0;
-  list-style: none;
-}
-
-.nav > li {
-  position: relative;
-}
-
-.nav > li > a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 18px 24px;
-  font-weight: 500;
-  font-size: 15px;
-  transition: all 0.3s ease;
-  border-bottom: 3px solid transparent;
-}
-
-.nav > li > a:hover,
-.nav > li.active > a {
-  background: rgba(255, 215, 0, 0.1);
-  color: #ffd700;
-  border-bottom-color: #ffd700;
-}
-
-/* Dropdown Menu */
-.dropdown-content {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: rgba(10, 14, 39, 0.98);
-  backdrop-filter: blur(10px);
-  min-width: 220px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 215, 0, 0.3);
-  border-radius: 0 0 8px 8px;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: all 0.3s ease;
-  padding: 8px 0;
-}
-
-.nav > li:hover .dropdown-content {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.dropdown-content a {
-  display: block;
-  color: #cbd5e0;
-  text-decoration: none;
-  padding: 12px 24px;
-  font-size: 14px;
-  transition: all 0.2s ease;
-  border-left: 3px solid transparent;
-}
-
-.dropdown-content a:hover {
-  background: rgba(255, 215, 0, 0.15);
-  color: #ffd700;
-  border-left-color: #ffd700;
-  padding-left: 28px;
-}
-
-/* Mobile Menu Toggle */
-.mobile-menu-toggle {
-  display: none;
-  background: rgba(255, 215, 0, 0.1);
-  border: 2px solid #ffd700;
-  color: #ffd700;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 14px;
-  margin: 15px auto;
-}
-
-@media (max-width: 968px) {
-  .mobile-menu-toggle {
-    display: block;
-  }
-  
-  .nav {
-    display: none;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-  
-  .nav.active {
-    display: flex;
-  }
-  
-  .nav > li {
-    width: 100%;
-  }
-  
-  .nav > li > a {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-  }
-  
-  .dropdown-content {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-    background: rgba(0, 0, 0, 0.3);
-    display: none;
-  }
-  
-  .nav > li.dropdown-open .dropdown-content {
-    display: block;
-  }
-}
-
-/* Status Alert Section */
-.status-alert {
-  margin: 40px 0;
-  padding: 50px 40px;
-  background: linear-gradient(135deg, rgba(255, 59, 59, 0.2), rgba(139, 0, 0, 0.3));
-  border: 2px solid #ff3b3b;
-  border-radius: 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 40px rgba(255, 59, 59, 0.4), inset 0 0 60px rgba(255, 59, 59, 0.1);
-  animation: pulseRed 3s ease-in-out infinite;
-}
-
-@keyframes pulseRed {
-  0%, 100% { box-shadow: 0 0 40px rgba(255, 59, 59, 0.4), inset 0 0 60px rgba(255, 59, 59, 0.1); }
-  50% { box-shadow: 0 0 60px rgba(255, 59, 59, 0.6), inset 0 0 80px rgba(255, 59, 59, 0.2); }
-}
-
-.status-alert::before {
-  content: '⚠️';
-  font-size: 80px;
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.1;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(-10px); }
-}
-
-.status-title {
-  font-size: 42px;
-  font-weight: 900;
-  color: #ff3b3b;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-shadow: 0 0 20px rgba(255, 59, 59, 0.8);
-}
-
-.status-badge {
-  display: inline-block;
-  background: rgba(255, 59, 59, 0.9);
-  color: #fff;
-  padding: 12px 30px;
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 20px rgba(255, 59, 59, 0.6);
-  animation: pulse 2s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
-
-/* Terror List */
-.terror-list {
-  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(39, 10, 10, 0.8));
-  border-radius: 16px;
-  padding: 40px;
-  margin: 30px 0;
-  border: 1px solid rgba(255, 59, 59, 0.3);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-}
-
-.faction-entry {
-  background: linear-gradient(135deg, rgba(255, 59, 59, 0.1), rgba(139, 0, 0, 0.15));
-  border: 2px solid rgba(255, 59, 59, 0.4);
-  border-radius: 12px;
-  padding: 25px 30px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  transition: all 0.3s ease;
-}
-
-.faction-entry:hover {
-  border-color: #ff3b3b;
-  box-shadow: 0 5px 25px rgba(255, 59, 59, 0.3);
-  transform: translateX(5px);
-}
-
-.faction-info {
-  flex: 1;
-}
-
-.faction-name {
-  font-size: 24px;
-  font-weight: 800;
-  color: #ff3b3b;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.faction-time {
-  color: #cbd5e0;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.status-indicator {
-  width: 12px;
-  height: 12px;
-  background: #ff3b3b;
-  border-radius: 50%;
-  display: inline-block;
-  animation: blink 1.5s ease-in-out infinite;
-  box-shadow: 0 0 10px rgba(255, 59, 59, 0.8);
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
-}
-
-.empty-state {
-  text-align: center;
-  padding: 60px 20px;
-  color: #4ade80;
-  font-size: 18px;
-}
-
-.empty-state .icon {
-  font-size: 80px;
-  margin-bottom: 20px;
-  filter: drop-shadow(0 0 20px rgba(74, 222, 128, 0.5));
-}
-
-/* Info Box */
-.info-box {
-  background: linear-gradient(135deg, rgba(26, 31, 58, 0.9), rgba(15, 20, 25, 0.8));
-  backdrop-filter: blur(15px);
-  border-radius: 16px;
-  padding: 35px;
-  margin: 40px 0;
-  border-left: 5px solid #3b82f6;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-}
-
-.info-box h3 {
-  color: #3b82f6;
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.info-box p {
-  color: #cbd5e0;
-  line-height: 1.8;
-  font-size: 15px;
-}
-
-.info-highlight {
-  color: #60a5fa;
-  font-weight: 600;
-}
-
-/* Footer */
-.footer {
-  background: rgba(10, 14, 39, 0.95);
-  border-top: 2px solid #ff3b3b;
-  padding: 40px 0;
-  text-align: center;
-  margin-top: 60px;
-}
-
-.footer p {
-  color: #a0aec0;
-  font-size: 14px;
-  margin: 8px 0;
-}
-
-.footer a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: #ffed4e;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .header {
-    padding: 40px 0 30px;
-  }
-  
-  .header-title {
-    font-size: 36px;
-  }
-  
-  .header-subtitle {
-    font-size: 22px;
-  }
-  
-  .status-title {
-    font-size: 32px;
-  }
-  
-  .faction-entry {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .info-box {
-    padding: 25px 20px;
-  }
-}
+/* Info Box & Footer */
+.info-box { background: linear-gradient(135deg, rgba(26,31,58,0.9), rgba(15,20,25,0.8)); backdrop-filter: blur(15px); border-radius: 16px; padding: 35px; margin: 40px 0; border-left: 5px solid #3b82f6; }
+.info-box h3 { color: #3b82f6; font-size: 22px; margin-bottom: 15px; }
+.info-box p { color: #cbd5e0; line-height: 1.8; }
+.info-highlight { color: #60a5fa; font-weight: 600; }
+.footer { background: rgba(10,14,39,0.95); border-top: 2px solid #ff3b3b; padding: 40px 0; text-align: center; margin-top: 60px; color: #a0aec0; }
+.footer a { color: #ffd700; text-decoration: none; }
 </style>
 </head>
 <body>
+
 <header class="header">
   <div class="container">
     <h1 class="header-title">Polizei</h1>
@@ -432,11 +62,9 @@ body {
 
 <nav class="nav-bar">
   <div class="container">
-    <button class="mobile-menu-toggle" onclick="toggleMenu()">☰ Menü</button>
-    
+    <button class="mobile-menu-toggle" onclick="document.getElementById('nav').classList.toggle('active')">☰ Menü</button>
     <ul class="nav" id="nav">
       <li><a href="index.html">Startseite</a></li>
-      
       <li class="dropdown active">
         <a href="#" onclick="toggleDropdown(event, this)">Neuigkeiten ▾</a>
         <div class="dropdown-content">
@@ -445,31 +73,9 @@ body {
           <a href="Fahndungsportal.html">Fahndungsportal</a>
         </div>
       </li>
-      
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a>
-        <div class="dropdown-content">
-          <a href="Werdegang.html">Werdegang</a>
-          <a href="Moeglichkeiten.html">Möglichkeiten</a>
-        </div>
-      </li>
-      
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a>
-        <div class="dropdown-content">
-          <a href="Management.html">Management</a>
-          <a href="Mitarbeiter.html">Mitarbeiter</a>
-        </div>
-      </li>
-      
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a>
-        <div class="dropdown-content">
-          <a href="Galerie.html">Galerie</a>
-          <a href="Strafen.html">Strafen</a>
-          <a href="Status.html">Status</a>
-        </div>
-      </li>
+      <li class="dropdown"><a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a><div class="dropdown-content"><a href="Werdegang.html">Werdegang</a><a href="Moeglichkeiten.html">Möglichkeiten</a></div></li>
+      <li class="dropdown"><a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a><div class="dropdown-content"><a href="Management.html">Management</a><a href="Mitarbeiter.html">Mitarbeiter</a></div></li>
+      <li class="dropdown"><a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a><div class="dropdown-content"><a href="Galerie.html">Galerie</a><a href="Strafen.html">Strafen</a><a href="Status.html">Status</a></div></li>
     </ul>
   </div>
 </nav>
@@ -480,41 +86,7 @@ body {
     <div class="status-badge">🔴 AKTUELLE GEFAHRENLAGE</div>
   </section>
 
-  <section class="terror-list">
-    <!-- Beispiel: Keine Fraktionen unter Terrorstatus -->
-    <div class="empty-state">
-      <div class="icon">✅</div>
-      <strong>Aktuell keine erhöhte Gefahrenlage</strong>
-      <p style="margin-top: 10px; color: #a0aec0;">Es befinden sich derzeit keine Fraktionen unter Terrorstatus.</p>
-    </div>
-    
-    <!-- Beispiel: Fraktionen unter Terrorstatus (auskommentiert - einkommentieren wenn aktiv) -->
-    <!--
-    <div class="faction-entry">
-      <div class="faction-info">
-        <div class="faction-name">
-          <span class="status-indicator"></span>
-          Die Bloods
-        </div>
-        <div class="faction-time">
-          ⏱️ Gültig bis: 10.11.2025, 23:45 Uhr
-        </div>
-      </div>
-    </div>
-
-    <div class="faction-entry">
-      <div class="faction-info">
-        <div class="faction-name">
-          <span class="status-indicator"></span>
-          Cartel de Sinaloa
-        </div>
-        <div class="faction-time">
-          ⏱️ Gültig bis: 11.11.2025, 14:30 Uhr
-        </div>
-      </div>
-    </div>
-    -->
-  </section>
+  <section class="terror-list" id="terror-container"></section>
 
   <section class="info-box">
     <h3>ℹ️ Was bedeutet ein Terrorstatus?</h3>
@@ -534,29 +106,67 @@ body {
 </footer>
 
 <script>
-function toggleMenu() {
-  const nav = document.getElementById('nav');
-  nav.classList.toggle('active');
+// ==========================================
+// ⬇️ HIER EINTRAGEN: WELCHE FRAKTIONEN HABEN TERROR? ⬇️
+// ==========================================
+
+const aktuelleTerrorFraktionen = [
+    //{ name: "Bloods", ende: "Heute 18:00" },
+    //{ name: "Mafia", ende: "Morgen 12:00" }
+];
+
+
+// Funktion zum automatischen Erstellen der Liste (Finger weg hiervon 😉)
+function renderTerrorList() {
+    const container = document.getElementById('terror-container');
+    container.innerHTML = ''; // Liste leeren
+
+    if (aktuelleTerrorFraktionen.length === 0) {
+        // Status: KEINE GEFAHR
+        container.innerHTML = `
+            <div class="empty-state">
+                <div class="icon">✅</div>
+                <strong>Aktuell keine erhöhte Gefahrenlage</strong>
+                <p style="margin-top: 10px; color: #a0aec0;">Es befinden sich derzeit keine Fraktionen unter Terrorstatus.</p>
+            </div>
+        `;
+    } else {
+        // Status: GEFAHR (Schleife durch alle Einträge)
+        aktuelleTerrorFraktionen.forEach(fraktion => {
+            const html = `
+                <div class="faction-entry">
+                  <div class="faction-info">
+                    <div class="faction-name">
+                      <span class="status-indicator"></span>
+                      ${fraktion.name}
+                    </div>
+                    <div class="faction-time">
+                      ⏱️ Gültig bis: ${fraktion.ende}
+                    </div>
+                  </div>
+                </div>
+            `;
+            container.innerHTML += html;
+        });
+    }
 }
 
+// Menü Funktionen
 function toggleDropdown(event, element) {
   if (window.innerWidth <= 968) {
     event.preventDefault();
-    const parent = element.parentElement;
-    parent.classList.toggle('dropdown-open');
+    element.parentElement.classList.toggle('dropdown-open');
   }
 }
-
-document.addEventListener('click', function(event) {
-  const nav = document.querySelector('.nav');
-  const toggle = document.querySelector('.mobile-menu-toggle');
-  
-  if (!nav.contains(event.target) && !toggle.contains(event.target)) {
-    document.querySelectorAll('.dropdown-open').forEach(el => {
-      el.classList.remove('dropdown-open');
-    });
+document.addEventListener('click', function(e) {
+  if (!document.querySelector('.nav').contains(e.target) && !document.querySelector('.mobile-menu-toggle').contains(e.target)) {
+    document.querySelectorAll('.dropdown-open').forEach(el => el.classList.remove('dropdown-open'));
   }
 });
+
+// Starten
+renderTerrorList();
 </script>
+
 </body>
 </html>

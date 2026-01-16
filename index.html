@@ -44,21 +44,6 @@ a {
   padding: 0 15px;
 }
 
-/* --- TOP BAR (Behördenleiste) --- */
-.top-bar {
-  background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 5px 0;
-  font-size: 0.85rem;
-  color: var(--text-grau);
-}
-
-.top-bar .container {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-}
-
 /* --- HEADER --- */
 .header {
   background-color: var(--weiss);
@@ -88,6 +73,7 @@ a {
   justify-content: center;
   font-size: 20px;
   color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .site-title h1 {
@@ -182,7 +168,7 @@ a {
 .dropdown-content a:hover {
   background-color: #f9f9f9;
   color: var(--polizei-blau);
-  padding-left: 25px; /* Kleiner Einrück-Effekt */
+  padding-left: 25px;
   transition: padding 0.2s;
 }
 
@@ -199,12 +185,11 @@ a {
   cursor: pointer;
 }
 
-/* --- HERO SECTION (Realistischer Bild-Banner) --- */
+/* --- HERO SECTION --- */
 .hero {
   position: relative;
   height: 350px;
   background-color: #ccc;
-  /* Beispielbild: Polizeiauto oder Wache */
   background-image: url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png'); 
   background-size: cover;
   background-position: center;
@@ -226,7 +211,7 @@ a {
 .hero h2 {
   font-size: 32px;
   margin-bottom: 15px;
-  font-weight: 300; /* Behörden nutzen oft leichtere Schnitte für Headlines */
+  font-weight: 300;
 }
 
 .hero h2 strong {
@@ -261,7 +246,7 @@ a {
 .card {
   background: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px; /* Nur ganz leichte Rundung */
+  border-radius: 4px;
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
   display: flex;
@@ -395,14 +380,6 @@ a {
 </head>
 <body>
 
-<div class="top-bar">
-  <div class="container">
-    <span>Gebärdensprache</span>
-    <span>Leichte Sprache</span>
-    <span>Kontakt</span>
-  </div>
-</div>
-
 <header class="header">
   <div class="container header-inner">
     <div class="logo-area">
@@ -430,37 +407,37 @@ a {
       <li class="active"><a href="index.html">Startseite</a></li>
       
       <li>
-        <a href="#">Aktuelles & Fahndung ▾</a>
+        <a href="#">Neuigkeiten ▾</a>
         <div class="dropdown-content">
-          <a href="Aktuelles.html">Pressemitteilungen</a>
-          <a href="Terrorstatus.html">Sicherheitslage</a>
-          <a href="Fahndungsportal.html">Öffentliche Fahndung</a>
+          <a href="Aktuelles.html">Aktuelles</a>
+          <a href="Terrorstatus.html">Terrorstatus</a>
+          <a href="Fahndungsportal.html">Fahndungsportal</a>
         </div>
       </li>
       
       <li>
-        <a href="#">Karriere & Studium ▾</a>
+        <a href="#">Teilbereiche ▾</a>
         <div class="dropdown-content">
-          <a href="Werdegang.html">Laufbahnen</a>
-          <a href="Moeglichkeiten.html">Einstellungstest</a>
+          <a href="Werdegang.html">Werdegang</a>
+          <a href="Moeglichkeiten.html">Möglichkeiten</a>
         </div>
       </li>
       
       <li>
-        <a href="#">Organisation ▾</a>
+        <a href="#">Mitarbeiter ▾</a>
         <div class="dropdown-content">
-          <a href="Management.html">Führungsstab</a>
-          <a href="Mitarbeiter.html">Dienststellen</a>
+          <a href="Management.html">Management</a>
+          <a href="Mitarbeiter.html">Mitarbeiter</a>
         </div>
       </li>
       
       <li>
-        <a href="#">Service ▾</a>
+        <a href="#">Sonstiges ▾</a>
         <div class="dropdown-content">
-          <a href="Galerie.html">Mediathek</a>
-          <a href="Strafen.html">Bußgeldkatalog</a>
-          <a href="Status.html">Server Status</a>
-          <a href="Intern.html">🔒 Intranet Login</a>
+          <a href="Galerie.html">Galerie</a>
+          <a href="Strafen.html">Strafen</a>
+          <a href="Status.html">Status</a>
+          <a href="Intern.html">🔒 Intern</a>
         </div>
       </li>
     </ul>
@@ -481,10 +458,10 @@ a {
   
   <div class="grid">
     <div class="card">
-      <div class="card-header">📰 Pressemitteilungen</div>
+      <div class="card-header">📰 Neuigkeiten</div>
       <div class="card-body">
-        <p>Aktuelle Einsatzberichte, Warnmeldungen und Neuigkeiten aus dem Präsidium.</p>
-        <a href="Aktuelles.html" class="card-link">Zu den Nachrichten</a>
+        <p>Aktuelle Einsatzberichte, Meldungen und Informationen zu Einsätzen aus dem Präsidium.</p>
+        <a href="Aktuelles.html" class="card-link">Zu Aktuelles</a>
       </div>
     </div>
     
@@ -497,7 +474,7 @@ a {
     </div>
     
     <div class="card">
-      <div class="card-header">👮 Bewerbung</div>
+      <div class="card-header">👮 Möglichkeiten</div>
       <div class="card-body">
         <p>Ein Beruf, so vielfältig wie das Leben. Informieren Sie sich über Karrierechancen im Staatsdienst.</p>
         <a href="Moeglichkeiten.html" class="card-link">Jetzt informieren</a>
@@ -505,7 +482,7 @@ a {
     </div>
     
     <div class="card">
-      <div class="card-header">🏛 Dienststellen</div>
+      <div class="card-header">🏛 Management</div>
       <div class="card-body">
         <p>Hier finden Sie Ihre Ansprechpartner, das Management und die Organisationsstruktur.</p>
         <a href="Management.html" class="card-link">Kontakt aufnehmen</a>
@@ -521,25 +498,25 @@ a {
         <h4>Polizei Deutschland RP</h4>
         <div class="footer-links">
           <a href="index.html">Startseite</a>
-          <a href="Impressum.html">Impressum</a>
-          <a href="Datenschutz.html">Datenschutz</a>
+          <a href="Aktuelles.html">Aktuelles</a>
+          <a href="Status.html">Server Status</a>
         </div>
       </div>
       
       <div class="footer-column">
-        <h4>Social Media & Kontakt</h4>
+        <h4>Kontakt</h4>
         <div class="footer-links">
           <a href="https://discord.gg/rd6dGUC2fJ" target="_blank">Offizieller Discord</a>
-          <a href="#">YouTube Kanal</a>
-          <a href="#">Pressekontakt</a>
+          <a href="Management.html">Management</a>
+          <a href="Mitarbeiter.html">Mitarbeiter</a>
         </div>
       </div>
       
       <div class="footer-column">
-        <h4>Wichtige Links</h4>
+        <h4>Interne Links</h4>
         <div class="footer-links">
-          <a href="Strafen.html">Strafgesetzbuch</a>
-          <a href="Intern.html">Mitarbeiter Login</a>
+          <a href="Strafen.html">Bußgeldkatalog (Strafen)</a>
+          <a href="Intern.html">Interner Bereich</a>
         </div>
       </div>
     </div>
@@ -558,12 +535,10 @@ function toggleMenu() {
   nav.classList.toggle('active');
 }
 
-// Dropdown Logik für Mobile (optional, da CSS Hover oft reicht, aber für Touch gut ist)
 document.querySelectorAll('.nav > li > a').forEach(item => {
   item.addEventListener('click', function(e) {
     if (window.innerWidth <= 768 && this.nextElementSibling) {
       e.preventDefault();
-      // Schließt andere offene Menüs
       const parent = this.parentElement;
       const isOpen = parent.classList.contains('mobile-open');
       

@@ -4,8 +4,19 @@
 <meta charset="utf-8">
 <link rel="icon" href="./assets/favicon.png">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Startseite - Polizei - Deutschland RP</title>
+<title>Startseite - Polizei Deutschland RP</title>
 <style>
+/* --- GRUNDEINSTELLUNGEN --- */
+:root {
+  --polizei-blau: #154273; /* Offizielles dunkles Blau */
+  --polizei-blau-hell: #1e5c9f;
+  --text-main: #333333;
+  --text-grau: #666666;
+  --bg-grau: #f4f6f8;
+  --weiss: #ffffff;
+  --accent: #d21e1e; /* Für Warnungen/Notruf */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,146 +24,331 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-  color: #fff;
+  font-family: 'Open Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-grau);
+  color: var(--text-main);
+  line-height: 1.5;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
-/* Header mit Hintergrundbild */
+/* --- TOP BAR (Behördenleiste) --- */
+.top-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 5px 0;
+  font-size: 0.85rem;
+  color: var(--text-grau);
+}
+
+.top-bar .container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+/* --- HEADER --- */
 .header {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png');
-  background-size: cover;
-  background-position: center;
-  border-bottom: 3px solid #ffd700;
-  position: relative;
-  padding: 60px 0 40px;
-  text-align: center;
+  background-color: var(--weiss);
+  padding: 20px 0;
+  border-bottom: 4px solid var(--polizei-blau);
 }
 
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.header-title {
-  font-size: 56px;
-  font-weight: 900;
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wappen-placeholder {
+  width: 50px;
+  height: 60px;
+  background: linear-gradient(to bottom, #ffd700, #000); /* Simuliertes Wappen */
+  border-radius: 0 0 25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+.site-title h1 {
+  font-size: 28px;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+  color: var(--polizei-blau);
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
 }
 
-.header-subtitle {
-  font-size: 32px;
-  font-weight: 700;
-  color: #ffd700;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+.site-title span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-grau);
+  text-transform: uppercase;
 }
 
-/* Navigation Bar */
+.notruf-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notruf-badge {
+  background-color: var(--polizei-blau);
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* --- NAVIGATION --- */
 .nav-bar {
-  background: rgba(15, 32, 39, 0.98);
-  backdrop-filter: blur(10px);
-  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+  background-color: var(--polizei-blau);
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  padding: 0;
   list-style: none;
-}
-
-.nav > li {
-  position: relative;
 }
 
 .nav > li > a {
   display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 18px 24px;
-  font-weight: 500;
+  padding: 15px 20px;
   font-size: 15px;
-  transition: all 0.3s ease;
-  border-bottom: 3px solid transparent;
+  font-weight: 500;
+  color: #fff;
+  transition: background 0.2s;
 }
 
-.nav > li > a:hover,
+.nav > li:hover > a,
 .nav > li.active > a {
-  background: rgba(255, 215, 0, 0.1);
-  color: #ffd700;
-  border-bottom-color: #ffd700;
+  background-color: var(--polizei-blau-hell);
 }
 
-/* Dropdown Menu */
+/* Dropdown */
+.nav > li {
+  position: relative;
+}
+
 .dropdown-content {
   position: absolute;
   top: 100%;
   left: 0;
-  background: rgba(15, 32, 39, 0.98);
-  backdrop-filter: blur(10px);
+  background-color: #fff;
   min-width: 220px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 215, 0, 0.3);
-  border-radius: 0 0 8px 8px;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: all 0.3s ease;
-  padding: 8px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: none;
+  z-index: 1001;
+  border-top: 3px solid var(--polizei-blau-hell);
 }
 
 .nav > li:hover .dropdown-content {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+  display: block;
 }
 
 .dropdown-content a {
+  color: var(--text-main);
+  padding: 12px 20px;
   display: block;
-  color: #cbd5e0;
-  text-decoration: none;
-  padding: 12px 24px;
   font-size: 14px;
-  transition: all 0.2s ease;
-  border-left: 3px solid transparent;
+  border-bottom: 1px solid #eee;
 }
 
 .dropdown-content a:hover {
-  background: rgba(255, 215, 0, 0.15);
-  color: #ffd700;
-  border-left-color: #ffd700;
-  padding-left: 28px;
+  background-color: #f9f9f9;
+  color: var(--polizei-blau);
+  padding-left: 25px; /* Kleiner Einrück-Effekt */
+  transition: padding 0.2s;
 }
 
-/* Mobile Menu Toggle */
+/* Mobile Toggle */
 .mobile-menu-toggle {
   display: none;
-  background: rgba(255, 215, 0, 0.1);
-  border: 2px solid #ffd700;
-  color: #ffd700;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
+  width: 100%;
+  padding: 15px;
+  background: var(--polizei-blau);
+  color: white;
+  border: none;
+  text-align: left;
+  font-size: 16px;
   cursor: pointer;
-  font-size: 14px;
-  margin: 15px auto;
 }
 
-@media (max-width: 968px) {
+/* --- HERO SECTION (Realistischer Bild-Banner) --- */
+.hero {
+  position: relative;
+  height: 350px;
+  background-color: #ccc;
+  /* Beispielbild: Polizeiauto oder Wache */
+  background-image: url('https://i.ibb.co/0yD10JrX/Bild-2025-11-13-130547956.png'); 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.hero-overlay {
+  background: linear-gradient(90deg, rgba(21, 66, 115, 0.9) 0%, rgba(21, 66, 115, 0.4) 100%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text-box {
+  color: #fff;
+  max-width: 600px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: 300; /* Behörden nutzen oft leichtere Schnitte für Headlines */
+}
+
+.hero h2 strong {
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* --- CONTENT GRID --- */
+.main-content {
+  flex: 1;
+  padding-bottom: 40px;
+}
+
+.section-title {
+  border-bottom: 2px solid var(--polizei-blau);
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  color: var(--polizei-blau);
+  font-size: 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* Nur ganz leichte Rundung */
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  border-color: var(--polizei-blau);
+}
+
+.card-header {
+  background-color: var(--polizei-blau);
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-body {
+  padding: 20px;
+  flex: 1;
+  color: var(--text-grau);
+  font-size: 0.95rem;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--polizei-blau);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.card-link::after {
+  content: ' →';
+}
+
+/* --- FOOTER --- */
+.footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 40px 0;
+  font-size: 0.9rem;
+  border-top: 4px solid var(--polizei-blau);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-column h4 {
+  color: #fff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.footer-links a {
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.disclaimer-box {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
   .mobile-menu-toggle {
     display: block;
   }
@@ -160,8 +356,6 @@ body {
   .nav {
     display: none;
     flex-direction: column;
-    align-items: stretch;
-    gap: 0;
   }
   
   .nav.active {
@@ -170,220 +364,61 @@ body {
   
   .nav > li {
     width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
   }
-  
-  .nav > li > a {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-  }
-  
-  .dropdown-content {
+
+  .nav > li:hover .dropdown-content {
     position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-    background: rgba(0, 0, 0, 0.3);
-    display: none;
-  }
-  
-  .nav > li.dropdown-open .dropdown-content {
     display: block;
-  }
-}
-
-/* Hero Section */
-.hero {
-  background: linear-gradient(135deg, rgba(15, 32, 39, 0.9), rgba(44, 83, 100, 0.8));
-  border-radius: 20px;
-  padding: 60px 40px;
-  margin: 40px 0;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 215, 0, 0.2);
-}
-
-.hero-content {
-  flex: 1;
-  min-width: 300px;
-}
-
-.hero h1 {
-  font-size: 48px;
-  font-weight: 900;
-  background: linear-gradient(135deg, #ffd700, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 20px;
-  line-height: 1.1;
-}
-
-.hero p {
-  font-size: 18px;
-  color: #cbd5e0;
-  margin-bottom: 25px;
-  line-height: 1.6;
-}
-
-.badge {
-  display: inline-block;
-  background: rgba(255, 215, 0, 0.15);
-  color: #ffd700;
-  padding: 8px 20px;
-  border-radius: 50px;
-  font-size: 13px;
-  font-weight: 600;
-  border: 1px solid rgba(255, 215, 0, 0.3);
-}
-
-.hero-image {
-  flex: 0 0 360px;
-  max-width: 100%;
-}
-
-.hero-image img {
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
-  border: 2px solid rgba(255, 215, 0, 0.2);
-}
-
-/* Grid Cards */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  margin: 40px 0;
-}
-
-.card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
-  padding: 30px;
-  border: 1px solid rgba(255, 215, 0, 0.2);
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #ffd700, #ffed4e);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.2);
-  border-color: #ffd700;
-}
-
-.card:hover::before {
-  transform: scaleX(1);
-}
-
-.card h3 {
-  color: #ffd700;
-  font-size: 22px;
-  margin-bottom: 15px;
-  font-weight: 700;
-}
-
-.card p {
-  color: #cbd5e0;
-  line-height: 1.6;
-  font-size: 15px;
-}
-
-.card a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: 600;
-  position: relative;
-}
-
-.card a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-.footer {
-  background: rgba(15, 32, 39, 0.95);
-  border-top: 2px solid #ffd700;
-  padding: 40px 0;
-  text-align: center;
-  margin-top: 60px;
-}
-
-.footer p {
-  color: #a0aec0;
-  font-size: 14px;
-  margin: 8px 0;
-}
-
-.footer a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: #ffed4e;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .header {
-    padding: 40px 0 30px;
+    box-shadow: none;
+    background: #113660;
+    border: none;
   }
   
-  .header-title {
-    font-size: 36px;
+  .dropdown-content a {
+    color: #ddd;
+    padding-left: 30px;
+    background: transparent;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
   }
   
-  .header-subtitle {
-    font-size: 22px;
-  }
-  
-  .hero {
-    padding: 40px 25px;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-  }
-  
-  .hero-image {
-    flex: 0 0 100%;
-  }
-  
-  .grid {
-    grid-template-columns: 1fr;
+  .notruf-box {
+    align-self: flex-end;
   }
 }
 </style>
 </head>
 <body>
-<header class="header">
+
+<div class="top-bar">
   <div class="container">
-    <h1 class="header-title">Polizei</h1>
-    <div class="header-subtitle">DEUTSCHLAND RP</div>
+    <span>Gebärdensprache</span>
+    <span>Leichte Sprache</span>
+    <span>Kontakt</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <div class="logo-area">
+      <div class="wappen-placeholder">🦅</div>
+      <div class="site-title">
+        <h1>Polizei</h1>
+        <span>Deutschland RP - Offizielles Portal</span>
+      </div>
+    </div>
+    
+    <div class="notruf-box">
+      <div style="text-align: right; font-size: 0.9rem; color: var(--polizei-blau);">
+        <strong>Im Notfall</strong><br>wählen Sie
+      </div>
+      <div class="notruf-badge">110</div>
+    </div>
   </div>
 </header>
 
@@ -394,87 +429,126 @@ body {
     <ul class="nav" id="nav">
       <li class="active"><a href="index.html">Startseite</a></li>
       
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Neuigkeiten ▾</a>
+      <li>
+        <a href="#">Aktuelles & Fahndung ▾</a>
         <div class="dropdown-content">
-          <a href="Aktuelles.html">Aktuelles</a>
-          <a href="Terrorstatus.html">Terrorstatus</a>
-          <a href="Fahndungsportal.html">Fahndungsportal</a>
+          <a href="Aktuelles.html">Pressemitteilungen</a>
+          <a href="Terrorstatus.html">Sicherheitslage</a>
+          <a href="Fahndungsportal.html">Öffentliche Fahndung</a>
         </div>
       </li>
       
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Teilbereiche ▾</a>
+      <li>
+        <a href="#">Karriere & Studium ▾</a>
         <div class="dropdown-content">
-          <a href="Werdegang.html">Werdegang</a>
-          <a href="Moeglichkeiten.html">Möglichkeiten</a>
+          <a href="Werdegang.html">Laufbahnen</a>
+          <a href="Moeglichkeiten.html">Einstellungstest</a>
         </div>
       </li>
       
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Mitarbeiter ▾</a>
+      <li>
+        <a href="#">Organisation ▾</a>
         <div class="dropdown-content">
-          <a href="Management.html">Management</a>
-          <a href="Mitarbeiter.html">Mitarbeiter</a>
+          <a href="Management.html">Führungsstab</a>
+          <a href="Mitarbeiter.html">Dienststellen</a>
         </div>
       </li>
       
-      <li class="dropdown">
-        <a href="#" onclick="toggleDropdown(event, this)">Sonstiges ▾</a>
+      <li>
+        <a href="#">Service ▾</a>
         <div class="dropdown-content">
-    <a href="Galerie.html">Galerie</a>
-    <a href="Strafen.html">Strafen</a>
-    <a href="Status.html">Status</a>
-    <a href="Intern.html">🔒 Interner Bereich</a>  <!-- NEU -->
-  </div>
- </li>
+          <a href="Galerie.html">Mediathek</a>
+          <a href="Strafen.html">Bußgeldkatalog</a>
+          <a href="Status.html">Server Status</a>
+          <a href="Intern.html">🔒 Intranet Login</a>
+        </div>
+      </li>
     </ul>
   </div>
 </nav>
 
-<main class="container">
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Startseite</h1>
-      <p>Willkommen bei der Polizei - Deutschland RP. Dein Weg in den Staatsdienst beginnt hier.</p>
-      <div class="badge">⭐ Bundespolizei</div>
+<section class="hero">
+  <div class="container hero-overlay">
+    <div class="hero-text-box">
+      <h2>Sicherheit für <strong>Deutschland RP</strong></h2>
+      <p>Willkommen auf dem offiziellen Internetportal der Polizei. Hier finden Sie aktuelle Meldungen, Fahndungsaufrufe und Informationen zum Polizeiberuf.</p>
     </div>
-    <div class="hero-image">
-      <img src="./assets/hero.jpg" alt="Polizei Deutschland RP" onerror="this.style.display='none'">
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="grid">
-      <div class="card">
-        <h3>📰 Neuigkeiten</h3>
-        <p>Aktuelle Meldungen, News und Informationen zu Einsätzen. Siehe <a href="Aktuelles.html">Aktuelles</a>.</p>
-      </div>
-      
-      <div class="card">
-        <h3>🔍 Fahndungen</h3>
-        <p>Offizielle Fahndungslisten findest du im <a href="Fahndungsportal.html">Fahndungsportal</a>.</p>
-      </div>
-      
-      <div class="card">
-        <h3>📋 Bewerbung & Möglichkeiten</h3>
-        <p>Infos zu Werdegang und Ausbildung findest du unter <a href="Moeglichkeiten.html">Möglichkeiten</a>.</p>
-      </div>
-      
-      <div class="card">
-        <h3>👥 Mitarbeiter</h3>
-        <p>Finde Ansprechpartner und das Management unter <a href="Management.html">Management</a> und <a href="Mitarbeiter.html">Mitarbeiter</a>.</p>
+<main class="container main-content">
+  <h3 class="section-title">Schnellzugriff</h3>
+  
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">📰 Pressemitteilungen</div>
+      <div class="card-body">
+        <p>Aktuelle Einsatzberichte, Warnmeldungen und Neuigkeiten aus dem Präsidium.</p>
+        <a href="Aktuelles.html" class="card-link">Zu den Nachrichten</a>
       </div>
     </div>
-  </section>
+    
+    <div class="card">
+      <div class="card-header">🔍 Fahndungsportal</div>
+      <div class="card-body">
+        <p>Helfen Sie uns bei der Aufklärung von Straftaten. Hier finden Sie aktuelle Personenfahndungen.</p>
+        <a href="Fahndungsportal.html" class="card-link">Zur Fahndung</a>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">👮 Bewerbung</div>
+      <div class="card-body">
+        <p>Ein Beruf, so vielfältig wie das Leben. Informieren Sie sich über Karrierechancen im Staatsdienst.</p>
+        <a href="Moeglichkeiten.html" class="card-link">Jetzt informieren</a>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">🏛 Dienststellen</div>
+      <div class="card-body">
+        <p>Hier finden Sie Ihre Ansprechpartner, das Management und die Organisationsstruktur.</p>
+        <a href="Management.html" class="card-link">Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </div>
 </main>
 
 <footer class="footer">
   <div class="container">
-    <p>Wir sind Nicht die Polizei!</p>
-    <p>Diese Webseite ist Teil eines fiktiven Roleplay-Projekts namens „Deutschland RP v2"</p>
-    <p>© 2024 – 2025</p>
-    <p style="margin-top: 15px"><a href="https://discord.gg/rd6dGUC2fJ" target="_blank">🔗 Discord Server beitreten</a></p>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>Polizei Deutschland RP</h4>
+        <div class="footer-links">
+          <a href="index.html">Startseite</a>
+          <a href="Impressum.html">Impressum</a>
+          <a href="Datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Social Media & Kontakt</h4>
+        <div class="footer-links">
+          <a href="https://discord.gg/rd6dGUC2fJ" target="_blank">Offizieller Discord</a>
+          <a href="#">YouTube Kanal</a>
+          <a href="#">Pressekontakt</a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Wichtige Links</h4>
+        <div class="footer-links">
+          <a href="Strafen.html">Strafgesetzbuch</a>
+          <a href="Intern.html">Mitarbeiter Login</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer-box">
+      <p><strong>HINWEIS:</strong> Dies ist keine offizielle Webseite einer echten Behörde.</p>
+      <p>Diese Webseite ist Teil eines fiktiven Roleplay-Projekts ("Deutschland RP v2"). Alle Inhalte sind fiktiv.</p>
+      <p>&copy; 2025 Polizei Deutschland RP</p>
+    </div>
   </div>
 </footer>
 
@@ -484,24 +558,25 @@ function toggleMenu() {
   nav.classList.toggle('active');
 }
 
-function toggleDropdown(event, element) {
-  if (window.innerWidth <= 968) {
-    event.preventDefault();
-    const parent = element.parentElement;
-    parent.classList.toggle('dropdown-open');
-  }
-}
-
-// Close dropdowns when clicking outside
-document.addEventListener('click', function(event) {
-  const nav = document.querySelector('.nav');
-  const toggle = document.querySelector('.mobile-menu-toggle');
-  
-  if (!nav.contains(event.target) && !toggle.contains(event.target)) {
-    document.querySelectorAll('.dropdown-open').forEach(el => {
-      el.classList.remove('dropdown-open');
-    });
-  }
+// Dropdown Logik für Mobile (optional, da CSS Hover oft reicht, aber für Touch gut ist)
+document.querySelectorAll('.nav > li > a').forEach(item => {
+  item.addEventListener('click', function(e) {
+    if (window.innerWidth <= 768 && this.nextElementSibling) {
+      e.preventDefault();
+      // Schließt andere offene Menüs
+      const parent = this.parentElement;
+      const isOpen = parent.classList.contains('mobile-open');
+      
+      document.querySelectorAll('.nav > li').forEach(li => li.classList.remove('mobile-open'));
+      
+      if (!isOpen) {
+        parent.classList.add('mobile-open');
+        this.nextElementSibling.style.display = 'block';
+      } else {
+        this.nextElementSibling.style.display = 'none';
+      }
+    }
+  });
 });
 </script>
 </body>
